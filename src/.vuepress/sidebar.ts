@@ -19,7 +19,7 @@ export default sidebar({
     {
       text: "随笔",
       icon: "pen",
-      prefix: "notes/",
+      prefix: "anything/",
       children: "structure",
     },
     "intro",

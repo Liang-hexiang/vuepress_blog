@@ -1,1 +1,1 @@
-export const sidebarData = {"/demo/":[],"/posts/":[{"text":"Python","prefix":"python/","collapsible":true,"children":["beautifulsoup","Polygon边界简化","polygon面积计算"]}],"/notes/":[]};
+export const sidebarData = {"/demo/":[],"/posts/":[{"text":"Python","prefix":"python/","collapsible":true,"children":["beautifulsoup","Polygon边界简化","polygon面积计算"]}],"/anything/":[{"text":"Note","prefix":"note/","collapsible":true,"children":["七七事变"]}]};

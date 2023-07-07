@@ -22,8 +22,17 @@ export default navbar([
     {
         text: "随笔",
         icon: "pen",
-        prefix: "/notes/",
-        children: [],
+        prefix: "/anything/",
+        children: [
+            {
+                text: "日记",
+                icon: "notebook",
+                prefix: "note/",
+                children: [
+                    {text: "七七事变", icon: "note", link: "七七事变"},
+                ],
+            },
+        ],
     },
     {
         text: "时光轴",
