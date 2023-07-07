@@ -1,0 +1,2 @@
+export const categoryMap = {"category":{"/":{"path":"/category/","map":{"python":{"path":"/category/python/","keys":["v-1a74fe27","v-014b8769","v-69b8418f"]}}}},"tag":{"/":{"path":"/tag/","map":{"技术":{"path":"/tag/%E6%8A%80%E6%9C%AF/","keys":["v-69b8418f"]},"爬虫":{"path":"/tag/%E7%88%AC%E8%99%AB/","keys":["v-69b8418f"]},"polygon":{"path":"/tag/polygon/","keys":["v-1a74fe27","v-014b8769"]},"mysql":{"path":"/tag/mysql/","keys":["v-014b8769"]},"python":{"path":"/tag/python/","keys":["v-014b8769"]}}}}};
+
