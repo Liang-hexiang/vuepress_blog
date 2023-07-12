@@ -47,6 +47,4 @@ export const pagesData = {
   "v-1bee38ca": () => import(/* webpackChunkName: "v-1bee38ca" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/mysql/index.html.js").then(({ data }) => data),
   // path: /tag/python/
   "v-245f5676": () => import(/* webpackChunkName: "v-245f5676" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/python/index.html.js").then(({ data }) => data),
-  // path: /anything/note/.~%E4%B8%83%E4%B8%83%E4%BA%8B%E5%8F%98.html
-  "v-e0d70f0e": () => import(/* webpackChunkName: "v-e0d70f0e" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/anything/note/.~七七事变.html.js").then(({ data }) => data),
 }

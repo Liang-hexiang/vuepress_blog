@@ -9,3 +9,4 @@ tag:
   - 爬虫
 ---
 # Beautifulsoup
+> Beautifulsoup是解析网页结构
