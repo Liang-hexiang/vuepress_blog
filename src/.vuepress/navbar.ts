@@ -17,6 +17,15 @@ export default navbar([
                     {text: "polygon边界简化", icon: "cat", link: "polygon边界简化"},
                 ],
             },
+            {
+                text: "Python",
+                icon: "mysql",
+                prefix: "mysql/",
+                children: [
+                    {text: "Mysql文档", icon: "mysql", link: "mysql知识积累"},
+
+                ],
+            },
         ],
     },
     {
@@ -26,10 +35,9 @@ export default navbar([
         children: [
             {
                 text: "日记",
-                icon: "notebook",
+                icon: "pen",
                 prefix: "note/",
                 children: [
-                    {text: "七七事变", icon: "note", link: "七七事变"},
                 ],
             },
         ],
