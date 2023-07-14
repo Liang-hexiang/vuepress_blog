@@ -9,6 +9,8 @@ export const pagesComponents = {
   "v-2e3eac9e": defineAsyncComponent(() => import(/* webpackChunkName: "v-2e3eac9e" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/slides.html.vue")),
   // path: /anything/note/%E4%B8%83%E4%B8%83%E4%BA%8B%E5%8F%98.html
   "v-0239c36e": defineAsyncComponent(() => import(/* webpackChunkName: "v-0239c36e" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/anything/note/七七事变.html.vue")),
+  // path: /posts/mysql/mysql%E7%9F%A5%E8%AF%86%E7%A7%AF%E7%B4%AF.html
+  "v-3b1f9e02": defineAsyncComponent(() => import(/* webpackChunkName: "v-3b1f9e02" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/posts/mysql/mysql知识积累.html.vue")),
   // path: /posts/python/beautifulsoup.html
   "v-69b8418f": defineAsyncComponent(() => import(/* webpackChunkName: "v-69b8418f" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/posts/python/beautifulsoup.html.vue")),
   // path: /posts/python/Polygon%E8%BE%B9%E7%95%8C%E7%AE%80%E5%8C%96.html
@@ -21,10 +23,12 @@ export const pagesComponents = {
   "v-9796582e": defineAsyncComponent(() => import(/* webpackChunkName: "v-9796582e" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/anything/note/index.html.vue")),
   // path: /anything/
   "v-c85a71d8": defineAsyncComponent(() => import(/* webpackChunkName: "v-c85a71d8" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/anything/index.html.vue")),
-  // path: /posts/python/
-  "v-3ea18a3e": defineAsyncComponent(() => import(/* webpackChunkName: "v-3ea18a3e" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/posts/python/index.html.vue")),
+  // path: /posts/mysql/
+  "v-1dee9b02": defineAsyncComponent(() => import(/* webpackChunkName: "v-1dee9b02" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/posts/mysql/index.html.vue")),
   // path: /posts/
   "v-e1e3da16": defineAsyncComponent(() => import(/* webpackChunkName: "v-e1e3da16" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/posts/index.html.vue")),
+  // path: /posts/python/
+  "v-3ea18a3e": defineAsyncComponent(() => import(/* webpackChunkName: "v-3ea18a3e" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/posts/python/index.html.vue")),
   // path: /category/
   "v-5bc93818": defineAsyncComponent(() => import(/* webpackChunkName: "v-5bc93818" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/category/index.html.vue")),
   // path: /tag/
