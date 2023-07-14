@@ -13,8 +13,6 @@ export default navbar([
                 prefix: "python/",
                 children: [
                     {text: "BS4的使用", icon: "spider", link: "beautifulsoup"},
-                    {text: "polygon面积计算", icon: "fish", link: "polygon面积计算"},
-                    {text: "polygon边界简化", icon: "cat", link: "polygon边界简化"},
                 ],
             },
             {
@@ -22,7 +20,7 @@ export default navbar([
                 icon: "mysql",
                 prefix: "mysql/",
                 children: [
-                    {text: "Mysql文档", icon: "mysql", link: "mysql知识积累"},
+                    {text: "Mysql文档", icon: "mysql", link: "mysql备忘录"},
 
                 ],
             },

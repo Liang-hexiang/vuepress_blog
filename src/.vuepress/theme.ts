@@ -39,7 +39,7 @@ export default hopeTheme({
       BiliBili: "https://bilibili.com",
       Email: "lhx110396@163.com",
       Gitee: "https://example.com",
-      GitHub: "https://example.com",
+      GitHub: "https://github.com/lianghexiang",
       Gitlab: "https://example.com",
       QQ: "https://example.com",
       Qzone: "https://example.com",
@@ -57,11 +57,11 @@ export default hopeTheme({
   // page meta
   metaLocales: {
     editLink: "在 GitHub 上编辑此页",
+
   },
 
   plugins: {
     blog: true,
-
     comment: {
       // You should generate and use your own comment service
       provider: "Waline",
