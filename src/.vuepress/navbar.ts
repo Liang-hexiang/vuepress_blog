@@ -24,6 +24,15 @@ export default navbar([
 
                 ],
             },
+            {
+                text: "工具说明书",
+                icon: "mysql",
+                prefix: "instrus/",
+                children: [
+                    {text: "sublime说明书", icon: "book-font", link: "sublime说明书"},
+
+                ],
+            },
         ],
     },
     {
