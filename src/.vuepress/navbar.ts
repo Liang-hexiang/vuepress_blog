@@ -18,7 +18,7 @@ export default navbar([
                 ],
             },
             {
-                text: "Python",
+                text: "Mysql",
                 icon: "mysql",
                 prefix: "mysql/",
                 children: [
