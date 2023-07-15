@@ -21,16 +21,14 @@ export default navbar([
                 prefix: "mysql/",
                 children: [
                     {text: "Mysql文档", icon: "mysql", link: "mysql备忘录"},
-
                 ],
             },
             {
                 text: "工具说明书",
                 icon: "book",
-                prefix: "instrus/",
+                prefix: "工具说明书/",
                 children: [
-                    {text: "sublime说明书", icon: "book-font", link: "sublime说明书"},
-
+                    {text: "SublimeText说明书", icon: "book", link: "sublime说明书"},
                 ],
             },
         ],
