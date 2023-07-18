@@ -5,14 +5,15 @@ export default navbar([
     {
         text: "博客",
         icon: "book",
-        prefix: "/posts/",
+        prefix: "/posts/"
         children: [
             {
                 text: "Python",
-                icon: "python",
+                icon: "code",
                 prefix: "python/",
                 children: [
                     {text: "BS4的使用", icon: "spider", link: "beautifulsoup"},
+
                 ],
             },
             {
@@ -54,3 +55,4 @@ export default navbar([
 
     }
 ]);
+[[[31.254762,120.620353]]]
