@@ -5,7 +5,7 @@ export default navbar([
     {
         text: "博客",
         icon: "book",
-        prefix: "/posts/"
+        prefix: "/posts/",
         children: [
             {
                 text: "Python",
