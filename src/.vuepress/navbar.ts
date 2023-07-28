@@ -54,6 +54,7 @@ export default navbar([
                 icon: "pen",
                 prefix: "note/",
                 children: [
+                    {text: "DBUtils小问题", icon: "book", link: "Linux环境下DBUtils导入的问题"},
                 ],
             },
         ],
