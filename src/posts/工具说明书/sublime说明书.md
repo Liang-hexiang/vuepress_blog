@@ -20,6 +20,3 @@ tag:
 安装：
 
 Ctrl+Shift+P打开控制台，输入Package Control: Install Package，然后输入MarkdownEditor，选择安装
-
-
-

@@ -13,6 +13,8 @@ export default navbar([
                 prefix: "python/",
                 children: [
                     {text: "BS4的使用", icon: "spider", link: "beautifulsoup"},
+                    {text: "关于DBUtils的小插曲", icon: "book", link: "DBUtils小插曲"},
+
 
                 ],
             },
@@ -32,6 +34,14 @@ export default navbar([
                     {text: "SublimeText说明书", icon: "book", link: "sublime说明书"},
                 ],
             },
+            {
+                text: "Linux",
+                icon: "linux",
+                prefix: "Linux/",
+                children: [
+                    {text: "Ubuntu配置系统变量", icon: "book", link: "Linux配置系统变量"},
+                ],
+            },
         ],
     },
     {
@@ -44,7 +54,6 @@ export default navbar([
                 icon: "pen",
                 prefix: "note/",
                 children: [
-                     {text: "Linux环境下DBUtils导入的问题", icon: "book", link: "Linux环境下DBUtils导入的问题"},
                 ],
             },
         ],
