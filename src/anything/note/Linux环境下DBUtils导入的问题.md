@@ -1,3 +1,15 @@
+---
+icon: book
+date: 2023-07-28
+cover: https://img.tucang.cc/api/image/show/da3546c26f3726a1f7a63e96921b30ff
+category:
+  - 技术 
+tag:
+  - python
+---
+
+
+
 # DBUtils版本问题
 ### 前言
 ![image](https://img2023.cnblogs.com/blog/2432585/202307/2432585-20230719090938564-1692406477.png)
