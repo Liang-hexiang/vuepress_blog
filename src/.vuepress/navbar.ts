@@ -39,7 +39,7 @@ export default navbar([
                 icon: "linux",
                 prefix: "Linux/",
                 children: [
-                    {text: "Ubuntu配置系统变量", icon: "book", link: "Linux配置系统变量"},
+                    {text: "Ubuntu配置环境变量", icon: "book", link: "Linux配置环境变量"},
                 ],
             },
         ],
