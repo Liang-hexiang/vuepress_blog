@@ -3,8 +3,8 @@ home: true
 layout: BlogHome
 icon: home
 title: 博客主页
-bgImage: https://img.tucang.cc/api/image/show/be92f3fc23a4ba0672923f5f05c7e08b
-bgImageDark: https://img.tucang.cc/api/image/show/0b3756b209a2255bcfeb2a5429938f8a
+bgImage: https://img.tucang.cc/api/image/show/46d84dfc18dde27647210a3aa2319b0a
+bgImageDark: https://img.tucang.cc/api/image/show/dd9ee68a8bb4e555ae27e13c1c24caab
 heroText: 蓝羊羊
 heroFullScreen: true
 tagline: 这是蓝羊羊的网站空间，欢迎你的访问
