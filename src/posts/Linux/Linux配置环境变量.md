@@ -1,4 +1,3 @@
-
 ---
 icon: book
 date: 2023-07-28
@@ -7,7 +6,6 @@ category:
   - 技术 
 tag:
   - Linux
-  - Ubuntu
 ---
 
 # Linux配置环境变量

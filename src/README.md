@@ -4,10 +4,10 @@ layout: BlogHome
 icon: home
 title: 博客主页
 bgImage: https://img.tucang.cc/api/image/show/46d84dfc18dde27647210a3aa2319b0a
-bgImageDark: https://img.tucang.cc/api/image/show/dd9ee68a8bb4e555ae27e13c1c24caab
-heroText: 蓝羊羊
+bgImageDark: https://img.tucang.cc/api/image/show/56b485174393d21065eee635c2fbef79
+heroText: 懒羊羊
 heroFullScreen: true
-tagline: 这是蓝羊羊的网站空间，欢迎你的访问
+tagline: 欢迎来到我的博客空间
 projects:
   - icon: project
     name: 项目名称
@@ -28,7 +28,6 @@ features:
   - icon: 🛠️
     title: 温故
     details: 书读百遍其义自见
-
 
 footer: 学无止境
 ---
