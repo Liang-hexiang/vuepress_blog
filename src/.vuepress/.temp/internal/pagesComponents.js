@@ -53,10 +53,12 @@ export const pagesComponents = {
   "v-245f5676": defineAsyncComponent(() => import(/* webpackChunkName: "v-245f5676" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/python/index.html.vue")),
   // path: /category/python/
   "v-78cbe7bb": defineAsyncComponent(() => import(/* webpackChunkName: "v-78cbe7bb" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/category/python/index.html.vue")),
-  // path: /tag/%E6%8A%80%E6%9C%AF/
-  "v-0578d4d6": defineAsyncComponent(() => import(/* webpackChunkName: "v-0578d4d6" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/技术/index.html.vue")),
+  // path: /tag/linux/
+  "v-211f44ee": defineAsyncComponent(() => import(/* webpackChunkName: "v-211f44ee" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/linux/index.html.vue")),
   // path: /category/%E5%B7%A5%E5%85%B7/
   "v-14145d44": defineAsyncComponent(() => import(/* webpackChunkName: "v-14145d44" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/category/工具/index.html.vue")),
+  // path: /tag/%E6%8A%80%E6%9C%AF/
+  "v-0578d4d6": defineAsyncComponent(() => import(/* webpackChunkName: "v-0578d4d6" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/技术/index.html.vue")),
   // path: /tag/%E7%88%AC%E8%99%AB/
   "v-7e8edfe1": defineAsyncComponent(() => import(/* webpackChunkName: "v-7e8edfe1" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/爬虫/index.html.vue")),
   // path: /tag/polygon/
@@ -67,6 +69,4 @@ export const pagesComponents = {
   "v-32b1cb5c": defineAsyncComponent(() => import(/* webpackChunkName: "v-32b1cb5c" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/sublime-text/index.html.vue")),
   // path: /tag/%E5%B7%A5%E5%85%B7%E8%AF%B4%E6%98%8E%E4%B9%A6/
   "v-1d73fa7a": defineAsyncComponent(() => import(/* webpackChunkName: "v-1d73fa7a" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/工具说明书/index.html.vue")),
-  // path: /.~README.html
-  "v-21564982": defineAsyncComponent(() => import(/* webpackChunkName: "v-21564982" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/.~README.html.vue")),
 }

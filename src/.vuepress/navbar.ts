@@ -23,7 +23,7 @@ export default navbar([
                 icon: "mysql",
                 prefix: "mysql/",
                 children: [
-                    {text: "Mysql文档", icon: "mysql", link: "mysql备忘录"},
+                    {text: "Mysql文档", icon: "book", link: "mysql备忘录"},
                 ],
             },
             {
@@ -54,7 +54,7 @@ export default navbar([
                 icon: "pen",
                 prefix: "note/",
                 children: [
-                    {text: "DBUtils小问题", icon: "book", link: "Linux环境下DBUtils导入的问题"},
+                    {text: "DBUtils小问题", icon: "pen", link: "Linux环境下DBUtils导入的问题"},
                 ],
             },
         ],

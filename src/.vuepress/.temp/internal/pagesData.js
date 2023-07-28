@@ -51,10 +51,12 @@ export const pagesData = {
   "v-245f5676": () => import(/* webpackChunkName: "v-245f5676" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/python/index.html.js").then(({ data }) => data),
   // path: /category/python/
   "v-78cbe7bb": () => import(/* webpackChunkName: "v-78cbe7bb" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/category/python/index.html.js").then(({ data }) => data),
-  // path: /tag/%E6%8A%80%E6%9C%AF/
-  "v-0578d4d6": () => import(/* webpackChunkName: "v-0578d4d6" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/技术/index.html.js").then(({ data }) => data),
+  // path: /tag/linux/
+  "v-211f44ee": () => import(/* webpackChunkName: "v-211f44ee" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/linux/index.html.js").then(({ data }) => data),
   // path: /category/%E5%B7%A5%E5%85%B7/
   "v-14145d44": () => import(/* webpackChunkName: "v-14145d44" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/category/工具/index.html.js").then(({ data }) => data),
+  // path: /tag/%E6%8A%80%E6%9C%AF/
+  "v-0578d4d6": () => import(/* webpackChunkName: "v-0578d4d6" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/技术/index.html.js").then(({ data }) => data),
   // path: /tag/%E7%88%AC%E8%99%AB/
   "v-7e8edfe1": () => import(/* webpackChunkName: "v-7e8edfe1" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/爬虫/index.html.js").then(({ data }) => data),
   // path: /tag/polygon/
@@ -65,6 +67,4 @@ export const pagesData = {
   "v-32b1cb5c": () => import(/* webpackChunkName: "v-32b1cb5c" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/sublime-text/index.html.js").then(({ data }) => data),
   // path: /tag/%E5%B7%A5%E5%85%B7%E8%AF%B4%E6%98%8E%E4%B9%A6/
   "v-1d73fa7a": () => import(/* webpackChunkName: "v-1d73fa7a" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/工具说明书/index.html.js").then(({ data }) => data),
-  // path: /.~README.html
-  "v-21564982": () => import(/* webpackChunkName: "v-21564982" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/.~README.html.js").then(({ data }) => data),
 }
