@@ -28,7 +28,5 @@ features:
   - icon: 🛠️
     title: 温故
     details: 书读百遍其义自见
-
 footer: 学无止境
 ---
-

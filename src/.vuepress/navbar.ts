@@ -13,7 +13,6 @@ export default navbar([
                 prefix: "python/",
                 children: [
                     {text: "BS4的使用", icon: "spider", link: "beautifulsoup"},
-                    {text: "关于DBUtils的小插曲", icon: "book", link: "DBUtils小插曲"},
 
 
                 ],
@@ -23,7 +22,7 @@ export default navbar([
                 icon: "mysql",
                 prefix: "mysql/",
                 children: [
-                    {text: "Mysql文档", icon: "book", link: "mysql备忘录"},
+                    {text: "Mysql备忘录", icon: "book", link: "mysql备忘录"},
                 ],
             },
             {
@@ -32,6 +31,8 @@ export default navbar([
                 prefix: "工具说明书/",
                 children: [
                     {text: "SublimeText说明书", icon: "book", link: "sublime说明书"},
+                    {text: "Picgo+GitHub创建图床", icon: "book", link: "PicGo+GitHub"},
+
                 ],
             },
             {
@@ -66,4 +67,3 @@ export default navbar([
 
     }
 ]);
-[[[31.254762,120.620353]]]
