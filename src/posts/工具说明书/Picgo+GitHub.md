@@ -1,7 +1,7 @@
 ---
-icon: wrench-simple
+icon: pen
 date: 2023-07-14
-cover: https://img.tucang.cc/api/image/show/72e720a5032441381e8d626f0e6538f1
+cover: https://img.tucang.cc/api/image/show/3f96a1fd6956f27e1badccf6d7f982e1
 category:
   - 工具 
 tag:
@@ -10,8 +10,6 @@ tag:
 ---
 
 # Picgo+GitHub创建图床
-
-[TOC]
 
 ## 前言
 
@@ -98,8 +96,6 @@ Picgo支持很多的图床，比如七牛云，腾讯云等，这里我们介绍
 ### 3.  :hammer_and_wrench:配置PicGo
 
 打开PicGo
-
-https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepressimage-20230729155924896.png
 
 点击图床设置，我们可以看到GitHub
 
