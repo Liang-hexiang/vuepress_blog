@@ -16,7 +16,7 @@ export default hopeTheme({
 
   logo: "/images/猫猫.svg",
 
-  repo: "lianghexiang/lianghexiang.github.io",
+  repo: "lianghexiang/space",
 
   docsDir: "src",
 
