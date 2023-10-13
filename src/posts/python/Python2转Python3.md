@@ -1,5 +1,4 @@
 ---
-​---
 icon: fish
 date: 2023-09-26
 cover: https://img.tucang.cc/api/image/show/72e720a5032441381e8d626f0e6538f1
@@ -8,7 +7,6 @@ category:
 tag:
   - 2to3
   - python
-​---
 ---
 
 # Python2转Python3
