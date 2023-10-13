@@ -16,7 +16,7 @@ export default hopeTheme({
 
   logo: "/images/猫猫.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "lianghexiang/lianghexiang.github.io",
 
   docsDir: "src",
 
@@ -32,7 +32,7 @@ export default hopeTheme({
 
   blog: {
     timeline: "忽如白驹过隙",
-    description: "古道西风瘦马，夕阳西下；不积小流无以成江海，不积跬步无以至千里；",
+    description: "不积小流无以成江海，不积跬步无以至千里；",
     intro: "/intro.html",
     medias: {
       Baidu: "https://baidu.com",

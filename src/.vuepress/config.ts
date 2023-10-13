@@ -5,7 +5,7 @@ export default defineUserConfig({
   base: "/space/",
   lang: "zh-CN",
   title: "",
-  description: "欢迎来到我的博客空间",
+  description: "欢迎来到酥肉丸子的博客空间",
 
   theme,
   head: [
