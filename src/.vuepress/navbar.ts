@@ -13,8 +13,10 @@ export default navbar([
                 prefix: "python/",
                 children: [
                     {text: "BS4的使用", icon: "spider", link: "beautifulsoup"},
-
-
+                    {text: 'paramiko工具', icon: 'book', link: 'paramiko工具介绍'},
+                    {text: 'Polygon边界简化', icon: 'book', link: 'Polygon边界简化'},
+                    {text: 'Polygon面积计算', icon: 'book', link: 'Polygon面积计算'},
+                    {text: 'Python2转Python3', icon: 'book', link: 'Python2转Python3'}
                 ],
             },
             {
