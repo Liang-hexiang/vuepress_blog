@@ -14,10 +14,6 @@ projects:
     desc: 项目详细描述
     link: https://你的项目链接
 
-  - icon: friend
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: https://你的伙伴链接
 features:
   - icon: ⚡️
     title: vite + vue3
