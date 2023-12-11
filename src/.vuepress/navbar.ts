@@ -12,9 +12,6 @@ export default navbar([
                 icon: "code",
                 prefix: "python/",
                 children: [
-                    {text: "BS4的使用", icon: "spider", link: "beautifulsoup"},
-                    {text: 'paramiko工具', icon: 'book', link: 'paramiko工具介绍'},
-                    {text: 'Polygon边界简化', icon: 'book', link: 'Polygon边界简化'},
                     {text: 'Polygon面积计算', icon: 'book', link: 'Polygon面积计算'},
                     {text: 'Python2转Python3', icon: 'book', link: 'Python2转Python3'},
                     {text: 'Python添加环境变量', icon: 'book', link: 'Python添加环境变量'},
@@ -60,6 +57,7 @@ export default navbar([
                 prefix: "note/",
                 children: [
                     {text: "DBUtils小问题", icon: "pen", link: "Linux环境下DBUtils导入的问题"},
+                    {'text': '下雪啦', icon: 'snow', link: "下雪啦"}
                 ],
             },
         ],
