@@ -60,6 +60,13 @@ export default navbar([
                     {text: '下雪啦', icon: 'snow', link: "下雪啦"}
                 ],
             },
+            {
+                text: "笔记",
+                icon: "book",
+                prefix: "笔记/",
+                children: [
+                ],
+            },
         ],
     },
     {
