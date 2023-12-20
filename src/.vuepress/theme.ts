@@ -4,7 +4,7 @@ import sidebar from "./sidebar.js";
 
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://lianghexiang.github.io/space",
   author: {
     name: "L.H.X",
     url: "/intro.html",
@@ -12,7 +12,7 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "/images/猫猫.svg",
+  logo: "/images/奶茶.svg",
 
   repo: "lianghexiang/space",
 
@@ -20,6 +20,7 @@ export default hopeTheme({
 
   // navbar
   navbar,
+
 
   // sidebar
   sidebar,
@@ -36,9 +37,7 @@ export default hopeTheme({
       Baidu: "https://baidu.com",
       BiliBili: "https://bilibili.com",
       Email: "lhx110396@163.com",
-      Gitee: "https://example.com",
       GitHub: "https://github.com/lianghexiang",
-      Gitlab: "https://example.com",
       QQ: "https://example.com",
       Qzone: "https://example.com",
       Wechat: "https://example.com",
