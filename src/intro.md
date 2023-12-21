@@ -1,5 +1,5 @@
 ---
-icon: circle-info
+icon: icon-emoji
 cover: /assets/images/cover3.jpg
 blog: true
 ---
