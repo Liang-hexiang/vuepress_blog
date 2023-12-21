@@ -1,6 +1,7 @@
 ---
 icon: circle-info
 cover: /assets/images/cover3.jpg
+blog: true
 ---
 
 # 介绍页
