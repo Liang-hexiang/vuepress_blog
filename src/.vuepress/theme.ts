@@ -11,7 +11,7 @@ export default hopeTheme({
   },
 
   iconAssets: "fontawesome-with-brands",
-
+  iconPrefix: 'icon-',
   logo: "/images/奶茶.svg",
 
   repo: "lianghexiang/space",

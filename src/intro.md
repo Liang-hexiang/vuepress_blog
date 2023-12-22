@@ -1,5 +1,5 @@
 ---
-icon: icon-emoji
+icon: emoji
 cover: https://img.tucang.cc/api/image/show/6c8acb93bd0fc9dd85006746d572df8f
 blog: true
 ---
