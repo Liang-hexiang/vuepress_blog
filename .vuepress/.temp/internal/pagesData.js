@@ -25,4 +25,6 @@ export const pagesData = {
   "v-a9008374": () => import(/* webpackChunkName: "v-a9008374" */"E:/code/vuepress-blog/.vuepress/.temp/pages/src/posts/工具说明书/sublime说明书.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"E:/code/vuepress-blog/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
+  // path: /src/posts/mysql/mysql%E8%AE%A1%E7%AE%97%E7%BB%8F%E7%BA%AC%E5%BA%A6%E8%B7%9D%E7%A6%BB.html
+  "v-92d21dde": () => import(/* webpackChunkName: "v-92d21dde" */"E:/code/vuepress-blog/.vuepress/.temp/pages/src/posts/mysql/mysql计算经纬度距离.html.js").then(({ data }) => data),
 }

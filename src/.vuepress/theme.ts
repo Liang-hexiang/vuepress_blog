@@ -10,8 +10,8 @@ export default hopeTheme({
     url: "/intro.html",
   },
 
-  iconAssets: "fontawesome-with-brands",
-  iconPrefix: 'icon-',
+  iconAssets: "iconfont",
+  iconPrefix: 'iconfont icon-',
   logo: "/images/奶茶.svg",
 
   repo: "lianghexiang/space",
