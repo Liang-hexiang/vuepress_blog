@@ -42,6 +42,42 @@ if __name__ == '__main__':
 
 #### 2.1 装饰器（Decorators）
 
-> 装饰器是Python中很重要的内容，属于Python的进阶知识；装饰器的本质可以理解为一个高阶函数，因为它返回的是一个函数对象。
+> 装饰器是Python中很重要的内容，属于Python的进阶知识；装饰器的本质可以理解为一个高阶函数，因为它返回的是一个函数对象。装饰器可以在不修改被装饰代码的情况下对代码增加额外的功能，这种动态增加功能的方式，我们称之为“装饰器”.
+
+一般来说，装饰器的基本代码格式为两层嵌套函数，如下所示：
+```python
+
+# 装饰器
+def decorator(func:被装饰函数):
+    def wrapper(*args, **kwargs):# *args和**kwargs主要是被装饰函数所需的参数
+        # 函数执行前的操作
+        print("Start:")
+        func(*args, **kwargs)
+        # 函数执行后的操作
+        print("End")
+    return wrapper
+```
+
+以上就是一个简单的装饰器，如果要使用装饰器，则使用Python中的语法糖`@`
+
+```python
+# 基本函数
+def test(text):
+    print(text)
+    
+# 使用装饰器后的函数
+@decorator
+def test(text):
+    print(text)
+if __name__ == '__main__':
+    test('装饰器')
+  	"""
+  	Start:
+	装饰器
+	End
+  	"""
+```
+
+
 
 :one:类装饰器
