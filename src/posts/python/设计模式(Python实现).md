@@ -1,7 +1,7 @@
 ---
-icon: huiyuan
+icon: python
 date: 2023-12-06
-cover: https://img.tucang.cc/api/image/show/5383cab4c54b110f368ce995153f0de3
+cover: https://img.tucang.cc/api/image/show/6c8acb93bd0fc9dd85006746d572df8f
 category:
     - python
 tag:
@@ -81,6 +81,145 @@ if __name__ == '__main__':
 ```
 
 :two:**带参数的装饰器:**
+
+> 如果装饰器本身需要传递参数，则需要构建一个可以返回装饰器的高阶函数。
+
+```python
+# 带有参数的装饰器
+def logger_decorator(log_info):
+    # 装饰器
+    def decorator(func):
+        # 内层函数
+        def wrapper(*args, **kwargs):
+            print(f"{func.__name__}:{log_info}")
+            func(*args, **kwargs)
+        return wrapper
+    return decorator
+
+# 带有参数的装饰器使用方法如下
+@logger_decorator("Start...", "...End")
+def test2():
+    print("正在插入数据")
+    time.sleep(5)
+    
+if __name__ == '__main__':
+    # test('装饰器')
+    test2()
+    
+```
+
+![image-20231230132509562](C:\Users\19737\AppData\Roaming\Typora\typora-user-images\image-20231230132509562.png)
+
+在我们执行被装饰器装饰的函数时，我们使用函数的方式和普通函数无异，也就是说如果我们想要对`test2()`函数增加打印执行时间的功能，我们只需要添加一个装饰器，由于函数调用的方式并没有发生变化，所以就无需更改任何原代码就可完成对代码额外功能的增加
+
+我们来剖析一下上面调用`test()`函数时，程序的执行流程
+
+```python
+#我们在调用test2()函数时，程序的执行顺序如下
+logger_decorator(arg1,arg2)(test2)(*args,**kwargs)
+# 1. 首先，执行的是logger_decorator
+logger_decorator(arg1,arg2)
+# 2. 由上面的函数可知，logger_decorator函数返回的是decorator
+decorator = logger_decorator(arg1,arg2)
+# 3. decorator接受一个参数func，这个参数就是被装饰函数的引用，接下来
+wrapper = decorator(test2)
+# 4. 其实，在执行test2时，实际上执行的是wrapper
+wrapper(*args, **kwargs)
+# 以上就是通过装饰器装饰后的函数的整体流程
+```
+
+:three::**通过签名调用的函数**
+
+> 上面我们说过，使用装饰器装饰过的函数，使用方法和被装饰前无异，但是有另外一种情况：我们依赖某个函数的签名，即func.__name__，此时我们如果装饰func的话，func.__name__就会发生改变，因为实际上func已经变成了wrapper，所以依赖函数签名的程序就会报错。针对这种情况，我们使用python内置的方法即可解决：functools.wraps函数
+
+如果我们不使用functools.wraps:
+
+```python
+def wraps_decorator(func):
+    def wrapper(*args, **kwargs):
+        print("Do Something......")
+        return func(*args, **kwargs)
+    return wrapper
+
+@wraps_decorator
+def wraps_test(text):
+    print(text)
+    time.sleep(2)
+if __name__ == '__main__':
+    # 我们如果不使用functools.wraps
+    func_name = wraps_test.__name__
+    print(f"wraps_test函数名称：{func_name}")
+    
+    """
+    wraps_test函数名称：wrapper
+    """
+    
+    # 我们可以看到，wraps_test签名变成了wrapper
+```
+
+
+
+**使用functools.wraps**：
+
+```python
+# 使用方式很简单，通过装饰器的写法装饰内层函数即可
+import functools
+
+
+def wraps_decorator(func):
+    @functools.wraps(func)
+    def wrapper(*args, **kwargs):
+        print("Do Something......")
+        return func(*args, **kwargs)
+    return wrapper
+
+@wraps_decorator
+def wraps_test(text):
+    print(text)
+    time.sleep(2)
+if __name__ == '__main__':
+
+    # 使用functools.wraps
+    func_name = wraps_test.__name__
+    print(f"wraps_test函数名称：{func_name}")
+    """
+    wraps_test函数名称：wraps_test
+    """
+```
+
+#### 2.2 使用装饰器实现单例模式
+
+> 上面讲解完了装饰器，我们可以了解到装饰器可以拓展函数的功能，接下来我们就使用一点小技巧通过装饰器对类进行装饰，从而实现单例的需求
+
+```python
+# 首先，我们要实现单例模式，和普通单例模式类似，
+# 我们要知道某个类A是否已经创建实例，如果已经创建实例则返回，所以我们可以通过字典来实现
+# 装饰器单例模式
+def singleton_decorator(cls):
+    # 创建一个存储类实例的字段
+    _instances = {}
+    def wrapper(*args, **kwargs):
+        if cls not in _instances:
+            _instances[cls] = cls(*args, **kwargs)
+        return _instances[cls]
+    return wrapper
+
+
+@singleton_decorator
+class DecoratorSingleton:
+    def __init__(self, name=None):
+        self.name = name
+
+if __name__ == '__main__':
+    dt_singleton = DecoratorSingleton("Decorator Singleton")
+    print(dt_singleton)
+    dt_singleton2 = DecoratorSingleton("Decorator Singleton2")
+    print(dt_singleton2)
+    """
+    <__main__.DecoratorSingleton object at 0x000002AFB008FBB0>
+	<__main__.DecoratorSingleton object at 0x000002AFB008FBB0>
+    """
+```
 
 
 
