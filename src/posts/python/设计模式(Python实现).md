@@ -108,7 +108,7 @@ if __name__ == '__main__':
     
 ```
 
-![image-20231230132509562](C:\Users\19737\AppData\Roaming\Typora\typora-user-images\image-20231230132509562.png)
+![image-20231230132509562](https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepress/image-20231230132509562.png)
 
 在我们执行被装饰器装饰的函数时，我们使用函数的方式和普通函数无异，也就是说如果我们想要对`test2()`函数增加打印执行时间的功能，我们只需要添加一个装饰器，由于函数调用的方式并没有发生变化，所以就无需更改任何原代码就可完成对代码额外功能的增加
 
@@ -222,4 +222,31 @@ if __name__ == '__main__':
 ```
 
 
+
+### 3. 单态模式(单例模式的一种)
+
+> 单例模式是指，一个类只有一个对象，然而，单态模式更关心的是状态和行为，即所有对象共享相同的状态，所以基于这类思想设计的类也叫做Monostate(单态)模式
+
+我们知道，在Python独享中，__dict___存储了一个对象所有的变量，所以如果我们在实例化对象时所有对象的`__dict__`指向的是同一个引用，那么当某个实例a更改了属性，那么其他实例也能同步，达到所有对象共享相同状态的目的。
+
+```python
+"""
+单态模式的实现
+"""
+class Borg:
+    # 类属性
+    __shared_state = {'name': None}
+    def __init__(self):
+        self.__dict__ = self.__shared_state
+
+
+if __name__ == '__main__':
+    a = Borg()
+    b = Borg()
+    # 此时，如果对a设置属性age，则b也会被赋予属性age
+    a.age = 20
+
+    print(a.age)
+    print(b.age)
+```
 
