@@ -15,7 +15,6 @@ export default navbar([
                     {text: 'Polygon面积计算', icon: 'book', link: 'Polygon面积计算'},
                     {text: 'Python2转Python3', icon: 'book', link: 'Python2转Python3'},
                     {text: 'Python添加环境变量', icon: 'book', link: 'Python添加环境变量'},
-                    {text: '设计模式', icon: 'python', link: '设计模式(Python实现)'}
 
                 ],
             },
@@ -38,11 +37,11 @@ export default navbar([
                 ],
             },
             {
-                text: "Linux",
+                text: "设计模式",
                 icon: "code",
                 prefix: "设计模式/",
                 children: [
-                    {text: "单例模式(Python实现)", icon: "code", link: "单例模式"},
+                    {text: "单例模式(Python实现)", icon: "code", link: "单例模式"}
                 ],
             },
             {
