@@ -39,6 +39,14 @@ export default navbar([
             },
             {
                 text: "Linux",
+                icon: "code",
+                prefix: "设计模式/",
+                children: [
+                    {text: "单例模式(Python实现)", icon: "code", link: "单例模式"},
+                ],
+            },
+            {
+                text: "Linux",
                 icon: "linux",
                 prefix: "Linux/",
                 children: [
