@@ -42,7 +42,7 @@ export default navbar([
                 prefix: "设计模式/",
                 children: [
                     {text: "单例模式(Python实现)", icon: "code", link: "单例模式"},
-                    {text: "工厂模式(Python实现)", icon: "code", link: "工厂模式"}
+                    {text: "工厂模式(Python实现)", icon: "code", link: "工厂模式"},
                 ],
             },
             {
