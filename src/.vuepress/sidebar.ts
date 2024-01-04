@@ -12,7 +12,7 @@ export default sidebar({
     // },
     {
       text: "博客",
-      icon: "book",
+      icon: "code",
       prefix: "posts/",
       children: "structure"
     },
@@ -20,6 +20,12 @@ export default sidebar({
       text: "随笔",
       icon: "pen",
       prefix: "anything/",
+      children: "structure",
+    },
+    {
+      text: "设计模式",
+      icon: "python",
+      prefix: "design_pattern/",
       children: "structure",
     },
     "intro",
