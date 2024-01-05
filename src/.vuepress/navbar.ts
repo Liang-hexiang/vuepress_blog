@@ -79,18 +79,13 @@ export default navbar([
         ],
     },
     {
-        text: "时光轴",
-        icon: "clock",
-        link: "/timeline/"
-    },
-    {
         text: '设计模式',
         icon: 'code',
         prefix: 'design_pattern/',
         children: [
             {
                 text: "设计模式",
-                icon: "pen",
+                icon: "code",
                 prefix: "设计模式/",
                 children: [
                     {text: "单例模式(Python实现)", icon: "code", link: "单例模式"},
@@ -99,4 +94,10 @@ export default navbar([
             },
         ]
     },
+    {
+        text: "时光轴",
+        icon: "clock",
+        link: "/timeline/"
+    },
+
 ]);
