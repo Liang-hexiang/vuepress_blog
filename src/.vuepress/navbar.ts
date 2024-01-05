@@ -81,7 +81,7 @@ export default navbar([
     {
         text: '设计模式',
         icon: 'code',
-        prefix: 'design_pattern/',
+        prefix: '/design_pattern/',
         children: [
             {
                 text: "设计模式",
