@@ -18,7 +18,25 @@ INSTR(str,substr);
 
 `INSTR`函数接受两个参数：**str**是要搜索的字符串,**substr**是要搜索的子字符串。
 
+#### 2. substr
 
+简介：
+
+> substr从字符串中提取特定长度的子字符串
+
+使用场景：
+
+> 想要通过索引截取字符串的一部分。
+
+函数语法：
+
+```sql
+substr(string string,num start,num length);
+```
+
+string为字符串；start为起始位置；length为长度。
+
+:warning:start是从1开始的
 
 
 ### 查询
