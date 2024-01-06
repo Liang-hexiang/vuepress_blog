@@ -11,8 +11,7 @@ export default hopeTheme({
   },
 
   iconAssets: "iconfont",
-  iconPrefix: 'iconfont icon-',
-  logo: "/images/奶茶.svg",
+  logo: "/images/坏笑.svg",
 
   repo: "lianghexiang/space",
 
