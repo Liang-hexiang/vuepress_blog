@@ -1,0 +1,1 @@
+import{_ as t}from"./plugin-vue_export-helper-c27b6911.js";import{o as a,c as o,e,f as r}from"./app-44493677.js";const _={},c=e("h1",{id:"门面模式",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#门面模式","aria-hidden":"true"},"#"),r(" 门面模式")],-1),s=[c];function n(d,i){return a(),o("div",null,s)}const l=t(_,[["render",n],["__file","门面模式.html.vue"]]);export{l as default};
