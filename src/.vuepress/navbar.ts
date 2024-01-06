@@ -53,9 +53,9 @@ export default navbar([
         prefix: "/anything/",
         children: [
             {
-                text: "小记",
+                text: "日记",
                 icon: "book",
-                prefix: "笔记/",
+                prefix: "小记/",
                 children: [
                     {text: '下雪啦', icon: 'snow', link: "下雪啦"}
                 ],
