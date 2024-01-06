@@ -80,7 +80,7 @@ export default navbar([
     },
     {
         text: "时光轴",
-        icon: "clock",
+        icon: "code",
         link: "/timeline/"
     },
 
