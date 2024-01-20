@@ -1,7 +1,7 @@
 ---
 icon: mysql
 date: 2024-01-20
-cover: https://img.tucang.cc/api/image/show/28f90ca940280dce40e9ecad64821df1
+cover: https://img.tucang.cc/api/image/show/be92f3fc23a4ba0672923f5f05c7e08b
 category:
     - 技术
 tag:
