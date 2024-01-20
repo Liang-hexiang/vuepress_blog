@@ -5,14 +5,10 @@ icon: home
 title: 博客主页
 bgImage: https://img.tucang.cc/api/image/show/46d84dfc18dde27647210a3aa2319b0a
 bgImageDark: https://img.tucang.cc/api/image/show/56b485174393d21065eee635c2fbef79
-heroText: 懒羊羊
+heroText: `Code`
 heroFullScreen: true
-tagline: 欢迎来到我的博客空间
-projects:
-  - icon: project
-    name: 项目名称
-    desc: 项目详细描述
-    link: https://你的项目链接
+tagline: 行之有恒，久自芬芳
+
 
 features:
   - icon: ⚡️
@@ -25,3 +21,5 @@ features:
     title: 温故
     details: 书读百遍其义自见
 ---
+
+:grinning:
