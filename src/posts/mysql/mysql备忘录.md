@@ -1,3 +1,13 @@
+---
+icon: mysql
+date: 2024-01-20
+cover: https://img.tucang.cc/api/image/show/28f90ca940280dce40e9ecad64821df1
+category:
+    - 技术
+tag:
+    - Mysql
+---
+
 # Mysql知识积累
 
 
