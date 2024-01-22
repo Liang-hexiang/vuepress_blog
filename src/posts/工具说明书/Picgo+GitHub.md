@@ -85,7 +85,7 @@ Picgo支持很多的图床，比如七牛云，腾讯云等，这里我们介绍
 
 ![image-20230729164637962](https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepressimage-20230729164637962.png)
 
-最后，划到页面最底部，点击生成token：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
+最后，划到页面最底部，点击生成token：*************
 
 ![image-20230729153248698](https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepressimage-20230729153248698.png)
 
