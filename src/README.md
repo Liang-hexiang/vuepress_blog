@@ -11,7 +11,7 @@ tagline: 行之有恒，久自芬芳
 
 
 features:
-  - icon: ⚡️
+  - icon:  snow
     title: vite + vue3
     details: 两岸猿声啼不住，轻舟已过万重山
   - icon: 🖖
