@@ -1,0 +1,1 @@
+import{_ as t}from"./plugin-vue_export-helper-c27b6911.js";import{o as r,c,e,f as a}from"./app-3c5f9365.js";const o={},s=e("h1",{id:"gprc服务",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#gprc服务","aria-hidden":"true"},"#"),a(" gPRC服务")],-1),_=[s];function n(d,i){return r(),c("div",null,_)}const l=t(o,[["render",n],["__file","gRPC服务.html.vue"]]);export{l as default};
