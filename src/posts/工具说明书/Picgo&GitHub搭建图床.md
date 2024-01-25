@@ -9,7 +9,7 @@ tag:
   - GitHub
 ---
 
-# Picgo
+# Picgo+GitHub图床
 
 ## 前言
 

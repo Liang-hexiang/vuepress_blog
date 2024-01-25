@@ -29,11 +29,11 @@ export default navbar([
             },
             {
                 text: "工具说明书",
-                icon: "book",
+                icon: "note",
                 prefix: "工具说明书/",
                 children: [
-                    {text: "SublimeText说明书", icon: "book", link: "sublime说明书"},
-                    {text: "Picgo&GitHub创建图床", icon: "book", link: "PicGo+GitHub"},
+                    {text: "SublimeText说明书", icon: "blog", link: "sublime说明书"},
+                    {text: "Picgo&GitHub创建图床", icon: "github", link: "PicGo&GitHub搭建图床"},
 
                 ],
             },
