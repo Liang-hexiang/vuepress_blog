@@ -48,6 +48,10 @@ string为字符串；start为起始位置；length为长度。
 
 :warning:start是从1开始的
 
+#### 3. CASE.....WHEN的用法
+
+
+
 
 ### 2. 查询
 
