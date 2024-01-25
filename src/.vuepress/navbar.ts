@@ -45,6 +45,15 @@ export default navbar([
                     {text: "Ubuntu配置环境变量", icon: "book", link: "Linux配置环境变量"},
                 ],
             },
+            {
+                text: "Vue",
+                icon: "vue",
+                prefix: "Vue/",
+                children: [
+                    {text: "Vue基础知识", icon: "vue", link: "Vue基础"},
+                    {text: "Vue客户端", icon: "vue", link: "Vue客户端"},
+                ],
+            }
         ],
     },
     {
