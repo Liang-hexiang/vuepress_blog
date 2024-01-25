@@ -205,10 +205,66 @@ component: Home
 $.router.push
 
 1. $route对象（）
-2. ![](https://cdn.nlark.com/yuque/0/2022/png/21881466/1657853063854-7756e3de-0601-41d8-9b79-d3bb0ece4fe2.png#averageHue=%23fefdfd&from=url&id=lQXdy&originHeight=217&originWidth=533&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
-3. $router对象（路由对象）
-4. ![图片.png](https://cdn.nlark.com/yuque/0/2022/png/21881466/1657853962313-b8dd9df5-2db3-4fc1-95c8-efdd920a0e4d.png#averageHue=%23fefdfc&clientId=ufe7dd909-2a9c-4&from=paste&height=151&id=EWXrt&originHeight=165&originWidth=1024&originalType=binary&ratio=1&rotation=0&showTitle=false&size=20962&status=done&style=stroke&taskId=u58fae339-ee23-4ece-968d-e2762f77912&title=&width=938.6666666666667)
 
+```javascript
+ //创建路由规则
+    const routes = [
+        {
+            path: "/home",
+            name: "Home",
+            component: Home
+        },
+        {
+            path: '/course',
+            component: Course
+        },
+        // 动态路由规则
+        {
+            path: '/user/:id',
+            component: User
+        }
+    ];
+// 动态路由试例
+    const User = {
+        data(){
+            return {};
+        },
+        template: `<div class="user"><p>用户ID：{{$route.params.id}}</p></div>`,
+        // 由于组件被复用，钩子函数只会调用一次
+        created(){
+            console.log(this.$route.params.id)
+        },
+        // 使用watch监听路由变化或者beforeRouteUpdate 导航守卫
+        watch: {
+            $route(to, from) {
+                console.log(to)
+                console.log(from)
+                // 跳转到首页
+                // 编程式跳转
+                // this.$router.push({path:'/home'})  // 可以加入对象
+                this.$router.push({name:'Home'})  // 可以加入对象
+            }
+        }
+    }
+    let App = {
+        data: function () {
+            return {};
+        },
+        // router-view 路由组件出口
+        template: `
+            <div>
+                <div class="header">
+                    <router-link to="/home">首页</router-link>
+                    <router-link to="/course">课程</router-link>
+<!--                    <router-link to="/user">用户</router-link>-->
+<!--使用了path参数，params参数会失效<router-link :to="{path:'/user', params: {id: 1}}">用户</router-link>-->
+                    <router-link :to="{path:'/user/1'}">用户</router-link>
+                </div>
+                <router-view></router-view>
+
+            </div>`,
+    };
+```
 
 #### 8. 嵌套路由
 > 可以在被渲染的组件中添加自己的路由出口 <router-link> 例如，在 User 组件的模板添加一个 <router-view>：  
