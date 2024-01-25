@@ -165,5 +165,107 @@ component: Home
 | /user/:username | /user/tom | { username: 'tom' } |
 | /user/:username/post/:post_id | /user/tom/post/123 | { username: 'tom', post_id: '123' } |
 
+2. 响应路由参数的变化	
+> 当使用路由参数时，`符合相同路由规则的导航`，例如从 /user/foo 导航到 /user/bar，**原来的组件实例会被复用**。因为两个路由都渲染同个组件，比起销毁再创建，复用则显得更加高效。**不过，这也意味着组件的生命周期钩子不会再被调用**。  
+
+使用watch属性，监测路由的变化
+```javascript
+// 动态路由试例
+    const User = {
+        data(){
+            return {};
+        },
+        template: `<div class="user"><p>用户ID：{{$route.params.id}}</p></div>`,
+        // 由于组件被复用，钩子函数只会调用一次
+        created(){
+            console.log("组件被创建")
+        },
+        // 使用watch监听路由变化或者beforeRouteUpdate 导航守卫
+        watch: {
+            $route(to, from) {
+                console.log(to)
+                console.log(from)
+                // 跳转到首页
+                // 编程式跳转
+                // this.$router.push({path:'/home'})  // 可以加入对象
+                this.$router.push({name:'Home'})  // 可以加入对象
+            }
+        }
+    }
+
+```
+![图片.png](https://cdn.nlark.com/yuque/0/2022/png/21881466/1657853063854-7756e3de-0601-41d8-9b79-d3bb0ece4fe2.png#clientId=u73c377bf-d8c8-4&from=paste&height=199&id=aFxAb&originHeight=217&originWidth=533&originalType=binary&ratio=1&rotation=0&showTitle=false&size=13661&status=done&style=none&taskId=u6c3cef8b-1472-4069-acb2-008d50fcddf&title=&width=488.58333333333337)![图片.png](https://cdn.nlark.com/yuque/0/2022/png/21881466/1657853118534-29147083-6cd0-497e-a473-8d43ba3a7e9c.png#clientId=u73c377bf-d8c8-4&from=paste&height=133&id=ZbpsY&originHeight=145&originWidth=1011&originalType=binary&ratio=1&rotation=0&showTitle=false&size=10936&status=done&style=none&taskId=u545921ad-84e7-4f16-9aa5-d29192f1b72&title=&width=926.7500000000001)
+#### 7. 编程式路由
+>  除了使用 <router-link> 创建 a 标签来定义导航链接，我们还可以借助 router 的实例方法，通过编写代码来实现。  
+
+| 声明式 | 编程式 |
+| --- | --- |
+| <router-link :to="..."> | router.push(...) |
+
+$.router.push
+
+1. $route对象（）
+2. ![](https://cdn.nlark.com/yuque/0/2022/png/21881466/1657853063854-7756e3de-0601-41d8-9b79-d3bb0ece4fe2.png#averageHue=%23fefdfd&from=url&id=lQXdy&originHeight=217&originWidth=533&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+3. $router对象（路由对象）
+4. ![图片.png](https://cdn.nlark.com/yuque/0/2022/png/21881466/1657853962313-b8dd9df5-2db3-4fc1-95c8-efdd920a0e4d.png#averageHue=%23fefdfc&clientId=ufe7dd909-2a9c-4&from=paste&height=151&id=EWXrt&originHeight=165&originWidth=1024&originalType=binary&ratio=1&rotation=0&showTitle=false&size=20962&status=done&style=stroke&taskId=u58fae339-ee23-4ece-968d-e2762f77912&title=&width=938.6666666666667)
+```javascript
+ //创建路由规则
+    const routes = [
+        {
+            path: "/home",
+            name: "Home",
+            component: Home
+        },
+        {
+            path: '/course',
+            component: Course
+        },
+        // 动态路由规则
+        {
+            path: '/user/:id',
+            component: User
+        }
+    ];
+// 动态路由试例
+    const User = {
+        data(){
+            return {};
+        },
+        template: `<div class="user"><p>用户ID：{{$route.params.id}}</p></div>`,
+        // 由于组件被复用，钩子函数只会调用一次
+        created(){
+            console.log(this.$route.params.id)
+        },
+        // 使用watch监听路由变化或者beforeRouteUpdate 导航守卫
+        watch: {
+            $route(to, from) {
+                console.log(to)
+                console.log(from)
+                // 跳转到首页
+                // 编程式跳转
+                // this.$router.push({path:'/home'})  // 可以加入对象
+                this.$router.push({name:'Home'})  // 可以加入对象
+            }
+        }
+    }
+    let App = {
+        data: function () {
+            return {};
+        },
+        // router-view 路由组件出口
+        template: `
+            <div>
+                <div class="header">
+                    <router-link to="/home">首页</router-link>
+                    <router-link to="/course">课程</router-link>
+<!--                    <router-link to="/user">用户</router-link>-->
+<!--使用了path参数，params参数会失效<router-link :to="{path:'/user', params: {id: 1}}">用户</router-link>-->
+                    <router-link :to="{path:'/user/1'}">用户</router-link>
+                </div>
+                <router-view></router-view>
+
+            </div>`,
+    };
+```
 
 
