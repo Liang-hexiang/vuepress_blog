@@ -146,5 +146,78 @@ new Vue({
 2. 全局组件：router-view
    1. <!-- 路由出口 --> 
    2.   <!-- 路由匹配到的组件将渲染在这里 -->
+```html
+<div id="app">
+</div>
+<script src="../js/vue.js"></script>
+<script src="vue-router.js"></script>
+<script>
+    const Home = {
+        data: function(){
+            return {
 
+            };
+        },
+        template: `<div class="home">这是首页</div>`,
+    };
+    const Course = {
+        data: function () {
+            return {
+
+            };
+        },
+        template: `<div class="course">课程列表</div>`,
+    };
+    //创建路由规则
+    const routes = [
+        {
+            path: "/home",
+            component: Home
+        },
+        {
+            path: '/course',
+            component: Course
+        }
+    ];
+    // 定义路由
+    const router = new VueRouter({
+        // 缩写
+        // routes
+        routes: routes,
+    })
+
+
+
+    let App = {
+        data: function () {
+            return {};
+        },
+        // router-view 路由组件出口
+        template: `
+            <div>
+                <div class="header">
+                    <router-link to="/home">首页</router-link>
+                    <router-link to="/course">课程</router-link>
+                </div>
+                <router-view></router-view>
+
+            </div>`,
+    };
+    new Vue({
+        el: "#app",
+        // 挂载路由
+        router: router,
+        data: function () {
+            return {
+
+            };
+        },
+        template: `<App></App>`,
+        components: {
+            App
+        }
+    })
+
+</script>
+```
 
