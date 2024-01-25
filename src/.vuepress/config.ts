@@ -1,6 +1,7 @@
 import { getDirname, path } from "@vuepress/utils";
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
+import {hopeTheme} from "vuepress-theme-hope";
 
 export default defineUserConfig({
   base: "/space/",
@@ -13,7 +14,9 @@ export default defineUserConfig({
         "./components/BlogHero.vue",
     ),
   },
-  theme,
+
+  theme: hopeTheme({
+  }),
   head: [
 
   ]
