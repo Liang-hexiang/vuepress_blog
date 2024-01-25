@@ -1,0 +1,1 @@
+import{_ as t}from"./plugin-vue_export-helper-c27b6911.js";import{o as a,c as o,e,f as r}from"./app-09345c36.js";const c={},_=e("h1",{id:"vue客户端",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#vue客户端","aria-hidden":"true"},"#"),r(" Vue客户端")],-1),s=[_];function n(d,i){return a(),o("div",null,s)}const h=t(c,[["render",n],["__file","vue客户端.html.vue"]]);export{h as default};
