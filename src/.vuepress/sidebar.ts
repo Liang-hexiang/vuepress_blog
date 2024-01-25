@@ -12,13 +12,13 @@ export default sidebar({
     // },
     {
       text: "博客",
-      icon: "code",
+      icon: "blog",
       prefix: "posts/",
       children: "structure"
     },
     {
       text: "随笔",
-      icon: "pen",
+      icon: "write",
       prefix: "anything/",
       children: "structure",
     },
