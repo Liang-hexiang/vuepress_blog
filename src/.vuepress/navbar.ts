@@ -57,7 +57,8 @@ export default navbar([
                 icon: "book",
                 prefix: "小记/",
                 children: [
-                    {text: '下雪啦', icon: 'snow', link: "下雪啦"}
+                    {text: '下雪啦', icon: 'snow', link: "下雪啦"},
+                    {text: '网站收藏', icon: 'link', link: '好用网站收藏'}
                 ],
             },
             {
