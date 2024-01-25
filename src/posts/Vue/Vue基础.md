@@ -134,5 +134,17 @@ new Vue({
 
 ```
 
+1. 全局组件：router-link
+   1. <使用 router-link 组件来导航.    
+   2. 通过传入 `to` 属性指定链接.  
+   3.  <router-link> 默认会被渲染成一个 `<a>` 标签 
+```javascript
+# 触发原生的click事件
+<router-link :to='/' @click.native='function'>  
+```
+
+2. 全局组件：router-view
+   1. <!-- 路由出口 --> 
+   2.   <!-- 路由匹配到的组件将渲染在这里 -->
 
 
