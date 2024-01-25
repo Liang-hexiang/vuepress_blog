@@ -135,4 +135,35 @@ new Vue({
 ```
 
 
+#### 5. 命名路由
+
+1. 在路由规则中添加`name`属性
+```html
+path: "/home",
+// 命名路由
+name: "Home",
+component: Home
+```
+
+2. 在router-link中绑定
+```html
+<router-link :to="{'name': 'Home'}">首页</router-link>
+```
+#### 6.动态路由
+
+1. 路由规则
+```javascript
+ routes: [
+    // 动态路径参数 以冒号开头
+   // 在路由中设置的参数都会被添加到$route.params中，$route.params.id
+    { path: '/user/:id', component: User }
+  ]
+// 可以在路由中设置多个参数，都会被
+```
+| 模式 | 匹配路径 | $route.params |
+| --- | --- | --- |
+| /user/:username | /user/tom | { username: 'tom' } |
+| /user/:username/post/:post_id | /user/tom/post/123 | { username: 'tom', post_id: '123' } |
+
+
 
