@@ -4,7 +4,7 @@ export default navbar([
     "/",
     {
         text: "博客",
-        icon: "book",
+        icon: "repo",
         prefix: "/posts/",
         children: [
             {
@@ -58,7 +58,7 @@ export default navbar([
     },
     {
         text: "随笔",
-        icon: "pen",
+        icon: "note",
         prefix: "/anything/",
         children: [
             {
