@@ -7,7 +7,7 @@ export default defineClientConfig({
         setupRunningTimeFooter(
             new Date("2023-06-01"),
             {
-                "/": "<font color='#ff8c00' size='2.5em'>本网站已经运行了</font>: <font color='#ff8c00' size='2.5em'>本网站已经运行了</font>:day 天 :hour 小时 :minute 分钟 :second <font color='#a52a2a'>秒</font>",
+                "/": "本网站已经运行了: <font color='#ff8c00' size='3.5em'>:day</font> 天 <font color='#ff8c00' size='3.5em'>:hour</font> 小时 <font color='#ff8c00' size='3.5em'>:minute</font> 分钟 <font color='#ff8c00' size='3.5em'>:second </font>秒",
                 "/zh/": "已运行 :day 天 :hour 小时 :minute 分钟 :second 秒",
             },
             false,
