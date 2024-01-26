@@ -30,6 +30,14 @@ export default defineUserConfig({
                 rel: "stylesheet",
             },
         ],
+        [
+            "link",
+            {
+                href: "https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=ZCOOL+KuaiLe&display=swap",
+                rel: "stylesheet",
+            },
+        ],
+
     ]
 
     // Enable it with pwa
