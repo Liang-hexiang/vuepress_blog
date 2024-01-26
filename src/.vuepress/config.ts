@@ -8,12 +8,7 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "",
   description: "欢迎来到酥肉丸子的博客空间",
-  alias: {
-    "@theme-hope/modules/blog/components/BlogHero": path.resolve(
-        __dirname,
-        "./components/BlogHero.vue",
-    ),
-  },
+
 
   theme: hopeTheme({
   }),
