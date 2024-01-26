@@ -2,7 +2,7 @@ import { defineClientConfig } from "@vuepress/client";
 import { hasGlobalComponent } from "E:/code/vuepress-blog/node_modules/vuepress-shared/lib/client/index.js";
 import { h } from "vue";
 
-import { useScriptTag } from "E:/code/vuepress-blog/node_modules/@vueuse/core/index.mjs";
+import { useStyleTag } from "E:/code/vuepress-blog/node_modules/@vueuse/core/index.mjs";
 import Badge from "E:/code/vuepress-blog/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
 import FontIcon from "E:/code/vuepress-blog/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
 import BackToTop from "E:/code/vuepress-blog/node_modules/vuepress-plugin-components/lib/client/components/BackToTop.js";
@@ -16,24 +16,9 @@ export default defineClientConfig({
     
   },
   setup: () => {
-    useScriptTag(
-  `https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/js/brands.min.js`,
-  () => {},
-  { attrs: { "data-auto-replace-svg": "nest" } }
-);
-
-    useScriptTag(
-  `https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/js/solid.min.js`,
-  () => {},
-  { attrs: { "data-auto-replace-svg": "nest" } }
-);
-
-    useScriptTag(
-  `https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/js/fontawesome.min.js`,
-  () => {},
-  { attrs: { "data-auto-replace-svg": "nest" } }
-);
-
+      useStyleTag(`\
+  @import url("https://at.alicdn.com/t/c/font_2410206_5vb9zlyghj.css");
+  `);
   },
   rootComponents: [
     () => h(BackToTop, {}),

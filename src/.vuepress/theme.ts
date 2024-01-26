@@ -3,8 +3,10 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 
+
 export default hopeTheme({
   hostname: "https://lianghexiang.github.io/space",
+
   author: {
     name: "L.H.X",
     url: "/intro.html",
@@ -12,7 +14,6 @@ export default hopeTheme({
 
   iconAssets: "iconfont",
   logo: "/images/坏笑.svg",
-
   repo: "lianghexiang/space",
 
   docsDir: "src",
@@ -20,14 +21,10 @@ export default hopeTheme({
   // navbar
   navbar,
 
-
   // sidebar
   sidebar,
-
-  footer: "",
-
-  displayFooter: false,
-
+  footer: '网站运行时间：{{setupRunningTimeFooter}}' ,
+  displayFooter: true,
   blog: {
     timeline: "忽如白驹过隙",
     description: "不积小流无以成江海，不积跬步无以至千里；",
@@ -51,16 +48,17 @@ export default hopeTheme({
   },
 
   plugins: {
+
     blog: true,
     comment: {
       // You should generate and use your own comment service
       provider: "Waline",
       serverURL: "https://waline-comment.vuejs.press",
     },
-
     // all features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,
+
       attrs: true,
       chart: true,
       codetabs: true,
