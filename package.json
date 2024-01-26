@@ -13,6 +13,8 @@
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-beta.63",
+    "node-sass": "^9.0.0",
+    "sass-loader": "^13.3.3",
     "vue": "^3.2.47",
     "vuepress": "2.0.0-beta.63",
     "vuepress-theme-hope": "2.0.0-beta.228"

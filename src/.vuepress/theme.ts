@@ -23,7 +23,8 @@ export default hopeTheme({
 
   // sidebar
   sidebar,
-  footer: '网站运行时间：{{setupRunningTimeFooter}}' ,
+  copyrightText: 'MIT LICENSE',
+  footer: '{{setupRunningTimeFooter}}' ,
   displayFooter: true,
   blog: {
     timeline: "忽如白驹过隙",
@@ -50,6 +51,7 @@ export default hopeTheme({
   plugins: {
 
     blog: true,
+    copyright: false,
     comment: {
       // You should generate and use your own comment service
       provider: "Waline",
@@ -154,4 +156,4 @@ export default hopeTheme({
       },
     },
   },
-});
+},);
