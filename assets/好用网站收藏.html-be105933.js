@@ -1,0 +1,1 @@
+import{_ as t}from"./plugin-vue_export-helper-c27b6911.js";import{o as _,c as a,e,f as o}from"./app-89a85594.js";const r={},c=e("h1",{id:"好用网站收藏",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#好用网站收藏","aria-hidden":"true"},"#"),o(" 好用网站收藏")],-1),s=[c];function n(d,i){return _(),a("div",null,s)}const l=t(r,[["render",n],["__file","好用网站收藏.html.vue"]]);export{l as default};
