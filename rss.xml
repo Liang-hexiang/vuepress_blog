@@ -6,8 +6,8 @@
     <link>http://localhost:8080/space/</link>
     <description>欢迎来到酥肉丸子的博客空间</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 28 Jan 2024 09:56:24 GMT</pubDate>
-    <lastBuildDate>Sun, 28 Jan 2024 09:56:24 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Jan 2024 10:11:19 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Jan 2024 10:11:19 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <image>
@@ -26,7 +26,6 @@
       <link>http://localhost:8080/space/posts/tools/PicgoGitHub%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A.html</link>
       <guid>http://localhost:8080/space/posts/tools/PicgoGitHub%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A.html</guid>
       <source url="http://localhost:8080/space/rss.xml">PicgoGitHub图床</source>
-      <description>PicgoGitHub图床 前言 这篇文章主要介绍在💻windows系统下安装PicGo并且在🇬🇭 GitHub上创建仓库来做我们自己的个人图床。 首先，什么是 Picgo？ picgo网站地址：https://picgo.github.io/PicGo-Doc/zh/guide/#特色功能</description>
       <category>工具</category>
       <pubDate>Fri, 14 Jul 2023 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="picgogithub图床" tabindex="-1"> PicgoGitHub图床</h1>
@@ -131,7 +130,6 @@
       <link>http://localhost:8080/space/posts/tools/sublime%E8%AF%B4%E6%98%8E%E4%B9%A6.html</link>
       <guid>http://localhost:8080/space/posts/tools/sublime%E8%AF%B4%E6%98%8E%E4%B9%A6.html</guid>
       <source url="http://localhost:8080/space/rss.xml">Sublime Text使用文档说明书</source>
-      <description>Sublime Text使用文档说明书 SublimeText预览Markdown 1. MarkdownEditor 🏷️MarkdownEditing是一个功能丰富的插件，提供了对Markdown文件的语法高亮、自动补全、预览等功能。 安装： Ctrl+Shift+P打开控制台，输入Package Control: Install Package，然后输入MarkdownEditor，选择安装</description>
       <category>工具</category>
       <pubDate>Fri, 14 Jul 2023 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="sublime-text使用文档说明书" tabindex="-1"> Sublime Text使用文档说明书</h1>
@@ -148,7 +146,6 @@
       <link>http://localhost:8080/space/posts/Vue/Vue%E5%9F%BA%E7%A1%80.html</link>
       <guid>http://localhost:8080/space/posts/Vue/Vue%E5%9F%BA%E7%A1%80.html</guid>
       <source url="http://localhost:8080/space/rss.xml">Vue基础知识</source>
-      <description>Vue基础知识 指令系统 v-text v-html v-show v-if v-model 双向数据绑定 常用属性 data() el methods watch computed templates Vue组件 全局组件 用法：</description>
       <category>Vue</category>
       <pubDate>Wed, 03 Jan 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="vue基础知识" tabindex="-1"> Vue基础知识</h1>
@@ -438,7 +435,6 @@ component: Home
       <link>http://localhost:8080/space/posts/Vue/vue%E5%AE%A2%E6%88%B7%E7%AB%AF.html</link>
       <guid>http://localhost:8080/space/posts/Vue/vue%E5%AE%A2%E6%88%B7%E7%AB%AF.html</guid>
       <source url="http://localhost:8080/space/rss.xml">Vue客户端</source>
-      <description>Vue客户端 1. 什么是webpack 本质上，webpack 是一个现代 JavaScript 应用程序的_静态模块打包器(module bundler)。当 webpack 处理应用程序时，它会递归地构建一个_依赖关系图(dependency graph)，其中包含应用程序需要的每个模块，然后将所有这些模块打包成一个或多个 bundle。 图片.png</description>
       <category>Vue</category>
       <pubDate>Thu, 25 Jan 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="vue客户端" tabindex="-1"> Vue客户端</h1>
@@ -572,7 +568,6 @@ style-loader：将css代码添加一个style标签插入到header中</p>
       <link>http://localhost:8080/space/anything/%E5%B0%8F%E8%AE%B0/%E5%A5%BD%E7%94%A8%E7%BD%91%E7%AB%99%E6%94%B6%E8%97%8F.html</link>
       <guid>http://localhost:8080/space/anything/%E5%B0%8F%E8%AE%B0/%E5%A5%BD%E7%94%A8%E7%BD%91%E7%AB%99%E6%94%B6%E8%97%8F.html</guid>
       <source url="http://localhost:8080/space/rss.xml">好用网站收藏</source>
-      <description>好用网站收藏</description>
       <category>网址收藏</category>
       <pubDate>Mon, 11 Dec 2023 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="好用网站收藏" tabindex="-1"> 好用网站收藏</h1>
@@ -584,7 +579,6 @@ style-loader：将css代码添加一个style标签插入到header中</p>
       <link>http://localhost:8080/space/posts/gRPC/gRPC%E6%9C%8D%E5%8A%A1.html</link>
       <guid>http://localhost:8080/space/posts/gRPC/gRPC%E6%9C%8D%E5%8A%A1.html</guid>
       <source url="http://localhost:8080/space/rss.xml">gPRC服务</source>
-      <description>gPRC服务</description>
       <category>技术</category>
       <pubDate>Wed, 03 Jan 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="gprc服务" tabindex="-1"> gPRC服务</h1>
@@ -596,7 +590,6 @@ style-loader：将css代码添加一个style标签插入到header中</p>
       <link>http://localhost:8080/space/anything/%E5%B0%8F%E8%AE%B0/%E4%B8%8B%E9%9B%AA%E5%95%A6.html</link>
       <guid>http://localhost:8080/space/anything/%E5%B0%8F%E8%AE%B0/%E4%B8%8B%E9%9B%AA%E5%95%A6.html</guid>
       <source url="http://localhost:8080/space/rss.xml">2023初雪</source>
-      <description>2023初雪 好白的雪 白雪皑皑</description>
       <category>画册</category>
       <pubDate>Mon, 11 Dec 2023 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="_2023初雪" tabindex="-1"> 2023初雪</h1>
@@ -610,7 +603,6 @@ style-loader：将css代码添加一个style标签插入到header中</p>
       <link>http://localhost:8080/space/posts/python/Linux%E7%8E%AF%E5%A2%83%E4%B8%8BDBUtils%E5%AF%BC%E5%85%A5%E7%9A%84%E9%97%AE%E9%A2%98.html</link>
       <guid>http://localhost:8080/space/posts/python/Linux%E7%8E%AF%E5%A2%83%E4%B8%8BDBUtils%E5%AF%BC%E5%85%A5%E7%9A%84%E9%97%AE%E9%A2%98.html</guid>
       <source url="http://localhost:8080/space/rss.xml">DBUtils版本问题</source>
-      <description>DBUtils版本问题 前言 image 事情的起因是，原本在pycharm上开发的代码，因为要使用到线程池，所以就按安装了DBUtils，在windows上运行代码倒没什么问题，后因代码运行时需要占用的内存过多，所以代码要转移到Linux服务器上，问题由之而来，运行代码时总会会报出找不到DBUtils库的错误，经过几番反复确认，python环境已经安装了DBUtils，而且安装的其他三方库皆无问题，所以便是用了万能的百度，终于是解决了问题</description>
       <category>技术</category>
       <pubDate>Fri, 28 Jul 2023 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="dbutils版本问题" tabindex="-1"> DBUtils版本问题</h1>
@@ -629,7 +621,6 @@ style-loader：将css代码添加一个style标签插入到header中</p>
       <link>http://localhost:8080/space/design_pattern/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E9%97%A8%E9%9D%A2%E6%A8%A1%E5%BC%8F.html</link>
       <guid>http://localhost:8080/space/design_pattern/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E9%97%A8%E9%9D%A2%E6%A8%A1%E5%BC%8F.html</guid>
       <source url="http://localhost:8080/space/rss.xml">门面模式</source>
-      <description>门面模式 本章涉及内容： 结构型设计模式概要； 利用UML图理解门面设计模式； 提供了Python v3.5实现代码的真实用例； 门面模式与最少知识原则。 1. 什么是结构性设计模式</description>
       <category>python</category>
       <pubDate>Wed, 03 Jan 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="门面模式" tabindex="-1"> 门面模式</h1>
@@ -657,7 +648,6 @@ style-loader：将css代码添加一个style标签插入到header中</p>
       <link>http://localhost:8080/space/design_pattern/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.html</link>
       <guid>http://localhost:8080/space/design_pattern/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.html</guid>
       <source url="http://localhost:8080/space/rss.xml">单例模式</source>
-      <description>单例模式 单例模式的Python实现 1. 普通单例模式 _ new _方法可以在实例化类的时候通过hasattr方法返回同一个实例 class ExerciseSinglePattern: def __new__(cls, *args, **kwargs): if not hasattr(cls, '_instance'): cls._instance = super().__new__(cls) return cls._instance def __init__(self, a, b): print('__init__') self.a = a self.b = b if __name__ == '__main__': sp = ExerciseSinglePattern('a', 'b') sp2 = ExerciseSinglePattern('c', 'd') print(sp) print(sp2) # &amp;lt;__main__.ExerciseSinglePattern object at 0x00000243AF6E4F70&amp;gt; 	# &amp;lt;__main__.ExerciseSinglePattern object at 0x00000243AF6E4F70&amp;gt;</description>
       <category>python</category>
       <pubDate>Wed, 03 Jan 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="单例模式" tabindex="-1"> 单例模式</h1>
@@ -968,7 +958,6 @@ wrapper<span>(</span><span>*</span>args<span>,</span> <span>**</span>kwargs<span
       <link>http://localhost:8080/space/design_pattern/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.html</link>
       <guid>http://localhost:8080/space/design_pattern/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.html</guid>
       <source url="http://localhost:8080/space/rss.xml">工厂模式</source>
-      <description>工厂模式 1. 前言 在本文章中，主要包含以下几个方面的主题： 了解简单工厂设计模式； 讨论工厂方法和抽象工厂方法及其差异； 利用Python代码实现真实场景； 讨论模式的优缺点并进行相应的比较。 2. 了解工厂模式 在面向对象编程中，术语“工厂”表示一个负责创建其他类型对象的类。通常情况下，作为一个工厂的类有一个对象以及与它关联的多个方法。客户端使用某些参数调用此方法，之后，工厂会据此创建所需类型的对象，然后将它们返回给客户端。</description>
       <category>python</category>
       <pubDate>Wed, 03 Jan 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="工厂模式" tabindex="-1"> 工厂模式</h1>
@@ -992,7 +981,6 @@ wrapper<span>(</span><span>*</span>args<span>,</span> <span>**</span>kwargs<span
       <link>http://localhost:8080/space/posts/python/Python%E6%B7%BB%E5%8A%A0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.html</link>
       <guid>http://localhost:8080/space/posts/python/Python%E6%B7%BB%E5%8A%A0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.html</guid>
       <source url="http://localhost:8080/space/rss.xml">Python添加Linux环境变量</source>
-      <description>Python添加Linux环境变量</description>
       <category>python</category>
       <pubDate>Wed, 06 Dec 2023 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="python添加linux环境变量" tabindex="-1"> Python添加Linux环境变量</h1>
@@ -1004,7 +992,6 @@ wrapper<span>(</span><span>*</span>args<span>,</span> <span>**</span>kwargs<span
       <link>http://localhost:8080/space/posts/python/Python2%E8%BD%ACPython3.html</link>
       <guid>http://localhost:8080/space/posts/python/Python2%E8%BD%ACPython3.html</guid>
       <source url="http://localhost:8080/space/rss.xml">Python2转Python3</source>
-      <description>Python2转Python3 工具介绍 💭 工具：2to3.py 2to3.py是一个脚本文件，是Anaconda管理器自带的脚本文件，通常可以在anaconda的安装路径下找到，可能由于anaconda的版本不同，2to3.py文件的名字也可能略有差异，但总的来说都可以通过2to3关键字来辨别。 使用 转单个py文件 ​	如果是转单个py文件的话可以直接把py文件的路径输入到命令之后</description>
       <category>python</category>
       <pubDate>Tue, 26 Sep 2023 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="python2转python3" tabindex="-1"> Python2转Python3</h1>
@@ -1030,7 +1017,6 @@ Python 2to3.py <span>-w</span> E:<span>\</span><span>\</span>Test<span>\</span>
       <link>http://localhost:8080/space/posts/Linux/Linux%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.html</link>
       <guid>http://localhost:8080/space/posts/Linux/Linux%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.html</guid>
       <source url="http://localhost:8080/space/rss.xml">Linux配置环境变量</source>
-      <description>Linux配置环境变量 1. 查看所有变量 # 使用env lianghexiang@ubuntu:~$ env # 使用export lianghexiang@ubuntu:~$ export</description>
       <category>技术</category>
       <pubDate>Fri, 28 Jul 2023 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="linux配置环境变量" tabindex="-1"> Linux配置环境变量</h1>
@@ -1070,7 +1056,6 @@ lianghexiang@ubuntu:~$ <span>export</span> <span><span>PATH</span></span><span>=
       <link>http://localhost:8080/space/posts/mysql/mysql%E5%A4%87%E5%BF%98%E5%BD%95.html</link>
       <guid>http://localhost:8080/space/posts/mysql/mysql%E5%A4%87%E5%BF%98%E5%BD%95.html</guid>
       <source url="http://localhost:8080/space/rss.xml">Mysql知识积累</source>
-      <description>Mysql知识积累 1. Mysql内置函数 1. instr 简介： 函数返回字符串中子字符串第一次出现的位置.如果在str中找不到子字符串，则INSTR()函数返回零(0) 使用场景： 想要在字符串中查找子字符串或检查字符串中是否存在子字符串。 函数语法: INSTR(str,substr);</description>
       <category>技术</category>
       <pubDate>Sat, 20 Jan 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="mysql知识积累" tabindex="-1"> Mysql知识积累</h1>
@@ -1262,7 +1247,6 @@ lianghexiang@ubuntu:~$ <span>export</span> <span><span>PATH</span></span><span>=
       <link>http://localhost:8080/space/intro.html</link>
       <guid>http://localhost:8080/space/intro.html</guid>
       <source url="http://localhost:8080/space/rss.xml">介绍页</source>
-      <description>介绍页 我所在的位置：中国河南省 联系方式： 🐧 QQ：1973749775 📧邮箱:lhx110396@163.com 💻目前在郑州工作 👋 你好！我的介绍页 既然茫茫人海中你能来到我的个人主页，这也是一种邂逅! ✨ 我热衷于分享最新的科技趋势和创新的编程技巧，致力于让技术变得更加容易理解和应用。我相信技术可以改变世界，而我希望成为这个变革的一部分。🌍💪 📚 在我的博客中，你将发现我对编程语言、前端开发、人工智能和数据科学等领域的深入研究和经验分享。无论你是初学者还是经验丰富的开发者，我都将为你提供有价值的内容和实用的建议。🎓🚀</description>
       <pubDate>Fri, 07 Jul 2023 06:08:45 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="介绍页" tabindex="-1"> 介绍页</h1>
 <p>我所在的位置：中国河南省<br>
@@ -1295,7 +1279,6 @@ lianghexiang@ubuntu:~$ <span>export</span> <span><span>PATH</span></span><span>=
       <link>http://localhost:8080/space/posts/python/polygon%E9%9D%A2%E7%A7%AF%E8%AE%A1%E7%AE%97.html</link>
       <guid>http://localhost:8080/space/posts/python/polygon%E9%9D%A2%E7%A7%AF%E8%AE%A1%E7%AE%97.html</guid>
       <source url="http://localhost:8080/space/rss.xml">Python操作Polygon</source>
-      <description>Python操作Polygon 1. Polygon面积计算 首先介绍什么是Polygon，在地理信息系统(GIS)中，polygon是经纬度构成的多边形，可以用来描绘地理边界，区域和建筑物轮廓灯。在mysql中，可以使用polygon数据类型存储，Python的Shapely库提供了操作polygon数据的工具。 在编程语言中，polygon数据多存储在二维列表中，例如[[1, 2],[2, 0], [0, 1],......], 在数学中计算不规则多边形面积之一的公式是鞋带公式(也成高斯面积公式)</description>
       <category>python</category>
       <pubDate>Sat, 01 Jul 2023 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="python操作polygon" tabindex="-1"> Python操作Polygon</h1>

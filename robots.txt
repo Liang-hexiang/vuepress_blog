@@ -1,5 +1,0 @@
-
-User-agent:*
-Disallow:
-
-Sitemap: https://lianghexiang.github.io/space/LHx_BlogSiteMap.xml
