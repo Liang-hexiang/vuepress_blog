@@ -5,7 +5,6 @@ import sidebar from "./sidebar.js";
 
 
 export default hopeTheme({
-  hostname: "https://lianghexiang.github.io/space",
 
   author: {
     name: "L.H.X",
@@ -23,7 +22,6 @@ export default hopeTheme({
 
   // sidebar
   sidebar,
-
   copyrightText: 'MIT LICENSE',
   footer: '{{setupRunningTimeFooter}}' ,
   displayFooter: true,
@@ -52,6 +50,8 @@ export default hopeTheme({
   plugins: {
 
     blog: true,
+
+
     copyright: false,
     comment: {
       // You should generate and use your own comment service
@@ -156,5 +156,5 @@ export default hopeTheme({
         ],
       },
     },
-  },
+  }
 },);

@@ -72,7 +72,8 @@ export default defineUserConfig({
             hostname: 'http://localhost:8080/',
             rss: true,
             image: 'src/.vuepress/public/images/katongrenwu.png',
-            devServer: true
+            devServer: true,
+            devHostname: 'http://localhost:8080/'
         }),
     ]
 });
