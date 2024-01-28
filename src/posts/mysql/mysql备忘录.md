@@ -2,6 +2,7 @@
 icon: mysql
 date: 2024-01-20
 cover: https://img.tucang.cc/api/image/show/be92f3fc23a4ba0672923f5f05c7e08b
+shortTitle: Mysql语法基础
 category:
     - 技术
 tag:

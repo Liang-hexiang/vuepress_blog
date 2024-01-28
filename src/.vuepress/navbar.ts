@@ -12,10 +12,10 @@ export default navbar([
                 icon: "code",
                 prefix: "python/",
                 children: [
-                    {text: 'Polygon面积计算', icon: 'book', link: 'Polygon面积计算'},
-                    {text: 'Python2转Python3', icon: 'book', link: 'Python2转Python3'},
-                    {text: 'Python添加环境变量', icon: 'book', link: 'Python添加环境变量'},
-                    {text: "DBUtils小问题", icon: "pen", link: "Linux环境下DBUtils导入的问题"},
+                    {text: 'Polygon面积计算', icon: 'code', link: 'Polygon面积计算'},
+                    {text: 'Python2转Python3', icon: 'code', link: 'Python2转Python3'},
+                    {text: 'Python添加环境变量', icon: 'code', link: 'Python添加环境变量'},
+                    {text: "DBUtils小问题", icon: "code", link: "Linux环境下DBUtils导入的问题"},
 
                 ],
             },
@@ -30,10 +30,10 @@ export default navbar([
             {
                 text: "工具说明书",
                 icon: "note",
-                prefix: "工具说明书/",
+                prefix: "tools/",
                 children: [
                     {text: "SublimeText说明书", icon: "blog", link: "sublime说明书"},
-                    {text: "Picgo&GitHub创建图床", icon: "github", link: "PicGo&GitHub搭建图床"},
+                    {text: "PicgoGitHub创建图床", icon: "github", link: "PicGoGitHub搭建图床"},
 
                 ],
             },

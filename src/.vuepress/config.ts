@@ -1,7 +1,13 @@
 import {getDirname, path} from "@vuepress/utils";
 import {defineUserConfig} from "vuepress";
+// 回到顶部
+import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
 import theme from "./theme.js";
+import {pwaPlugin} from "@vuepress/plugin-pwa"
+import { pwaPopupPlugin } from '@vuepress/plugin-pwa-popup'
 
+
+// @ts-ignore
 const __dirname = getDirname(import.meta.url);
 export default defineUserConfig({
     base: "/space/",
@@ -37,9 +43,22 @@ export default defineUserConfig({
                 rel: "stylesheet",
             },
         ],
+        ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
+        ['meta', { name: 'theme-color', content: '#3eaf7c' }],
 
+    ],
+    plugins: [
+        backToTopPlugin(),
+        pwaPlugin({
+            skipWaiting: true,
+        }),
+        pwaPopupPlugin({
+            locales: {
+                '/': {
+                    message: '发现新内容可用',
+                    buttonText: '刷新',
+                },
+            },
+        })
     ]
-
-    // Enable it with pwa
-    // shouldPrefetch: false,
 });
