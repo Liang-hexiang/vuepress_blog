@@ -23,6 +23,7 @@ export default hopeTheme({
 
   // sidebar
   sidebar,
+
   copyrightText: 'MIT LICENSE',
   footer: '{{setupRunningTimeFooter}}' ,
   displayFooter: true,

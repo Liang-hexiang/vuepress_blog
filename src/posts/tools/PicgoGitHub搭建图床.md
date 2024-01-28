@@ -1,6 +1,7 @@
 ---
 icon: github
 date: 2023-07-14
+sitemap: true
 cover: https://img.tucang.cc/api/image/show/3f96a1fd6956f27e1badccf6d7f982e1
 category:
   - 工具 

@@ -8,13 +8,13 @@ devDependencies:
   '@vuepress/client':
     specifier: 2.0.0-beta.63
     version: 2.0.0-beta.63
-  '@vuepress/plugin-back-to-top':
-    specifier: ^2.0.0-beta.63
-    version: 2.0.0-rc.1(vuepress@2.0.0-beta.63)
   '@vuepress/plugin-docsearch':
     specifier: ^2.0.0-beta.63
     version: 2.0.0-rc.0(@algolia/client-search@4.22.1)(search-insights@2.13.0)
   '@vuepress/plugin-pwa':
+    specifier: ^2.0.0-beta.63
+    version: 2.0.0-rc.1(vuepress@2.0.0-beta.63)
+  '@vuepress/plugin-pwa-popup':
     specifier: ^2.0.0-beta.63
     version: 2.0.0-rc.1(vuepress@2.0.0-beta.63)
   node-sass:
@@ -29,6 +29,9 @@ devDependencies:
   vuepress:
     specifier: 2.0.0-beta.63
     version: 2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(sass-loader@13.3.3)(vue@3.4.15)
+  vuepress-plugin-feed2:
+    specifier: 2.0.0-beta.63
+    version: 2.0.0-beta.63
   vuepress-plugin-sitemap2:
     specifier: 2.0.0-beta.63
     version: 2.0.0-beta.63
@@ -2559,18 +2562,6 @@ packages:
       - typescript
     dev: true
 
-  /@vuepress/plugin-back-to-top@2.0.0-rc.1(vuepress@2.0.0-beta.63):
-    resolution: {integrity: sha512-6uxWbNTLUBBdGDPv+n35ag4IyNsS5kLyVeOajYboG/1tS5kYuoKc9ZKDw20dHIXW6Z7zdsqLuaGg4F0T5HRenw==, tarball: https://registry.npmmirror.com/@vuepress/plugin-back-to-top/-/plugin-back-to-top-2.0.0-rc.1.tgz}
-    peerDependencies:
-      vuepress: 2.0.0-rc.2
-    dependencies:
-      ts-debounce: 4.0.0
-      vue: 3.4.15
-      vuepress: 2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(sass-loader@13.3.3)(vue@3.4.15)
-    transitivePeerDependencies:
-      - typescript
-    dev: true
-
   /@vuepress/plugin-container@2.0.0-beta.63:
     resolution: {integrity: sha512-zgQLfxCfp/EiXGBj29lT4fMQunKVuKDq33EDHvK83F8xGpvavqM/AWy+/mVxpin+KUyg45Oe8oNRG5ZTSEd0Xg==, tarball: https://registry.npmmirror.com/@vuepress/plugin-container/-/plugin-container-2.0.0-beta.63.tgz}
     dependencies:
@@ -2689,6 +2680,20 @@ packages:
       '@vuepress/core': 2.0.0-beta.63
       prismjs: 1.29.0
     transitivePeerDependencies:
+      - supports-color
+      - typescript
+    dev: true
+
+  /@vuepress/plugin-pwa-popup@2.0.0-rc.1(vuepress@2.0.0-beta.63):
+    resolution: {integrity: sha512-wUa75p+wYPJlYi4NiD+Ezg9pPnNfwv1XEl/AVqi8E3yAj1zmQu3VeO628jmdUyotRqAvoZLMH2IOD8A+H5t9iA==, tarball: https://registry.npmmirror.com/@vuepress/plugin-pwa-popup/-/plugin-pwa-popup-2.0.0-rc.1.tgz}
+    peerDependencies:
+      vuepress: 2.0.0-rc.2
+    dependencies:
+      '@vuepress/plugin-pwa': 2.0.0-rc.1(vuepress@2.0.0-beta.63)
+      vue: 3.4.15
+      vuepress: 2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(sass-loader@13.3.3)(vue@3.4.15)
+    transitivePeerDependencies:
+      - '@types/babel__core'
       - supports-color
       - typescript
     dev: true
@@ -8914,6 +8919,19 @@ packages:
       xml-js: 1.6.11
     transitivePeerDependencies:
       - '@vue/composition-api'
+      - supports-color
+      - typescript
+    dev: true
+
+  /vuepress-plugin-feed2@2.0.0-beta.63:
+    resolution: {integrity: sha512-opODFwyJ9xSIJ9pYj2gxerBDsDdUML/OzcEX6vhF39uNn1TY0FtXkf02z+Aw3+cZjNsTcIFlhuaoVDtYEVD+8A==, tarball: https://registry.npmmirror.com/vuepress-plugin-feed2/-/vuepress-plugin-feed2-2.0.0-beta.63.tgz}
+    deprecated: Please use latest version
+    dependencies:
+      '@mr-hope/vuepress-shared': 2.0.0-beta.63
+      '@vuepress/shared': 2.0.0-beta.45
+      '@vuepress/utils': 2.0.0-beta.45
+      xml-js: 1.6.11
+    transitivePeerDependencies:
       - supports-color
       - typescript
     dev: true

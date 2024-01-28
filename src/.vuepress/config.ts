@@ -1,10 +1,11 @@
 import {getDirname, path} from "@vuepress/utils";
 import {defineUserConfig} from "vuepress";
 // 回到顶部
-import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
 import theme from "./theme.js";
 import {pwaPlugin} from "@vuepress/plugin-pwa"
 import { pwaPopupPlugin } from '@vuepress/plugin-pwa-popup'
+import { sitemapPlugin } from "vuepress-plugin-sitemap2";
+import { feedPlugin } from "vuepress-plugin-feed2";
 
 
 // @ts-ignore
@@ -48,7 +49,6 @@ export default defineUserConfig({
 
     ],
     plugins: [
-        backToTopPlugin(),
         pwaPlugin({
             skipWaiting: true,
         }),
@@ -59,6 +59,20 @@ export default defineUserConfig({
                     buttonText: '刷新',
                 },
             },
-        })
+        }),
+        // 站点插件管理
+        sitemapPlugin({
+            // 配置选项
+            hostname: "https://lianghexiang.github.io/",
+            changefreq: 'always',
+            sitemapFilename: 'LHx_BlogSiteMap.xml'
+        }),
+        feedPlugin({
+            // 插件选项
+            hostname: 'http://localhost:8080/',
+            rss: true,
+            image: 'src/.vuepress/public/images/katongrenwu.png',
+            devServer: true
+        }),
     ]
 });
