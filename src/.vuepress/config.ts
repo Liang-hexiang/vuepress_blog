@@ -69,7 +69,7 @@ export default defineUserConfig({
         }),
         feedPlugin({
             // 插件选项
-            hostname: 'http://localhost:8080/',
+            hostname: 'https://lianghexiang.github.io/',
             rss: true,
             image: 'src/.vuepress/public/images/katongrenwu.png',
             devServer: true,
