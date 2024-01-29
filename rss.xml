@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <atom:link href="https://lianghexiang.github.io/space/rss.xml" rel="self" type="application/rss+xml"/>
-    <title></title>
+    <title>#/ cd L.H.X Blog Home</title>
     <link>https://lianghexiang.github.io/space/</link>
     <description>欢迎来到酥肉丸子的博客空间</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 28 Jan 2024 10:12:39 GMT</pubDate>
-    <lastBuildDate>Sun, 28 Jan 2024 10:12:39 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Jan 2024 11:00:42 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Jan 2024 11:00:42 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <image>
-      <title></title>
+      <title>#/ cd L.H.X Blog Home</title>
       <url>src/.vuepress/public/images/katongrenwu.png</url>
       <link>https://lianghexiang.github.io/space/</link>
     </image>
@@ -21,6 +21,13 @@
     <category>技术</category>
     <category>画册</category>
     <category>python</category>
+    <item>
+      <title>上篇：内观自己，摆脱焦虑之[大脑-一切问题的起源]</title>
+      <link>https://lianghexiang.github.io/space/anything/book_notes/%E4%BA%BA%E4%B9%8B%E8%A7%89%E9%86%92/%E4%B8%80%E5%88%87%E9%97%AE%E9%A2%98%E7%9A%84%E8%B5%B7%E6%BA%90.html</link>
+      <guid>https://lianghexiang.github.io/space/anything/book_notes/%E4%BA%BA%E4%B9%8B%E8%A7%89%E9%86%92/%E4%B8%80%E5%88%87%E9%97%AE%E9%A2%98%E7%9A%84%E8%B5%B7%E6%BA%90.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">上篇：内观自己，摆脱焦虑之[大脑-一切问题的起源]</source>
+      <pubDate>Mon, 29 Jan 2024 10:59:12 GMT</pubDate>
+    </item>
     <item>
       <title>PicgoGitHub图床</title>
       <link>https://lianghexiang.github.io/space/posts/tools/PicgoGitHub%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A.html</link>
@@ -571,7 +578,7 @@ style-loader：将css代码添加一个style标签插入到header中</p>
       <category>网址收藏</category>
       <pubDate>Mon, 11 Dec 2023 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="好用网站收藏" tabindex="-1"> 好用网站收藏</h1>
-]]></content:encoded>
+<i>Content not supported</i>]]></content:encoded>
       <enclosure url="https://img.tucang.cc/api/image/show/88bd6a5539dec4ece4596df98b999429" type="image/"/>
     </item>
     <item>
