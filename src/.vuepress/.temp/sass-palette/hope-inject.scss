@@ -5,6 +5,9 @@
 
 $palette-variables: meta.module-variables("hope-palette");
 
+@debug "hope palette variables: #{meta.inspect($palette-variables)}";
+@debug "hope config variables: #{meta.inspect(meta.module-variables("hope-config"))}";
+
 
 @if meta.global-variable-exists("dark-selector", $module: "hope-config") {
   @include helper.inject($palette-variables, hope-config.$dark-selector);

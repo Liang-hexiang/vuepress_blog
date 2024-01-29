@@ -8,14 +8,16 @@ import { sitemapPlugin } from "vuepress-plugin-sitemap2";
 import { feedPlugin } from "vuepress-plugin-feed2";
 
 
+
 // @ts-ignore
 const __dirname = getDirname(import.meta.url);
 export default defineUserConfig({
     base: "/space/",
     lang: "zh-CN",
-    title: "",
+    title: "#/ cd L.H.X Blog Home",
     description: "欢迎来到酥肉丸子的博客空间",
     theme,
+    debug: true,
     alias: {
         "@theme-hope/modules/blog/components/BlogHero": path.resolve(
 
@@ -71,9 +73,12 @@ export default defineUserConfig({
             // 插件选项
             hostname: 'https://lianghexiang.github.io/',
             rss: true,
+            json: true,
             image: 'src/.vuepress/public/images/katongrenwu.png',
             devServer: true,
-            devHostname: 'http://localhost:8080/'
+            devHostname: 'http://localhost:8080/',
+
         }),
+
     ]
 });

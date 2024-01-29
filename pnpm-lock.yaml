@@ -32,6 +32,9 @@ devDependencies:
   vuepress-plugin-feed2:
     specifier: 2.0.0-beta.63
     version: 2.0.0-beta.63
+  vuepress-plugin-search-pro:
+    specifier: 2.0.0-beta.166
+    version: 2.0.0-beta.166(@vuepress/client@2.0.0-beta.63)(sass-loader@13.3.3)(vuepress@2.0.0-beta.63)
   vuepress-plugin-sitemap2:
     specifier: 2.0.0-beta.63
     version: 2.0.0-beta.63
@@ -1789,6 +1792,10 @@ packages:
       markdown-it: 13.0.2
     dev: true
 
+  /@mdit-vue/types@0.11.0:
+    resolution: {integrity: sha512-ygCGP7vFpqS02hpZwEe1uz8cfImWX06+zRs08J+tCZRKb6k+easIaIHFtY9ZSxt7j9L/gAPLDo/5RmOT6z0DPQ==, tarball: https://registry.npmmirror.com/@mdit-vue/types/-/types-0.11.0.tgz}
+    dev: true
+
   /@mdit-vue/types@0.12.0:
     resolution: {integrity: sha512-mrC4y8n88BYvgcgzq9bvTlDgFyi2zuvzmPilRvRc3Uz1iIvq8mDhxJ0rHKFUNzPEScpDvJdIujqiDrulMqiudA==, tarball: https://registry.npmmirror.com/@mdit-vue/types/-/types-0.12.0.tgz}
     dev: true
@@ -2252,6 +2259,10 @@ packages:
 
   /@types/unist@2.0.10:
     resolution: {integrity: sha512-IfYcSBWE3hLpBg8+X2SEa8LVkJdJEkT2Ese2aaLs3ptGdVtABxndrMaxuFlQ1qdFf9Q5rDvDpxI3WwgvKFAsQA==, tarball: https://registry.npmmirror.com/@types/unist/-/unist-2.0.10.tgz}
+    dev: true
+
+  /@types/web-bluetooth@0.0.16:
+    resolution: {integrity: sha512-oh8q2Zc32S6gd/j50GowEjKLoOVOwHP/bWVjKJInBwQqdOYMdPrf1oVlelTlyfFK3CKxL1uahMDAr+vy8T7yMQ==, tarball: https://registry.npmmirror.com/@types/web-bluetooth/-/web-bluetooth-0.0.16.tgz}
     dev: true
 
   /@types/web-bluetooth@0.0.20:
@@ -2748,6 +2759,13 @@ packages:
       '@vue/shared': 3.4.15
     dev: true
 
+  /@vuepress/shared@2.0.0-beta.60:
+    resolution: {integrity: sha512-bwFksEtSQpbyAGJZkvRK9Z2zGmS144nv759vOzbRUZPPlGffeauzrPw9w7wxqp3gTJvIE/4Ufqt0AZTuSP/F/g==, tarball: https://registry.npmmirror.com/@vuepress/shared/-/shared-2.0.0-beta.60.tgz}
+    dependencies:
+      '@mdit-vue/types': 0.11.0
+      '@vue/shared': 3.4.15
+    dev: true
+
   /@vuepress/shared@2.0.0-beta.63:
     resolution: {integrity: sha512-xJ90x2RAuYenM4Pn7gbhJ9lkmPBWscM0cff+ypEVI47oV0hKpaDpNLkteT4QjBoRIHyqlz5CFUP+2BMOk9zxCA==, tarball: https://registry.npmmirror.com/@vuepress/shared/-/shared-2.0.0-beta.63.tgz}
     dependencies:
@@ -2812,6 +2830,24 @@ packages:
       - supports-color
     dev: true
 
+  /@vuepress/utils@2.0.0-beta.60:
+    resolution: {integrity: sha512-R5m5/AtKWAnlH+Su2yxoHQNp2JdJZ7gHV5531RbFySq9FTlKHtvE5RFceeppc0/UpzPE6KggRdaRqyjc77vg4g==, tarball: https://registry.npmmirror.com/@vuepress/utils/-/utils-2.0.0-beta.60.tgz}
+    dependencies:
+      '@types/debug': 4.1.12
+      '@types/fs-extra': 9.0.13
+      '@types/hash-sum': 1.0.2
+      '@vuepress/shared': 2.0.0-beta.60
+      debug: 4.3.4
+      fs-extra: 11.2.0
+      globby: 13.2.2
+      hash-sum: 2.0.0
+      ora: 6.3.1
+      picocolors: 1.0.0
+      upath: 2.0.1
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
   /@vuepress/utils@2.0.0-beta.63:
     resolution: {integrity: sha512-Ow3zmwiCrmpA/Ezs9PRIroa6HBSGjYGEo9kmC2Prfl4CkRTup/rhvVrrPpi3WkqT/B+fKgPQN8ihs5EYazxRtw==, tarball: https://registry.npmmirror.com/@vuepress/utils/-/utils-2.0.0-beta.63.tgz}
     dependencies:
@@ -2860,12 +2896,37 @@ packages:
       - vue
     dev: true
 
+  /@vueuse/core@9.13.0(vue@3.4.15):
+    resolution: {integrity: sha512-pujnclbeHWxxPRqXWmdkKV5OX4Wk4YeK7wusHqRwU0Q7EFusHoqNA/aPhB6KCh9hEqJkLAJo7bb0Lh9b+OIVzw==, tarball: https://registry.npmmirror.com/@vueuse/core/-/core-9.13.0.tgz}
+    dependencies:
+      '@types/web-bluetooth': 0.0.16
+      '@vueuse/metadata': 9.13.0
+      '@vueuse/shared': 9.13.0(vue@3.4.15)
+      vue-demi: 0.14.6(vue@3.4.15)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: true
+
   /@vueuse/metadata@10.7.2:
     resolution: {integrity: sha512-kCWPb4J2KGrwLtn1eJwaJD742u1k5h6v/St5wFe8Quih90+k2a0JP8BS4Zp34XUuJqS2AxFYMb1wjUL8HfhWsQ==, tarball: https://registry.npmmirror.com/@vueuse/metadata/-/metadata-10.7.2.tgz}
     dev: true
 
+  /@vueuse/metadata@9.13.0:
+    resolution: {integrity: sha512-gdU7TKNAUVlXXLbaF+ZCfte8BjRJQWPCa2J55+7/h+yDtzw3vOoGQDRXzI6pyKyo6bXFT5/QoPE4hAknExjRLQ==, tarball: https://registry.npmmirror.com/@vueuse/metadata/-/metadata-9.13.0.tgz}
+    dev: true
+
   /@vueuse/shared@10.7.2(vue@3.4.15):
     resolution: {integrity: sha512-qFbXoxS44pi2FkgFjPvF4h7c9oMDutpyBdcJdMYIMg9XyXli2meFMuaKn+UMgsClo//Th6+beeCgqweT/79BVA==, tarball: https://registry.npmmirror.com/@vueuse/shared/-/shared-10.7.2.tgz}
+    dependencies:
+      vue-demi: 0.14.6(vue@3.4.15)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: true
+
+  /@vueuse/shared@9.13.0(vue@3.4.15):
+    resolution: {integrity: sha512-UrnhU+Cnufu4S6JLCPZnkWh0WwZGUp72ktOF2DFptMlOs3TOdVv8xJN53zhHGARmVOsz5KqOls09+J1NR6sBKw==, tarball: https://registry.npmmirror.com/@vueuse/shared/-/shared-9.13.0.tgz}
     dependencies:
       vue-demi: 0.14.6(vue@3.4.15)
     transitivePeerDependencies:
@@ -3354,6 +3415,10 @@ packages:
 
   /bluebird@3.7.2:
     resolution: {integrity: sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==, tarball: https://registry.npmmirror.com/bluebird/-/bluebird-3.7.2.tgz}
+    dev: true
+
+  /body-scroll-lock@3.1.5:
+    resolution: {integrity: sha512-Yi1Xaml0EvNA0OYWxXiYNqY24AfWkbA6w5vxE7GWxtKfzIbZM+Qw+aSmkgsbWzbHiy/RCSkUZBplVxTA+E4jJg==, tarball: https://registry.npmmirror.com/body-scroll-lock/-/body-scroll-lock-3.1.5.tgz}
     dev: true
 
   /boolbase@1.0.0:
@@ -9152,6 +9217,51 @@ packages:
       sass-loader: 13.3.3(node-sass@9.0.0)(webpack@5.90.0)
       vuepress: 2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(sass-loader@13.3.3)(vue@3.4.15)
       vuepress-shared: 2.0.0-beta.228(vuepress@2.0.0-beta.63)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - supports-color
+      - typescript
+    dev: true
+
+  /vuepress-plugin-search-pro@2.0.0-beta.166(@vuepress/client@2.0.0-beta.63)(sass-loader@13.3.3)(vuepress@2.0.0-beta.63):
+    resolution: {integrity: sha512-2hfPkYSGYUNQHyxQ9GZckObZLFATGiXKpfzJ+IYKVDfj7fF8my0qTtYdNGStRdjTnM75kic7EjFtPZ/nqDHzZA==, tarball: https://registry.npmmirror.com/vuepress-plugin-search-pro/-/vuepress-plugin-search-pro-2.0.0-beta.166.tgz}
+    engines: {node: ^14.18.0 || >=16.0.0, npm: '>=8', pnpm: '>=7'}
+    deprecated: Please use latest version
+    peerDependencies:
+      '@vuepress/client': 2.0.0-beta.60
+      sass-loader: ^13.2.0
+      vuepress: 2.0.0-beta.60
+      vuepress-plugin-sass-palette: 2.0.0-beta.166
+      vuepress-shared: 2.0.0-beta.166
+      vuepress-vite: 2.0.0-beta.60
+      vuepress-webpack: 2.0.0-beta.60
+    peerDependenciesMeta:
+      '@vuepress/client':
+        optional: true
+      sass-loader:
+        optional: true
+      vuepress:
+        optional: true
+      vuepress-plugin-sass-palette:
+        optional: true
+      vuepress-shared:
+        optional: true
+      vuepress-vite:
+        optional: true
+      vuepress-webpack:
+        optional: true
+    dependencies:
+      '@vuepress/client': 2.0.0-beta.63
+      '@vuepress/shared': 2.0.0-beta.60
+      '@vuepress/utils': 2.0.0-beta.60
+      '@vueuse/core': 9.13.0(vue@3.4.15)
+      body-scroll-lock: 3.1.5
+      cheerio: 1.0.0-rc.12
+      chokidar: 3.5.3
+      sass-loader: 13.3.3(node-sass@9.0.0)(webpack@5.90.0)
+      vue: 3.4.15
+      vue-router: 4.2.5(vue@3.4.15)
+      vuepress: 2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(sass-loader@13.3.3)(vue@3.4.15)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - supports-color

@@ -37,6 +37,8 @@ export const pagesData = {
   "v-66d370d9": () => import(/* webpackChunkName: "v-66d370d9" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/posts/Vue/Vue基础.html.js").then(({ data }) => data),
   // path: /posts/Vue/vue%E5%AE%A2%E6%88%B7%E7%AB%AF.html
   "v-3ae980e2": () => import(/* webpackChunkName: "v-3ae980e2" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/posts/Vue/vue客户端.html.js").then(({ data }) => data),
+  // path: /anything/book_notes/%E4%BA%BA%E4%B9%8B%E8%A7%89%E9%86%92/%E4%B8%80%E5%88%87%E9%97%AE%E9%A2%98%E7%9A%84%E8%B5%B7%E6%BA%90.html
+  "v-227b283b": () => import(/* webpackChunkName: "v-227b283b" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/anything/book_notes/人之觉醒/一切问题的起源.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
   // path: /anything/%E5%B0%8F%E8%AE%B0/
@@ -61,6 +63,10 @@ export const pagesData = {
   "v-2951b8e9": () => import(/* webpackChunkName: "v-2951b8e9" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/posts/tools/index.html.js").then(({ data }) => data),
   // path: /posts/Vue/
   "v-635a6bfe": () => import(/* webpackChunkName: "v-635a6bfe" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/posts/Vue/index.html.js").then(({ data }) => data),
+  // path: /anything/book_notes/%E4%BA%BA%E4%B9%8B%E8%A7%89%E9%86%92/
+  "v-0e47583b": () => import(/* webpackChunkName: "v-0e47583b" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/anything/book_notes/人之觉醒/index.html.js").then(({ data }) => data),
+  // path: /anything/book_notes/
+  "v-3bfcafe0": () => import(/* webpackChunkName: "v-3bfcafe0" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/anything/book_notes/index.html.js").then(({ data }) => data),
   // path: /category/
   "v-5bc93818": () => import(/* webpackChunkName: "v-5bc93818" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/category/index.html.js").then(({ data }) => data),
   // path: /tag/

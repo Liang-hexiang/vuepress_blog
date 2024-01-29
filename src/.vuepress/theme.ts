@@ -22,9 +22,15 @@ export default hopeTheme({
 
   // sidebar
   sidebar,
-  copyrightText: 'MIT LICENSE',
   footer: '{{setupRunningTimeFooter}}' ,
   displayFooter: true,
+  locales: {
+    // ...
+    "/": {
+      // 启用 RTL 布局
+      rtl: false,
+    },
+  },
   blog: {
     timeline: "忽如白驹过隙",
     description: "不积小流无以成江海，不积跬步无以至千里；",
@@ -39,8 +45,10 @@ export default hopeTheme({
       Wechat: "https://example.com",
     },
   },
-
-
+  // 禁用打印功能
+  print: false,
+  // 开启全屏按钮
+  fullscreen: true,
   // page meta
   metaLocales: {
     editLink: "在GitHub上编辑此文章",
@@ -51,7 +59,10 @@ export default hopeTheme({
 
     blog: true,
 
-
+    prismjs: {
+      light: "coldark-cold",
+      dark: "material-oceanic",
+    },
     copyright: false,
     comment: {
       // You should generate and use your own comment service
@@ -155,6 +166,24 @@ export default hopeTheme({
           },
         ],
       },
+    },
+    components: {
+      // 你想使用的组件
+      components: [
+        "ArtPlayer",
+        "Badge",
+        "BiliBili",
+        "CodePen",
+        "PDF",
+        "Replit",
+        "Share",
+        "SiteInfo",
+        "StackBlitz",
+        "VPBanner",
+        "VPCard",
+        "VidStack",
+        "XiGua",
+      ],
     },
   }
 },);
