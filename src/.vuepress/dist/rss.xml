@@ -1,0 +1,1326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <atom:link href="https://lianghexiang.github.io/space/rss.xml" rel="self" type="application/rss+xml"/>
+    <title>#/ cd L.H.X Blog Home</title>
+    <link>https://lianghexiang.github.io/space/</link>
+    <description></description>
+    <language>zh-CN</language>
+    <pubDate>Tue, 30 Jan 2024 07:20:51 GMT</pubDate>
+    <lastBuildDate>Tue, 30 Jan 2024 07:20:51 GMT</lastBuildDate>
+    <generator>vuepress-plugin-feed2</generator>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <image>
+      <title>#/ cd L.H.X Blog Home</title>
+      <url>src/.vuepress/public/images/katongrenwu.png</url>
+      <link>https://lianghexiang.github.io/space/</link>
+    </image>
+    <category>工具</category>
+    <category>Vue</category>
+    <category>网址收藏</category>
+    <category>技术</category>
+    <category>画册</category>
+    <category>python</category>
+    <item>
+      <title>上篇：内观自己，摆脱焦虑之[大脑-一切问题的起源]</title>
+      <link>https://lianghexiang.github.io/space/anything/book_notes/%E4%BA%BA%E4%B9%8B%E8%A7%89%E9%86%92/%E4%B8%80%E5%88%87%E9%97%AE%E9%A2%98%E7%9A%84%E8%B5%B7%E6%BA%90.html</link>
+      <guid>https://lianghexiang.github.io/space/anything/book_notes/%E4%BA%BA%E4%B9%8B%E8%A7%89%E9%86%92/%E4%B8%80%E5%88%87%E9%97%AE%E9%A2%98%E7%9A%84%E8%B5%B7%E6%BA%90.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">上篇：内观自己，摆脱焦虑之[大脑-一切问题的起源]</source>
+      <pubDate>Mon, 29 Jan 2024 10:59:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>PicgoGitHub图床</title>
+      <link>https://lianghexiang.github.io/space/posts/tools/PicgoGitHub%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A.html</link>
+      <guid>https://lianghexiang.github.io/space/posts/tools/PicgoGitHub%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">PicgoGitHub图床</source>
+      <category>工具</category>
+      <pubDate>Fri, 14 Jul 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="picgogithub图床" tabindex="-1"> PicgoGitHub图床</h1>
+<h2 id="前言" tabindex="-1"> 前言</h2>
+<p>这篇文章主要介绍在💻<code>windows</code>系统下安装PicGo并且在🇬🇭  GitHub上创建仓库来做我们自己的个人图床。</p>
+<p>首先，什么是 <code>Picgo</code>？</p>
+<p>picgo网站地址：<a href="https://picgo.github.io/PicGo-Doc/zh/guide/#%E7%89%B9%E8%89%B2%E5%8A%9F%E8%83%BD" target="_blank" rel="noopener noreferrer">https://picgo.github.io/PicGo-Doc/zh/guide/#特色功能</a></p>
+<p><strong>PicGo: 一个用于快速上传图片并获取图片 URL 链接的工具</strong></p>
+<p>呈上GitHub下载地址：<a href="https://github.com/Molunerfinn/PicGo/releases" target="_blank" rel="noopener noreferrer">https://github.com/Molunerfinn/PicGo/releases</a></p>
+<p>也可以在picgo网站中找到各种下载原，比如GitHub的，腾讯的，以及别的源，哪个快用哪个。</p>
+<p><strong>应用截图</strong></p>
+<figure><img src="https://raw.githubusercontent.com/Molunerfinn/test/master/picgo/picgo-2.0.gif" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<p>GitHub想必就不用做过多介绍了，一句话概括就是一个在线的代码托管平台。</p>
+<p>Picgo支持很多的图床，比如七牛云，腾讯云等，这里我们介绍的是免费的GitHub。</p>
+<h2 id="动手" tabindex="-1"> 动手</h2>
+<h3 id="_1-安装picgo" tabindex="-1"> 1. 安装Picgo</h3>
+<p>我选择的是2.4.0.beta版本，大家安装的时候可以选择稳定版，看个人喜好，喜欢尝试新功能的可以按照beta版，偏向于稳定的就安装稳定版。</p>
+<p>2.3.1稳定版：<a href="https://github.com/Molunerfinn/PicGo/releases/tag/v2.3.1" target="_blank" rel="noopener noreferrer">https://github.com/Molunerfinn/PicGo/releases/tag/v2.3.1</a></p>
+<figure><img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepressimage-20230729151038685.png" alt="image-20230729151038685" tabindex="0" loading="lazy"><figcaption>image-20230729151038685</figcaption></figure>
+<p>其余的安装过程不再赘述，因为没什么特别需要注意的地方，傻瓜式安装就可以了，不想安装在C盘的注意更改安装目录。</p>
+<h3 id="_2-github仓库" tabindex="-1"> 2. GitHub仓库</h3>
+<ol>
+<li>先登录GitHub，点击  + ，点击创建仓库</li>
+</ol>
+<figure><img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepressimage-20230729164849247.png" alt="image-20230729164849247" tabindex="0" loading="lazy"><figcaption>image-20230729164849247</figcaption></figure>
+<ol start="2">
+<li>
+<p>创建仓库前配置好<code>名称</code>，<code>权限</code>，模板等，因为我们要在网络上访问，所以要选择<code>Public</code>.</p>
+<figure><img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepressimage-20230729164838764.png" alt="image-20230729164838764" tabindex="0" loading="lazy"><figcaption>image-20230729164838764</figcaption></figure>
+</li>
+</ol>
+<p>​	创建成功后会跳转到仓库页面</p>
+<figure><img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepressimage-20230729164829442.png" alt="image-20230729164829442" tabindex="0" loading="lazy"><figcaption>image-20230729164829442</figcaption></figure>
+<ol start="3">
+<li>
+<p>生成token</p>
+<p>token是用来验证用户身份的表示，所以要自己揣兜里，不要让别人看到。</p>
+<p>点击右上角的头像</p>
+<figure><img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepressimage-20230729164813237.png" alt="image-20230729164813237" tabindex="0" loading="lazy"><figcaption>image-20230729164813237</figcaption></figure>
+<p>然后点击Settings</p>
+<figure><img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepressimage-20230729164803602.png" alt="image-20230729164803602" tabindex="0" loading="lazy"><figcaption>image-20230729164803602</figcaption></figure>
+<p>在左侧导航栏的最下方找到<code>Developer settings</code>,然后点击，-&gt;</p>
+</li>
+</ol>
+<figure><img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepressimage-20230729164654737.png" alt="image-20230729164654737" tabindex="0" loading="lazy"><figcaption>image-20230729164654737</figcaption></figure>
+<p>跳转到如下页面-&gt;</p>
+<figure><img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepressimage-20230729152822569.png" alt="image-20230729152822569" tabindex="0" loading="lazy"><figcaption>image-20230729152822569</figcaption></figure>
+<p>然后，设置过期时间，权限等 -&gt;</p>
+<figure><img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepressimage-20230729164637962.png" alt="image-20230729164637962" tabindex="0" loading="lazy"><figcaption>image-20230729164637962</figcaption></figure>
+<p>最后，划到页面最底部，点击生成token：*************</p>
+<figure><img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepressimage-20230729153248698.png" alt="image-20230729153248698" tabindex="0" loading="lazy"><figcaption>image-20230729153248698</figcaption></figure>
+<p><strong>注意:这个token只能查看一次，如果离开这个页面在返回就看不到了, 所以先保存好token</strong></p>
+<h3 id="_3-配置picgo" tabindex="-1"> 3.  🛠️配置PicGo</h3>
+<p>打开PicGo</p>
+<p>点击图床设置，我们可以看到GitHub</p>
+<figure><img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepressimage-20230729155924896.png" alt="image-20230729155924896" tabindex="0" loading="lazy"><figcaption>image-20230729155924896</figcaption></figure>
+<p>1️⃣：图床配置名</p>
+<blockquote>
+<p>可以自己随便命名</p>
+</blockquote>
+<p>2️⃣: 设置仓库名</p>
+<blockquote>
+<p>用户名/仓库名</p>
+</blockquote>
+<p>3️⃣:设置分支名</p>
+<blockquote>
+<p>一般都为main</p>
+</blockquote>
+<p>4️⃣: 设置token</p>
+<blockquote>
+<p>这里就要用到我们之前创建仓库之后设置的token了，将它填进去即可</p>
+</blockquote>
+<p>5️⃣: 设置存储路径</p>
+<blockquote>
+<p>默认的话会上传的仓库的根目录，也就是/，如果我们想要上传到仓库的某个目录下，就需要填写目录名称，并且以/结尾</p>
+<p>比如我想上传到仓库下的blog目录下，这里就填写<code>blog/</code></p>
+</blockquote>
+<p>6️⃣: 设置自定义域名</p>
+<blockquote>
+<p>我这里没有用到自定义域名，如果读者有需要的话可以问问度娘</p>
+</blockquote>
+<p>配置完之后，在上传区选中GitHub</p>
+<figure><img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepressimage-20230729162854239.png" alt="image-20230729162854239" tabindex="0" loading="lazy"><figcaption>image-20230729162854239</figcaption></figure>
+<p>到此Picgo和GitHub的图床已经配置完成了，接下来就可以快乐的将图片上传到GitHub，然后获取到链接，在远程来访问我们的图片啦。</p>
+<h3 id="_4-typora" tabindex="-1"> 4. Typora</h3>
+<p>另外，经常使用Typora的小伙伴也可以通过Typora的偏好设置来将我们本地的图片通过PicGo来自动上传到仓库中啦</p>
+<ol>
+<li>点开Typora导航栏中的文件</li>
+</ol>
+<figure><img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepressimage-20230729163642417.png" alt="image-20230729163642417" tabindex="0" loading="lazy"><figcaption>image-20230729163642417</figcaption></figure>
+<ol start="2">
+<li>
+<p>在偏好设置中配置PicGo</p>
+<figure><img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepressimage-20230729164404631.png" alt="image-20230729164404631" tabindex="0" loading="lazy"><figcaption>image-20230729164404631</figcaption></figure>
+</li>
+</ol>
+]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/3f96a1fd6956f27e1badccf6d7f982e1" type="image/"/>
+    </item>
+    <item>
+      <title>Sublime Text使用文档说明书</title>
+      <link>https://lianghexiang.github.io/space/posts/tools/sublime%E8%AF%B4%E6%98%8E%E4%B9%A6.html</link>
+      <guid>https://lianghexiang.github.io/space/posts/tools/sublime%E8%AF%B4%E6%98%8E%E4%B9%A6.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">Sublime Text使用文档说明书</source>
+      <category>工具</category>
+      <pubDate>Fri, 14 Jul 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="sublime-text使用文档说明书" tabindex="-1"> Sublime Text使用文档说明书</h1>
+<h3 id="sublimetext预览markdown" tabindex="-1"> SublimeText预览Markdown</h3>
+<h4 id="_1-markdowneditor" tabindex="-1"> 1. MarkdownEditor</h4>
+<p>🏷️MarkdownEditing是一个功能丰富的插件，提供了对Markdown文件的语法高亮、自动补全、预览等功能。</p>
+<p>安装：</p>
+<p>Ctrl+Shift+P打开控制台，输入Package Control: Install Package，然后输入MarkdownEditor，选择安装</p>
+]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/72e720a5032441381e8d626f0e6538f1" type="image/"/>
+    </item>
+    <item>
+      <title>Vue基础知识</title>
+      <link>https://lianghexiang.github.io/space/posts/Vue/Vue%E5%9F%BA%E7%A1%80.html</link>
+      <guid>https://lianghexiang.github.io/space/posts/Vue/Vue%E5%9F%BA%E7%A1%80.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">Vue基础知识</source>
+      <category>Vue</category>
+      <pubDate>Wed, 03 Jan 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="vue基础知识" tabindex="-1"> Vue基础知识</h1>
+<h3 id="指令系统" tabindex="-1"> 指令系统</h3>
+<ol>
+<li>v-text</li>
+<li>v-html</li>
+<li>v-show</li>
+<li>v-if</li>
+<li>v-model 双向数据绑定</li>
+</ol>
+<h3 id="常用属性" tabindex="-1"> 常用属性</h3>
+<ol>
+<li>data()</li>
+<li>el</li>
+<li>methods</li>
+<li>watch</li>
+<li>computed</li>
+<li>templates</li>
+</ol>
+<h3 id="vue组件" tabindex="-1"> Vue组件</h3>
+<h4 id="全局组件" tabindex="-1"> 全局组件</h4>
+<p><strong>用法</strong>：</p>
+<div data-ext="text"><pre><code>Vue.component("组件的名字", {属性：})
+</code></pre><div aria-hidden="true"><div></div></div></div><h4 id="局部组件" tabindex="-1"> 局部组件</h4>
+<ol>
+<li>声明子组件</li>
+<li>挂载子组件</li>
+<li>使用子组件</li>
+</ol>
+<h3 id="组件传值" tabindex="-1"> 组件传值</h3>
+<h4 id="_1-父组件-子组件" tabindex="-1"> 1. 父组件 --&gt;  子组件</h4>
+<h4 id="_2-子组件-父组件" tabindex="-1"> 2. 子组件  --&gt; 父组件</h4>
+<h4 id="_3-平行组件传值" tabindex="-1"> 3. 平行组件传值</h4>
+<h3 id="生命周期钩子函数" tabindex="-1"> 生命周期钩子函数</h3>
+<ul>
+<li>beforeCreate</li>
+<li>created  重点
+<ul>
+<li>组件创建</li>
+<li>虚拟DOM</li>
+<li>发送ajax，获取数据，实现数据驱动视图</li>
+</ul>
+</li>
+<li>beforeMount</li>
+<li>mounted  重点
+<ul>
+<li>获取真实DOM</li>
+</ul>
+</li>
+<li>beforeUpdate</li>
+<li>updated</li>
+<li>activated</li>
+<li>deactivated</li>
+<li></li>
+</ul>
+<h3 id="组件的缓存" tabindex="-1"> 组件的缓存</h3>
+<h4 id="内置组件标签" tabindex="-1"> 内置组件标签</h4>
+<p>缓存组件</p>
+<div data-ext="html"><pre><code><span>&lt;!--当组件在被切换后需要保存样式时--></span>
+<span><span><span>&lt;</span>keep-alive</span><span>></span></span> 需要被缓存的组件 <span><span><span>&lt;/</span>keep-alive</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div></div></div><h3 id="vue的全家桶-vue-vue-router-vuex" tabindex="-1"> Vue的全家桶（Vue+Vue-router+Vuex）</h3>
+<h4 id="spa-single-page-application" tabindex="-1"> SPA（Single Page Application）</h4>
+<h3 id="vue-router" tabindex="-1"> Vue-router</h3>
+<p>安装：</p>
+<ol>
+<li>CDN引入：
+<ol>
+<li>vue-2.0： <a href="https://unpkg.com/vue-router@2.0.0/dist/vue-router.js" target="_blank" rel="noopener noreferrer">https://unpkg.com/vue-router@2.0.0/dist/vue-router.js</a></li>
+<li>vue-3.0： <a href="https://unpkg.com/vue-router@4.0.15/dist/vue-router.global.js%E3%80%82" target="_blank" rel="noopener noreferrer">https://unpkg.com/vue-router@4.0.15/dist/vue-router.global.js。</a></li>
+</ol>
+</li>
+<li>文件引入</li>
+</ol>
+<blockquote>
+<p>VUe的核心插件<br>
+文档参考：<a href="https://router.vuejs.org/zh/" target="_blank" rel="noopener noreferrer">https://router.vuejs.org/zh/</a></p>
+</blockquote>
+<div data-ext="html"><pre><code> Vue Router 是 Vue.js 的官方路由。它与 Vue.js 核心深度集成，让用 Vue.js 构建单页应用变得轻而易举。功能包括：  
+● 嵌套路由映射
+● 动态路由选择
+● 模块化、基于组件的路由配置
+● 路由参数、查询、通配符
+● 展示由 Vue.js 的过渡系统提供的过渡效果
+● 细致的导航控制
+● 自动激活 CSS 类的链接
+● HTML5 history 模式或 hash 模式
+● 可定制的滚动行为
+● URL 的正确编码
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h4 id="_1-定义组件" tabindex="-1"> 1. 定义组件</h4>
+<p>在页面中定义路由组件，在路由规则中进行映射</p>
+<h4 id="_2-定义路由" tabindex="-1"> 2. 定义路由</h4>
+<div data-ext="js"><pre><code>
+<span>routes</span><span>:</span><span>[</span>
+  <span>{</span>
+    <span>path</span><span>:</span> <span>"/home"</span><span>,</span>
+    <span>component</span><span>:</span> Home
+  <span>}</span><span>,</span>
+  <span>{</span>
+    <span>path</span><span>:</span> <span>'/course'</span><span>,</span>
+    <span>component</span><span>:</span> Course
+  <span>}</span>
+<span>]</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h4 id="_3-创建路由实例" tabindex="-1"> 3. 创建路由实例</h4>
+<div data-ext="js"><pre><code><span>const</span> router <span>=</span> <span>new</span> <span>VueRouter</span><span>(</span><span>{</span>
+<span>}</span><span>)</span>
+</code></pre><div aria-hidden="true"><div></div><div></div></div></div><h4 id="_4-挂载路由实例到根实例" tabindex="-1"> 4. 挂载路由实例到根实例</h4>
+<div data-ext="js"><pre><code><span>new</span> <span>Vue</span><span>(</span><span>{</span>
+        <span>el</span><span>:</span> <span>"#app"</span><span>,</span>
+        <span>// 挂载路由</span>
+        <span>router</span><span>:</span> router<span>,</span>
+        <span>data</span><span>:</span> <span>function</span> <span>(</span><span>)</span> <span>{</span>
+            <span>return</span> <span>{</span>
+
+            <span>}</span><span>;</span>
+        <span>}</span><span>,</span>
+        <span>template</span><span>:</span> <span><span>`</span><span>&lt;App>&lt;/App></span><span>`</span></span><span>,</span>
+        <span>components</span><span>:</span> <span>{</span>
+            App
+        <span>}</span>
+    <span>}</span><span>)</span>
+
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><ol>
+<li>全局组件：router-link
+<ol>
+<li>使用 router-link 组件来导航.</li>
+<li>通过传入 <code>to</code> 属性指定链接.</li>
+<li>router-link 默认会被渲染成一个 <code>&lt;a&gt;</code> 标签</li>
+</ol>
+</li>
+</ol>
+<div data-ext="html"><pre><code># 触发原生的click事件
+<span><span><span>&lt;</span>router-link</span> <span>:to</span><span><span>=</span><span>'</span>/<span>'</span></span> <span>@click.native</span><span><span>=</span><span>'</span>function<span>'</span></span><span>></span></span>  
+</code></pre><div aria-hidden="true"><div></div><div></div></div></div><ol start="2">
+<li>全局组件：router-view</li>
+</ol>
+<div data-ext="html"><pre><code><span><span><span>&lt;</span>div</span> <span>id</span><span><span>=</span><span>"</span>app<span>"</span></span><span>></span></span>
+<span><span><span>&lt;/</span>div</span><span>></span></span>
+<span><span><span>&lt;</span>script</span> <span>src</span><span><span>=</span><span>"</span>../js/vue.js<span>"</span></span><span>></span></span><span></span><span><span><span>&lt;/</span>script</span><span>></span></span>
+<span><span><span>&lt;</span>script</span> <span>src</span><span><span>=</span><span>"</span>vue-router.js<span>"</span></span><span>></span></span><span></span><span><span><span>&lt;/</span>script</span><span>></span></span>
+<span><span><span>&lt;</span>script</span><span>></span></span><span><span>
+    <span>const</span> Home <span>=</span> <span>{</span>
+        <span>data</span><span>:</span> <span>function</span><span>(</span><span>)</span><span>{</span>
+            <span>return</span> <span>{</span>
+
+            <span>}</span><span>;</span>
+        <span>}</span><span>,</span>
+        <span>template</span><span>:</span> <span><span>`</span><span>&lt;div>这是首页&lt;/div></span><span>`</span></span><span>,</span>
+    <span>}</span><span>;</span>
+    <span>const</span> Course <span>=</span> <span>{</span>
+        <span>data</span><span>:</span> <span>function</span> <span>(</span><span>)</span> <span>{</span>
+            <span>return</span> <span>{</span>
+
+            <span>}</span><span>;</span>
+        <span>}</span><span>,</span>
+        <span>template</span><span>:</span> <span><span>`</span><span>&lt;div>课程列表&lt;/div></span><span>`</span></span><span>,</span>
+    <span>}</span><span>;</span>
+    <span>//创建路由规则</span>
+    <span>const</span> routes <span>=</span> <span>[</span>
+        <span>{</span>
+            <span>path</span><span>:</span> <span>"/home"</span><span>,</span>
+            <span>component</span><span>:</span> Home
+        <span>}</span><span>,</span>
+        <span>{</span>
+            <span>path</span><span>:</span> <span>'/course'</span><span>,</span>
+            <span>component</span><span>:</span> Course
+        <span>}</span>
+    <span>]</span><span>;</span>
+    <span>// 定义路由</span>
+    <span>const</span> router <span>=</span> <span>new</span> <span>VueRouter</span><span>(</span><span>{</span>
+        <span>// 缩写</span>
+        <span>// routes</span>
+        <span>routes</span><span>:</span> routes<span>,</span>
+    <span>}</span><span>)</span>
+
+
+
+    <span>let</span> App <span>=</span> <span>{</span>
+        <span>data</span><span>:</span> <span>function</span> <span>(</span><span>)</span> <span>{</span>
+            <span>return</span> <span>{</span><span>}</span><span>;</span>
+        <span>}</span><span>,</span>
+        <span>// router-view 路由组件出口</span>
+        <span>template</span><span>:</span> <span><span>`</span><span>
+            &lt;div>
+                &lt;div>
+                    &lt;router-link to="/home">首页&lt;/router-link>
+                    &lt;router-link to="/course">课程&lt;/router-link>
+                &lt;/div>
+                &lt;router-view>&lt;/router-view>
+
+            &lt;/div></span><span>`</span></span><span>,</span>
+    <span>}</span><span>;</span>
+    <span>new</span> <span>Vue</span><span>(</span><span>{</span>
+        <span>el</span><span>:</span> <span>"#app"</span><span>,</span>
+        <span>// 挂载路由</span>
+        <span>router</span><span>:</span> router<span>,</span>
+        <span>data</span><span>:</span> <span>function</span> <span>(</span><span>)</span> <span>{</span>
+            <span>return</span> <span>{</span>
+
+            <span>}</span><span>;</span>
+        <span>}</span><span>,</span>
+        <span>template</span><span>:</span> <span><span>`</span><span>&lt;App>&lt;/App></span><span>`</span></span><span>,</span>
+        <span>components</span><span>:</span> <span>{</span>
+            App
+        <span>}</span>
+    <span>}</span><span>)</span>
+
+</span></span><span><span><span>&lt;/</span>script</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h4 id="_5-命名路由" tabindex="-1"> 5. 命名路由</h4>
+<ol>
+<li>在路由规则中添加<code>name</code>属性</li>
+</ol>
+<div data-ext="html"><pre><code>path: "/home",
+// 命名路由
+name: "Home",
+component: Home
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div></div></div><ol start="2">
+<li>在router-link中绑定</li>
+</ol>
+<div data-ext="html"><pre><code><span><span><span>&lt;</span>router-link</span> <span>:to</span><span><span>=</span><span>"</span>{'name': 'Home'}<span>"</span></span><span>></span></span>首页<span><span><span>&lt;/</span>router-link</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div></div></div><h4 id="_6-动态路由" tabindex="-1"> 6.动态路由</h4>
+<ol>
+<li>路由规则</li>
+</ol>
+<div data-ext="js"><pre><code> <span>routes</span><span>:</span> <span>[</span>
+    <span>// 动态路径参数 以冒号开头</span>
+   <span>// 在路由中设置的参数都会被添加到$route.params中，$route.params.id</span>
+    <span>{</span> <span>path</span><span>:</span> <span>'/user/:id'</span><span>,</span> <span>component</span><span>:</span> User <span>}</span>
+  <span>]</span>
+<span>// 可以在路由中设置多个参数，都会被</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div></div></div><table username:="" tom,="" post_id:="" 123="">
+<thead>
+<tr>
+<th>模式</th>
+<th>匹配路径</th>
+<th>$route.params</th>
+</tr>
+</thead>
+<tbody>
+<tr username:="" tom="">
+<td>/user/:username</td>
+<td>/user/tom</td>
+<td></td>
+</tr>
+<tr>
+<td>/user/:username/post/:post_id</td>
+<td>/user/tom/post/123</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ol start="2">
+<li>响应路由参数的变化</li>
+</ol>
+<blockquote>
+<p>当使用路由参数时，<code>符合相同路由规则的导航</code>，例如从 /user/foo 导航到 /user/bar，<strong>原来的组件实例会被复用</strong>。因为两个路由都渲染同个组件，比起销毁再创建，复用则显得更加高效。<strong>不过，这也意味着组件的生命周期钩子不会再被调用</strong>。</p>
+</blockquote>
+<p>使用watch属性，监测路由的变化</p>
+<div data-ext="js"><pre><code><span>// 动态路由试例</span>
+    <span>const</span> User <span>=</span> <span>{</span>
+        <span>data</span><span>(</span><span>)</span><span>{</span>
+            <span>return</span> <span>{</span><span>}</span><span>;</span>
+        <span>}</span><span>,</span>
+        <span>template</span><span>:</span> <span><span>`</span><span>&lt;div>&lt;p>用户ID：{{$route.params.id}}&lt;/p>&lt;/div></span><span>`</span></span><span>,</span>
+        <span>// 由于组件被复用，钩子函数只会调用一次</span>
+        <span>created</span><span>(</span><span>)</span><span>{</span>
+            console<span>.</span><span>log</span><span>(</span><span>"组件被创建"</span><span>)</span>
+        <span>}</span><span>,</span>
+        <span>// 使用watch监听路由变化或者beforeRouteUpdate 导航守卫</span>
+        <span>watch</span><span>:</span> <span>{</span>
+            <span>$route</span><span>(</span><span>to<span>,</span> <span>from</span></span><span>)</span> <span>{</span>
+                console<span>.</span><span>log</span><span>(</span>to<span>)</span>
+                console<span>.</span><span>log</span><span>(</span>from<span>)</span>
+                <span>// 跳转到首页</span>
+                <span>// 编程式跳转</span>
+                <span>// this.$router.push({path:'/home'})  // 可以加入对象</span>
+                <span>this</span><span>.</span>$router<span>.</span><span>push</span><span>(</span><span>{</span><span>name</span><span>:</span><span>'Home'</span><span>}</span><span>)</span>  <span>// 可以加入对象</span>
+            <span>}</span>
+        <span>}</span>
+    <span>}</span>
+
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/6c8acb93bd0fc9dd85006746d572df8f" type="image/"/>
+    </item>
+    <item>
+      <title>Vue客户端</title>
+      <link>https://lianghexiang.github.io/space/posts/Vue/vue%E5%AE%A2%E6%88%B7%E7%AB%AF.html</link>
+      <guid>https://lianghexiang.github.io/space/posts/Vue/vue%E5%AE%A2%E6%88%B7%E7%AB%AF.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">Vue客户端</source>
+      <category>Vue</category>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="vue客户端" tabindex="-1"> Vue客户端</h1>
+<h3 id="_1-什么是webpack" tabindex="-1"> 1. 什么是webpack</h3>
+<blockquote>
+<p>本质上，<em>webpack</em> 是一个现代 JavaScript 应用程序的_静态模块打包器(module bundler)<em>。当 webpack 处理应用程序时，它会递归地构建一个_依赖关系图(dependency graph)</em>，其中包含应用程序需要的每个模块，然后将所有这些模块打包成一个或多个 <em>bundle</em>。</p>
+</blockquote>
+<figure><img src="https://cdn.nlark.com/yuque/0/2022/png/21881466/1657857178273-f17c0225-7be9-470a-b14a-3fdaebbcc194.png#clientId=u946fd131-c234-4&amp;from=paste&amp;height=319&amp;id=u62fb1adf&amp;originHeight=588&amp;originWidth=1125&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=60942&amp;status=done&amp;style=none&amp;taskId=ua4fd9b52-4a29-4fc7-8637-ff6a4daecd2&amp;title=&amp;width=610.1666870117188" alt="图片.png" tabindex="0" loading="lazy"><figcaption>图片.png</figcaption></figure>
+<h3 id="_2-安装webpack" tabindex="-1"> 2. 安装webpack</h3>
+<div data-ext="sh"><pre><code>PS C:<span>\</span>Users<span>\</span>Administrator<span>></span> <span>npm</span> i webpack@3.12.0 <span>-g</span>
+</code></pre><div aria-hidden="true"><div></div></div></div><h3 id="diy脚手架" tabindex="-1"> DIY脚手架</h3>
+<h4 id="_1-cmd规范" tabindex="-1"> 1. cmd规范</h4>
+<ol>
+<li>抛出：module.exports = xxx</li>
+<li>引用：require(相对路径)</li>
+</ol>
+<h4 id="_2-es6-module" tabindex="-1"> 2. ES6  module</h4>
+<div data-ext="js"><pre><code><span>var</span> person<span>;</span>
+person <span>=</span> <span>{</span>
+    <span>name</span><span>:</span> <span>"Tom"</span><span>,</span>
+    <span>age</span><span>:</span> <span>20</span><span>,</span>
+    <span>action</span><span>:</span> <span>function</span> <span>(</span><span>)</span> <span>{</span>
+        console<span>.</span><span>log</span><span>(</span><span>"吃饭"</span><span>)</span>
+    <span>}</span>
+<span>}</span><span>;</span>
+<span>var</span> text <span>=</span> <span>"测试webpack"</span><span>;</span>
+
+<span>// 抛出变量</span>
+<span>export</span> <span>{</span>text<span>}</span><span>;</span>
+<span>// 抛出对象</span>
+<span>export</span> <span>default</span> person<span>;</span>
+
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><figure><img src="https://cdn.nlark.com/yuque/0/2022/png/21881466/1657861083761-d7c826f4-dd52-46ef-a417-ad22bbfbe9e8.png#clientId=u946fd131-c234-4&amp;from=paste&amp;height=513&amp;id=u5882659e&amp;originHeight=560&amp;originWidth=729&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=65714&amp;status=done&amp;style=none&amp;taskId=u11e2c40e-49fc-42e7-9d89-ce8d762efdd&amp;title=&amp;width=668.25" alt="图片.png" tabindex="0" loading="lazy"><figcaption>图片.png</figcaption></figure>
+<div data-ext="js"><pre><code><span>// 引入</span>
+<span>// as x 起变量名，避免冲突</span>
+<span>import</span> <span>*</span> <span>as</span> c <span>from</span> <span>'./module'</span>
+
+console<span>.</span><span>log</span><span>(</span>c<span>.</span>text<span>)</span>
+
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div></div></div><div data-ext="html"><pre><code><span><span><span>&lt;</span>body</span><span>></span></span>
+  <span><span><span>&lt;</span>div</span> <span>id</span><span><span>=</span><span>"</span>app<span>"</span></span><span>></span></span><span><span><span>&lt;/</span>div</span><span>></span></span>
+  <span><span><span>&lt;</span>script</span> <span>src</span><span><span>=</span><span>"</span>./main.js<span>"</span></span><span>></span></span><span></span><span><span><span>&lt;/</span>script</span><span>></span></span>
+<span><span><span>&lt;/</span>body</span><span>></span></span>
+<span><span><span>&lt;/</span>html</span><span>></span></span>
+
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><img src="https://cdn.nlark.com/yuque/0/2022/png/21881466/1657861203034-2540a3cd-9b91-4e2a-a042-bea3f9c48bec.png#clientId=u946fd131-c234-4&amp;from=paste&amp;height=73&amp;id=u1c14d7f7&amp;originHeight=80&amp;originWidth=600&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=5254&amp;status=done&amp;style=none&amp;taskId=ud2b3a6cc-34d1-4b29-a4db-355a332deef&amp;title=&amp;width=550" alt="图片.png" loading="lazy">Uncaught SyntaxError: Cannot use import statement outside a module<br>
+使用webpack支持模块化</p>
+<div data-ext="sh"><pre><code>E:<span>\</span>giteePython<span>\</span>FrontEndStudy<span>\</span>Vue<span>\</span>Day-04<span>\</span>webpack模块化支持<span>></span>webpack ./main.js ./bundle.js
+Hash: 245a451e490b2734bb12
+Version: webpack <span>3.12</span>.0
+Time: 35ms
+Asset     Size  Chunks             Chunk Names
+bundle.js  <span>3.29</span> kB       <span>0</span>  <span>[</span>emitted<span>]</span>  main
+<span>[</span><span>0</span><span>]</span> ./main.js <span>102</span> bytes <span>{</span><span>0</span><span>}</span> <span>[</span>built<span>]</span>
+<span>[</span><span>1</span><span>]</span> ./module.js <span>231</span> bytes <span>{</span><span>0</span><span>}</span> <span>[</span>built<span>]</span>
+
+E:<span>\</span>giteePython<span>\</span>FrontEndStudy<span>\</span>Vue<span>\</span>Day-04<span>\</span>webpack模块化支持<span>></span>
+
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><div data-ext="html"><pre><code><span><span><span>&lt;</span>body</span><span>></span></span>
+  <span><span><span>&lt;</span>div</span> <span>id</span><span><span>=</span><span>"</span>app<span>"</span></span><span>></span></span><span><span><span>&lt;/</span>div</span><span>></span></span>
+  <span>&lt;!--&lt;script src="./main.js">&lt;/script>--></span>
+  <span><span><span>&lt;</span>script</span> <span>src</span><span><span>=</span><span>"</span>./bundle.js<span>"</span></span><span>></span></span><span></span><span><span><span>&lt;/</span>script</span><span>></span></span>
+<span><span><span>&lt;/</span>body</span><span>></span></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div></div></div><figure><img src="https://cdn.nlark.com/yuque/0/2022/png/21881466/1657861702777-25715e43-c31c-4eaf-979d-66df157632fc.png#clientId=u946fd131-c234-4&amp;from=paste&amp;height=195&amp;id=u23ac1549&amp;originHeight=213&amp;originWidth=948&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=19351&amp;status=done&amp;style=none&amp;taskId=u403cd069-6124-47c6-882f-47c49a184cf&amp;title=&amp;width=869.0000000000001" alt="图片.png" tabindex="0" loading="lazy"><figcaption>图片.png</figcaption></figure>
+<h3 id="vue-cli3脚手架的使用" tabindex="-1"> vue-cli3脚手架的使用</h3>
+<p>CLI (@vue/cli) 是一个全局安装的 npm 包，提供了终端里的 vue 命令。它可以通过 vue create 快速搭建一个新项<br>
+目，或者直接通过 vue serve 构建新想法的原型。你也可以通过 vue ui 通过一套图形化界面管理你的所有项目 。</p>
+<h4 id="安装" tabindex="-1"> 安装</h4>
+<blockquote>
+<p>关于旧版本<br>
+Vue CLI 的包名称由 vue-cli 改成了 @vue/cli。 如果你已经全局安装了旧版本的 vue-cli (1.x 或 2.x)，你需要先通过 npm uninstall vue-cli -g 或 yarn global remove vue-cli 卸载它。</p>
+</blockquote>
+<div data-ext="sh"><pre><code><span>npm</span> <span>install</span> <span>-g</span> @vue/cli
+<span># OR</span>
+<span>yarn</span> global <span>add</span> @vue/cli
+
+
+C:<span>\</span>Users<span>\</span>Administrator<span>></span>npm <span>install</span> <span>-g</span> @vue/cli
+<span>npm</span> WARN config global <span><span>`</span><span>--global</span><span>`</span></span>, <span><span>`</span><span>--local</span><span>`</span></span> are deprecated. Use <span><span>`</span><span>--location</span><span>=</span>global<span>`</span></span> instead.
+<span>npm</span> WARN config global <span><span>`</span><span>--global</span><span>`</span></span>, <span><span>`</span><span>--local</span><span>`</span></span> are deprecated. Use <span><span>`</span><span>--location</span><span>=</span>global<span>`</span></span> instead.
+<span>[</span><span>######............] \ idealTree:tar-stream: timing idealTree:node_modules/@vue/cli/node_modules/tar-stream Completed i</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h3 id="拉取-2-x-模板-旧版本" tabindex="-1"> 拉取 2.x 模板 (旧版本)</h3>
+<blockquote>
+<p>Vue CLI &gt;= 3 和旧版使用了相同的 vue 命令，所以 Vue CLI 2 (vue-cli) 被覆盖了。如果你仍然需要使用旧版本的 vue init 功能，你可以全局安装一个桥接工具：</p>
+</blockquote>
+<div data-ext="sh"><pre><code><span>npm</span> <span>install</span> <span>-g</span> @vue/cli-init
+<span># `vue init` 的运行效果将会跟 `vue-cli@2.x` 相同</span>
+vue init webpack my-project
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div><h3 id="使用vue-cli-2-x-创建项目" tabindex="-1"> 使用vue-cli 2.x 创建项目</h3>
+<h4 id="使用webpack-simple创建项目" tabindex="-1"> 使用webpack-simple创建项目</h4>
+<ol>
+<li>命令 vue init webpack-simple my_project</li>
+</ol>
+<p><img src="https://cdn.nlark.com/yuque/0/2022/png/21881466/1657869331955-239fb974-451e-4de8-a1ee-42dba3f75bbc.png#clientId=ud5ec8b75-3503-4&amp;from=paste&amp;height=273&amp;id=ub2c2bf4b&amp;originHeight=298&amp;originWidth=851&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=35001&amp;status=done&amp;style=none&amp;taskId=u4a9fa155-412f-4b57-a54e-83ae75fb6e0&amp;title=&amp;width=780.0833333333334" alt="图片.png" loading="lazy">	2. 文件结构：<br>
+<img src="https://cdn.nlark.com/yuque/0/2022/png/21881466/1657877155012-41ce1a56-74e1-4678-9474-40f6bc9e0090.png#clientId=ud5ec8b75-3503-4&amp;from=paste&amp;height=215&amp;id=u94af56a3&amp;originHeight=234&amp;originWidth=340&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=11108&amp;status=done&amp;style=none&amp;taskId=u72b74c6b-deb1-499c-900c-f579d448499&amp;title=&amp;width=311.6666666666667" alt="图片.png" loading="lazy"></p>
+<h4 id="使用webpack创建项目" tabindex="-1"> 使用webpack创建项目</h4>
+<ol>
+<li>命令： vue init webpack 项目名</li>
+<li>文件结构</li>
+<li><img src="https://cdn.nlark.com/yuque/0/2022/png/21881466/1657877049097-09fc14a3-19c5-4340-9995-41c162349ac3.png#clientId=ud5ec8b75-3503-4&amp;from=paste&amp;height=265&amp;id=u7419ccb5&amp;originHeight=289&amp;originWidth=370&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=12570&amp;status=done&amp;style=none&amp;taskId=u4b961330-dca6-4a24-9c7c-b9817fdf9ec&amp;title=&amp;width=339.1666666666667" alt="图片.png" tabindex="0" loading="lazy"><figcaption>图片.png</figcaption></li>
+</ol>
+<h3 id="启动" tabindex="-1"> 启动</h3>
+<div data-ext="sh"><pre><code><span>npm</span> run dev
+</code></pre><div aria-hidden="true"><div></div></div></div><p><img src="https://cdn.nlark.com/yuque/0/2022/png/21881466/1657870143085-8bcae05a-269c-4618-ac4f-1c28323a59d1.png#clientId=ud5ec8b75-3503-4&amp;from=paste&amp;height=583&amp;id=ud188b8ce&amp;originHeight=636&amp;originWidth=1394&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=145703&amp;status=done&amp;style=none&amp;taskId=u34001fa6-9ea9-49e1-a0fe-041e6bbc693&amp;title=&amp;width=1277.8333333333335" alt="图片.png" loading="lazy">###  安装vue-router</p>
+<div data-ext="sh"><pre><code><span>npm</span> <span>install</span> vue-router <span>-S</span>  // 局部安装vue-router
+// 安装报错的话指定版本安装
+<span>npm</span> <span>install</span> vue-router@2.0.0 <span>-S</span> 
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div><blockquote>
+<p>在引入文件时，index.js可以省略不写</p>
+</blockquote>
+<h3 id="webpack" tabindex="-1"> webpack</h3>
+<h4 id="_1-entry" tabindex="-1"> 1. entry</h4>
+<blockquote>
+<p>项目的入口文件, (main.js或者index.js)</p>
+</blockquote>
+<h4 id="_2-output" tabindex="-1"> 2. output</h4>
+<blockquote>
+<p>输出出口</p>
+</blockquote>
+<h4 id="_3-loading" tabindex="-1"> 3. loading</h4>
+<blockquote>
+<p>babel-loader: 对es6代码的解析<br>
+css-loader：css代码解析<br>
+style-loader：将css代码添加一个style标签插入到header中</p>
+</blockquote>
+]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/6c8acb93bd0fc9dd85006746d572df8f" type="image/"/>
+    </item>
+    <item>
+      <title>好用网站收藏</title>
+      <link>https://lianghexiang.github.io/space/anything/%E5%B0%8F%E8%AE%B0/%E5%A5%BD%E7%94%A8%E7%BD%91%E7%AB%99%E6%94%B6%E8%97%8F.html</link>
+      <guid>https://lianghexiang.github.io/space/anything/%E5%B0%8F%E8%AE%B0/%E5%A5%BD%E7%94%A8%E7%BD%91%E7%AB%99%E6%94%B6%E8%97%8F.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">好用网站收藏</source>
+      <category>网址收藏</category>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="好用网站收藏" tabindex="-1"> 好用网站收藏</h1>
+<i>Content not supported</i>]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/88bd6a5539dec4ece4596df98b999429" type="image/"/>
+    </item>
+    <item>
+      <title>gPRC服务</title>
+      <link>https://lianghexiang.github.io/space/posts/gRPC/gRPC%E6%9C%8D%E5%8A%A1.html</link>
+      <guid>https://lianghexiang.github.io/space/posts/gRPC/gRPC%E6%9C%8D%E5%8A%A1.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">gPRC服务</source>
+      <category>技术</category>
+      <pubDate>Wed, 03 Jan 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="gprc服务" tabindex="-1"> gPRC服务</h1>
+]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/6c8acb93bd0fc9dd85006746d572df8f" type="image/"/>
+    </item>
+    <item>
+      <title>2023初雪</title>
+      <link>https://lianghexiang.github.io/space/anything/%E5%B0%8F%E8%AE%B0/%E4%B8%8B%E9%9B%AA%E5%95%A6.html</link>
+      <guid>https://lianghexiang.github.io/space/anything/%E5%B0%8F%E8%AE%B0/%E4%B8%8B%E9%9B%AA%E5%95%A6.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">2023初雪</source>
+      <category>画册</category>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="_2023初雪" tabindex="-1"> 2023初雪</h1>
+<figure><img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepress/微信图片_20231211101841.jpg" alt="好白的雪" tabindex="0" loading="lazy"><figcaption>好白的雪</figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepress/微信图片_20231211102037.jpg" alt="白雪皑皑" tabindex="0" loading="lazy"><figcaption>白雪皑皑</figcaption></figure>
+]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/da3546c26f3726a1f7a63e96921b30ff" type="image/"/>
+    </item>
+    <item>
+      <title>DBUtils版本问题</title>
+      <link>https://lianghexiang.github.io/space/posts/python/Linux%E7%8E%AF%E5%A2%83%E4%B8%8BDBUtils%E5%AF%BC%E5%85%A5%E7%9A%84%E9%97%AE%E9%A2%98.html</link>
+      <guid>https://lianghexiang.github.io/space/posts/python/Linux%E7%8E%AF%E5%A2%83%E4%B8%8BDBUtils%E5%AF%BC%E5%85%A5%E7%9A%84%E9%97%AE%E9%A2%98.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">DBUtils版本问题</source>
+      <category>技术</category>
+      <pubDate>Fri, 28 Jul 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="dbutils版本问题" tabindex="-1"> DBUtils版本问题</h1>
+<h3 id="前言" tabindex="-1"> 前言</h3>
+<figure><img src="https://img2023.cnblogs.com/blog/2432585/202307/2432585-20230719090938564-1692406477.png" alt="image" tabindex="0" loading="lazy"><figcaption>image</figcaption></figure>
+<p>事情的起因是，原本在pycharm上开发的代码，因为要使用到线程池，所以就按安装了DBUtils，在windows上运行代码倒没什么问题，后因代码运行时需要占用的内存过多，所以代码要转移到Linux服务器上，问题由之而来，运行代码时总会会报出找不到DBUtils库的错误，经过几番反复确认，python环境已经安装了DBUtils，而且安装的其他三方库皆无问题，所以便是用了万能的百度，终于是解决了问题</p>
+<h3 id="如何解决" tabindex="-1"> 如何解决</h3>
+<p>更改导入模块的写法即可</p>
+<div data-ext="py"><pre><code><span>from</span> dbutils<span>.</span>pooled_db <span>import</span> PooledDB
+</code></pre><div aria-hidden="true"><div></div></div></div><p>网上有教程说是版本 &lt;=1.3的DBUtils.PooledDB的方式导入是没问题的，但是我把版本降低到1.3还是出错，最终还是选择了&gt;=2.0的版本，使用<code>from dbutils.pooled_db import PooledDB</code>的方式导入，最终完美解决问题。</p>
+]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/da3546c26f3726a1f7a63e96921b30ff" type="image/"/>
+    </item>
+    <item>
+      <title>门面模式</title>
+      <link>https://lianghexiang.github.io/space/design_pattern/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E9%97%A8%E9%9D%A2%E6%A8%A1%E5%BC%8F.html</link>
+      <guid>https://lianghexiang.github.io/space/design_pattern/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E9%97%A8%E9%9D%A2%E6%A8%A1%E5%BC%8F.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">门面模式</source>
+      <category>python</category>
+      <pubDate>Wed, 03 Jan 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="门面模式" tabindex="-1"> 门面模式</h1>
+<p>本章涉及内容：</p>
+<ol>
+<li>
+<p>结构型设计模式概要；</p>
+</li>
+<li>
+<p>利用UML图理解门面设计模式；</p>
+</li>
+<li>
+<p>提供了Python v3.5实现代码的真实用例；</p>
+</li>
+<li>
+<p>门面模式与最少知识原则。</p>
+</li>
+</ol>
+<h3 id="_1-什么是结构性设计模式" tabindex="-1"> 1. 什么是结构性设计模式</h3>
+]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/6c8acb93bd0fc9dd85006746d572df8f" type="image/"/>
+    </item>
+    <item>
+      <title>单例模式</title>
+      <link>https://lianghexiang.github.io/space/design_pattern/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.html</link>
+      <guid>https://lianghexiang.github.io/space/design_pattern/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">单例模式</source>
+      <category>python</category>
+      <pubDate>Wed, 03 Jan 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="单例模式" tabindex="-1"> 单例模式</h1>
+<h2 id="单例模式的python实现" tabindex="-1"> 单例模式的Python实现</h2>
+<h3 id="_1-普通单例模式" tabindex="-1"> 1. 普通单例模式</h3>
+<blockquote>
+<p>_ <em>new</em> _方法可以在实例化类的时候通过hasattr方法返回同一个实例</p>
+</blockquote>
+<div data-ext="py"><pre><code><span>class</span> <span>ExerciseSinglePattern</span><span>:</span>
+    <span>def</span> <span>__new__</span><span>(</span>cls<span>,</span> <span>*</span>args<span>,</span> <span>**</span>kwargs<span>)</span><span>:</span>
+        <span>if</span> <span>not</span> <span>hasattr</span><span>(</span>cls<span>,</span> <span>'_instance'</span><span>)</span><span>:</span>
+            cls<span>.</span>_instance <span>=</span> <span>super</span><span>(</span><span>)</span><span>.</span>__new__<span>(</span>cls<span>)</span>
+        <span>return</span> cls<span>.</span>_instance
+
+    <span>def</span> <span>__init__</span><span>(</span>self<span>,</span> a<span>,</span> b<span>)</span><span>:</span>
+        <span>print</span><span>(</span><span>'__init__'</span><span>)</span>
+        self<span>.</span>a <span>=</span> a
+        self<span>.</span>b <span>=</span> b
+<span>if</span> __name__ <span>==</span> <span>'__main__'</span><span>:</span>
+    sp <span>=</span> ExerciseSinglePattern<span>(</span><span>'a'</span><span>,</span> <span>'b'</span><span>)</span>
+    sp2 <span>=</span> ExerciseSinglePattern<span>(</span><span>'c'</span><span>,</span> <span>'d'</span><span>)</span>
+    <span>print</span><span>(</span>sp<span>)</span>
+    <span>print</span><span>(</span>sp2<span>)</span>
+    <span># &lt;__main__.ExerciseSinglePattern object at 0x00000243AF6E4F70></span>
+	<span># &lt;__main__.ExerciseSinglePattern object at 0x00000243AF6E4F70></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h3 id="_2-使用装饰器实现单例模式" tabindex="-1"> 2. 使用装饰器实现单例模式</h3>
+<h4 id="_2-1-装饰器-decorators" tabindex="-1"> 2.1 装饰器（Decorators）</h4>
+<blockquote>
+<p>装饰器是Python中很重要的内容，属于Python的进阶知识；装饰器的本质可以理解为一个高阶函数，因为它返回的是一个函数对象。装饰器可以在不修改被装饰代码的情况下对代码增加额外的功能，这种动态增加功能的方式，我们称之为“装饰器”.</p>
+</blockquote>
+<p>1️⃣<strong>普通装饰器：</strong></p>
+<p>一般来说，装饰器的基本代码格式为两层嵌套函数，如下所示：</p>
+<div data-ext="py"><pre><code>
+<span># 装饰器</span>
+<span>def</span> <span>decorator</span><span>(</span>func<span>:</span>被装饰函数<span>)</span><span>:</span>
+    <span>def</span> <span>wrapper</span><span>(</span><span>*</span>args<span>,</span> <span>**</span>kwargs<span>)</span><span>:</span><span># *args和**kwargs主要是被装饰函数所需的参数</span>
+        <span># 函数执行前的操作</span>
+        <span>print</span><span>(</span><span>"Start:"</span><span>)</span>
+        func<span>(</span><span>*</span>args<span>,</span> <span>**</span>kwargs<span>)</span>
+        <span># 函数执行后的操作</span>
+        <span>print</span><span>(</span><span>"End"</span><span>)</span>
+    <span>return</span> wrapper
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>以上就是一个简单的装饰器，如果要使用装饰器，则使用Python中的语法糖<code>@</code></p>
+<div data-ext="py"><pre><code><span># 基本函数</span>
+<span>def</span> <span>test</span><span>(</span>text<span>)</span><span>:</span>
+    <span>print</span><span>(</span>text<span>)</span>
+    
+<span># 使用装饰器后的函数</span>
+<span>@decorator</span>
+<span>def</span> <span>test</span><span>(</span>text<span>)</span><span>:</span>
+    <span>print</span><span>(</span>text<span>)</span>
+<span>if</span> __name__ <span>==</span> <span>'__main__'</span><span>:</span>
+    test<span>(</span><span>'装饰器'</span><span>)</span>
+  	<span>"""
+  	Start:
+	装饰器
+	End
+  	"""</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>2️⃣<strong>带参数的装饰器:</strong></p>
+<blockquote>
+<p>如果装饰器本身需要传递参数，则需要构建一个可以返回装饰器的高阶函数。</p>
+</blockquote>
+<div data-ext="py"><pre><code><span># 带有参数的装饰器</span>
+<span>def</span> <span>logger_decorator</span><span>(</span>log_info<span>)</span><span>:</span>
+    <span># 装饰器</span>
+    <span>def</span> <span>decorator</span><span>(</span>func<span>)</span><span>:</span>
+        <span># 内层函数</span>
+        <span>def</span> <span>wrapper</span><span>(</span><span>*</span>args<span>,</span> <span>**</span>kwargs<span>)</span><span>:</span>
+            <span>print</span><span>(</span><span><span>f"</span><span><span>{</span>func<span>.</span>__name__<span>}</span></span><span>:</span><span><span>{</span>log_info<span>}</span></span><span>"</span></span><span>)</span>
+            func<span>(</span><span>*</span>args<span>,</span> <span>**</span>kwargs<span>)</span>
+        <span>return</span> wrapper
+    <span>return</span> decorator
+
+<span># 带有参数的装饰器使用方法如下</span>
+<span>@logger_decorator</span><span>(</span><span>"Start..."</span><span>,</span> <span>"...End"</span><span>)</span>
+<span>def</span> <span>test2</span><span>(</span><span>)</span><span>:</span>
+    <span>print</span><span>(</span><span>"正在插入数据"</span><span>)</span>
+    time<span>.</span>sleep<span>(</span><span>5</span><span>)</span>
+    
+<span>if</span> __name__ <span>==</span> <span>'__main__'</span><span>:</span>
+    <span># test('装饰器')</span>
+    test2<span>(</span><span>)</span>
+    
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><figure><img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepress/image-20231230132509562.png" alt="image-20231230132509562" tabindex="0" loading="lazy"><figcaption>image-20231230132509562</figcaption></figure>
+<p>在我们执行被装饰器装饰的函数时，我们使用函数的方式和普通函数无异，也就是说如果我们想要对<code>test2()</code>函数增加打印执行时间的功能，我们只需要添加一个装饰器，由于函数调用的方式并没有发生变化，所以就无需更改任何原代码就可完成对代码额外功能的增加</p>
+<p>我们来剖析一下上面调用<code>test()</code>函数时，程序的执行流程</p>
+<div data-ext="py"><pre><code><span>#我们在调用test2()函数时，程序的执行顺序如下</span>
+logger_decorator<span>(</span>arg1<span>,</span>arg2<span>)</span><span>(</span>test2<span>)</span><span>(</span><span>*</span>args<span>,</span><span>**</span>kwargs<span>)</span>
+<span># 1. 首先，执行的是logger_decorator</span>
+logger_decorator<span>(</span>arg1<span>,</span>arg2<span>)</span>
+<span># 2. 由上面的函数可知，logger_decorator函数返回的是decorator</span>
+decorator <span>=</span> logger_decorator<span>(</span>arg1<span>,</span>arg2<span>)</span>
+<span># 3. decorator接受一个参数func，这个参数就是被装饰函数的引用，接下来</span>
+wrapper <span>=</span> decorator<span>(</span>test2<span>)</span>
+<span># 4. 其实，在执行test2时，实际上执行的是wrapper</span>
+wrapper<span>(</span><span>*</span>args<span>,</span> <span>**</span>kwargs<span>)</span>
+<span># 以上就是通过装饰器装饰后的函数的整体流程</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>3️⃣:<strong>通过签名调用的函数</strong></p>
+<blockquote>
+<p>上面我们说过，使用装饰器装饰过的函数，使用方法和被装饰前无异，但是有另外一种情况：我们依赖某个函数的签名，即func.<strong>name</strong>，此时我们如果装饰func的话，func.__name__就会发生改变，因为实际上func已经变成了wrapper，所以依赖函数签名的程序就会报错。针对这种情况，我们使用python内置的方法即可解决：functools.wraps函数</p>
+</blockquote>
+<p>如果我们不使用functools.wraps:</p>
+<div data-ext="py"><pre><code><span>def</span> <span>wraps_decorator</span><span>(</span>func<span>)</span><span>:</span>
+    <span>def</span> <span>wrapper</span><span>(</span><span>*</span>args<span>,</span> <span>**</span>kwargs<span>)</span><span>:</span>
+        <span>print</span><span>(</span><span>"Do Something......"</span><span>)</span>
+        <span>return</span> func<span>(</span><span>*</span>args<span>,</span> <span>**</span>kwargs<span>)</span>
+    <span>return</span> wrapper
+
+<span>@wraps_decorator</span>
+<span>def</span> <span>wraps_test</span><span>(</span>text<span>)</span><span>:</span>
+    <span>print</span><span>(</span>text<span>)</span>
+    time<span>.</span>sleep<span>(</span><span>2</span><span>)</span>
+<span>if</span> __name__ <span>==</span> <span>'__main__'</span><span>:</span>
+    <span># 我们如果不使用functools.wraps</span>
+    func_name <span>=</span> wraps_test<span>.</span>__name__
+    <span>print</span><span>(</span><span><span>f"wraps_test函数名称：</span><span><span>{</span>func_name<span>}</span></span><span>"</span></span><span>)</span>
+    
+    <span>"""
+    wraps_test函数名称：wrapper
+    """</span>
+    
+    <span># 我们可以看到，wraps_test签名变成了wrapper</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p><strong>使用functools.wraps</strong>：</p>
+<div data-ext="py"><pre><code><span># 使用方式很简单，通过装饰器的写法装饰内层函数即可</span>
+<span>import</span> functools
+
+
+<span>def</span> <span>wraps_decorator</span><span>(</span>func<span>)</span><span>:</span>
+    <span>@functools<span>.</span>wraps</span><span>(</span>func<span>)</span>
+    <span>def</span> <span>wrapper</span><span>(</span><span>*</span>args<span>,</span> <span>**</span>kwargs<span>)</span><span>:</span>
+        <span>print</span><span>(</span><span>"Do Something......"</span><span>)</span>
+        <span>return</span> func<span>(</span><span>*</span>args<span>,</span> <span>**</span>kwargs<span>)</span>
+    <span>return</span> wrapper
+
+<span>@wraps_decorator</span>
+<span>def</span> <span>wraps_test</span><span>(</span>text<span>)</span><span>:</span>
+    <span>print</span><span>(</span>text<span>)</span>
+    time<span>.</span>sleep<span>(</span><span>2</span><span>)</span>
+<span>if</span> __name__ <span>==</span> <span>'__main__'</span><span>:</span>
+
+    <span># 使用functools.wraps</span>
+    func_name <span>=</span> wraps_test<span>.</span>__name__
+    <span>print</span><span>(</span><span><span>f"wraps_test函数名称：</span><span><span>{</span>func_name<span>}</span></span><span>"</span></span><span>)</span>
+    <span>"""
+    wraps_test函数名称：wraps_test
+    """</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h4 id="_2-2-使用装饰器实现单例模式" tabindex="-1"> 2.2 使用装饰器实现单例模式</h4>
+<blockquote>
+<p>上面讲解完了装饰器，我们可以了解到装饰器可以拓展函数的功能，接下来我们就使用一点小技巧通过装饰器对类进行装饰，从而实现单例的需求</p>
+</blockquote>
+<div data-ext="py"><pre><code><span># 首先，我们要实现单例模式，和普通单例模式类似，</span>
+<span># 我们要知道某个类A是否已经创建实例，如果已经创建实例则返回，所以我们可以通过字典来实现</span>
+<span># 装饰器单例模式</span>
+<span>def</span> <span>singleton_decorator</span><span>(</span>cls<span>)</span><span>:</span>
+    <span># 创建一个存储类实例的字段</span>
+    _instances <span>=</span> <span>{</span><span>}</span>
+    <span>def</span> <span>wrapper</span><span>(</span><span>*</span>args<span>,</span> <span>**</span>kwargs<span>)</span><span>:</span>
+        <span>if</span> cls <span>not</span> <span>in</span> _instances<span>:</span>
+            _instances<span>[</span>cls<span>]</span> <span>=</span> cls<span>(</span><span>*</span>args<span>,</span> <span>**</span>kwargs<span>)</span>
+        <span>return</span> _instances<span>[</span>cls<span>]</span>
+    <span>return</span> wrapper
+
+
+<span>@singleton_decorator</span>
+<span>class</span> <span>DecoratorSingleton</span><span>:</span>
+    <span>def</span> <span>__init__</span><span>(</span>self<span>,</span> name<span>=</span><span>None</span><span>)</span><span>:</span>
+        self<span>.</span>name <span>=</span> name
+
+<span>if</span> __name__ <span>==</span> <span>'__main__'</span><span>:</span>
+    dt_singleton <span>=</span> DecoratorSingleton<span>(</span><span>"Decorator Singleton"</span><span>)</span>
+    <span>print</span><span>(</span>dt_singleton<span>)</span>
+    dt_singleton2 <span>=</span> DecoratorSingleton<span>(</span><span>"Decorator Singleton2"</span><span>)</span>
+    <span>print</span><span>(</span>dt_singleton2<span>)</span>
+    <span>"""
+    &lt;__main__.DecoratorSingleton object at 0x000002AFB008FBB0>
+	&lt;__main__.DecoratorSingleton object at 0x000002AFB008FBB0>
+    """</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h3 id="_3-单态模式-单例模式的一种" tabindex="-1"> 3. 单态模式(单例模式的一种)</h3>
+<blockquote>
+<p>单例模式是指，一个类只有一个对象，然而，单态模式更关心的是状态和行为，即所有对象共享相同的状态，所以基于这类思想设计的类也叫做Monostate(单态)模式</p>
+</blockquote>
+<p>我们知道，在Python独享中，__dict___存储了一个对象所有的变量，所以如果我们在实例化对象时所有对象的<code>__dict__</code>指向的是同一个引用，那么当某个实例a更改了属性，那么其他实例也能同步，达到所有对象共享相同状态的目的。</p>
+<div data-ext="py"><pre><code><span>"""
+单态模式的实现
+"""</span>
+<span>class</span> <span>Borg</span><span>:</span>
+    <span># 类属性</span>
+    __shared_state <span>=</span> <span>{</span><span>'name'</span><span>:</span> <span>None</span><span>}</span>
+    <span>def</span> <span>__init__</span><span>(</span>self<span>)</span><span>:</span>
+        self<span>.</span>__dict__ <span>=</span> self<span>.</span>__shared_state
+
+
+<span>if</span> __name__ <span>==</span> <span>'__main__'</span><span>:</span>
+    a <span>=</span> Borg<span>(</span><span>)</span>
+    b <span>=</span> Borg<span>(</span><span>)</span>
+    <span># 此时，如果对a设置属性age，则b也会被赋予属性age</span>
+    a<span>.</span>age <span>=</span> <span>20</span>
+
+    <span>print</span><span>(</span>a<span>.</span>age<span>)</span>
+    <span>print</span><span>(</span>b<span>.</span>age<span>)</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>单态模式还可以通过<code>__new__</code>方法实现:</p>
+<div data-ext="py"><pre><code><span>class</span> <span>NewBorg</span><span>:</span>
+    __shared_state <span>=</span> <span>{</span><span>}</span>
+    <span># TODO 1 重新new方法</span>
+    <span>def</span> <span>__new__</span><span>(</span>cls<span>,</span> <span>*</span>args<span>,</span> <span>**</span>kwargs<span>)</span><span>:</span>
+        <span># TODO 2 生成shili</span>
+        borg_obj <span>=</span> <span>super</span><span>(</span><span>)</span><span>.</span>__new__<span>(</span>cls<span>,</span> <span>*</span>args<span>,</span> <span>**</span>kwargs<span>)</span>
+        <span># TODO 3 将实例的__dict__指向类属性__shared_state</span>
+        borg_obj<span>.</span>__dict__ <span>=</span> cls<span>.</span>__shared_state
+        <span>return</span> borg_obj
+    
+    <span>def</span> <span>__init__</span><span>(</span>self<span>)</span><span>:</span>
+        self<span>.</span>name <span>=</span> <span>'Borg1'</span>
+        
+        
+<span>if</span> __name__ <span>==</span> <span>'__main__'</span><span>:</span>
+    a <span>=</span> Borg<span>(</span><span>)</span>
+    b <span>=</span> Borg<span>(</span><span>)</span>
+    <span># 此时，如果对a设置属性age，则b也会被赋予属性age</span>
+    a<span>.</span>age <span>=</span> <span>20</span>
+
+    <span>print</span><span>(</span>a<span>.</span>age<span>)</span>
+    <span>print</span><span>(</span>b<span>.</span>age<span>)</span>
+
+
+    new_borg <span>=</span> NewBorg<span>(</span><span>)</span>
+    new_borg_2 <span>=</span> NewBorg<span>(</span><span>)</span>
+    <span>print</span><span>(</span><span><span>f"更新name属性前：</span><span><span>{</span>new_borg<span>.</span>name<span>}</span></span><span>"</span></span><span>)</span> <span># 更新name属性前：Borg1</span>
+    <span># 更改name属性</span>
+    new_borg_2<span>.</span>name <span>=</span> <span>"Borg2"</span>
+    <span>print</span><span>(</span><span><span>f"更新name属性后：</span><span><span>{</span>new_borg<span>.</span>name<span>}</span></span><span>"</span></span><span>)</span> <span># 更新name属性后：Borg2</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h3 id="_4-单例和元类" tabindex="-1"> 4. 单例和元类</h3>
+<h4 id="_4-1-元类" tabindex="-1"> 4.1 元类</h4>
+<blockquote>
+<p>我们先来简单的了解一下元类，元类的意思是一个类的类，这意味着类是元类的实例。使用元类，我们有机会从预定义的Python类中创建自己想要的类型的类。下面我们来通过实例来体会一下什么是元类。</p>
+</blockquote>
+<div data-ext="py"><pre><code>a <span>=</span> <span>10</span>
+<span>print</span><span>(</span><span>type</span><span>(</span>a<span>)</span><span>)</span>  <span># &lt;class 'int'></span>
+<span>print</span><span>(</span><span>type</span><span>(</span><span>int</span><span>)</span><span>)</span>  <span># &lt;class 'type'></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div><p>类的定义有它的元类决定，当我们创建一个类A时，Python则是相当于实例化了type类: <code>A=type(name,bases,dict)</code>。</p>
+<ul>
+<li><strong>name</strong> : 这是类的名称</li>
+<li><strong>bases</strong>: 这是基类</li>
+<li><strong>dict</strong>：这是类的属性变量</li>
+</ul>
+<h4 id="_4-2-元类实现单例模式" tabindex="-1"> 4.2 元类实现单例模式</h4>
+<p>接下来我们看一下简单的元类示例：</p>
+<div data-ext="py"><pre><code><span>class</span> <span>MyInt</span><span>(</span><span>type</span><span>)</span><span>:</span>
+    <span># __call__方法在类以函数方式调用的时候被触发</span>
+    <span>def</span> <span>__call__</span><span>(</span>cls<span>,</span> <span>*</span>args<span>,</span> <span>**</span>kwargs<span>)</span><span>:</span>
+        <span>print</span><span>(</span><span>"*** 自定义元类 Int类型 ***"</span><span>,</span> args<span>)</span>
+        <span>print</span><span>(</span><span>"在这里可以自定义你自己的类的行为....."</span><span>)</span>
+        <span>return</span> <span>type</span><span>.</span>__call__<span>(</span>cls<span>,</span> <span>*</span>args<span>,</span> <span>**</span>kwargs<span>)</span>
+
+<span># 使用上面自定义的元类来创建int类型</span>
+<span>class</span> <span>int</span><span>(</span>metaclass<span>=</span>MyInt<span>)</span><span>:</span>
+    <span>def</span> <span>__init__</span><span>(</span>self<span>,</span> x<span>,</span> y<span>)</span><span>:</span>
+        self<span>.</span>x <span>=</span> x
+        self<span>.</span>y <span>=</span> y
+        
+<span>if</span> __name__ <span>==</span> <span>'__main__'</span><span>:</span>
+    my_int <span>=</span> <span>int</span><span>(</span><span>10</span><span>,</span> <span>20</span><span>)</span>
+<span># 以下是上面代码的输出结果</span>
+<span>**</span><span>*</span> 自定义元类 Int类型 <span>**</span><span>*</span> <span>(</span><span>10</span><span>,</span> <span>20</span><span>)</span>
+在这里可以自定义你自己的类的行为<span>.</span><span>.</span><span>.</span><span>.</span><span>.</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>将需要创建对象时，Python将调用<code>__call__</code>方法，所以上面在创建my_int对象时<code>MyInt</code>就会调用我们自定义的<code>__call__</code>方法。</p>
+<p>由于元类对对象的实例化有更多的控制权，所以它可以用来创建单例。</p>
+<p>下面我们基于元类来实现单例：</p>
+<div data-ext="py"><pre><code><span># 使用元类创建单例</span>
+<span>class</span> <span>MetaSingleton</span><span>(</span><span>type</span><span>)</span><span>:</span>
+    _instances <span>=</span> <span>{</span><span>}</span>
+    <span># 覆盖type的__call__方法</span>
+
+    <span>def</span> <span>__call__</span><span>(</span>cls<span>,</span> <span>*</span>args<span>,</span> <span>**</span>kwargs<span>)</span><span>:</span>
+        <span>if</span> cls <span>not</span> <span>in</span> cls<span>.</span>_instances<span>:</span>
+            cls<span>.</span>_instances<span>[</span>cls<span>]</span> <span>=</span> <span>super</span><span>(</span>MetaSingleton<span>,</span> cls<span>)</span><span>.</span>__call__<span>(</span><span>*</span>args<span>,</span> <span>**</span>kwargs<span>)</span>
+        <span>return</span> cls<span>.</span>_instances<span>[</span>cls<span>]</span>
+
+
+<span>class</span> <span>Logger</span><span>(</span>metaclass<span>=</span>MetaSingleton<span>)</span><span>:</span>
+    <span>def</span> <span>__init__</span><span>(</span>self<span>,</span> level<span>)</span><span>:</span>
+        self<span>.</span>level <span>=</span> level
+
+
+<span>if</span> __name__ <span>==</span> <span>'__main__'</span><span>:</span>
+    my_int <span>=</span> <span>int</span><span>(</span><span>10</span><span>,</span> <span>20</span><span>)</span>
+
+    logger_1 <span>=</span> Logger<span>(</span><span>'info'</span><span>)</span>
+    logger_2 <span>=</span> Logger<span>(</span><span>'error'</span><span>)</span>
+    <span>print</span><span>(</span>logger_1<span>)</span>
+    <span>print</span><span>(</span>logger_2<span>)</span>
+    
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>以下是上面代码的输出：</p>
+<div data-ext="py"><pre><code><span>>></span><span>>></span><span>>></span>
+<span>&lt;</span>__main__<span>.</span>Logger <span>object</span> at <span>0x00000204A6EFFCA0</span><span>></span>
+<span>&lt;</span>__main__<span>.</span>Logger <span>object</span> at <span>0x00000204A6EFFCA0</span><span>></span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div><p>在上面的代码中，我们通过继承<code>type</code>类，然后重写<code>__call__</code>的方法，每次创建实例的时候都去<code>_instances</code>中去寻找已经创建的实例，然后返回。</p>
+<h3 id="_5-单例模式的缺点" tabindex="-1"> 5. 单例模式的缺点</h3>
+<p>单例具有全局访问权限，因此会存在以下问题。</p>
+<p>全局变量可能在某处代码被修改，但是开发人员并未注意到，如果有其它地方也使用，可能会发生异常。</p>
+<p>由于单例只能创建一次，所以会有多个引用指向同一个对象。</p>
+<p>所有依赖全局变量的类都会由于一个类的改变而紧密耦合为全局数据，从而可能无意中影响另一个类。</p>
+]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/6c8acb93bd0fc9dd85006746d572df8f" type="image/"/>
+    </item>
+    <item>
+      <title>工厂模式</title>
+      <link>https://lianghexiang.github.io/space/design_pattern/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.html</link>
+      <guid>https://lianghexiang.github.io/space/design_pattern/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">工厂模式</source>
+      <category>python</category>
+      <pubDate>Wed, 03 Jan 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="工厂模式" tabindex="-1"> 工厂模式</h1>
+<h3 id="_1-前言" tabindex="-1"> 1. 前言</h3>
+<p>在本文章中，主要包含以下几个方面的主题：</p>
+<ol>
+<li>了解简单工厂设计模式；</li>
+<li>讨论工厂方法和抽象工厂方法及其差异；</li>
+<li>利用Python代码实现真实场景；</li>
+<li>讨论模式的优缺点并进行相应的比较。</li>
+</ol>
+<h3 id="_2-了解工厂模式" tabindex="-1"> 2. 了解工厂模式</h3>
+<p>在面向对象编程中，术语“工厂”表示一个负责创建其他类型对象的类。通常情况下，作为一个工厂的类有一个对象以及与它关联的多个方法。客户端使用某些参数调用此方法，之后，工厂会据此创建所需类型的对象，然后将它们返回给客户端。</p>
+<p>❓其实客户端可以直接创建对象，那么为什么需要工厂？</p>
+<p>1️⃣<strong>松耦合</strong>：即对象的创建可以独立于类的实现。</p>
+]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/6c8acb93bd0fc9dd85006746d572df8f" type="image/"/>
+    </item>
+    <item>
+      <title>Python添加Linux环境变量</title>
+      <link>https://lianghexiang.github.io/space/posts/python/Python%E6%B7%BB%E5%8A%A0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.html</link>
+      <guid>https://lianghexiang.github.io/space/posts/python/Python%E6%B7%BB%E5%8A%A0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">Python添加Linux环境变量</source>
+      <category>python</category>
+      <pubDate>Wed, 06 Dec 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="python添加linux环境变量" tabindex="-1"> Python添加Linux环境变量</h1>
+]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/5383cab4c54b110f368ce995153f0de3" type="image/"/>
+    </item>
+    <item>
+      <title>Python2转Python3</title>
+      <link>https://lianghexiang.github.io/space/posts/python/Python2%E8%BD%ACPython3.html</link>
+      <guid>https://lianghexiang.github.io/space/posts/python/Python2%E8%BD%ACPython3.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">Python2转Python3</source>
+      <category>python</category>
+      <pubDate>Tue, 26 Sep 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="python2转python3" tabindex="-1"> Python2转Python3</h1>
+<h3 id="工具介绍" tabindex="-1"> 工具介绍</h3>
+<p>💭 工具：<a href="http://2to3.py" target="_blank" rel="noopener noreferrer">2to3.py</a></p>
+<p>2to3.py是一个脚本文件，是Anaconda管理器自带的脚本文件，通常可以在anaconda的安装路径下找到，可能由于anaconda的版本不同，2to3.py文件的名字也可能略有差异，但总的来说都可以通过2to3关键字来辨别。</p>
+<h3 id="使用" tabindex="-1"> 使用</h3>
+<ol>
+<li>转单个py文件</li>
+</ol>
+<p>​	如果是转单个py文件的话可以直接把py文件的路径输入到命令之后</p>
+<div data-ext="sh"><pre><code>python 2to3.py  <span>-w</span>  D:/file.py
+</code></pre><div aria-hidden="true"><div></div></div></div><ol start="2">
+<li>批量转文件夹下的py文件</li>
+</ol>
+<div data-ext="sh"><pre><code><span># 如果是想转文件夹下的文件，则将文件夹的路径输入到命令之后，并且以'\'结尾</span>
+Python 2to3.py <span>-w</span> E:<span>\</span><span>\</span>Test<span>\</span>
+</code></pre><div aria-hidden="true"><div></div><div></div></div></div>]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/72e720a5032441381e8d626f0e6538f1" type="image/"/>
+    </item>
+    <item>
+      <title>Linux配置环境变量</title>
+      <link>https://lianghexiang.github.io/space/posts/Linux/Linux%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.html</link>
+      <guid>https://lianghexiang.github.io/space/posts/Linux/Linux%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">Linux配置环境变量</source>
+      <category>技术</category>
+      <pubDate>Fri, 28 Jul 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="linux配置环境变量" tabindex="-1"> Linux配置环境变量</h1>
+<h3 id="_1-查看所有变量" tabindex="-1"> 1. 查看所有变量</h3>
+<div data-ext="sh"><pre><code><span># 使用env</span>
+lianghexiang@ubuntu:~$ <span>env</span> 
+
+<span># 使用export</span>
+lianghexiang@ubuntu:~$ <span>export</span> 
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div></div></div><h3 id="_2-查看一个变量" tabindex="-1"> 2. 查看一个变量</h3>
+<div data-ext="sh"><pre><code>lianghexiang@ubuntu:~$ <span>echo</span> <span>${变量名}</span>
+<span># 或者</span>
+lianghexiang@ubuntu:~$ <span>env</span> <span>|</span> <span>grep</span> 变量名
+<span># 或者</span>
+lianghexiang@ubuntu:~$ <span>export</span> <span>|</span> <span>grep</span> 变量名
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div></div></div><h3 id="_3-设置变量" tabindex="-1"> 3. 设置变量</h3>
+<h4 id="_1-临时设置" tabindex="-1"> 1. 临时设置</h4>
+<div data-ext="sh"><pre><code><span># 执行export 这个设置仅限当前终端有效，窗口关闭后无效</span>
+<span># 其中PATH变量定义了运行命令的查找路径，以冒号:分割不同的路径，如，/home/yan/share/usr/local/arm/3.4.1/bin 这个就表示一个软件的路径了，多个软件就用:分开，如 /usr/local/LAMP/php/bin:/usr/local/LAMP/mysql/bin</span>
+lianghexiang@ubuntu:~$ <span>export</span> <span><span>PATH</span></span><span>=</span><span>$PATH</span>:路径
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div><h4 id="_2-当前登录用户的全局变量" tabindex="-1"> 2. 当前登录用户的全局变量</h4>
+<div data-ext="sh"><pre><code><span># 修改.bashrc文件</span>
+<span>vim</span> ~/.bashrc
+<span># 在该文件末尾添加如下行 path是要添加的变量的路径</span>
+<span>export</span> <span><span>PATH</span></span><span>=</span>path:<span>$PATH</span>
+
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div></div></div><h3 id="_3-测试" tabindex="-1"> 3. 测试</h3>
+<div data-ext="sh"><pre><code><span># 执行查看命令</span>
+<span>echo</span> <span>$PATH</span>
+<span># 或者</span>
+<span>env</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div></div></div>]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/64a50296cae6612fb1468ddb15110c75" type="image/"/>
+    </item>
+    <item>
+      <title>Mysql知识积累</title>
+      <link>https://lianghexiang.github.io/space/posts/mysql/mysql%E5%A4%87%E5%BF%98%E5%BD%95.html</link>
+      <guid>https://lianghexiang.github.io/space/posts/mysql/mysql%E5%A4%87%E5%BF%98%E5%BD%95.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">Mysql知识积累</source>
+      <category>技术</category>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="mysql知识积累" tabindex="-1"> Mysql知识积累</h1>
+<h3 id="_1-mysql内置函数" tabindex="-1"> 1. Mysql内置函数</h3>
+<h4 id="_1-instr" tabindex="-1"> 1. instr</h4>
+<p>简介：</p>
+<blockquote>
+<p>函数返回字符串中子字符串第一次出现的位置.如果在str中找不到子字符串，则INSTR()函数返回零(0)</p>
+</blockquote>
+<p>使用场景：</p>
+<blockquote>
+<p>想要在字符串中查找子字符串或检查字符串中是否存在子字符串。</p>
+</blockquote>
+<p>函数语法:</p>
+<div data-ext="sql"><pre><code>INSTR<span>(</span>str<span>,</span>substr<span>)</span><span>;</span>
+</code></pre><div aria-hidden="true"><div></div></div></div><p><code>INSTR</code>函数接受两个参数：<strong>str</strong>是要搜索的字符串,<strong>substr</strong>是要搜索的子字符串。</p>
+<h4 id="_2-substr" tabindex="-1"> 2. substr</h4>
+<p>简介：</p>
+<blockquote>
+<p>substr从字符串中提取特定长度的子字符串</p>
+</blockquote>
+<p>使用场景：</p>
+<blockquote>
+<p>想要通过索引截取字符串的一部分。</p>
+</blockquote>
+<p>函数语法：</p>
+<div data-ext="sql"><pre><code>substr<span>(</span>string string<span>,</span>num <span>start</span><span>,</span>num length<span>)</span><span>;</span>
+</code></pre><div aria-hidden="true"><div></div></div></div><p>string为字符串；start为起始位置；length为长度。</p>
+<p>⚠️start是从1开始的</p>
+<h4 id="_3-case-when的用法" tabindex="-1"> 3. CASE.....WHEN的用法</h4>
+<h3 id="_2-查询" tabindex="-1"> 2. 查询</h3>
+<h4 id="_1-1子查询" tabindex="-1"> 1. 1子查询</h4>
+<p>子查询指一个查询语句嵌套在另一个查询语句内部的查询，这个特性从MySQL 4.1开始引入</p>
+<h5 id="子查询操作符" tabindex="-1"> 子查询操作符</h5>
+<ol>
+<li>
+<p>ANY（SOME）</p>
+<blockquote>
+<p>ANY和SOME关键字是同义词，表示满足其中任一条件，它们允许创建一个表达式对子查询的返回值列表进行比较，只要满足内层子查询中的任何一个比较条件，就返回一个结果作为外层查询的条件</p>
+</blockquote>
+<figure><img src="https://cdn.nlark.com/yuque/0/2023/png/21881466/1680257852246-b1c2996b-aa6e-4079-a290-d35c23b2515c.png" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+</li>
+<li>
+<p>ALL</p>
+<blockquote>
+<p>ALL关键字与ANY和SOME不同，使用ALL时需要同时满足所有内层查询的条件。</p>
+</blockquote>
+<figure><img src="https://cdn.nlark.com/yuque/0/2023/png/21881466/1680257896133-1033c011-39b3-4270-8244-2afdd83a4d38.png" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+</li>
+<li>
+<p>IN</p>
+<blockquote>
+<p>IN关键字进行子查询时，内层查询语句仅仅返回一个数据列，这个数据列里的值将提供给外层查询语句进行比较操作。</p>
+</blockquote>
+<figure><img src="https://cdn.nlark.com/yuque/0/2023/png/21881466/1680258121818-4baff6c0-ea14-4415-9f9f-7e5a590379f5.png" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+</li>
+<li>
+<p>EXISTS</p>
+<blockquote>
+<p>EXISTS关键字后面的参数是一个任意的子查询，系统对子查询进行运算以判断它是否返回行，如果至少返回一行，那么EXISTS的结果为true，此时外层查询语句将进行查询；如果子查询没有返回任何行，那么EXISTS返回的结果是false，此时外层语句将不进行查询。</p>
+</blockquote>
+</li>
+</ol>
+<h4 id="_2-2-regexp的用法" tabindex="-1"> 2.2 <code>REGEXP</code>的用法</h4>
+<p>REGEXP 是用于进行正则表达式匹配的运算符。</p>
+<p>**<code>like</code><strong>关键字可以进行模糊匹配，Mysql同样也支持正则表达式的匹配，Mysql中使用</strong><code>REGEXP</code><strong>和</strong><code>RLIKE</code>**操作符来进行正则表达式匹配。</p>
+<p>可用于**<code>REGEXP</code>**的正则模式:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">模式</th>
+<th style="text-align:left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">^</td>
+<td style="text-align:left">匹配输入字符串的开始位置。如果设置了 RegExp 对象的 Multiline 属性，^ 也匹配 '\n' 或 '\r' 之后的位置。</td>
+</tr>
+<tr>
+<td style="text-align:left">$</td>
+<td style="text-align:left">匹配输入字符串的结束位置。如果设置了RegExp 对象的 Multiline 属性，$ 也匹配 '\n' 或 '\r' 之前的位置。</td>
+</tr>
+<tr>
+<td style="text-align:left">.</td>
+<td style="text-align:left">匹配除 &quot;\n&quot; 之外的任何单个字符。要匹配包括 '\n' 在内的任何字符，请使用像 '[.\n]' 的模式。</td>
+</tr>
+<tr>
+<td style="text-align:left">[...]</td>
+<td style="text-align:left">字符集合。匹配所包含的任意一个字符。例如， '[abc]' 可以匹配 &quot;plain&quot; 中的 'a'。</td>
+</tr>
+<tr>
+<td style="text-align:left">[^...]</td>
+<td style="text-align:left">负值字符集合。匹配未包含的任意字符。例如， '[^abc]' 可以匹配 &quot;plain&quot; 中的'p'。</td>
+</tr>
+<tr>
+<td style="text-align:left">p1|p2|p3</td>
+<td style="text-align:left">匹配 p1 或 p2 或 p3。例如，'z|food' 能匹配 &quot;z&quot; 或 &quot;food&quot;。'(z|f)ood' 则匹配 &quot;zood&quot; 或 &quot;food&quot;。</td>
+</tr>
+<tr>
+<td style="text-align:left">*</td>
+<td style="text-align:left">匹配前面的子表达式零次或多次。例如，zo* 能匹配 &quot;z&quot; 以及 &quot;zoo&quot;。* 等价于{0,}。</td>
+</tr>
+<tr>
+<td style="text-align:left">+</td>
+<td style="text-align:left">匹配前面的子表达式一次或多次。例如，'zo+' 能匹配 &quot;zo&quot; 以及 &quot;zoo&quot;，但不能匹配 &quot;z&quot;。+ 等价于 {1,}。</td>
+</tr>
+<tr>
+<td style="text-align:left" n=""></td>
+<td style="text-align:left">n 是一个非负整数。匹配确定的 n 次。例如，'o{2}' 不能匹配 &quot;Bob&quot; 中的 'o'，但是能匹配 &quot;food&quot; 中的两个 o。</td>
+</tr>
+<tr>
+<td style="text-align:left" n,m=""></td>
+<td style="text-align:left">m 和 n 均为非负整数，其中n &lt;= m。最少匹配 n 次且最多匹配 m 次。</td>
+</tr>
+</tbody>
+</table>
+<p>💁‍♂️ 复习一下正则表达式的字符类吧：</p>
+<ul>
+<li><code>.</code>：匹配任意单个字符。</li>
+<li><code>^</code>：匹配字符串的开始。</li>
+<li><code>$</code>：匹配字符串的结束。</li>
+<li><code>*</code>：匹配零个或多个前面的元素。</li>
+<li><code>+</code>：匹配一个或多个前面的元素。</li>
+<li><code>?</code>：匹配零个或一个前面的元素。</li>
+<li><code>[abc]</code>：匹配字符集中的任意一个字符。</li>
+<li><code>[^abc]</code>：匹配除了字符集中的任意一个字符以外的字符。</li>
+<li><code>[a-z]</code>：匹配范围内的任意一个小写字母。</li>
+<li><code>\d</code>：匹配一个数字字符。</li>
+<li><code>\w</code>：匹配一个字母数字字符（包括下划线）。</li>
+<li><code>\s</code>：匹配一个空白字符。</li>
+</ul>
+<p>下面我们从几个案例来学习一下**<code>REGEXP</code>**的基本使用：</p>
+<div data-ext="sql"><pre><code><span>SELECT</span> column1<span>,</span> column2<span>,</span> <span>.</span><span>.</span><span>.</span>
+<span>FROM</span> table_name
+<span>WHERE</span> column_name <span>REGEXP</span> <span>'pattern'</span><span>;</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div><p><strong>参数说明：</strong></p>
+<ul>
+<li><code>column1</code>, <code>column2</code>, ... 是你要选择的列的名称，如果使用 <code>*</code> 表示选择所有列。</li>
+<li><code>table_name</code> 是你要从中查询数据的表的名称。</li>
+<li><code>column_name</code> 是你要进行正则表达式匹配的列的名称。</li>
+<li><code>'pattern'</code> 是一个正则表达式模式。</li>
+</ul>
+<ol>
+<li><strong>查找 name 字段中以 'st' 为开头的所有数据：</strong></li>
+</ol>
+<div data-ext="sql"><pre><code>mysql<span>></span> <span>SELECT</span> name <span>FROM</span> person_tbl <span>WHERE</span> name <span>REGEXP</span> <span>'^st'</span><span>;</span>
+</code></pre><div aria-hidden="true"><div></div></div></div><ol start="2">
+<li>
+<p><strong>查找 name 字段中以 <strong>'ok'</strong> 为结尾的所有数据：</strong></p>
+<div data-ext="sql"><pre><code>mysql<span>></span> <span>SELECT</span> name <span>FROM</span> person_tbl <span>WHERE</span> name <span>REGEXP</span> <span>'ok$'</span><span>;</span>
+</code></pre><div aria-hidden="true"><div></div></div></div></li>
+<li>
+<p><strong>查找 name 字段中包含 <strong>'mar'</strong> 字符串的所有数据：</strong></p>
+<div data-ext="sql"><pre><code>mysql<span>></span> <span>SELECT</span> name <span>FROM</span> person_tbl <span>WHERE</span> name <span>REGEXP</span> <span>'mar'</span><span>;</span>
+</code></pre><div aria-hidden="true"><div></div></div></div></li>
+<li>
+<p>查找 name 字段中以元音字符开头或以 <strong>'ok'</strong> 字符串结尾的所有数据：</p>
+<div data-ext="sql"><pre><code>mysql<span>></span> <span>SELECT</span> name <span>FROM</span> person_tbl <span>WHERE</span> name <span>REGEXP</span> <span>'^[aeiou]|ok$'</span><span>;</span>
+</code></pre><div aria-hidden="true"><div></div></div></div></li>
+<li>
+<p>选择订单表中描述中包含 &quot;item&quot; 后跟一个或多个数字的记录。</p>
+<div data-ext="sql"><pre><code><span>SELECT</span> <span>*</span> <span>FROM</span> orders <span>WHERE</span> order_description <span>REGEXP</span> <span>'item[0-9]+'</span><span>;</span>
+</code></pre><div aria-hidden="true"><div></div></div></div></li>
+<li>
+<p>使用 <strong>BINARY</strong> 关键字，使得匹配区分大小写：</p>
+<div data-ext="sql"><pre><code><span>SELECT</span> <span>*</span> <span>FROM</span> products <span>WHERE</span> product_name <span>REGEXP</span> <span>BINARY</span> <span>'apple'</span><span>;</span>
+</code></pre><div aria-hidden="true"><div></div></div></div></li>
+<li>
+<p>使用 OR 进行多个匹配条件，以下将选择姓氏为 &quot;Smith&quot; 或 &quot;Johnson&quot; 的员工记录：</p>
+<div data-ext="sql"><pre><code><span>SELECT</span> <span>*</span> <span>FROM</span> employees <span>WHERE</span> last_name <span>REGEXP</span> <span>'Smith|Johnson'</span><span>;</span>
+</code></pre><div aria-hidden="true"><div></div></div></div></li>
+</ol>
+<p><strong>📖</strong> <strong>RLIKE 是 MySQL 中用于进行正则表达式匹配的运算符，与 REGEXP 是一样的，RLIKE 和 REGEXP 可以互换使用，没有区别。</strong></p>
+<h3 id="_3-插入" tabindex="-1"> 3. 插入</h3>
+<h4 id="_2-1-ingore" tabindex="-1"> 2.1 ingore</h4>
+<p>插入数据时，如果数据已经存在，则不再执行插入</p>
+<h3 id="_4-修改" tabindex="-1"> 4. 修改</h3>
+<h3 id="_5-删除" tabindex="-1"> 5. 删除</h3>
+<h3 id="_6-存储过程和函数" tabindex="-1"> 6. 存储过程和函数</h3>
+<h4 id="_1-存储过程" tabindex="-1"> 1. 存储过程</h4>
+<h3 id="_7-地理类型" tabindex="-1"> 7. 地理类型</h3>
+<h5 id="_1-使用st-distance-sphere函数计算经纬度距离" tabindex="-1"> 1. 使用<code>ST_Distance_Sphere</code>函数计算经纬度距离</h5>
+]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/be92f3fc23a4ba0672923f5f05c7e08b" type="image/"/>
+    </item>
+    <item>
+      <title>介绍页</title>
+      <link>https://lianghexiang.github.io/space/intro.html</link>
+      <guid>https://lianghexiang.github.io/space/intro.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">介绍页</source>
+      <pubDate>Fri, 07 Jul 2023 06:08:45 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="介绍页" tabindex="-1"> 介绍页</h1>
+<p>我所在的位置：中国河南省<br>
+联系方式：<br>
+🐧 QQ：1973749775</p>
+<p>📧邮箱:lhx110396@163.com</p>
+<p>💻目前在郑州工作</p>
+<p>👋 你好！我的介绍页<br>
+既然茫茫人海中你能来到我的个人主页，这也是一种邂逅! ✨</p>
+<p>我热衷于分享最新的科技趋势和创新的编程技巧，致力于让技术变得更加容易理解和应用。我相信技术可以改变世界，而我希望成为这个变革的一部分。🌍💪</p>
+<p>📚 在我的博客中，你将发现我对编程语言、前端开发、人工智能和数据科学等领域的深入研究和经验分享。无论你是初学者还是经验丰富的开发者，我都将为你提供有价值的内容和实用的建议。🎓🚀</p>
+<p>🌱 我认为学习是持续的过程，因此我致力于不断拓展自己的知识和技能。我不仅保持对最新技术的追踪，还乐于探索新的编程范式和工具。我相信通过不断学习和探索，我们可以超越自己的边界并实现令人惊叹的创新。🌈🔍</p>
+<p>🤝 我欢迎与各位读者和同行建立联系，并共同探索技术世界的奇妙之处。如果你对我博客中的任何主题感兴趣，或者想要进行深入讨论，别犹豫，和我联系吧！💌🤗</p>
+<p>✨ 无论你是想了解新技术、解决编程难题还是追求个人成长，我都希望我的博客能够成为你的指南之一。让我们一起在代码的世界中留下印记，一起创造更加美好的未来！🌟</p>
+]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/6c8acb93bd0fc9dd85006746d572df8f" type="image/"/>
+    </item>
+    <item>
+      <title>幻灯片页</title>
+      <link>https://lianghexiang.github.io/space/slides.html</link>
+      <guid>https://lianghexiang.github.io/space/slides.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">幻灯片页</source>
+      <pubDate>Fri, 07 Jul 2023 06:08:45 GMT</pubDate>
+      <content:encoded><![CDATA[
+<Presentation id="presentation-1" code="eJzNWV9TGlkWf+dT3DHzoG4ag9mprXJG32ZqaiupfcnDVjlWGrGjrAgWNBlrN5siQUQMCJmoKGIEo5FMFJ2JMfwR+S4zfW93P818hDm3bwMNQYFgJvNAcetyzu/8ueece+7B9NVnHIfMHod9QhhCE1bRyoluq9NjF+0u53CPtt+DOG7EZLp2DeF8UX50JIeC5GxF3i2YdG7BIcwITnEI2RxWj2e4x83ds4ucKMyJOquU80m5H+WsD0dW5cR8A4yUW8axeXk/go+jyskJfvH6V9/jtrFHkFRKKr4Auu02f+uaFcxIOXpHigm8lFHPUiQVhLVSyirlTRzYk3JPQBc1/dZk4jhOs4lSvMlUVWpb7ujv20+DY73XBiwDlj4K1xWaVCrLKxnEg1a8DkKOT3D+TUuoe27rJN1A96wTAmd36oA42Qgg5Q5rUniEFxdw6Gf8/LG8CWQfJqSCVxdEZrOZ/goSkjVHSLkl8q6Il1L4p+fEt9+VnCpTnaRQhEUZ+vbO7VsIB/zySao7qVqEtJUf2r7VK7o4q9M+YxWFasbctrqnJ1zfOzsIhBSOHknFvXrvVY6uggdBfkjeaMmkpQ6EjJI9NrctprlpLUzoVrdrgKaUN8j6UeWobppM8Ku6s64W15XsrnSWUII/QuYqpQMS2ZFyBby7jxc2tHpg5CTJkLzlQ/398s9xqfSsv/86ukvWkrC8ex09fIgXU+rGrlwoP3yIyFoQH8Zx/hSHAzj2Go0yBPXZOVneG+udEsVZz9DAwIx7ihYPOFihD4HqJPtWiZV+OwsDp5RbwVl/VTnQTEmHQScS8oEzwCsknlKTPvIkgMt+oAR2dbWMCy81vT+Jq/FiXElndK/mCoi3Ox12p8CNO1y2aR6UQmo6L29mmyxMFrO+RBbDetCwhmP7NFYlMxQidqRVgyn75JQDPiJUzOgPUvEUx5bhwKTiCzn1CG/Fqwemvl6XClntMHie/4/HZHM5PSKyomFk+ZJu/SXMASFTDZaUUlJ+m4nQMe98/W+4Hs7wWZRtkNVjfPgSBw5gRzPw889N/+z9TpwSROvdG9f1haUPTP3O4525+z/78I3/U6JPY/EviVR/P72f4Xqbj/b3DyGIUmrPD2F2H0HOake4h6NLkF6Q51IuAsJq0ICFgwtMAEimMhYCOJvHW6BIBEfjZOWIhB/pqdd9Bcc5P/7Jd5WF9UOhoeFYQHxtm2eUiMZ59pVe5yCkchHlNICDheoBKWE/3jyhRc0fwAtvoQnCxyU4R8VfgvrabpF6T+3PRm+5Jl1jvQMO+DJ77k9CG3SRKR7RLYi2qQZL9N2KITiXxUuvaD1d3seLp7SRCuzhzXPaKS6uKfsL6s5Tet5wJxxHtfwo07pcPMDp1zgQIMV01WTW15C1PI49hS6AcoUAeUN+VVDjJ+2arO2MW23Tk26X1znB2VwOlxvMmRzv/ceN64h+Br/4os/QIOuu0W46f5hsHBlyRvUllHIQFJJDeZxN1LpgrUVBfIM0aGu0roXWsGxCyodq56khQzpdEN/N43gpI68UqbgsdL9X3yZ8EL6RCQqIVFhmtRqOm6yfq4mYscjQQ9TaOu34wK1w5yovH9FSVN/tIb7S0YEPobJoQpgOnd7I9VbRYzWi0XuU15tGvsPmUmd0ecX2OIGwgdU72x6nd1Zn1Igddrj6xt2CdboejRbX9vAoZYMqDuFem2ZQygZmt3aHt8WtkbZjjd3JwdXnbN+9BoYG9Sq/eIQZe+d4Fa5uE6pp6EGh+L6lOpSoZpJnym13QgfYgomRGdhEt31aaM2mkbU4oGrfxrmFiZaQddQ1hWrbk25BaB25DfTNgMYd3tYW1pO3banN63YDe4cWG7iaKVz5uVMP1PFdBtyhR4xsVxLvuwl4qdXvV29TEg7JgX01XcCFKDztlBf5Ju9/aBACp+TJHvSRzcC+8sxanRcW6hETQs0p6mOS0l1EWS3djAghkotBU4NGEI6uy4UdWNCdYIFhDFAQTa6+qnx350jmJYPzKgMVDaSiLNg8IcxV2g6ykgcVmR/pzauBMiB2/0KzHQuz3/UTgUf5Zg42m5FziCR98KyBa51ODi+PKb0fr1dsuOdmjx6q8sGBVAjTOUAXaIMM7YLcpSLYqKELEZaPofBVPGpozEXXu2wDP6bEO1VsSJRa86wGInIpy3pBxNcU4JHqC8FwAgcy0H8r2XOgog+EyutZb72TmctabyMcywHAUv0ZBkff69qTiUa372yIHqvT5RTgiyY5fGk+uDCgYOZwX5hjC5v1PmX4r8s101Fmd+hENm8LklyapWP9+x1yVX1cNI7jDQ30ezrwMGYvV9O7rsgW9uWVbaMcsrpIniev7gW+tA1u/zODtUOJ1M9s6mQyVR55F4yo2FRHP4OjfHVWBX9PwEzRMKh6r1SPwtvwgY2bGOP16QrZ2qMzk5yfcbHIZoNJfc6FRi3c4IObD/4+ZnII1XkXXY7DcpAtbbDsnYMB0QiyoL+hQfjMfWmy9d7su3Q09rH9qe7MK/uLJJOGwRYMicMwB3qC+K89NvDk4hri/wU5GnkDLjJOopTld/g8Ls+/lB/nSfyU/edjRLrk+fexDdJKU7TRoG90c76xWNo2yIj0CQ2Sz16RlfOaKVYHRHnvLbvTO4egklTi1ia6Hbw2UofSATaAJThYrFoI+1KxKJVWWTGhA3fNCzQ/Yk/J4S7bZ/kB8ioDK7wQIQdpHUzjAH1gLNRYddowBcnFZ2Rr2/QHLsR/vQ==" theme="auto"></Presentation>]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/72e720a5032441381e8d626f0e6538f1" type="image/"/>
+    </item>
+    <item>
+      <title>Python操作Polygon</title>
+      <link>https://lianghexiang.github.io/space/posts/python/polygon%E9%9D%A2%E7%A7%AF%E8%AE%A1%E7%AE%97.html</link>
+      <guid>https://lianghexiang.github.io/space/posts/python/polygon%E9%9D%A2%E7%A7%AF%E8%AE%A1%E7%AE%97.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">Python操作Polygon</source>
+      <category>python</category>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="python操作polygon" tabindex="-1"> Python操作Polygon</h1>
+<h3 id="_1-polygon面积计算" tabindex="-1"> 1. Polygon面积计算</h3>
+<blockquote>
+<p>首先介绍什么是Polygon，在地理信息系统(GIS)中，polygon是经纬度构成的多边形，可以用来描绘地理边界，区域和建筑物轮廓灯。在mysql中，可以使用polygon数据类型存储，Python的<code>Shapely</code>库提供了操作polygon数据的工具。</p>
+</blockquote>
+<p>在编程语言中，polygon数据多存储在二维列表中，例如<code>[[1, 2],[2, 0], [0, 1],......]</code>,  在数学中计算不规则多边形面积之一的公式是鞋带公式(也成高斯面积公式)</p>
+<p>对于任意一个多边形，如果已知其各个顶点的坐标，</p>
+<p>那么这个多边形的面积为：</p>
+<p>其中y(i+1)=y1, x(i+1)=x1</p>
+<p><a href="https://blog.csdn.net/xza13155/article/details/112118676" target="_blank" rel="noopener noreferrer">https://blog.csdn.net/xza13155/article/details/112118676</a></p>
+<p>把上述公式转换成Python计算polygon边界面积的代码：</p>
+<div data-ext="py"><pre><code><span>def</span> <span>polygon_area</span><span>(</span>polygon<span>)</span><span>:</span>
+    <span>"""
+    :param polygon: 多边形坐标 list
+    :return: 多边形面积 float
+    """</span>
+    length <span>=</span> <span>len</span><span>(</span>polygon<span>)</span>
+    area <span>=</span> <span>0.0</span>
+    <span>for</span> i <span>in</span> <span>range</span><span>(</span>length<span>)</span><span>:</span>
+        x1<span>,</span> y1 <span>=</span> polygon<span>[</span>i<span>]</span>
+        <span># 如果xn为最后一项，则为xn*y1-yn*x1</span>
+        x2<span>,</span> y2 <span>=</span> polygon<span>[</span><span>(</span>i<span>+</span><span>1</span><span>)</span> <span>%</span> length<span>]</span>
+        area <span>+=</span> <span>(</span>x1<span>*</span>y2 <span>-</span> y1<span>*</span>x2<span>)</span>
+    area <span>=</span> <span>abs</span><span>(</span>area<span>)</span> <span>*</span> <span>0.5</span>
+    <span>return</span> area
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>如果使用第三方库shapely：</p>
+<div data-ext="py"><pre><code><span>from</span> shapely<span>.</span>geometry <span>import</span> Polygon
+<span>def</span> <span>gis_polygon_area</span><span>(</span>coordinates<span>)</span><span>:</span>
+    polygon <span>=</span> Polygon<span>(</span>coordinates<span>)</span>
+    area <span>=</span> polygon<span>.</span>area
+    <span>return</span> area
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div></div></div>]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/72e720a5032441381e8d626f0e6538f1" type="image/"/>
+    </item>
+  </channel>
+</rss>
