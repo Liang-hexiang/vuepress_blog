@@ -42,6 +42,7 @@ export default defineUserConfig({
             },
         ],
         ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
+        // ['link', {rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/@docsearch/css@3'}],
         ['meta', { name: 'theme-color', content: '#3eaf7c' }],
 
     ],
@@ -77,9 +78,10 @@ export default defineUserConfig({
         docsearchPlugin({
             // 配置项
             appId: 'OD5D2HOUNL',
-            apiKey: 'dad885b12cf463b19232a89f2e92f29e',
+            apiKey: 'd7094b39ae7af9fb8a20a69f71609c8a',
             indexName: 'space',
-
+            searchParameters: {
+            },
             locales: {
                 "/": {
                     placeholder: '搜索文档',
