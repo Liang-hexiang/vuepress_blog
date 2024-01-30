@@ -72,16 +72,13 @@ export default navbar([
             },
             {
                 text: "读书笔记",
-                icon: "book",
-                prefix: "book_note/",
+                icon: "note",
+                prefix: "book_notes/",
                 children: [
                     {
-                        text: "人之觉醒：开启自我改变的原动力",
-                        icon: "note",
-                        prefix: "人之觉醒/",
-                        children: [
-                            {text: '第一章：[大脑-一切问题的起源]', icon: 'note', link: "一切问题的起源"},
-                        ]
+                        'text': "人之觉醒",
+                        "icon": 'note',
+                        'link': "人之觉醒/"
                     },
                 ],
             },

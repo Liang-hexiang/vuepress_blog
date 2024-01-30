@@ -6,6 +6,9 @@ import {pwaPlugin} from "@vuepress/plugin-pwa"
 import { pwaPopupPlugin } from '@vuepress/plugin-pwa-popup'
 import { sitemapPlugin } from "vuepress-plugin-sitemap2";
 import { feedPlugin } from "vuepress-plugin-feed2";
+// 搜索功能
+import { docsearchPlugin } from '@vuepress/plugin-docsearch'
+
 
 
 
@@ -15,16 +18,8 @@ export default defineUserConfig({
     base: "/space/",
     lang: "zh-CN",
     title: "#/ cd L.H.X Blog Home",
-    description: "欢迎来到酥肉丸子的博客空间",
     theme,
     debug: true,
-    alias: {
-        "@theme-hope/modules/blog/components/BlogHero": path.resolve(
-
-            __dirname,
-            "./components/BlogHero.vue",
-        ),
-    },
     head: [
         // 导入相应链接
         ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
@@ -78,6 +73,22 @@ export default defineUserConfig({
             devServer: true,
             devHostname: 'http://localhost:8080/',
 
+        }),
+        docsearchPlugin({
+            // 配置项
+            appId: 'OD5D2HOUNL',
+            apiKey: 'ce66551a244fe3bbd892231e7909e9d9',
+            indexName: 'space',
+            locales: {
+                "/": {
+                    placeholder: '搜索文档',
+                    translations: {
+                        button: {
+                            buttonText: '搜索文档',
+                        },
+                    },
+                }
+            }
         }),
 
     ]

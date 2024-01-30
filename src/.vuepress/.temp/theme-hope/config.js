@@ -1,14 +1,14 @@
 import { defineClientConfig } from "@vuepress/client";
 import { VPLink } from "E:/code/vuepress-blog/node_modules/vuepress-theme-hope/node_modules/vuepress-shared/lib/client/index.js";
 
-import { HopeIcon, Layout, NotFound, useScrollPromise, injectDarkmode, setupDarkmode, setupSidebarItems } from "E:/code/vuepress-blog/node_modules/vuepress-theme-hope/lib/bundle/export.js";
+import { HopeIcon, Layout, NotFound, useScrollPromise, injectDarkmode, setupDarkmode, setupSidebarItems } from "E:/code/vuepress-blog/node_modules/vuepress-theme-hope/lib/client/export.js";
 
 import { defineAutoCatalogIconComponent } from "E:/code/vuepress-blog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-auto-catalog/lib/client/index.js"
-import { BlogCategory, BlogHome, BlogType, BloggerInfo, Timeline, setupBlog } from "E:/code/vuepress-blog/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/export.js";
-import "E:/code/vuepress-blog/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/styles/all.scss";
+import { BlogCategory, BlogHome, BlogType, BloggerInfo, Timeline, setupBlog } from "E:/code/vuepress-blog/node_modules/vuepress-theme-hope/lib/client/modules/blog/export.js";
+import "E:/code/vuepress-blog/node_modules/vuepress-theme-hope/lib/client/modules/blog/styles/layout.scss";
 import Slide from "E:/code/vuepress-blog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-md-enhance/lib/client/SlidePage.js";
 
-import "E:/code/vuepress-blog/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
+import "E:/code/vuepress-blog/node_modules/vuepress-theme-hope/lib/client/styles/index.scss";
 
 defineAutoCatalogIconComponent(HopeIcon);
 

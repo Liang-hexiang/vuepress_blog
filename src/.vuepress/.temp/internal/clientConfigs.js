@@ -11,7 +11,8 @@ import clientConfig9 from 'E:/code/vuepress-blog/src/.vuepress/.temp/md-enhance/
 import clientConfig10 from 'E:/code/vuepress-blog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-photo-swipe/lib/client/config.js'
 import clientConfig11 from 'E:/code/vuepress-blog/src/.vuepress/.temp/pwa2/config.js'
 import clientConfig12 from 'E:/code/vuepress-blog/src/.vuepress/.temp/theme-hope/config.js'
-import clientConfig13 from 'E:/code/vuepress-blog/src/.vuepress/client.ts'
+import clientConfig13 from 'E:/code/vuepress-blog/node_modules/@vuepress/plugin-docsearch/lib/client/config.js'
+import clientConfig14 from 'E:/code/vuepress-blog/src/.vuepress/client.ts'
 
 export const clientConfigs = [
   clientConfig0,
@@ -28,4 +29,5 @@ export const clientConfigs = [
   clientConfig11,
   clientConfig12,
   clientConfig13,
+  clientConfig14,
 ]

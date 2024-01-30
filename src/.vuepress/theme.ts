@@ -186,4 +186,4 @@ export default hopeTheme({
       ],
     },
   }
-},);
+}, { check: true, compact:true, custom: true, debug: false});
