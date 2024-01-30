@@ -60,9 +60,9 @@ export default defineUserConfig({
         // 站点插件管理
         sitemapPlugin({
             // 配置选项
-            hostname: "https://lianghexiang.github.io/",
+            hostname: "https://lianghexiang.github.io",
             changefreq: 'always',
-            sitemapFilename: 'LHx_BlogSiteMap.xml'
+            sitemapFilename: 'sitemap.xml'
         }),
         feedPlugin({
             // 插件选项
@@ -77,8 +77,10 @@ export default defineUserConfig({
         docsearchPlugin({
             // 配置项
             appId: 'OD5D2HOUNL',
+
             apiKey: 'ce66551a244fe3bbd892231e7909e9d9',
             indexName: 'space',
+
             locales: {
                 "/": {
                     placeholder: '搜索文档',
