@@ -77,8 +77,7 @@ export default defineUserConfig({
         docsearchPlugin({
             // 配置项
             appId: 'OD5D2HOUNL',
-
-            apiKey: 'ce66551a244fe3bbd892231e7909e9d9',
+            apiKey: 'sdfsa',
             indexName: 'space',
 
             locales: {
