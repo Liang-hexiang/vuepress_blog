@@ -78,31 +78,31 @@ define(['./workbox-9d146cca'], (function (workbox) { 'use strict';
    */
   workbox.precacheAndRoute([{
     "url": "404.html",
-    "revision": "d58d2375ea7c081e48396c1b47ecfc17"
+    "revision": "30c13c55fab2d324af630451763882b1"
   }, {
     "url": "anything/book_notes/index.html",
-    "revision": "591d46c4732111a9ede799549ccecd05"
+    "revision": "2beed91c3b453e126fd97b2b04dca1e7"
   }, {
     "url": "anything/book_notes/人之觉醒/index.html",
-    "revision": "9a268d4b7c3b4eb7690abf84c7eaf7cd"
+    "revision": "ef6fef0747122182ac44728a4cb8a408"
   }, {
     "url": "anything/book_notes/人之觉醒/一切问题的起源.html",
-    "revision": "516c2868344ba92bc2e93bb71316aeb9"
+    "revision": "ca8180b9f4dd3bab05c82f2751e0fa84"
   }, {
     "url": "anything/index.html",
-    "revision": "e8f402697960e778c1b2d204e9b7d7d7"
+    "revision": "94039d779f5a20b08e0129deb447c7d4"
   }, {
     "url": "anything/小记/index.html",
-    "revision": "f7f1dff0520aa88824eac5a1ea71c350"
+    "revision": "2a9e23acd1029733d22f304299324711"
   }, {
     "url": "anything/小记/下雪啦.html",
-    "revision": "5d13a4a00e66976e9da479b9e6395a08"
+    "revision": "162464d8d44b5c81d04c232f892bbed0"
   }, {
     "url": "anything/小记/好用网站收藏.html",
-    "revision": "4344f80f2a59fd8d32175da3cdaa444e"
+    "revision": "cd205ebc04cdaf37b2d94fa22ea273fa"
   }, {
     "url": "article/index.html",
-    "revision": "90e3afcb538bb4c512517a87a391a0bc"
+    "revision": "7683f311b3e9b35fc962e05925da3e21"
   }, {
     "url": "assets/404.html-7762df77.js",
     "revision": "4de71345188cc93934d39d49ea5209d8"
@@ -111,7 +111,7 @@ define(['./workbox-9d146cca'], (function (workbox) { 'use strict';
     "revision": "61f4f767d9e2f34d4476404b3445c1fa"
   }, {
     "url": "assets/app-d6533bb6.js",
-    "revision": "508e1782156c1d78bbc98256b4528c9c"
+    "revision": "f774ae19043bd54fb92aafcb933b5717"
   }, {
     "url": "assets/arc-3df01369.js",
     "revision": "7704edaa3189b64188055d5be0f76193"
@@ -867,40 +867,40 @@ define(['./workbox-9d146cca'], (function (workbox) { 'use strict';
     "revision": "12220bda90ca6f1d50bbf6a99dc5230e"
   }, {
     "url": "category/index.html",
-    "revision": "75796b577ee40fb5a2cf4fa34a766807"
+    "revision": "7c87e5bdd5019f1cac37d0466e9f72c7"
   }, {
     "url": "category/python/index.html",
-    "revision": "a940ad1ac8b65a060dcc8931e0935382"
+    "revision": "e796d66b403bad99794d04593cf5f23b"
   }, {
     "url": "category/vue/index.html",
-    "revision": "3fd92bae37cf75bdfe93069c70864d30"
+    "revision": "4a5f7998f4025d095a70029c4967d5c3"
   }, {
     "url": "category/工具/index.html",
-    "revision": "6f818e957ed96ea4e742cf856527e2ab"
+    "revision": "c2c9643ac09ed9b6f5105a8232273be5"
   }, {
     "url": "category/技术/index.html",
-    "revision": "fb0f618ea855a7f012a5085466818075"
+    "revision": "936f21eda98366870036a9fb83740a70"
   }, {
     "url": "category/画册/index.html",
-    "revision": "a333d0f99cd9e1a1714e3652f2c102d7"
+    "revision": "4c29510992283c6c0147ada5af7f63e1"
   }, {
     "url": "category/网址收藏/index.html",
-    "revision": "362b59168fb09891dabd4e1bb47801df"
+    "revision": "a56ddfaada84d08834625ef0070cd2cf"
   }, {
     "url": "design_pattern/index.html",
-    "revision": "1ba5c5a567f7483c7bf30fc43ba42282"
+    "revision": "7374729afafa80d1a30628a2ae91a3b8"
   }, {
     "url": "design_pattern/设计模式/index.html",
-    "revision": "aa2e371048cbe10f458d927448406fcc"
+    "revision": "8a64f887b68835be8304adc3fc057258"
   }, {
     "url": "design_pattern/设计模式/单例模式.html",
-    "revision": "7da882083360ea0533093271c89d49e5"
+    "revision": "67705800014807e799b1e1e5c971d4a1"
   }, {
     "url": "design_pattern/设计模式/工厂模式.html",
-    "revision": "c8dca31d46d21c2bafb16e47912e51f5"
+    "revision": "3e7423bbc216307aa649dcaa5dbb7189"
   }, {
     "url": "design_pattern/设计模式/门面模式.html",
-    "revision": "b0a29f9ec472fff425c843f5b6e04901"
+    "revision": "da06545f7589c7d131b3a2991f9dfc4a"
   }, {
     "url": "images/baby.svg",
     "revision": "b19426ec16ae76ce42a63547dc0fec01"
@@ -927,10 +927,10 @@ define(['./workbox-9d146cca'], (function (workbox) { 'use strict';
     "revision": "5bafa7893d49c71f895e35303a9f15b5"
   }, {
     "url": "index.html",
-    "revision": "eaa4f071fface10ed04c63f68fba083e"
+    "revision": "4797f17be74e57aa95e09d95163851a0"
   }, {
     "url": "intro.html",
-    "revision": "6fe937929a9f7d5ca58c5ef0b4a6d6e3"
+    "revision": "765d6d9fa94e15d9a2848025e6e6e877"
   }, {
     "url": "logo1.svg",
     "revision": "6072871d11996db6d44360d2aea70e93"
@@ -942,115 +942,115 @@ define(['./workbox-9d146cca'], (function (workbox) { 'use strict';
     "revision": "1a8e6bd1f66927a7dcfeb4b22f33ffde"
   }, {
     "url": "posts/gRPC/gRPC服务.html",
-    "revision": "c2826659bdd5c3b9ed25057579dc756d"
+    "revision": "3bac5d6c5de5b663105e08ec3aecca89"
   }, {
     "url": "posts/gRPC/index.html",
-    "revision": "90a91b5e59d0826d54c7246990ad691f"
+    "revision": "9e6de2079aca6e62a39fdb53a471d799"
   }, {
     "url": "posts/index.html",
-    "revision": "497be98d1376d53185de2afa4c6d0884"
+    "revision": "f1084a11e1d43993a479a0b60d924029"
   }, {
     "url": "posts/Linux/index.html",
-    "revision": "ace924817adae803eda0cb9b4bdacd5c"
+    "revision": "1b96610585e61f92747de1298673d7b2"
   }, {
     "url": "posts/Linux/Linux配置环境变量.html",
-    "revision": "bd6fc1e56cd78007a0517202a1d29d4b"
+    "revision": "b24adbaf4a02840b70264284b5c5fc22"
   }, {
     "url": "posts/mysql/index.html",
-    "revision": "aa7e28f872443cc1ce245ed3d3d3299e"
+    "revision": "87e996fd89e6e99ad91466f13f4c1cb2"
   }, {
     "url": "posts/mysql/mysql备忘录.html",
-    "revision": "2be6a97e114f71665dcdcee25017138c"
+    "revision": "0b31883d8ea9ce7614f67e3d214d81b6"
   }, {
     "url": "posts/python/index.html",
-    "revision": "cb9a78fc3ef2070c440088c97a2e7a08"
+    "revision": "e43f5843b9f983e9e8f126ddbf0cba72"
   }, {
     "url": "posts/python/Linux环境下DBUtils导入的问题.html",
-    "revision": "86725980652e77ab6189813717ef14f5"
+    "revision": "d32fe49b577a7da1daf2a02c5ddb48b2"
   }, {
     "url": "posts/python/polygon面积计算.html",
-    "revision": "eadc559ed7ae92eb55b25a2c1b8aa785"
+    "revision": "ac62c06509b8695d1c4cf6471c7153c8"
   }, {
     "url": "posts/python/Python2转Python3.html",
-    "revision": "5f7951c38dc1be2a2fd0675b18fe51c4"
+    "revision": "44b651b6af250a3961c69d18b8ffb48f"
   }, {
     "url": "posts/python/Python添加环境变量.html",
-    "revision": "841f1cce68fce9c180b5020992452eaf"
+    "revision": "921b4e066a19b4988f100e5bd7852fc5"
   }, {
     "url": "posts/tools/index.html",
-    "revision": "ddba9c36ed2c217731ee1279bad6883d"
+    "revision": "f89b4bbf4f16b9953d96a29a13fc3737"
   }, {
     "url": "posts/tools/PicgoGitHub搭建图床.html",
-    "revision": "a3de0ab0a4f40cb5bb6afa154543ab7b"
+    "revision": "738f155c38a16681e1e6ff12ef72d338"
   }, {
     "url": "posts/tools/sublime说明书.html",
-    "revision": "b91f869fb3f272a922d5d28e75103868"
+    "revision": "c5421c32a9867602361b5f2abc93f055"
   }, {
     "url": "posts/Vue/index.html",
-    "revision": "b895908629f978387e215549ca66a666"
+    "revision": "a23d5278ae4f7ea3f53a5202a2a336b6"
   }, {
     "url": "posts/Vue/Vue基础.html",
-    "revision": "24d119eb06e7a283d51a6dd04ebf05c2"
+    "revision": "7a78bedc98865a243a61900942f11b7f"
   }, {
     "url": "posts/Vue/vue客户端.html",
-    "revision": "ea8036e7c74019aaa5a1959fe40fa126"
+    "revision": "8bbe5ea0a9030f6054ba206fa1829eb8"
   }, {
     "url": "slides.html",
-    "revision": "29e0ea5ec2b99c2d1f3cb677b8b87f1d"
+    "revision": "023f0c197300f09e049064198d72ba05"
   }, {
     "url": "star/index.html",
-    "revision": "f7609b5891e05bd9de2956088da8f1a9"
+    "revision": "51335d96f80d2d151cefa10909967a49"
   }, {
     "url": "tag/2to3/index.html",
-    "revision": "d14797fcb05063bd82d7bd8bac31cc8f"
+    "revision": "368651779b4ab0d7f74388becafaa400"
   }, {
     "url": "tag/github/index.html",
-    "revision": "daba0818af6f8ca8eba41f09af9b8c3b"
+    "revision": "7150d5c0b5b420e1b7d767161d460d2b"
   }, {
     "url": "tag/gprc/index.html",
-    "revision": "509f0ba57f6a4ef95fc723d9db8dcf48"
+    "revision": "b700e046a3eca4dc77ebc17254382851"
   }, {
     "url": "tag/index.html",
-    "revision": "120c93584bc20019c4738606231e7d96"
+    "revision": "ae900c9edcf6a853ebefde3417a3d752"
   }, {
     "url": "tag/linux/index.html",
-    "revision": "9a8aae492e2ea3f9098ff4146924cbe1"
+    "revision": "a15800745b87ee9c2f0abf5d32d51f00"
   }, {
     "url": "tag/mysql/index.html",
-    "revision": "3f64c08320dd41380c1eb877d7d55d6e"
+    "revision": "23e6df5472e593b922dfa096c3898635"
   }, {
     "url": "tag/picgo/index.html",
-    "revision": "a719c6f68653f3f22b11fdbbf43539f6"
+    "revision": "fda4fdbdc3b9c5d88d1bd6f387f5783b"
   }, {
     "url": "tag/polygon/index.html",
-    "revision": "619bbd145a232917107d487e61251a07"
+    "revision": "20f7ed099e474dbb87b67b54d1e151b7"
   }, {
     "url": "tag/python/index.html",
-    "revision": "f72b1749b07f016a909d3a4231e0c68e"
+    "revision": "6257446efe923a318ebb4214501ea4e0"
   }, {
     "url": "tag/rpc/index.html",
-    "revision": "3ea035d6497c76cb3f8a6cb4e39ec20f"
+    "revision": "034ebc0467b38e2bfb76a36beb692a03"
   }, {
     "url": "tag/sublime-text/index.html",
-    "revision": "0e017db5c39a5ff90184648360bb9468"
+    "revision": "d68eb93a32e4292e752120ecda4424a3"
   }, {
     "url": "tag/前端/index.html",
-    "revision": "1e9f429fb7dec9e9f202315b622a456b"
+    "revision": "09a48d474166191980ee398407d3d5e6"
   }, {
     "url": "tag/工具说明书/index.html",
-    "revision": "537020b88800e0a9dc1b4b4e3fce1e3f"
+    "revision": "a9c7bd8ccd726ef7c28fd23fc0824148"
   }, {
     "url": "tag/框架/index.html",
-    "revision": "6fff785cbb3f5766dfa290a7e1d7ad7a"
+    "revision": "8595db38e2d3572c23ce2e45d607e2d1"
   }, {
     "url": "tag/网站/index.html",
-    "revision": "4a6086f47bd7cfcd497f3aef7bd8653c"
+    "revision": "4d9b5881b26476287af8bde73f11e173"
   }, {
     "url": "tag/设计模式/index.html",
-    "revision": "8cbe430aa008388b21fcdd9bd22eb853"
+    "revision": "93b9d1cc6618fd6fea034cd6e543dc95"
   }, {
     "url": "timeline/index.html",
-    "revision": "363068ca33f8c7b4ef784c13653dfe46"
+    "revision": "37775a8c133e8689793d506b23c9b1c5"
   }], {});
 
 }));
