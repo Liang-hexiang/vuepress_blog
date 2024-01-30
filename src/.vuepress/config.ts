@@ -79,7 +79,7 @@ export default defineUserConfig({
             appId: 'OD5D2HOUNL',
             apiKey: 'dad885b12cf463b19232a89f2e92f29e',
             indexName: 'space',
-            searchParameters
+
             locales: {
                 "/": {
                     placeholder: '搜索文档',
