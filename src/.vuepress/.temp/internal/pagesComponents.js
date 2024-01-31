@@ -103,6 +103,8 @@ export const pagesComponents = {
   "v-65f6d381": defineAsyncComponent(() => import(/* webpackChunkName: "v-65f6d381" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/category/vue/index.html.vue")),
   // path: /tag/linux/
   "v-211f44ee": defineAsyncComponent(() => import(/* webpackChunkName: "v-211f44ee" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/linux/index.html.vue")),
+  // path: /category/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/
+  "v-0a695906": defineAsyncComponent(() => import(/* webpackChunkName: "v-0a695906" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/category/读书笔记/index.html.vue")),
   // path: /tag/mysql/
   "v-1bee38ca": defineAsyncComponent(() => import(/* webpackChunkName: "v-1bee38ca" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/mysql/index.html.vue")),
   // path: /tag/polygon/
@@ -121,4 +123,8 @@ export const pagesComponents = {
   "v-95f987f4": defineAsyncComponent(() => import(/* webpackChunkName: "v-95f987f4" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/前端/index.html.vue")),
   // path: /tag/%E6%A1%86%E6%9E%B6/
   "v-f4d3cd72": defineAsyncComponent(() => import(/* webpackChunkName: "v-f4d3cd72" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/框架/index.html.vue")),
+  // path: /tag/%E7%84%A6%E8%99%91/
+  "v-677a8581": defineAsyncComponent(() => import(/* webpackChunkName: "v-677a8581" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/焦虑/index.html.vue")),
+  // path: /tag/%E7%AC%94%E8%AE%B0/
+  "v-7329824f": defineAsyncComponent(() => import(/* webpackChunkName: "v-7329824f" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/笔记/index.html.vue")),
 }

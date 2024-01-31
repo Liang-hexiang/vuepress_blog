@@ -10,7 +10,7 @@ export default hopeTheme({
     name: "L.H.X",
     url: "/intro.html",
   },
-
+  darkmode: 'switch',
   iconAssets: "iconfont",
   logo: "/images/坏笑.svg",
   repo: "lianghexiang/space",
@@ -34,7 +34,7 @@ export default hopeTheme({
   },
   blog: {
     timeline: "忽如白驹过隙",
-    description: "不积小流无以成江海，不积跬步无以至千里；",
+    description: "<font color='orange' size='3em'>行之有恒，久自芬芳；</font>",
     intro: "/intro.html",
     medias: {
       Baidu: "https://baidu.com",

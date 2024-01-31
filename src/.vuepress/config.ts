@@ -20,6 +20,12 @@ export default defineUserConfig({
     title: "#/ cd L.H.X Blog Home",
     theme,
     debug: true,
+    alias: {
+        "@theme-hope/modules/blog/components/BlogHero": path.resolve(
+            __dirname,
+            "./components/BlogHero.vue",
+        ),
+    },
     head: [
         // 导入相应链接
         ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
@@ -42,6 +48,7 @@ export default defineUserConfig({
             },
         ],
         ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
+        ['script', {src: 'https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js'}],
         // ['link', {rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/@docsearch/css@3'}],
         ['meta', { name: 'theme-color', content: '#3eaf7c' }],
 
