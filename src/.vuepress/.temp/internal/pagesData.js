@@ -139,4 +139,6 @@ export const pagesData = {
   "v-677a8581": () => import(/* webpackChunkName: "v-677a8581" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/焦虑/index.html.js").then(({ data }) => data),
   // path: /tag/%E7%AC%94%E8%AE%B0/
   "v-7329824f": () => import(/* webpackChunkName: "v-7329824f" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/笔记/index.html.js").then(({ data }) => data),
+  // path: /posts/pyspark/.~PySpark%E5%88%9D%E5%AD%A6%E8%80%85%E6%95%99%E7%A8%8B.html
+  "v-6e7e73b2": () => import(/* webpackChunkName: "v-6e7e73b2" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/posts/pyspark/.~PySpark初学者教程.html.js").then(({ data }) => data),
 }
