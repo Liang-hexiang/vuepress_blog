@@ -6,8 +6,8 @@
     <link>https://lianghexiang.github.io/space/</link>
     <description></description>
     <language>zh-CN</language>
-    <pubDate>Wed, 31 Jan 2024 10:05:58 GMT</pubDate>
-    <lastBuildDate>Wed, 31 Jan 2024 10:05:58 GMT</lastBuildDate>
+    <pubDate>Thu, 01 Feb 2024 10:07:57 GMT</pubDate>
+    <lastBuildDate>Thu, 01 Feb 2024 10:07:57 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <image>
@@ -15,13 +15,42 @@
       <url>src/.vuepress/public/images/katongrenwu.png</url>
       <link>https://lianghexiang.github.io/space/</link>
     </image>
+    <category>技术</category>
+    <category>IT</category>
     <category>读书笔记</category>
     <category>工具</category>
     <category>Vue</category>
     <category>网址收藏</category>
-    <category>技术</category>
     <category>画册</category>
     <category>python</category>
+    <item>
+      <title>PySpark初学者教程</title>
+      <link>https://lianghexiang.github.io/space/posts/pyspark/PySpark%E5%88%9D%E5%AD%A6%E8%80%85%E6%95%99%E7%A8%8B.html</link>
+      <guid>https://lianghexiang.github.io/space/posts/pyspark/PySpark%E5%88%9D%E5%AD%A6%E8%80%85%E6%95%99%E7%A8%8B.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">PySpark初学者教程</source>
+      <category>技术</category>
+      <category>IT</category>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="pyspark初学者教程" tabindex="-1"> PySpark初学者教程</h1>
+<div>
+<p>Spark版本信息</p>
+<p>本教程以下所有内容都是基于Spark3.5版本</p>
+</div>
+]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/498496728f8ad787045c66c3af161ab1" type="image/"/>
+    </item>
+    <item>
+      <title>SparkSession教程</title>
+      <link>https://lianghexiang.github.io/space/posts/pyspark/SparkSession%E6%95%99%E7%A8%8B.html</link>
+      <guid>https://lianghexiang.github.io/space/posts/pyspark/SparkSession%E6%95%99%E7%A8%8B.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">SparkSession教程</source>
+      <category>技术</category>
+      <category>IT</category>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="sparksession教程" tabindex="-1"> SparkSession教程</h1>
+]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/da3546c26f3726a1f7a63e96921b30ff" type="image/"/>
+    </item>
     <item>
       <title>大脑——一切问题的起源</title>
       <link>https://lianghexiang.github.io/space/anything/book_notes/%E4%BA%BA%E4%B9%8B%E8%A7%89%E9%86%92/%E4%B8%80%E5%88%87%E9%97%AE%E9%A2%98%E7%9A%84%E8%B5%B7%E6%BA%90.html</link>
@@ -31,10 +60,8 @@
       <pubDate>Wed, 31 Jan 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="大脑——一切问题的起源" tabindex="-1"> 大脑——一切问题的起源</h1>
 <h3 id="第一章摘要摘要" tabindex="-1"> <font color='orange'>第一章摘要摘要</font></h3>
-<p>:::<br>
-人是特殊的，因为有可以进行自我审视的大脑，有自我意识。但是我们大多数人都不了解自己的大脑，所以才会对自身产生的问题感到困惑。现在，我们从了解大脑开始，重新认识“自己”<br>
-:::</p>
-<nav><ul><li><router-link to="#第一章摘要摘要"><font color='orange'>第一章摘要摘要</font></router-link></li><li><router-link to="#第一节-大脑-重新认识你自己">第一节　大脑：重新认识你自己</router-link></li></ul></nav>
+<ECharts id="echarts-6" config="eJyrrgUAAXUA+Q==" title="%E6%A0%87%E9%A2%98"><p></p>
+</ECharts><nav><ul><li><router-link to="#第一章摘要摘要"><font color='orange'>第一章摘要摘要</font></router-link></li><li><router-link to="#第一节-大脑-重新认识你自己">第一节　大脑：重新认识你自己</router-link></li></ul></nav>
 <h2 id="第一节-大脑-重新认识你自己" tabindex="-1"> 第一节　大脑：重新认识你自己</h2>
 ]]></content:encoded>
       <enclosure url="https://img.tucang.cc/api/image/show/162dc86c7925e40d3e32b8b1cc036876" type="image/"/>
@@ -589,7 +616,14 @@ style-loader：将css代码添加一个style标签插入到header中</p>
       <category>网址收藏</category>
       <pubDate>Mon, 11 Dec 2023 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="网站推荐" tabindex="-1"> 网站推荐</h1>
-<i>Content not supported</i>]]></content:encoded>
+<h3 id="_1-http-sparkbyexamples-com" tabindex="-1"> <i>Content not supported</i> 1. <a href="http://sparkbyexamples.com/" target="_blank" rel="noopener noreferrer">http://sparkbyexamples.com/</a></h3>
+<div>
+<p>收藏理由</p>
+<p>是一个学习编程技术的网站，我主要是用来学习PySpark，因为这个网站的文档相比于官方文档来说，它的目录结构就比较一目了然，整体比较清晰；<br>
+而且，关于PySpark的每个模块，每个方法，它都用比较好理解的语言描述。然后，还会有示例代码来以更加直观的方式让读者明白相关模块如何使用</p>
+</div>
+<i>Content not supported</i>
+]]></content:encoded>
       <enclosure url="https://img.tucang.cc/api/image/show/97c5d0c0a9f9c7aae374b30ce9f16e6d" type="image/"/>
     </item>
     <item>
