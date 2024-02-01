@@ -53,7 +53,17 @@ export default navbar([
                     {text: "Vue基础知识", icon: "vue", link: "Vue基础"},
                     {text: "Vue客户端", icon: "vue", link: "Vue客户端"},
                 ],
-            }
+            },
+            {
+                text: "PySpark",
+                prefix: "pyspark/",
+                icon: 'map',
+                children: [
+                    {text: "PySpark初学者教程", icon: 'map', link: "PySpark初学者教程"},
+                    {text: "SparkSession", icon: 'map', link: "SparkSession教程"}
+                ],
+            },
+
         ],
     },
     {

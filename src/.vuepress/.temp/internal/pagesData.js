@@ -21,6 +21,10 @@ export const pagesData = {
   "v-0b84fef2": () => import(/* webpackChunkName: "v-0b84fef2" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/posts/Linux/Linux配置环境变量.html.js").then(({ data }) => data),
   // path: /posts/mysql/mysql%E5%A4%87%E5%BF%98%E5%BD%95.html
   "v-784c3919": () => import(/* webpackChunkName: "v-784c3919" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/posts/mysql/mysql备忘录.html.js").then(({ data }) => data),
+  // path: /posts/pyspark/PySpark%E5%88%9D%E5%AD%A6%E8%80%85%E6%95%99%E7%A8%8B.html
+  "v-26844e37": () => import(/* webpackChunkName: "v-26844e37" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/posts/pyspark/PySpark初学者教程.html.js").then(({ data }) => data),
+  // path: /posts/pyspark/SparkSession%E6%95%99%E7%A8%8B.html
+  "v-30e593e0": () => import(/* webpackChunkName: "v-30e593e0" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/posts/pyspark/SparkSession教程.html.js").then(({ data }) => data),
   // path: /posts/python/Linux%E7%8E%AF%E5%A2%83%E4%B8%8BDBUtils%E5%AF%BC%E5%85%A5%E7%9A%84%E9%97%AE%E9%A2%98.html
   "v-4f435352": () => import(/* webpackChunkName: "v-4f435352" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/posts/python/Linux环境下DBUtils导入的问题.html.js").then(({ data }) => data),
   // path: /posts/python/polygon%E9%9D%A2%E7%A7%AF%E8%AE%A1%E7%AE%97.html
@@ -57,6 +61,8 @@ export const pagesData = {
   "v-3689fde0": () => import(/* webpackChunkName: "v-3689fde0" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/posts/Linux/index.html.js").then(({ data }) => data),
   // path: /posts/mysql/
   "v-1dee9b02": () => import(/* webpackChunkName: "v-1dee9b02" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/posts/mysql/index.html.js").then(({ data }) => data),
+  // path: /posts/pyspark/
+  "v-d7754ba0": () => import(/* webpackChunkName: "v-d7754ba0" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/posts/pyspark/index.html.js").then(({ data }) => data),
   // path: /posts/python/
   "v-3ea18a3e": () => import(/* webpackChunkName: "v-3ea18a3e" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/posts/python/index.html.js").then(({ data }) => data),
   // path: /posts/tools/
@@ -93,18 +99,26 @@ export const pagesData = {
   "v-594730ea": () => import(/* webpackChunkName: "v-594730ea" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/category/技术/index.html.js").then(({ data }) => data),
   // path: /tag/gprc/
   "v-287e5507": () => import(/* webpackChunkName: "v-287e5507" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/gprc/index.html.js").then(({ data }) => data),
-  // path: /category/%E5%B7%A5%E5%85%B7/
-  "v-14145d44": () => import(/* webpackChunkName: "v-14145d44" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/category/工具/index.html.js").then(({ data }) => data),
+  // path: /category/it/
+  "v-3d18494c": () => import(/* webpackChunkName: "v-3d18494c" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/category/it/index.html.js").then(({ data }) => data),
   // path: /tag/rpc/
   "v-b306a390": () => import(/* webpackChunkName: "v-b306a390" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/rpc/index.html.js").then(({ data }) => data),
-  // path: /category/vue/
-  "v-65f6d381": () => import(/* webpackChunkName: "v-65f6d381" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/category/vue/index.html.js").then(({ data }) => data),
+  // path: /category/%E5%B7%A5%E5%85%B7/
+  "v-14145d44": () => import(/* webpackChunkName: "v-14145d44" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/category/工具/index.html.js").then(({ data }) => data),
   // path: /tag/linux/
   "v-211f44ee": () => import(/* webpackChunkName: "v-211f44ee" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/linux/index.html.js").then(({ data }) => data),
-  // path: /category/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/
-  "v-0a695906": () => import(/* webpackChunkName: "v-0a695906" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/category/读书笔记/index.html.js").then(({ data }) => data),
+  // path: /category/vue/
+  "v-65f6d381": () => import(/* webpackChunkName: "v-65f6d381" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/category/vue/index.html.js").then(({ data }) => data),
   // path: /tag/mysql/
   "v-1bee38ca": () => import(/* webpackChunkName: "v-1bee38ca" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/mysql/index.html.js").then(({ data }) => data),
+  // path: /category/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/
+  "v-0a695906": () => import(/* webpackChunkName: "v-0a695906" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/category/读书笔记/index.html.js").then(({ data }) => data),
+  // path: /tag/%E5%A4%A7%E6%95%B0%E6%8D%AE/
+  "v-47d2837f": () => import(/* webpackChunkName: "v-47d2837f" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/大数据/index.html.js").then(({ data }) => data),
+  // path: /tag/%E6%95%99%E7%A8%8B/
+  "v-79624791": () => import(/* webpackChunkName: "v-79624791" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/教程/index.html.js").then(({ data }) => data),
+  // path: /tag/pyspark/
+  "v-6a203eee": () => import(/* webpackChunkName: "v-6a203eee" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/pyspark/index.html.js").then(({ data }) => data),
   // path: /tag/polygon/
   "v-a2fdb2fa": () => import(/* webpackChunkName: "v-a2fdb2fa" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/polygon/index.html.js").then(({ data }) => data),
   // path: /tag/2to3/

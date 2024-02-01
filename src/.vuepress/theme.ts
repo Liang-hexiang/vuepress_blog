@@ -73,7 +73,7 @@ export default hopeTheme({
     // all features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,
-
+      alert: true,
       attrs: true,
       chart: true,
       codetabs: true,
@@ -88,6 +88,7 @@ export default hopeTheme({
       katex: true,
       mark: true,
       mermaid: true,
+      hit: true,
       playground: {
         presets: ["ts", "vue"],
       },
