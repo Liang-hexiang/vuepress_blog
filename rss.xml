@@ -6,8 +6,8 @@
     <link>https://lianghexiang.github.io/space/</link>
     <description></description>
     <language>zh-CN</language>
-    <pubDate>Thu, 01 Feb 2024 10:07:57 GMT</pubDate>
-    <lastBuildDate>Thu, 01 Feb 2024 10:07:57 GMT</lastBuildDate>
+    <pubDate>Thu, 01 Feb 2024 10:13:13 GMT</pubDate>
+    <lastBuildDate>Thu, 01 Feb 2024 10:13:13 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <image>
@@ -36,6 +36,11 @@
 <p>Spark版本信息</p>
 <p>本教程以下所有内容都是基于Spark3.5版本</p>
 </div>
+<blockquote>
+<p>PySpark 教程 – PySpark 是一个用 Python 编写的 Apache Spark 库，用于使用 Apache Spark 功能运行 Python 应用程序。使用 PySpark 我们可以在分布式集群（多个节点）上并行运行应用程序。<br>
+换句话说，PySpark 是一个 Python API，是一个用于大规模强大的分布式数据处理和机器学习应用程序的分析处理引擎。</p>
+</blockquote>
+<figure><img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepress/img.png" alt="img.png" tabindex="0" loading="lazy"><figcaption>img.png</figcaption></figure>
 ]]></content:encoded>
       <enclosure url="https://img.tucang.cc/api/image/show/498496728f8ad787045c66c3af161ab1" type="image/"/>
     </item>
@@ -59,9 +64,9 @@
       <category>读书笔记</category>
       <pubDate>Wed, 31 Jan 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="大脑——一切问题的起源" tabindex="-1"> 大脑——一切问题的起源</h1>
-<h3 id="第一章摘要摘要" tabindex="-1"> <font color='orange'>第一章摘要摘要</font></h3>
-<ECharts id="echarts-6" config="eJyrrgUAAXUA+Q==" title="%E6%A0%87%E9%A2%98"><p></p>
-</ECharts><nav><ul><li><router-link to="#第一章摘要摘要"><font color='orange'>第一章摘要摘要</font></router-link></li><li><router-link to="#第一节-大脑-重新认识你自己">第一节　大脑：重新认识你自己</router-link></li></ul></nav>
+<p>人是特殊的，因为有可以进行自我审视的大脑，有自我意识。但是我们大多数人都不了解自己的大脑，所以才会对自身产生的问题感到困惑。现在，我们从了解大脑开始，重新认识“自己”</p>
+
+<nav><ul><li><router-link to="#第一节-大脑-重新认识你自己">第一节　大脑：重新认识你自己</router-link></li></ul></nav>
 <h2 id="第一节-大脑-重新认识你自己" tabindex="-1"> 第一节　大脑：重新认识你自己</h2>
 ]]></content:encoded>
       <enclosure url="https://img.tucang.cc/api/image/show/162dc86c7925e40d3e32b8b1cc036876" type="image/"/>
