@@ -121,6 +121,8 @@ export const pagesComponents = {
   "v-79624791": defineAsyncComponent(() => import(/* webpackChunkName: "v-79624791" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/教程/index.html.vue")),
   // path: /tag/pyspark/
   "v-6a203eee": defineAsyncComponent(() => import(/* webpackChunkName: "v-6a203eee" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/pyspark/index.html.vue")),
+  // path: /tag/sparksession/
+  "v-404442a8": defineAsyncComponent(() => import(/* webpackChunkName: "v-404442a8" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/sparksession/index.html.vue")),
   // path: /tag/polygon/
   "v-a2fdb2fa": defineAsyncComponent(() => import(/* webpackChunkName: "v-a2fdb2fa" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/polygon/index.html.vue")),
   // path: /tag/2to3/
@@ -141,6 +143,4 @@ export const pagesComponents = {
   "v-677a8581": defineAsyncComponent(() => import(/* webpackChunkName: "v-677a8581" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/焦虑/index.html.vue")),
   // path: /tag/%E7%AC%94%E8%AE%B0/
   "v-7329824f": defineAsyncComponent(() => import(/* webpackChunkName: "v-7329824f" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/笔记/index.html.vue")),
-  // path: /posts/pyspark/.~PySpark%E5%88%9D%E5%AD%A6%E8%80%85%E6%95%99%E7%A8%8B.html
-  "v-6e7e73b2": defineAsyncComponent(() => import(/* webpackChunkName: "v-6e7e73b2" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/posts/pyspark/.~PySpark初学者教程.html.vue")),
 }
