@@ -6,8 +6,8 @@
     <link>https://lianghexiang.github.io/space/</link>
     <description></description>
     <language>zh-CN</language>
-    <pubDate>Thu, 01 Feb 2024 10:13:13 GMT</pubDate>
-    <lastBuildDate>Thu, 01 Feb 2024 10:13:13 GMT</lastBuildDate>
+    <pubDate>Fri, 02 Feb 2024 08:46:37 GMT</pubDate>
+    <lastBuildDate>Fri, 02 Feb 2024 08:46:37 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <image>
@@ -36,24 +36,104 @@
 <p>Spark版本信息</p>
 <p>本教程以下所有内容都是基于Spark3.5版本</p>
 </div>
+<h2 id="_1-pyspark简介" tabindex="-1"> 1. PySpark简介</h2>
 <blockquote>
 <p>PySpark 教程 – PySpark 是一个用 Python 编写的 Apache Spark 库，用于使用 Apache Spark 功能运行 Python 应用程序。使用 PySpark 我们可以在分布式集群（多个节点）上并行运行应用程序。<br>
 换句话说，PySpark 是一个 Python API，是一个用于大规模强大的分布式数据处理和机器学习应用程序的分析处理引擎。</p>
 </blockquote>
 <figure><img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepress/img.png" alt="img.png" tabindex="0" loading="lazy"><figcaption>img.png</figcaption></figure>
+<h3 id="_1-1-pyspark特点" tabindex="-1"> 1.1 PySpark特点</h3>
+<ol>
+<li>内存计算</li>
+<li>使用并行化进行分布式处理</li>
+<li>可与许多集群管理器（Spark、Yarn、Mesos 等）一起使用</li>
+<li>容错</li>
+<li>不可变的</li>
+<li>惰性评估</li>
+<li>缓存和持久化</li>
+<li>使用 DataFrame 时的内置优化</li>
+<li>支持ANSI SQL</li>
+</ol>
+<h3 id="_1-2-pyspark优点" tabindex="-1"> 1.2 Pyspark优点</h3>
+<ol>
+<li>PySpark 是一种通用的内存分布式处理引擎，可让您以分布式方式高效地处理数据。</li>
+<li>在 PySpark 上运行的应用程序比传统系统快 100 倍。</li>
+<li>使用 PySpark 进行数据摄取管道将给您带来巨大的好处。</li>
+<li>使用 PySpark，我们可以处理来自 Hadoop HDFS、AWS S3 和许多文件系统的数据。</li>
+<li>PySpark 还用于使用 Streaming 和 Kafka 处理实时数据。</li>
+<li>使用 PySpark 流式传输，您还可以从文件系统流式传输文件，也可以从套接字流式传输。</li>
+<li>PySpark 本身具有机器学习和图形库。</li>
+</ol>
+<h2 id="_2-什么是apache-spark" tabindex="-1"> 2. 什么是Apache Spark</h2>
+<p><code>Apache Spark</code>是一个用于大规模数据处理的开源统一分析引擎，以下简称Spark。Spark 被设计为快速、灵活且易于使用，使其成为处理大规模数据集的流行选择。Spark 对分布式集群上数十亿和数万亿数据的运行速度比传统应用程序快 100 倍。</p>
+<p>Spark可以运行在 单节点机器或多节点机器（集群）上。它的创建是为了 通过进行内存处理来解决MapReduce 的局限性。Spark 通过使用内存缓存来重用数据，以加速在同一数据集上重复调用函数的机器学习算法。这降低了延迟，使 Spark 比 MapReduce 快数倍，特别是在进行机器学习和交互式分析时。Apache Spark 还可以处理实时流。</p>
+<p>它也是一个 多语言引擎， 为 <code>Java</code>、<code>Scala</code>、<code>Python</code> 和 <code>R</code> 等多种编程语言提供 API（应用程序编程接口）和库，允许开发人员使用他们最熟悉的语言来使用 <code>Spark</code>。</p>
+<ul>
+<li>Scala：  Spark 的主要语言和母语是 Scala。Spark的许多核心组件都是用Scala编写的，它为Spark提供了最广泛的API。</li>
+<li>Java：  Spark 提供了 Java API，允许开发人员在 Java 应用程序中使用 Spark。Java 开发人员可以通过此 API 访问 Spark 的大部分功能。</li>
+<li>Python：  Spark 提供了一个名为 PySpark 的 Python API，它在喜欢使用 Python 进行数据分析和机器学习任务的数据科学家和开发人员中很受欢迎。PySpark 提供了一种与 Spark 交互的 Pythonic 方式。</li>
+<li>R：  Spark 还提供 R API，使 R 用户能够使用 Spark 数据并使用他们熟悉的 R 语言执行分布式数据分析。</li>
+</ul>
+<h2 id="_3-pyspark-架构" tabindex="-1"> 3. PySpark 架构</h2>
+<div>
+<p>pyspark架构</p>
+<p>Apache Spark 在主从架构中工作，其中主设备称为“Driver”，从设备称为“Workers”。当您运行 Spark 应用程序时，Spark Driver会创建一个上下文作为应用程序的入口点，所有操作（转换和操作）都在工作节点上执行，资源由 Cluster Manager 管理。</p>
+</div>
+<figure><img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepress/2024-02-02-sk1NgN.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
       <enclosure url="https://img.tucang.cc/api/image/show/498496728f8ad787045c66c3af161ab1" type="image/"/>
     </item>
     <item>
-      <title>SparkSession教程</title>
+      <title>📖理解SparkSession</title>
       <link>https://lianghexiang.github.io/space/posts/pyspark/SparkSession%E6%95%99%E7%A8%8B.html</link>
       <guid>https://lianghexiang.github.io/space/posts/pyspark/SparkSession%E6%95%99%E7%A8%8B.html</guid>
-      <source url="https://lianghexiang.github.io/space/rss.xml">SparkSession教程</source>
+      <source url="https://lianghexiang.github.io/space/rss.xml">📖理解SparkSession</source>
       <category>技术</category>
       <category>IT</category>
       <pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="sparksession教程" tabindex="-1"> SparkSession教程</h1>
-]]></content:encoded>
+      <content:encoded><![CDATA[<p>🔖 自 Spark 2.0 起，SparkSession 已成为 PySpark 与 RDD 和 DataFrame 配合使用的入口点。在2.0之前，入口点曾是SparkContext。 本节内容将主要通过定义和描述如何创建 SparkSession 以及使用-shellspark中的默认 SparkSession 变量来重点解释什么是 SparkSession........</p>
+
+<h1 id="理解sparksession" tabindex="-1"> 📖理解SparkSession</h1>
+<h2 id="sparksession" tabindex="-1"> 1️⃣SparkSession</h2>
+<p>✏️在Spark2.0版本，pyspark.sql引入了一个新类<code>SparkSession</code>。SparkSession 是我们在 2.0 版本之前使用的所有不同上下文（SQLContext 和 HiveContext 等）的组合类。从 2.0 开始，SparkSession 可以用来替换 SQLContext、HiveContext 以及 2.0 之前定义的其他上下文。<br>
+✏️正如开头提到的，SparkSession 是 PySpark 的入口点，创建 SparkSession 实例将是您使用 RDD、DataFrame 和 Dataset 进行编程时编写的第一个语句。<br>
+✏️虽然 SparkContext 在 2.0 之前曾经是一个入口点，但并没有完全被 SparkSession 取代。SparkContext 的许多功能在 Spark 2.0 及更高版本中仍然可用，而且SparkSession是在内部创建了<code>SparkConfig </code>和<code>SparkContext</code>，并通过<code>SparkSession</code>来提供配置创建。</p>
+<p>SparkSession还包括其他不同上下文的API：</p>
+<ul>
+<li>SparkContext,</li>
+<li>SQLContext,</li>
+<li>StreamingContext,</li>
+<li>HiveContext.</li>
+</ul>
+<p>❓ PySpark程序中可以创建多少个SparkSession？</p>
+<pre><code>可以创建多个SparkSession。如果想要PySpark表在逻辑上分离时，就需要使用`SparkSession.builder()`或者`SparkSession.newSession()`创建多个SparkSession
+</code></pre>
+<h2 id="创建sparksession" tabindex="-1"> 2️⃣创建SparkSession</h2>
+<p>在PySpark程序中，需要使用构造器方法builder方法。builder方法的使用方法如下：</p>
+<div data-ext="py"><pre><code><span># Create SparkSession from builder</span>
+<span>import</span> pyspark
+<span>from</span> pyspark<span>.</span>sql <span>import</span> SparkSession
+spark <span>=</span> SparkSession<span>.</span>builder<span>.</span>master<span>(</span><span>"local[1]"</span><span>)</span> \
+                    <span>.</span>appName<span>(</span><span>'SparkByExamples.com'</span><span>)</span> \
+                    <span>.</span>getOrCreate<span>(</span><span>)</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div></div></div><ul>
+<li><code>master()</code>: 如果是在集群上运行程序，需要使用主机名称为参数传入master()。这个参数值通常是<code>yarn</code>或者是<code>mesos</code>，这取决于你的主节点的配置。</li>
+<li><code>local[num]</code>: 在单机模式下运行的时候使用。<code>num</code>应该是一个整数值，表示的是在使用<code>RDD</code>、<code>DataFrame</code>、<code>DataSet</code>时应该创建多少个分区。一般这个值可以是CPU核心数。</li>
+<li><code>appName()</code>: 设置应用名称</li>
+<li><code>getOrCreate()</code>: 从名字即可看出，获取或者创建SparkSession，如果已经存在则获取，否则创建新的SparkSession</li>
+</ul>
+<p>创建另一个SparkSession：</p>
+<div data-ext="py"><pre><code><span># Create new SparkSession</span>
+spark2 <span>=</span> SparkSession<span>.</span>newSession
+<span>print</span><span>(</span>spark2<span>)</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div><blockquote>
+<p>使用上面的代码会创建一个新的SparkSession，并且与现有的SparkSession使用相同的应用名称。两个会话的底层 SparkContext 是相同的，因为每个 PySpark 应用程序只能有一个上下文。</p>
+</blockquote>
+<p>获取现有的SparkSession</p>
+<div data-ext="py"><pre><code><span># Get Existing SparkSession</span>
+spark3 <span>=</span> SparkSession<span>.</span>builder<span>.</span>getOrCreate
+<span>print</span><span>(</span>spark3<span>)</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div>]]></content:encoded>
       <enclosure url="https://img.tucang.cc/api/image/show/da3546c26f3726a1f7a63e96921b30ff" type="image/"/>
     </item>
     <item>
