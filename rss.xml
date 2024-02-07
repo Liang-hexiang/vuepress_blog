@@ -6,8 +6,8 @@
     <link>https://lianghexiang.github.io/space/</link>
     <description></description>
     <language>zh-CN</language>
-    <pubDate>Fri, 02 Feb 2024 08:46:37 GMT</pubDate>
-    <lastBuildDate>Fri, 02 Feb 2024 08:46:37 GMT</lastBuildDate>
+    <pubDate>Wed, 07 Feb 2024 06:21:46 GMT</pubDate>
+    <lastBuildDate>Wed, 07 Feb 2024 06:21:46 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <image>
@@ -146,8 +146,31 @@ spark3 <span>=</span> SparkSession<span>.</span>builder<span>.</span>getOrCreate
       <content:encoded><![CDATA[<h1 id="大脑——一切问题的起源" tabindex="-1"> 大脑——一切问题的起源</h1>
 <p>人是特殊的，因为有可以进行自我审视的大脑，有自我意识。但是我们大多数人都不了解自己的大脑，所以才会对自身产生的问题感到困惑。现在，我们从了解大脑开始，重新认识“自己”</p>
 
-<nav><ul><li><router-link to="#第一节-大脑-重新认识你自己">第一节　大脑：重新认识你自己</router-link></li></ul></nav>
-<h2 id="第一节-大脑-重新认识你自己" tabindex="-1"> 第一节　大脑：重新认识你自己</h2>
+<nav><ul><li><router-link to="#第一节-大脑-重新认识你自己"><i>Content not supported</i> 第一节　大脑：重新认识你自己</router-link><ul><li><router-link to="#_1-三重大脑">1.三重大脑</router-link></li></ul></li></ul></nav>
+<h2 id="第一节-大脑-重新认识你自己" tabindex="-1"> <i>Content not supported</i> 第一节　大脑：重新认识你自己</h2>
+<h3 id="_1-三重大脑" tabindex="-1"> 1.三重大脑</h3>
+<div>
+<p>大脑的进化</p>
+<p>人类聪明的大脑并不是突然出现，而是经过漫长的演化。从远古海洋的“复制子”，进化成为单细胞，接着又演化为动物、植物和微生物等，最终这些生物爬上陆地，开始了爬行动物的时代。后来，开始出现哺乳动物，为了适应环境， 进化出了&quot;情绪脑&quot;，而人类因为进化出了无与伦比的大脑&quot;新皮层&quot;，所以在哺乳类动物中脱颖而出，成为&quot;万物之灵&quot;，这一块新的区域被称为&quot;理智脑&quot;。</p>
+</div>
+<p><img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepress/2024-02-05-POggHv.png" alt="" loading="lazy"><br>
+<img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepress/2024-02-05-De6pnz.png" alt="33" loading="lazy"></p>
+<h4 id="本能脑" tabindex="-1"> 1️⃣本能脑</h4>
+<p>爬行动物时代进化出的脑结构。本能脑的结构很简单，只有一个原始的反射模块，可以让爬行动物对环境快速做出本能反应。<br>
+爬行动物的特点：</p>
+<ul>
+<li>没有情感也没有理智</li>
+<li>大脑结构简单</li>
+<li>体温无法恒定<br>
+因为<strong>本能脑</strong>是最原始的脑结构，所以本能脑也被称为原始脑、基础脑、鳄鱼脑、蜥蜴脑，或者干脆叫爬行脑。</li>
+</ul>
+<h4 id="情绪脑" tabindex="-1"> 2️⃣情绪脑</h4>
+<div>
+<p>情绪脑</p>
+<p>2亿年前的哺乳动物时代进化出的脑结构.<br>
+哺乳动物为了适应环境，不仅能让身体温度保持恒定，还进化出了<strong>情绪脑</strong>，</p>
+</div>
+<h4 id="理智脑" tabindex="-1"> 3️⃣理智脑</h4>
 ]]></content:encoded>
       <enclosure url="https://img.tucang.cc/api/image/show/162dc86c7925e40d3e32b8b1cc036876" type="image/"/>
     </item>
@@ -706,6 +729,13 @@ style-loader：将css代码添加一个style标签插入到header中</p>
 <p>收藏理由</p>
 <p>是一个学习编程技术的网站，我主要是用来学习PySpark，因为这个网站的文档相比于官方文档来说，它的目录结构就比较一目了然，整体比较清晰；<br>
 而且，关于PySpark的每个模块，每个方法，它都用比较好理解的语言描述。然后，还会有示例代码来以更加直观的方式让读者明白相关模块如何使用</p>
+</div>
+<i>Content not supported</i>
+<h3 id="_2-https-www-exception-site" tabindex="-1"> <i>Content not supported</i> 2. <a href="https://www.exception.site" target="_blank" rel="noopener noreferrer">https://www.exception.site</a></h3>
+<div>
+<p>破解Pycharm</p>
+<p>常用IDE破解工具网站，包括了jetbrain全家桶系列，还有一些别的工具的破解方法，比如Xshell、Typora这些耳熟能详的工具,<br>
+而且教程详细易懂，附带破解工具下载，还包含了常见问题的解决办法，总之是一个不可多得的值得收藏的破解网站。非常好用❥</p>
 </div>
 <i>Content not supported</i>
 ]]></content:encoded>
