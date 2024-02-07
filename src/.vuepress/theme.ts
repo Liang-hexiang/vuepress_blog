@@ -181,8 +181,6 @@ export default hopeTheme({
         "Share",
         "SiteInfo",
         "StackBlitz",
-        "VPBanner",
-        "VPCard",
         "VidStack",
         "XiGua",
       ],

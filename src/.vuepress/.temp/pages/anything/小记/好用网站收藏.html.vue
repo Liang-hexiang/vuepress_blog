@@ -9,8 +9,18 @@
 name="Pyspark Site"
 desc="PySpark学习网站，相比于其他网站教程，sparkbyexamples.com有着更清晰的目录结构和更详细更易懂的语言描述。"
 url="http://sparkbyexamples.com/"
-preview="https://sparkbyexamples.com/"
+preview="https://img.tucang.cc/api/image/show/162dc86c7925e40d3e32b8b1cc036876"
 />
+<h3 id="_2-https-www-exception-site" tabindex="-1"><a class="header-anchor" href="#_2-https-www-exception-site" aria-hidden="true">#</a> <HopeIcon icon="style" color="orange" size="2rem"/> 2. <a href="https://www.exception.site" target="_blank" rel="noopener noreferrer">https://www.exception.site<ExternalLinkIcon/></a></h3>
+<div class="hint-container info">
+<p class="hint-container-title">破解Pycharm</p>
+<p>常用IDE破解工具网站，包括了jetbrain全家桶系列，还有一些别的工具的破解方法，比如Xshell、Typora这些耳熟能详的工具,<br>
+而且教程详细易懂，附带破解工具下载，还包含了常见问题的解决办法，总之是一个不可多得的值得收藏的破解网站。非常好用❥</p>
+</div>
+<SiteInfo name="Pycharm破解"
+desc="常用IDE破解工具网站，包括了jetbrain全家桶系列，还有一些别的工具的破解方法，比如Xshell、Typora这些耳熟能详的工具。"
+url="https://www.exception.site/"
+preview="https://img.tucang.cc/api/image/show/4b7f419a719881b0637b890c0b3fe8ca" />
 </div></template>
 
 
