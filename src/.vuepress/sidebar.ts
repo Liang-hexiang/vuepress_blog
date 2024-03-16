@@ -27,4 +27,14 @@ export default sidebar({
     },
     "intro",
   ],
+  // "/posts/": [
+  //
+  //   {
+  //     text: "python",
+  //     icon: "python",
+  //     prefix: "python/",
+  //     collapsible: true,
+  //     children: "structure",
+  //   },
+  // ]
 });
