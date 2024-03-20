@@ -6,8 +6,8 @@
     <link>https://lianghexiang.github.io/space/</link>
     <description></description>
     <language>zh-CN</language>
-    <pubDate>Sat, 16 Mar 2024 10:05:21 GMT</pubDate>
-    <lastBuildDate>Sat, 16 Mar 2024 10:05:21 GMT</lastBuildDate>
+    <pubDate>Wed, 20 Mar 2024 09:28:35 GMT</pubDate>
+    <lastBuildDate>Wed, 20 Mar 2024 09:28:35 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <image>
@@ -122,18 +122,62 @@ spark <span>=</span> SparkSession<span>.</span>builder<span>.</span>master<span>
 <li><code>appName()</code>: 设置应用名称</li>
 <li><code>getOrCreate()</code>: 从名字即可看出，获取或者创建SparkSession，如果已经存在则获取，否则创建新的SparkSession</li>
 </ul>
-<p>创建另一个SparkSession：</p>
+<p><strong>创建另一个SparkSession：</strong></p>
 <div data-ext="py"><pre><code><span># Create new SparkSession</span>
 spark2 <span>=</span> SparkSession<span>.</span>newSession
 <span>print</span><span>(</span>spark2<span>)</span>
 </code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div><blockquote>
 <p>使用上面的代码会创建一个新的SparkSession，并且与现有的SparkSession使用相同的应用名称。两个会话的底层 SparkContext 是相同的，因为每个 PySpark 应用程序只能有一个上下文。</p>
 </blockquote>
-<p>获取现有的SparkSession</p>
+<p><strong>获取现有的SparkSession</strong></p>
 <div data-ext="py"><pre><code><span># Get Existing SparkSession</span>
 spark3 <span>=</span> SparkSession<span>.</span>builder<span>.</span>getOrCreate
 <span>print</span><span>(</span>spark3<span>)</span>
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div>]]></content:encoded>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div></div></div><h2 id="使用-spark-配置" tabindex="-1"> 3️⃣使用 Spark 配置</h2>
+<p>可以使用<code>config</code>方法为SparkSession增加配置</p>
+<div data-ext="py"><pre><code><span># 使用 config()</span>
+spark <span>=</span> SparkSession<span>.</span>builder 
+      <span>.</span>master<span>(</span><span>"local[1]"</span><span>)</span> 
+      <span>.</span>appName<span>(</span><span>"SparkByExamples.com"</span><span>)</span> 
+      <span>.</span>config<span>(</span><span>"spark.some.config.option"</span><span>,</span> <span>"config-value"</span><span>)</span> 
+      <span>.</span>getOrCreate<span>(</span><span>)</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h2 id="创建启用hive的sparksession" tabindex="-1"> 4️⃣ 创建启用Hive的SparkSession</h2>
+<blockquote>
+<p>为了将 Hive 与 PySpark 一起使用，您需要使用该enableHiveSupport()方法启用它。</p>
+</blockquote>
+<div data-ext="py"><pre><code>spark <span>=</span> SparkSession<span>.</span>builder \
+      <span>.</span>master<span>(</span><span>"local[1]"</span><span>)</span> \
+      <span>.</span>appName<span>(</span><span>"SparkByExamples.com"</span><span>)</span> \
+      <span>.</span>config<span>(</span><span>"spark.sql.warehouse.dir"</span><span>,</span> <span>"&lt;path>/spark-warehouse"</span><span>)</span> \
+      <span>.</span>enableHiveSupport<span>(</span><span>)</span> \
+      <span>.</span>getOrCreate<span>(</span><span>)</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h2 id="获取或配置pyspark-config" tabindex="-1"> 5️⃣ 获取或配置PySpark Config</h2>
+<blockquote>
+<p>创建 SparkSession 后，您可以在运行时添加 Spark 配置或获取所有配置。</p>
+</blockquote>
+<div data-ext="py"><pre><code><span># Set Config</span>
+spark<span>.</span>conf<span>.</span><span>set</span><span>(</span><span>"spark.executor.memory"</span><span>,</span> <span>"5g"</span><span>)</span>
+
+<span># Get a Spark Config</span>
+partitions <span>=</span> spark<span>.</span>conf<span>.</span>get<span>(</span><span>"spark.sql.shuffle.partitions"</span><span>)</span>
+<span>print</span><span>(</span>partitions<span>)</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h2 id="简单创建dataframe" tabindex="-1"> 6️⃣ 简单创建DataFrame</h2>
+<p>使用<code>createDataFrame</code>创建DataFrame</p>
+<div data-ext="py"><pre><code><span># Create DataFrame</span>
+df <span>=</span> spark<span>.</span>createDataFrame<span>(</span>
+    <span>[</span><span>(</span><span>"Scala"</span><span>,</span> <span>25000</span><span>)</span><span>,</span> <span>(</span><span>"Spark"</span><span>,</span> <span>35000</span><span>)</span><span>,</span> <span>(</span><span>"PHP"</span><span>,</span> <span>21000</span><span>)</span><span>]</span><span>)</span>
+df<span>.</span>show<span>(</span><span>)</span>
+
+<span># Output</span>
+<span>#+-----+-----+</span>
+<span>#|   _1|   _2|</span>
+<span>#+-----+-----+</span>
+<span>#|Scala|25000|</span>
+<span>#|Spark|35000|</span>
+<span>#|  PHP|21000|</span>
+<span>#+-----+-----+</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>🔗 <a href='https://sparkbyexamples.com/pyspark/different-ways-to-create-dataframe-in-pyspark/'>其他创建DataFrame的方法</a></p>
+]]></content:encoded>
       <enclosure url="https://img.tucang.cc/api/image/show/da3546c26f3726a1f7a63e96921b30ff" type="image/"/>
     </item>
     <item>
