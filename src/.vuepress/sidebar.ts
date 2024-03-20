@@ -11,6 +11,13 @@ export default sidebar({
       children: "structure"
     },
     {
+      text: "机器学习",
+      icon: "python",
+      prefix: "机器学习/",
+      collapsible: true,
+      children: "structure",
+    },
+    {
       text: "随笔",
       icon: "write",
       prefix: "anything/",
@@ -25,6 +32,7 @@ export default sidebar({
       collapsible: true,
       children: "structure",
     },
+
     "intro",
   ],
   // "/posts/": [

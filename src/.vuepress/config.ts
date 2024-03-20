@@ -9,7 +9,7 @@ import { feedPlugin } from "vuepress-plugin-feed2";
 // 搜索功能
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 
-
+import 'vuepress-plugin-immersive-music-player'
 
 
 // @ts-ignore
@@ -100,6 +100,11 @@ export default defineUserConfig({
                 }
             }
         }),
+        [
+            'vuepress-plugin-immersive-music-player',{
+            sliderStyle:{theme: 'isSpitRainbow'},
+            playListID: 633015043,
+        }],
 
     ]
 });

@@ -67,32 +67,16 @@ export default navbar([
         ],
     },
     {
-        text: "随笔",
-        icon: "note",
-        prefix: "/anything/",
+        text: '机器学习',
+        icon: 'code',
+        prefix: '/机器学习/',
         children: [
             {
-                text: "日记",
-                icon: "book",
-                prefix: "小记/",
-                children: [
-                    {text: '下雪啦', icon: 'snow', link: "下雪啦"},
-                    {text: '网站收藏', icon: 'link', link: '好用网站收藏'}
-                ],
+                text: "线性回归",
+                icon: 'robot',
+                link: "线性回归/",
             },
-            {
-                text: "读书笔记",
-                icon: "note",
-                prefix: "book_notes/",
-                children: [
-                    {
-                        'text': "人之觉醒",
-                        "icon": 'note',
-                        'link': "人之觉醒/"
-                    },
-                ],
-            },
-        ],
+        ]
     },
     {
         text: '设计模式',
@@ -110,6 +94,35 @@ export default navbar([
             },
         ]
     },
+    {
+        text: "随笔",
+        icon: "note",
+        prefix: "/anything/",
+        children: [
+            {
+                text: "日记",
+                icon: "book",
+                prefix: "小记/",
+                children: [
+                    {text: '下雪啦', icon: 'snowflake', link: "下雪啦"},
+                    {text: '网站收藏', icon: 'link', link: '好用网站收藏'}
+                ],
+            },
+            {
+                text: "读书笔记",
+                icon: "note",
+                prefix: "book_notes/",
+                children: [
+                    {
+                        'text': "人之觉醒",
+                        "icon": 'book',
+                        'link': "人之觉醒/"
+                    },
+                ],
+            },
+        ],
+    },
+
     {
         text: "时光轴",
         icon: "time",

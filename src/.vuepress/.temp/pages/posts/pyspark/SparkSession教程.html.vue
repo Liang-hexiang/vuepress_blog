@@ -29,17 +29,62 @@ spark <span class="token operator">=</span> SparkSession<span class="token punct
 <li><code v-pre>appName()</code>: 设置应用名称</li>
 <li><code v-pre>getOrCreate()</code>: 从名字即可看出，获取或者创建SparkSession，如果已经存在则获取，否则创建新的SparkSession</li>
 </ul>
-<p>创建另一个SparkSession：</p>
+<p><strong>创建另一个SparkSession：</strong></p>
 <div class="language-python line-numbers-mode" data-ext="py"><pre v-pre class="language-python"><code><span class="token comment"># Create new SparkSession</span>
 spark2 <span class="token operator">=</span> SparkSession<span class="token punctuation">.</span>newSession
 <span class="token keyword">print</span><span class="token punctuation">(</span>spark2<span class="token punctuation">)</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
 <p>使用上面的代码会创建一个新的SparkSession，并且与现有的SparkSession使用相同的应用名称。两个会话的底层 SparkContext 是相同的，因为每个 PySpark 应用程序只能有一个上下文。</p>
 </blockquote>
-<p>获取现有的SparkSession</p>
+<p><strong>获取现有的SparkSession</strong></p>
 <div class="language-python line-numbers-mode" data-ext="py"><pre v-pre class="language-python"><code><span class="token comment"># Get Existing SparkSession</span>
 spark3 <span class="token operator">=</span> SparkSession<span class="token punctuation">.</span>builder<span class="token punctuation">.</span>getOrCreate
 <span class="token keyword">print</span><span class="token punctuation">(</span>spark3<span class="token punctuation">)</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div></template>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="使用-spark-配置" tabindex="-1"><a class="header-anchor" href="#使用-spark-配置" aria-hidden="true">#</a> 3️⃣使用 Spark 配置</h2>
+<p>可以使用<code v-pre>config</code>方法为SparkSession增加配置</p>
+<div class="language-python line-numbers-mode" data-ext="py"><pre v-pre class="language-python"><code><span class="token comment"># 使用 config()</span>
+spark <span class="token operator">=</span> SparkSession<span class="token punctuation">.</span>builder 
+      <span class="token punctuation">.</span>master<span class="token punctuation">(</span><span class="token string">"local[1]"</span><span class="token punctuation">)</span> 
+      <span class="token punctuation">.</span>appName<span class="token punctuation">(</span><span class="token string">"SparkByExamples.com"</span><span class="token punctuation">)</span> 
+      <span class="token punctuation">.</span>config<span class="token punctuation">(</span><span class="token string">"spark.some.config.option"</span><span class="token punctuation">,</span> <span class="token string">"config-value"</span><span class="token punctuation">)</span> 
+      <span class="token punctuation">.</span>getOrCreate<span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="创建启用hive的sparksession" tabindex="-1"><a class="header-anchor" href="#创建启用hive的sparksession" aria-hidden="true">#</a> 4️⃣ 创建启用Hive的SparkSession</h2>
+<blockquote>
+<p>为了将 Hive 与 PySpark 一起使用，您需要使用该enableHiveSupport()方法启用它。</p>
+</blockquote>
+<div class="language-python line-numbers-mode" data-ext="py"><pre v-pre class="language-python"><code>spark <span class="token operator">=</span> SparkSession<span class="token punctuation">.</span>builder \
+      <span class="token punctuation">.</span>master<span class="token punctuation">(</span><span class="token string">"local[1]"</span><span class="token punctuation">)</span> \
+      <span class="token punctuation">.</span>appName<span class="token punctuation">(</span><span class="token string">"SparkByExamples.com"</span><span class="token punctuation">)</span> \
+      <span class="token punctuation">.</span>config<span class="token punctuation">(</span><span class="token string">"spark.sql.warehouse.dir"</span><span class="token punctuation">,</span> <span class="token string">"&lt;path>/spark-warehouse"</span><span class="token punctuation">)</span> \
+      <span class="token punctuation">.</span>enableHiveSupport<span class="token punctuation">(</span><span class="token punctuation">)</span> \
+      <span class="token punctuation">.</span>getOrCreate<span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="获取或配置pyspark-config" tabindex="-1"><a class="header-anchor" href="#获取或配置pyspark-config" aria-hidden="true">#</a> 5️⃣ 获取或配置PySpark Config</h2>
+<blockquote>
+<p>创建 SparkSession 后，您可以在运行时添加 Spark 配置或获取所有配置。</p>
+</blockquote>
+<div class="language-python line-numbers-mode" data-ext="py"><pre v-pre class="language-python"><code><span class="token comment"># Set Config</span>
+spark<span class="token punctuation">.</span>conf<span class="token punctuation">.</span><span class="token builtin">set</span><span class="token punctuation">(</span><span class="token string">"spark.executor.memory"</span><span class="token punctuation">,</span> <span class="token string">"5g"</span><span class="token punctuation">)</span>
+
+<span class="token comment"># Get a Spark Config</span>
+partitions <span class="token operator">=</span> spark<span class="token punctuation">.</span>conf<span class="token punctuation">.</span>get<span class="token punctuation">(</span><span class="token string">"spark.sql.shuffle.partitions"</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>partitions<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="简单创建dataframe" tabindex="-1"><a class="header-anchor" href="#简单创建dataframe" aria-hidden="true">#</a> 6️⃣ 简单创建DataFrame</h2>
+<p>使用<code v-pre>createDataFrame</code>创建DataFrame</p>
+<div class="language-python line-numbers-mode" data-ext="py"><pre v-pre class="language-python"><code><span class="token comment"># Create DataFrame</span>
+df <span class="token operator">=</span> spark<span class="token punctuation">.</span>createDataFrame<span class="token punctuation">(</span>
+    <span class="token punctuation">[</span><span class="token punctuation">(</span><span class="token string">"Scala"</span><span class="token punctuation">,</span> <span class="token number">25000</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token string">"Spark"</span><span class="token punctuation">,</span> <span class="token number">35000</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token string">"PHP"</span><span class="token punctuation">,</span> <span class="token number">21000</span><span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+df<span class="token punctuation">.</span>show<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token comment"># Output</span>
+<span class="token comment">#+-----+-----+</span>
+<span class="token comment">#|   _1|   _2|</span>
+<span class="token comment">#+-----+-----+</span>
+<span class="token comment">#|Scala|25000|</span>
+<span class="token comment">#|Spark|35000|</span>
+<span class="token comment">#|  PHP|21000|</span>
+<span class="token comment">#+-----+-----+</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>🔗 <a href='https://sparkbyexamples.com/pyspark/different-ways-to-create-dataframe-in-pyspark/'>其他创建DataFrame的方法</a></p>
+<p>、</p>
+</div></template>
 
 

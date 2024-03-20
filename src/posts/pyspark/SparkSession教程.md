@@ -48,7 +48,7 @@ spark = SparkSession.builder.master("local[1]") \
 - `getOrCreate()`: 从名字即可看出，获取或者创建SparkSession，如果已经存在则获取，否则创建新的SparkSession
 
 
-创建另一个SparkSession：
+**创建另一个SparkSession：**
 ```python
 # Create new SparkSession
 spark2 = SparkSession.newSession
@@ -56,10 +56,65 @@ print(spark2)
 ```
 > 使用上面的代码会创建一个新的SparkSession，并且与现有的SparkSession使用相同的应用名称。两个会话的底层 SparkContext 是相同的，因为每个 PySpark 应用程序只能有一个上下文。
 
-获取现有的SparkSession
+**获取现有的SparkSession**
 ```python
 # Get Existing SparkSession
 spark3 = SparkSession.builder.getOrCreate
 print(spark3)
 ```
 
+## :three:使用 Spark 配置
+可以使用`config`方法为SparkSession增加配置
+```python
+# 使用 config()
+spark = SparkSession.builder 
+      .master("local[1]") 
+      .appName("SparkByExamples.com") 
+      .config("spark.some.config.option", "config-value") 
+      .getOrCreate()
+```
+## :four: 创建启用Hive的SparkSession
+> 为了将 Hive 与 PySpark 一起使用，您需要使用该enableHiveSupport()方法启用它。
+```python
+spark = SparkSession.builder \
+      .master("local[1]") \
+      .appName("SparkByExamples.com") \
+      .config("spark.sql.warehouse.dir", "<path>/spark-warehouse") \
+      .enableHiveSupport() \
+      .getOrCreate()
+```
+
+## :five: 获取或配置PySpark Config
+> 创建 SparkSession 后，您可以在运行时添加 Spark 配置或获取所有配置。
+
+```python
+# Set Config
+spark.conf.set("spark.executor.memory", "5g")
+
+# Get a Spark Config
+partitions = spark.conf.get("spark.sql.shuffle.partitions")
+print(partitions)
+```
+
+## :six: 简单创建DataFrame
+使用`createDataFrame`创建DataFrame
+```python
+# Create DataFrame
+df = spark.createDataFrame(
+    [("Scala", 25000), ("Spark", 35000), ("PHP", 21000)])
+df.show()
+
+# Output
+#+-----+-----+
+#|   _1|   _2|
+#+-----+-----+
+#|Scala|25000|
+#|Spark|35000|
+#|  PHP|21000|
+#+-----+-----+
+```
+
+:link: <a href='https://sparkbyexamples.com/pyspark/different-ways-to-create-dataframe-in-pyspark/'>其他创建DataFrame的方法</a>
+
+
+、

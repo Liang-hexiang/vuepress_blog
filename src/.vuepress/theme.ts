@@ -11,7 +11,7 @@ export default hopeTheme({
     url: "/intro.html",
   },
   darkmode: 'switch',
-  iconAssets: "iconfont",
+  iconAssets: "fontawesome",
   logo: "/images/坏笑.svg",
   repo: "lianghexiang/space",
 
