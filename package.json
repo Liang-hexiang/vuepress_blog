@@ -25,6 +25,7 @@
     "vuepress-theme-hope": "2.0.0-beta.228"
   },
   "dependencies": {
-    "@docsearch/css": "^3.5.2"
+    "@docsearch/css": "^3.5.2",
+    "vuepress-plugin-immersive-music-player": "^1.2.4"
   }
 }
