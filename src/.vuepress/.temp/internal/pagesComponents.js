@@ -39,12 +39,12 @@ export const pagesComponents = {
   "v-34cef64b": defineAsyncComponent(() => import(/* webpackChunkName: "v-34cef64b" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/posts/tools/PicgoGitHub搭建图床.html.vue")),
   // path: /posts/tools/sublime%E8%AF%B4%E6%98%8E%E4%B9%A6.html
   "v-a430865c": defineAsyncComponent(() => import(/* webpackChunkName: "v-a430865c" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/posts/tools/sublime说明书.html.vue")),
-  // path: /%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92/%E4%BB%80%E4%B9%88%E6%98%AF%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92.html
-  "v-07367e15": defineAsyncComponent(() => import(/* webpackChunkName: "v-07367e15" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/机器学习/线性回归/什么是线性回归.html.vue")),
   // path: /posts/Vue/Vue%E5%9F%BA%E7%A1%80.html
   "v-66d370d9": defineAsyncComponent(() => import(/* webpackChunkName: "v-66d370d9" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/posts/Vue/Vue基础.html.vue")),
   // path: /posts/Vue/vue%E5%AE%A2%E6%88%B7%E7%AB%AF.html
   "v-3ae980e2": defineAsyncComponent(() => import(/* webpackChunkName: "v-3ae980e2" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/posts/Vue/vue客户端.html.vue")),
+  // path: /%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92/%E4%BB%80%E4%B9%88%E6%98%AF%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92.html
+  "v-07367e15": defineAsyncComponent(() => import(/* webpackChunkName: "v-07367e15" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/机器学习/线性回归/什么是线性回归.html.vue")),
   // path: /anything/book_notes/%E4%BA%BA%E4%B9%8B%E8%A7%89%E9%86%92/%E4%B8%80%E5%88%87%E9%97%AE%E9%A2%98%E7%9A%84%E8%B5%B7%E6%BA%90.html
   "v-227b283b": defineAsyncComponent(() => import(/* webpackChunkName: "v-227b283b" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/anything/book_notes/人之觉醒/一切问题的起源.html.vue")),
   // path: /404.html
@@ -71,12 +71,12 @@ export const pagesComponents = {
   "v-3ea18a3e": defineAsyncComponent(() => import(/* webpackChunkName: "v-3ea18a3e" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/posts/python/index.html.vue")),
   // path: /posts/tools/
   "v-2951b8e9": defineAsyncComponent(() => import(/* webpackChunkName: "v-2951b8e9" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/posts/tools/index.html.vue")),
+  // path: /posts/Vue/
+  "v-635a6bfe": defineAsyncComponent(() => import(/* webpackChunkName: "v-635a6bfe" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/posts/Vue/index.html.vue")),
   // path: /%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92/
   "v-274be59a": defineAsyncComponent(() => import(/* webpackChunkName: "v-274be59a" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/机器学习/线性回归/index.html.vue")),
   // path: /%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/
   "v-35362290": defineAsyncComponent(() => import(/* webpackChunkName: "v-35362290" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/机器学习/index.html.vue")),
-  // path: /posts/Vue/
-  "v-635a6bfe": defineAsyncComponent(() => import(/* webpackChunkName: "v-635a6bfe" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/posts/Vue/index.html.vue")),
   // path: /anything/book_notes/%E4%BA%BA%E4%B9%8B%E8%A7%89%E9%86%92/
   "v-0e47583b": defineAsyncComponent(() => import(/* webpackChunkName: "v-0e47583b" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/anything/book_notes/人之觉醒/index.html.vue")),
   // path: /anything/book_notes/
@@ -115,12 +115,12 @@ export const pagesComponents = {
   "v-14145d44": defineAsyncComponent(() => import(/* webpackChunkName: "v-14145d44" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/category/工具/index.html.vue")),
   // path: /tag/linux/
   "v-211f44ee": defineAsyncComponent(() => import(/* webpackChunkName: "v-211f44ee" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/linux/index.html.vue")),
-  // path: /category/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/
-  "v-72c4ce0d": defineAsyncComponent(() => import(/* webpackChunkName: "v-72c4ce0d" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/category/人工智能/index.html.vue")),
-  // path: /tag/mysql/
-  "v-1bee38ca": defineAsyncComponent(() => import(/* webpackChunkName: "v-1bee38ca" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/mysql/index.html.vue")),
   // path: /category/vue/
   "v-65f6d381": defineAsyncComponent(() => import(/* webpackChunkName: "v-65f6d381" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/category/vue/index.html.vue")),
+  // path: /tag/mysql/
+  "v-1bee38ca": defineAsyncComponent(() => import(/* webpackChunkName: "v-1bee38ca" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/mysql/index.html.vue")),
+  // path: /category/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/
+  "v-72c4ce0d": defineAsyncComponent(() => import(/* webpackChunkName: "v-72c4ce0d" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/category/人工智能/index.html.vue")),
   // path: /tag/%E5%A4%A7%E6%95%B0%E6%8D%AE/
   "v-47d2837f": defineAsyncComponent(() => import(/* webpackChunkName: "v-47d2837f" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/大数据/index.html.vue")),
   // path: /category/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/
@@ -143,14 +143,14 @@ export const pagesComponents = {
   "v-32b1cb5c": defineAsyncComponent(() => import(/* webpackChunkName: "v-32b1cb5c" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/sublime-text/index.html.vue")),
   // path: /tag/%E5%B7%A5%E5%85%B7%E8%AF%B4%E6%98%8E%E4%B9%A6/
   "v-1d73fa7a": defineAsyncComponent(() => import(/* webpackChunkName: "v-1d73fa7a" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/工具说明书/index.html.vue")),
-  // path: /tag/ai/
-  "v-0da0abf9": defineAsyncComponent(() => import(/* webpackChunkName: "v-0da0abf9" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/ai/index.html.vue")),
-  // path: /tag/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/
-  "v-4eef745b": defineAsyncComponent(() => import(/* webpackChunkName: "v-4eef745b" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/机器学习/index.html.vue")),
   // path: /tag/%E5%89%8D%E7%AB%AF/
   "v-95f987f4": defineAsyncComponent(() => import(/* webpackChunkName: "v-95f987f4" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/前端/index.html.vue")),
   // path: /tag/%E6%A1%86%E6%9E%B6/
   "v-f4d3cd72": defineAsyncComponent(() => import(/* webpackChunkName: "v-f4d3cd72" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/框架/index.html.vue")),
+  // path: /tag/ai/
+  "v-0da0abf9": defineAsyncComponent(() => import(/* webpackChunkName: "v-0da0abf9" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/ai/index.html.vue")),
+  // path: /tag/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/
+  "v-4eef745b": defineAsyncComponent(() => import(/* webpackChunkName: "v-4eef745b" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/机器学习/index.html.vue")),
   // path: /tag/%E7%84%A6%E8%99%91/
   "v-677a8581": defineAsyncComponent(() => import(/* webpackChunkName: "v-677a8581" */"E:/code/vuepress-blog/src/.vuepress/.temp/pages/tag/焦虑/index.html.vue")),
   // path: /tag/%E7%AC%94%E8%AE%B0/

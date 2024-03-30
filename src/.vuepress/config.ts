@@ -19,7 +19,7 @@ export default defineUserConfig({
     lang: "zh-CN",
     title: "#/ cd L.H.X Blog Home",
     theme,
-    debug: true,
+    debug: false,
     alias: {
         "@theme-hope/modules/blog/components/BlogHero": path.resolve(
             __dirname,

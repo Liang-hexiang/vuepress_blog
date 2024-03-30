@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "docs:build": "vuepress build src",
-      "docs:clean-dev": "vuepress dev src --clean-cache",
+    "docs:clean-dev": "vuepress dev src --clean-cache",
     "docs:dev": "vuepress dev src",
     "docs:update-package": "npx vp-update",
     "deploy": "bash deploy.sh"
@@ -16,6 +16,7 @@
     "@vuepress/plugin-docsearch": "^2.0.0-beta.63",
     "@vuepress/plugin-pwa": "^2.0.0-beta.63",
     "@vuepress/plugin-pwa-popup": "^2.0.0-beta.63",
+    "katex": "^0.16.10",
     "node-sass": "^9.0.0",
     "sass-loader": "^13.3.3",
     "vue": "^3.2.47",
