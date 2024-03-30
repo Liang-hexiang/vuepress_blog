@@ -1,4 +1,0 @@
-const data = JSON.parse('{"key":"v-b306a390","path":"/tag/rpc/","title":"RPC 标签","lang":"zh-CN","frontmatter":{"title":"RPC 标签","dir":{"index":false},"feed":false,"sitemap":false,"blog":{"type":"category","name":"RPC","key":"tag"},"layout":"BlogCategory"},"headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null,"excerpt":""}');
-export {
-  data
-};
