@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-89ec5014","path":"/Go/Go%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80/","title":"Go语法基础","lang":"zh-CN","frontmatter":{"title":"Go语法基础","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0,"words":1},"filePathRelative":null,"excerpt":""}');export{e as data};

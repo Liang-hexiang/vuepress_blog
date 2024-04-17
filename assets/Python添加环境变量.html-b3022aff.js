@@ -1,0 +1,1 @@
+import{_ as t,o as n,c as o,e,f as _}from"./app-0bcf9f32.js";const a={},c=e("h1",{id:"python添加linux环境变量",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#python添加linux环境变量","aria-hidden":"true"},"#"),_(" Python添加Linux环境变量")],-1),r=[c];function s(h,i){return n(),o("div",null,r)}const l=t(a,[["render",s],["__file","Python添加环境变量.html.vue"]]);export{l as default};
