@@ -4,7 +4,7 @@ export default navbar([
     '/',
     {
         text: "博客",
-        icon: "repo",
+        icon: "blog",
         prefix: "/posts/",
         children: [
             {
@@ -45,15 +45,7 @@ export default navbar([
                     {text: "Ubuntu配置环境变量", icon: "book", link: "Linux配置环境变量"},
                 ],
             },
-            {
-                text: "Vue",
-                icon: "vue",
-                prefix: "Vue/",
-                children: [
-                    {text: "Vue基础知识", icon: "vue", link: "Vue基础"},
-                    {text: "Vue客户端", icon: "vue", link: "Vue客户端"},
-                ],
-            },
+
             {
                 text: "PySpark",
                 prefix: "pyspark/",
@@ -68,12 +60,12 @@ export default navbar([
     },
     {
         text: '机器学习',
-        icon: 'code',
+        icon: 'robot',
         prefix: '/机器学习/',
         children: [
             {
                 text: "线性回归",
-                icon: 'robot',
+                icon: 'pen',
                 link: "线性回归/",
             },
         ]
@@ -96,7 +88,7 @@ export default navbar([
     },
     {
         text: "随笔",
-        icon: "note",
+        icon: "pen",
         prefix: "/anything/",
         children: [
             {
@@ -127,6 +119,11 @@ export default navbar([
         text: "时光轴",
         icon: "time",
         link: "/timeline/"
+    },
+    {
+        text: "Go语言",
+        icon: '<i class="fa-solid fa-thumbs-up" style="color: #63E6BE;"></i>',
+        link: "/Go/"
     },
 
 ]);

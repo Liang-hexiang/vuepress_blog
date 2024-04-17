@@ -12,6 +12,7 @@ export default hopeTheme({
   },
   darkmode: 'switch',
   iconAssets: "fontawesome",
+  // iconPrefix: "fas fa-",
   logo: "/images/坏笑.svg",
   repo: "lianghexiang/space",
 
@@ -29,7 +30,6 @@ export default hopeTheme({
     "/": {
       // 启用 RTL 布局
       rtl: false,
-
     },
   },
   blog: {
