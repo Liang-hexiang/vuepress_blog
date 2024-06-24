@@ -1,0 +1,1 @@
+import{_ as t,o,c as a,e,f as c}from"./app-20143c40.js";const r={},s=e("h1",{id:"go语言之旅-前言",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#go语言之旅-前言","aria-hidden":"true"},"#"),c(" Go语言之旅-前言")],-1),_=[s];function n(d,i){return o(),a("div",null,_)}const l=t(r,[["render",n],["__file","前言.html.vue"]]);export{l as default};

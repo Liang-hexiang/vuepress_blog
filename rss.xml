@@ -6,8 +6,8 @@
     <link>https://lianghexiang.github.io/space/</link>
     <description></description>
     <language>zh-CN</language>
-    <pubDate>Wed, 17 Apr 2024 10:04:39 GMT</pubDate>
-    <lastBuildDate>Wed, 17 Apr 2024 10:04:39 GMT</lastBuildDate>
+    <pubDate>Mon, 24 Jun 2024 02:17:46 GMT</pubDate>
+    <lastBuildDate>Mon, 24 Jun 2024 02:17:46 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <image>
@@ -16,6 +16,8 @@
       <link>https://lianghexiang.github.io/space/</link>
     </image>
     <category>技术</category>
+    <category>Golang</category>
+    <category>PySpark</category>
     <category>人工智能</category>
     <category>IT</category>
     <category>读书笔记</category>
@@ -24,6 +26,49 @@
     <category>网址收藏</category>
     <category>画册</category>
     <category>python</category>
+    <item>
+      <title>Go语言之旅-前言</title>
+      <link>https://lianghexiang.github.io/space/Go/%E5%89%8D%E8%A8%80.html</link>
+      <guid>https://lianghexiang.github.io/space/Go/%E5%89%8D%E8%A8%80.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">Go语言之旅-前言</source>
+      <category>技术</category>
+      <category>Golang</category>
+      <pubDate>Fri, 19 Apr 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="go语言之旅-前言" tabindex="-1"> Go语言之旅-前言</h1>
+]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/97c5d0c0a9f9c7aae374b30ce9f16e6d" type="image/"/>
+    </item>
+    <item>
+      <title>GO语言的基本语法</title>
+      <link>https://lianghexiang.github.io/space/Go/Go%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80/Go%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.html</link>
+      <guid>https://lianghexiang.github.io/space/Go/Go%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80/Go%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">GO语言的基本语法</source>
+      <category>技术</category>
+      <category>Golang</category>
+      <pubDate>Fri, 19 Apr 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="go语言的基本语法" tabindex="-1"> GO语言的基本语法</h1>
+<div data-ext="golang"><pre><code>package main
+
+import &quot;fmt&quot;
+
+func main() {
+   fmt.Println(&quot;Hello 世界!&quot;)
+}
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/97c5d0c0a9f9c7aae374b30ce9f16e6d" type="image/"/>
+    </item>
+    <item>
+      <title>PySpark之parallelize()</title>
+      <link>https://lianghexiang.github.io/space/posts/pyspark/PySpark%E4%B9%8BParallelize.html</link>
+      <guid>https://lianghexiang.github.io/space/posts/pyspark/PySpark%E4%B9%8BParallelize.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">PySpark之parallelize()</source>
+      <category>技术</category>
+      <category>PySpark</category>
+      <pubDate>Fri, 19 Apr 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="pyspark之parallelize" tabindex="-1"> PySpark之parallelize()</h1>
+]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/97c5d0c0a9f9c7aae374b30ce9f16e6d" type="image/"/>
+    </item>
     <item>
       <title>什么是线性回归</title>
       <link>https://lianghexiang.github.io/space/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92/%E4%BB%80%E4%B9%88%E6%98%AF%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92.html</link>
@@ -894,11 +939,18 @@ style-loader：将css代码添加一个style标签插入到header中</p>
       <category>python</category>
       <pubDate>Wed, 03 Jan 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="单例模式" tabindex="-1"> 单例模式</h1>
+<div>
+<p>单例模式</p>
+<p>单例模式是一种创建型设计模式， 让你能够保证一个类只有一个实例， 并提供一个访问该实例的全局节点。</p>
+</div>
+<h2 id="单例模式结构" tabindex="-1"> 单例模式结构</h2>
+<figure><img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepress/2024-04-26-bWP3E8.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2 id="单例模式的python实现" tabindex="-1"> 单例模式的Python实现</h2>
 <h3 id="_1-普通单例模式" tabindex="-1"> 1. 普通单例模式</h3>
 <blockquote>
 <p>_ <em>new</em> _方法可以在实例化类的时候通过hasattr方法返回同一个实例</p>
 </blockquote>
+<p>:sad:</p>
 <div data-ext="py"><pre><code><span>class</span> <span>ExerciseSinglePattern</span><span>:</span>
     <span>def</span> <span>__new__</span><span>(</span>cls<span>,</span> <span>*</span>args<span>,</span> <span>**</span>kwargs<span>)</span><span>:</span>
         <span>if</span> <span>not</span> <span>hasattr</span><span>(</span>cls<span>,</span> <span>'_instance'</span><span>)</span><span>:</span>
