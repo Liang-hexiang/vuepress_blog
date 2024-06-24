@@ -1,23 +1,23 @@
 import { defineClientConfig } from "@vuepress/client";
-import { hasGlobalComponent } from "E:/code/vuepress-blog/node_modules/vuepress-theme-hope/node_modules/vuepress-shared/lib/client/index.js";
+import { hasGlobalComponent } from "E:/code/MyHopeBlog/node_modules/vuepress-theme-hope/node_modules/vuepress-shared/lib/client/index.js";
 import { h } from "vue";
 
-import { useScriptTag } from "E:/code/vuepress-blog/node_modules/@vueuse/core/index.mjs";
-import FontIcon from "E:/code/vuepress-blog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
-import ArtPlayer from "E:/code/vuepress-blog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/ArtPlayer.js";
-import Badge from "E:/code/vuepress-blog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
-import BiliBili from "E:/code/vuepress-blog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/BiliBili.js";
-import CodePen from "E:/code/vuepress-blog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/CodePen.js";
-import PDF from "E:/code/vuepress-blog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/PDF.js";
-import Replit from "E:/code/vuepress-blog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/Replit.js";
-import Share from "E:/code/vuepress-blog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/Share.js";
-import SiteInfo from "E:/code/vuepress-blog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/SiteInfo.js";
-import StackBlitz from "E:/code/vuepress-blog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/StackBlitz.js";
-import VidStack from "E:/code/vuepress-blog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/VidStack.js";
-import XiGua from "E:/code/vuepress-blog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/XiGua.js";
-import BackToTop from "E:/code/vuepress-blog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/BackToTop.js";
+import { useScriptTag } from "E:/code/MyHopeBlog/node_modules/@vueuse/core/index.mjs";
+import FontIcon from "E:/code/MyHopeBlog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
+import ArtPlayer from "E:/code/MyHopeBlog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/ArtPlayer.js";
+import Badge from "E:/code/MyHopeBlog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
+import BiliBili from "E:/code/MyHopeBlog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/BiliBili.js";
+import CodePen from "E:/code/MyHopeBlog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/CodePen.js";
+import PDF from "E:/code/MyHopeBlog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/PDF.js";
+import Replit from "E:/code/MyHopeBlog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/Replit.js";
+import Share from "E:/code/MyHopeBlog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/Share.js";
+import SiteInfo from "E:/code/MyHopeBlog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/SiteInfo.js";
+import StackBlitz from "E:/code/MyHopeBlog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/StackBlitz.js";
+import VidStack from "E:/code/MyHopeBlog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/VidStack.js";
+import XiGua from "E:/code/MyHopeBlog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/XiGua.js";
+import BackToTop from "E:/code/MyHopeBlog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/components/BackToTop.js";
 
-import "E:/code/vuepress-blog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
+import "E:/code/MyHopeBlog/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
 
 export default defineClientConfig({
   enhance: ({ app }) => {

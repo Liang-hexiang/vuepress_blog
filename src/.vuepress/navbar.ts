@@ -43,6 +43,7 @@ export default navbar([
                 prefix: "Linux/",
                 children: [
                     {text: "Ubuntu配置环境变量", icon: "book", link: "Linux配置环境变量"},
+                    {text: "Linux查询文件行数", icon: "book", link: "Linux查询文件行数"}
                 ],
             },
 
@@ -114,16 +115,16 @@ export default navbar([
             },
         ],
     },
-
-    {
-        text: "时光轴",
-        icon: "time",
-        link: "/timeline/"
-    },
     {
         text: "Go语言",
-        icon: '<i class="fa-solid fa-thumbs-up" style="color: #63E6BE;"></i>',
+        icon: "golang",
         link: "/Go/"
     },
+    {
+        text: "时光轴",
+        icon: "calendar-days",
+        link: "/timeline/"
+    },
+
 
 ]);

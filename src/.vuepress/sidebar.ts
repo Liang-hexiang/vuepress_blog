@@ -1,35 +1,9 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
-  "/": [
-    "",
-    {
-      text: "博客",
-      icon: "blog",
-      prefix: "posts/",
-      collapsible: true,
-      children: "structure"
-    },
-    {
-      text: "随笔",
-      icon: "pen",
-      prefix: "anything/",
-      collapsible: true,
-      children: "structure",
-
-    },
-    {
-      text: "设计模式",
-      icon: "book",
-      prefix: "design_pattern/",
-      collapsible: true,
-      children: "structure",
-    }
-  ],
   "/机器学习/" : [
-
     {
-      text: "线性回归",
+      text: "机器学习",
       prefix: "线性回归/",
       icon: 'book',
       collapsible: true,
@@ -37,24 +11,17 @@ export default sidebar({
         "什么是线性回归/",
       ]
     },
-
   ],
-  '/Go/': [
+  "/Go/": [
     {
-      text: 'Go语言入门',
-      icon: 'golang',
+      text: "Go基础",
+      prefix: "Go语法基础/",
+      icon: 'book',
       collapsible: true,
       children: [
-        {
-          text: "Go语法基础",
-          prefix: "Go语法基础/",
-          icon: 'golang',
-          collapsible: true,
-          children: [
-            "前言/",
-          ]
-        }
+        "前言/",
       ]
-    }
+    },
   ]
+
 });

@@ -1,9 +1,16 @@
 <template><div><h1 id="单例模式" tabindex="-1"><a class="header-anchor" href="#单例模式" aria-hidden="true">#</a> 单例模式</h1>
+<div class="hint-container info">
+<p class="hint-container-title">单例模式</p>
+<p>单例模式是一种创建型设计模式， 让你能够保证一个类只有一个实例， 并提供一个访问该实例的全局节点。</p>
+</div>
+<h2 id="单例模式结构" tabindex="-1"><a class="header-anchor" href="#单例模式结构" aria-hidden="true">#</a> 单例模式结构</h2>
+<figure><img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepress/2024-04-26-bWP3E8.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2 id="单例模式的python实现" tabindex="-1"><a class="header-anchor" href="#单例模式的python实现" aria-hidden="true">#</a> 单例模式的Python实现</h2>
 <h3 id="_1-普通单例模式" tabindex="-1"><a class="header-anchor" href="#_1-普通单例模式" aria-hidden="true">#</a> 1. 普通单例模式</h3>
 <blockquote>
 <p>_ <em>new</em> _方法可以在实例化类的时候通过hasattr方法返回同一个实例</p>
 </blockquote>
+<p>:sad:</p>
 <div class="language-python line-numbers-mode" data-ext="py"><pre v-pre class="language-python"><code><span class="token keyword">class</span> <span class="token class-name">ExerciseSinglePattern</span><span class="token punctuation">:</span>
     <span class="token keyword">def</span> <span class="token function">__new__</span><span class="token punctuation">(</span>cls<span class="token punctuation">,</span> <span class="token operator">*</span>args<span class="token punctuation">,</span> <span class="token operator">**</span>kwargs<span class="token punctuation">)</span><span class="token punctuation">:</span>
         <span class="token keyword">if</span> <span class="token keyword">not</span> <span class="token builtin">hasattr</span><span class="token punctuation">(</span>cls<span class="token punctuation">,</span> <span class="token string">'_instance'</span><span class="token punctuation">)</span><span class="token punctuation">:</span>

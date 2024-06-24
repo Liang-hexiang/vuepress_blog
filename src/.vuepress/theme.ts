@@ -10,6 +10,7 @@ export default hopeTheme({
     name: "L.H.X",
     url: "/intro.html",
   },
+
   darkmode: 'switch',
   iconAssets: "fontawesome",
   // iconPrefix: "fas fa-",
@@ -18,11 +19,11 @@ export default hopeTheme({
 
   docsDir: "src",
 
+  // sidebar
+  sidebar,
   // navbar
   navbar,
 
-  // sidebar
-  sidebar,
   footer: '{{setupRunningTimeFooter}}' ,
   displayFooter: true,
   locales: {
