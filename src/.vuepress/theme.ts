@@ -12,8 +12,7 @@ export default hopeTheme({
   },
 
   darkmode: 'switch',
-  iconAssets: "fontawesome",
-  // iconPrefix: "fas fa-",
+  iconAssets: ["fontawesome-with-brands","fontawesome"],
   logo: "/images/坏笑.svg",
   repo: "lianghexiang/space",
 
