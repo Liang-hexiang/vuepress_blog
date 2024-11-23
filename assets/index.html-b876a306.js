@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-16e485c4","path":"/tag/%E8%AF%AD%E8%A8%80/","title":"语言 标签","lang":"zh-CN","frontmatter":{"title":"语言 标签","dir":{"index":false},"feed":false,"sitemap":false,"blog":{"type":"category","name":"语言","key":"tag"},"layout":"BlogCategory"},"headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null,"excerpt":""}');export{e as data};
