@@ -39,7 +39,7 @@ export default hopeTheme({
     intro: "/intro.html",
     medias: {
       Baidu: "https://baidu.com",
-      BiliBili: "https://bilibili.com",
+      BiliBili: "https://space.bilibili.com/215138073",
       Email: "lhx110396@163.com",
       GitHub: "https://github.com/lianghexiang",
       QQ: "https://example.com",
@@ -54,7 +54,6 @@ export default hopeTheme({
   // page meta
   metaLocales: {
     editLink: "在GitHub上编辑此文章",
-
   },
 
   plugins: {
