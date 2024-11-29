@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-1d6afbcc","path":"/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/","title":"人工智能","lang":"zh-CN","frontmatter":{"title":"人工智能","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0,"words":1},"filePathRelative":null,"excerpt":""}');export{e as data};

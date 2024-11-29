@@ -6,8 +6,8 @@
     <link>https://lianghexiang.github.io/space/</link>
     <description></description>
     <language>zh-CN</language>
-    <pubDate>Sat, 23 Nov 2024 03:02:07 GMT</pubDate>
-    <lastBuildDate>Sat, 23 Nov 2024 03:02:07 GMT</lastBuildDate>
+    <pubDate>Fri, 29 Nov 2024 07:04:16 GMT</pubDate>
+    <lastBuildDate>Fri, 29 Nov 2024 07:04:16 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <image>
@@ -15,19 +15,97 @@
       <url>src/.vuepress/public/images/katongrenwu.png</url>
       <link>https://lianghexiang.github.io/space/</link>
     </image>
+    <category>读书笔记</category>
+    <category>画册</category>
+    <category>网址收藏</category>
     <category>python</category>
+    <category>人工智能</category>
     <category>技术</category>
     <category>PySpark</category>
     <category>IT</category>
-    <category>读书笔记</category>
     <category>工具</category>
     <category>Vue</category>
-    <category>网址收藏</category>
-    <category>画册</category>
+    <category>数据库</category>
+    <item>
+      <title>大脑——一切问题的起源</title>
+      <link>https://lianghexiang.github.io/space/books/%E4%BA%BA%E4%B9%8B%E8%A7%89%E9%86%92/%E4%B8%80%E5%88%87%E9%97%AE%E9%A2%98%E7%9A%84%E8%B5%B7%E6%BA%90.html</link>
+      <guid>https://lianghexiang.github.io/space/books/%E4%BA%BA%E4%B9%8B%E8%A7%89%E9%86%92/%E4%B8%80%E5%88%87%E9%97%AE%E9%A2%98%E7%9A%84%E8%B5%B7%E6%BA%90.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">大脑——一切问题的起源</source>
+      <category>读书笔记</category>
+      <pubDate>Wed, 31 Jan 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="大脑——一切问题的起源" tabindex="-1"> 大脑——一切问题的起源</h1>
+<p>人是特殊的，因为有可以进行自我审视的大脑，有自我意识。但是我们大多数人都不了解自己的大脑，所以才会对自身产生的问题感到困惑。现在，我们从了解大脑开始，重新认识“自己”</p>
+
+<nav><ul><li><router-link to="#第一节-大脑-重新认识你自己"><i>Content not supported</i> 第一节　大脑：重新认识你自己</router-link><ul><li><router-link to="#_1-三重大脑">1.三重大脑</router-link></li></ul></li></ul></nav>
+<h2 id="第一节-大脑-重新认识你自己" tabindex="-1"> <i>Content not supported</i> 第一节　大脑：重新认识你自己</h2>
+<h3 id="_1-三重大脑" tabindex="-1"> 1.三重大脑</h3>
+<div>
+<p>大脑的进化</p>
+<p>人类聪明的大脑并不是突然出现，而是经过漫长的演化。从远古海洋的“复制子”，进化成为单细胞，接着又演化为动物、植物和微生物等，最终这些生物爬上陆地，开始了爬行动物的时代。后来，开始出现哺乳动物，为了适应环境， 进化出了&quot;情绪脑&quot;，而人类因为进化出了无与伦比的大脑&quot;新皮层&quot;，所以在哺乳类动物中脱颖而出，成为&quot;万物之灵&quot;，这一块新的区域被称为&quot;理智脑&quot;。</p>
+</div>
+<p><img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepress/2024-02-05-POggHv.png" alt="" loading="lazy"><br>
+<img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepress/2024-02-05-De6pnz.png" alt="33" loading="lazy"></p>
+<h4 id="本能脑" tabindex="-1"> 1️⃣本能脑</h4>
+<p>爬行动物时代进化出的脑结构。本能脑的结构很简单，只有一个原始的反射模块，可以让爬行动物对环境快速做出本能反应。<br>
+爬行动物的特点：</p>
+<ul>
+<li>没有情感也没有理智</li>
+<li>大脑结构简单</li>
+<li>体温无法恒定<br>
+因为<strong>本能脑</strong>是最原始的脑结构，所以本能脑也被称为原始脑、基础脑、鳄鱼脑、蜥蜴脑，或者干脆叫爬行脑。</li>
+</ul>
+<h4 id="情绪脑" tabindex="-1"> 2️⃣情绪脑</h4>
+<div>
+<p>情绪脑</p>
+<p>2亿年前的哺乳动物时代进化出的脑结构.<br>
+哺乳动物为了适应环境，不仅能让身体温度保持恒定，还进化出了<strong>情绪脑</strong>，</p>
+</div>
+<h4 id="理智脑" tabindex="-1"> 3️⃣理智脑</h4>
+]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/162dc86c7925e40d3e32b8b1cc036876" type="image/"/>
+    </item>
+    <item>
+      <title>2023初雪</title>
+      <link>https://lianghexiang.github.io/space/diary/%E5%B0%8F%E8%AE%B0/%E4%B8%8B%E9%9B%AA%E5%95%A6.html</link>
+      <guid>https://lianghexiang.github.io/space/diary/%E5%B0%8F%E8%AE%B0/%E4%B8%8B%E9%9B%AA%E5%95%A6.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">2023初雪</source>
+      <category>画册</category>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="_2023初雪" tabindex="-1"> 2023初雪</h1>
+<figure><img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepress/微信图片_20231211101841.jpg" alt="好白的雪" tabindex="0" loading="lazy"><figcaption>好白的雪</figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepress/微信图片_20231211102037.jpg" alt="白雪皑皑" tabindex="0" loading="lazy"><figcaption>白雪皑皑</figcaption></figure>
+]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/da3546c26f3726a1f7a63e96921b30ff" type="image/"/>
+    </item>
+    <item>
+      <title>网站推荐</title>
+      <link>https://lianghexiang.github.io/space/diary/%E5%B0%8F%E8%AE%B0/%E5%A5%BD%E7%94%A8%E7%BD%91%E7%AB%99%E6%94%B6%E8%97%8F.html</link>
+      <guid>https://lianghexiang.github.io/space/diary/%E5%B0%8F%E8%AE%B0/%E5%A5%BD%E7%94%A8%E7%BD%91%E7%AB%99%E6%94%B6%E8%97%8F.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">网站推荐</source>
+      <category>网址收藏</category>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="网站推荐" tabindex="-1"> 网站推荐</h1>
+<h3 id="_1-http-sparkbyexamples-com" tabindex="-1"> <i>Content not supported</i> 1. <a href="http://sparkbyexamples.com/" target="_blank" rel="noopener noreferrer">http://sparkbyexamples.com/</a></h3>
+<div>
+<p>收藏理由</p>
+<p>是一个学习编程技术的网站，我主要是用来学习PySpark，因为这个网站的文档相比于官方文档来说，它的目录结构就比较一目了然，整体比较清晰；<br>
+而且，关于PySpark的每个模块，每个方法，它都用比较好理解的语言描述。然后，还会有示例代码来以更加直观的方式让读者明白相关模块如何使用</p>
+</div>
+<i>Content not supported</i>
+<h3 id="_2-https-www-exception-site" tabindex="-1"> <i>Content not supported</i> 2. <a href="https://www.exception.site" target="_blank" rel="noopener noreferrer">https://www.exception.site</a></h3>
+<div>
+<p>破解Pycharm</p>
+<p>常用IDE破解工具网站，包括了jetbrain全家桶系列，还有一些别的工具的破解方法，比如Xshell、Typora这些耳熟能详的工具,<br>
+而且教程详细易懂，附带破解工具下载，还包含了常见问题的解决办法，总之是一个不可多得的值得收藏的破解网站。非常好用❥</p>
+</div>
+<i>Content not supported</i>
+]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/97c5d0c0a9f9c7aae374b30ce9f16e6d" type="image/"/>
+    </item>
     <item>
       <title>单例模式</title>
-      <link>https://lianghexiang.github.io/space/design_pattern/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.html</link>
-      <guid>https://lianghexiang.github.io/space/design_pattern/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.html</guid>
+      <link>https://lianghexiang.github.io/space/posts/design_pattern/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.html</link>
+      <guid>https://lianghexiang.github.io/space/posts/design_pattern/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.html</guid>
       <source url="https://lianghexiang.github.io/space/rss.xml">单例模式</source>
       <category>python</category>
       <pubDate>Wed, 03 Jan 2024 00:00:00 GMT</pubDate>
@@ -343,8 +421,8 @@ wrapper<span>(</span><span>*</span>args<span>,</span> <span>**</span>kwargs<span
     </item>
     <item>
       <title>工厂模式</title>
-      <link>https://lianghexiang.github.io/space/design_pattern/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.html</link>
-      <guid>https://lianghexiang.github.io/space/design_pattern/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.html</guid>
+      <link>https://lianghexiang.github.io/space/posts/design_pattern/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.html</link>
+      <guid>https://lianghexiang.github.io/space/posts/design_pattern/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.html</guid>
       <source url="https://lianghexiang.github.io/space/rss.xml">工厂模式</source>
       <category>python</category>
       <pubDate>Wed, 03 Jan 2024 00:00:00 GMT</pubDate>
@@ -366,8 +444,8 @@ wrapper<span>(</span><span>*</span>args<span>,</span> <span>**</span>kwargs<span
     </item>
     <item>
       <title>门面模式</title>
-      <link>https://lianghexiang.github.io/space/design_pattern/%E9%97%A8%E9%9D%A2%E6%A8%A1%E5%BC%8F.html</link>
-      <guid>https://lianghexiang.github.io/space/design_pattern/%E9%97%A8%E9%9D%A2%E6%A8%A1%E5%BC%8F.html</guid>
+      <link>https://lianghexiang.github.io/space/posts/design_pattern/%E9%97%A8%E9%9D%A2%E6%A8%A1%E5%BC%8F.html</link>
+      <guid>https://lianghexiang.github.io/space/posts/design_pattern/%E9%97%A8%E9%9D%A2%E6%A8%A1%E5%BC%8F.html</guid>
       <source url="https://lianghexiang.github.io/space/rss.xml">门面模式</source>
       <category>python</category>
       <pubDate>Wed, 03 Jan 2024 00:00:00 GMT</pubDate>
@@ -388,6 +466,17 @@ wrapper<span>(</span><span>*</span>args<span>,</span> <span>**</span>kwargs<span
 </li>
 </ol>
 <h3 id="_1-什么是结构性设计模式" tabindex="-1"> 1. 什么是结构性设计模式</h3>
+]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/6c8acb93bd0fc9dd85006746d572df8f" type="image/"/>
+    </item>
+    <item>
+      <title>向量数据库</title>
+      <link>https://lianghexiang.github.io/space/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/LLM/%E5%90%91%E9%87%8F%E6%95%B0%E6%8D%AE%E5%BA%93.html</link>
+      <guid>https://lianghexiang.github.io/space/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/LLM/%E5%90%91%E9%87%8F%E6%95%B0%E6%8D%AE%E5%BA%93.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">向量数据库</source>
+      <category>人工智能</category>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="向量数据库" tabindex="-1"> 向量数据库</h1>
 ]]></content:encoded>
       <enclosure url="https://img.tucang.cc/api/image/show/6c8acb93bd0fc9dd85006746d572df8f" type="image/"/>
     </item>
@@ -578,44 +667,6 @@ df<span>.</span>show<span>(</span><span>)</span>
 <p>、</p>
 ]]></content:encoded>
       <enclosure url="https://img.tucang.cc/api/image/show/da3546c26f3726a1f7a63e96921b30ff" type="image/"/>
-    </item>
-    <item>
-      <title>大脑——一切问题的起源</title>
-      <link>https://lianghexiang.github.io/space/anything/book_notes/%E4%BA%BA%E4%B9%8B%E8%A7%89%E9%86%92/%E4%B8%80%E5%88%87%E9%97%AE%E9%A2%98%E7%9A%84%E8%B5%B7%E6%BA%90.html</link>
-      <guid>https://lianghexiang.github.io/space/anything/book_notes/%E4%BA%BA%E4%B9%8B%E8%A7%89%E9%86%92/%E4%B8%80%E5%88%87%E9%97%AE%E9%A2%98%E7%9A%84%E8%B5%B7%E6%BA%90.html</guid>
-      <source url="https://lianghexiang.github.io/space/rss.xml">大脑——一切问题的起源</source>
-      <category>读书笔记</category>
-      <pubDate>Wed, 31 Jan 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="大脑——一切问题的起源" tabindex="-1"> 大脑——一切问题的起源</h1>
-<p>人是特殊的，因为有可以进行自我审视的大脑，有自我意识。但是我们大多数人都不了解自己的大脑，所以才会对自身产生的问题感到困惑。现在，我们从了解大脑开始，重新认识“自己”</p>
-
-<nav><ul><li><router-link to="#第一节-大脑-重新认识你自己"><i>Content not supported</i> 第一节　大脑：重新认识你自己</router-link><ul><li><router-link to="#_1-三重大脑">1.三重大脑</router-link></li></ul></li></ul></nav>
-<h2 id="第一节-大脑-重新认识你自己" tabindex="-1"> <i>Content not supported</i> 第一节　大脑：重新认识你自己</h2>
-<h3 id="_1-三重大脑" tabindex="-1"> 1.三重大脑</h3>
-<div>
-<p>大脑的进化</p>
-<p>人类聪明的大脑并不是突然出现，而是经过漫长的演化。从远古海洋的“复制子”，进化成为单细胞，接着又演化为动物、植物和微生物等，最终这些生物爬上陆地，开始了爬行动物的时代。后来，开始出现哺乳动物，为了适应环境， 进化出了&quot;情绪脑&quot;，而人类因为进化出了无与伦比的大脑&quot;新皮层&quot;，所以在哺乳类动物中脱颖而出，成为&quot;万物之灵&quot;，这一块新的区域被称为&quot;理智脑&quot;。</p>
-</div>
-<p><img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepress/2024-02-05-POggHv.png" alt="" loading="lazy"><br>
-<img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepress/2024-02-05-De6pnz.png" alt="33" loading="lazy"></p>
-<h4 id="本能脑" tabindex="-1"> 1️⃣本能脑</h4>
-<p>爬行动物时代进化出的脑结构。本能脑的结构很简单，只有一个原始的反射模块，可以让爬行动物对环境快速做出本能反应。<br>
-爬行动物的特点：</p>
-<ul>
-<li>没有情感也没有理智</li>
-<li>大脑结构简单</li>
-<li>体温无法恒定<br>
-因为<strong>本能脑</strong>是最原始的脑结构，所以本能脑也被称为原始脑、基础脑、鳄鱼脑、蜥蜴脑，或者干脆叫爬行脑。</li>
-</ul>
-<h4 id="情绪脑" tabindex="-1"> 2️⃣情绪脑</h4>
-<div>
-<p>情绪脑</p>
-<p>2亿年前的哺乳动物时代进化出的脑结构.<br>
-哺乳动物为了适应环境，不仅能让身体温度保持恒定，还进化出了<strong>情绪脑</strong>，</p>
-</div>
-<h4 id="理智脑" tabindex="-1"> 3️⃣理智脑</h4>
-]]></content:encoded>
-      <enclosure url="https://img.tucang.cc/api/image/show/162dc86c7925e40d3e32b8b1cc036876" type="image/"/>
     </item>
     <item>
       <title>PicgoGitHub图床</title>
@@ -1144,31 +1195,6 @@ style-loader：将css代码添加一个style标签插入到header中</p>
       <enclosure url="https://img.tucang.cc/api/image/show/6c8acb93bd0fc9dd85006746d572df8f" type="image/"/>
     </item>
     <item>
-      <title>网站推荐</title>
-      <link>https://lianghexiang.github.io/space/anything/%E5%B0%8F%E8%AE%B0/%E5%A5%BD%E7%94%A8%E7%BD%91%E7%AB%99%E6%94%B6%E8%97%8F.html</link>
-      <guid>https://lianghexiang.github.io/space/anything/%E5%B0%8F%E8%AE%B0/%E5%A5%BD%E7%94%A8%E7%BD%91%E7%AB%99%E6%94%B6%E8%97%8F.html</guid>
-      <source url="https://lianghexiang.github.io/space/rss.xml">网站推荐</source>
-      <category>网址收藏</category>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="网站推荐" tabindex="-1"> 网站推荐</h1>
-<h3 id="_1-http-sparkbyexamples-com" tabindex="-1"> <i>Content not supported</i> 1. <a href="http://sparkbyexamples.com/" target="_blank" rel="noopener noreferrer">http://sparkbyexamples.com/</a></h3>
-<div>
-<p>收藏理由</p>
-<p>是一个学习编程技术的网站，我主要是用来学习PySpark，因为这个网站的文档相比于官方文档来说，它的目录结构就比较一目了然，整体比较清晰；<br>
-而且，关于PySpark的每个模块，每个方法，它都用比较好理解的语言描述。然后，还会有示例代码来以更加直观的方式让读者明白相关模块如何使用</p>
-</div>
-<i>Content not supported</i>
-<h3 id="_2-https-www-exception-site" tabindex="-1"> <i>Content not supported</i> 2. <a href="https://www.exception.site" target="_blank" rel="noopener noreferrer">https://www.exception.site</a></h3>
-<div>
-<p>破解Pycharm</p>
-<p>常用IDE破解工具网站，包括了jetbrain全家桶系列，还有一些别的工具的破解方法，比如Xshell、Typora这些耳熟能详的工具,<br>
-而且教程详细易懂，附带破解工具下载，还包含了常见问题的解决办法，总之是一个不可多得的值得收藏的破解网站。非常好用❥</p>
-</div>
-<i>Content not supported</i>
-]]></content:encoded>
-      <enclosure url="https://img.tucang.cc/api/image/show/97c5d0c0a9f9c7aae374b30ce9f16e6d" type="image/"/>
-    </item>
-    <item>
       <title>gPRC服务</title>
       <link>https://lianghexiang.github.io/space/posts/gRPC/gRPC%E6%9C%8D%E5%8A%A1.html</link>
       <guid>https://lianghexiang.github.io/space/posts/gRPC/gRPC%E6%9C%8D%E5%8A%A1.html</guid>
@@ -1178,44 +1204,6 @@ style-loader：将css代码添加一个style标签插入到header中</p>
       <content:encoded><![CDATA[<h1 id="gprc服务" tabindex="-1"> gPRC服务</h1>
 ]]></content:encoded>
       <enclosure url="https://img.tucang.cc/api/image/show/3f96a1fd6956f27e1badccf6d7f982e1" type="image/"/>
-    </item>
-    <item>
-      <title>2023初雪</title>
-      <link>https://lianghexiang.github.io/space/anything/%E5%B0%8F%E8%AE%B0/%E4%B8%8B%E9%9B%AA%E5%95%A6.html</link>
-      <guid>https://lianghexiang.github.io/space/anything/%E5%B0%8F%E8%AE%B0/%E4%B8%8B%E9%9B%AA%E5%95%A6.html</guid>
-      <source url="https://lianghexiang.github.io/space/rss.xml">2023初雪</source>
-      <category>画册</category>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="_2023初雪" tabindex="-1"> 2023初雪</h1>
-<figure><img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepress/微信图片_20231211101841.jpg" alt="好白的雪" tabindex="0" loading="lazy"><figcaption>好白的雪</figcaption></figure>
-<figure><img src="https://raw.githubusercontent.com/lianghexiang/picgo-picture/main/vuepress/微信图片_20231211102037.jpg" alt="白雪皑皑" tabindex="0" loading="lazy"><figcaption>白雪皑皑</figcaption></figure>
-]]></content:encoded>
-      <enclosure url="https://img.tucang.cc/api/image/show/da3546c26f3726a1f7a63e96921b30ff" type="image/"/>
-    </item>
-    <item>
-      <title>Python2转Python3</title>
-      <link>https://lianghexiang.github.io/space/posts/python/Python2%E8%BD%ACPython3.html</link>
-      <guid>https://lianghexiang.github.io/space/posts/python/Python2%E8%BD%ACPython3.html</guid>
-      <source url="https://lianghexiang.github.io/space/rss.xml">Python2转Python3</source>
-      <category>python</category>
-      <pubDate>Tue, 26 Sep 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="python2转python3" tabindex="-1"> Python2转Python3</h1>
-<h3 id="工具介绍" tabindex="-1"> 工具介绍</h3>
-<p>💭 工具：<a href="http://2to3.py" target="_blank" rel="noopener noreferrer">2to3.py</a></p>
-<p>2to3.py是一个脚本文件，是Anaconda管理器自带的脚本文件，通常可以在anaconda的安装路径下找到，可能由于anaconda的版本不同，2to3.py文件的名字也可能略有差异，但总的来说都可以通过2to3关键字来辨别。</p>
-<h3 id="使用" tabindex="-1"> 使用</h3>
-<ol>
-<li>转单个py文件</li>
-</ol>
-<p>​	如果是转单个py文件的话可以直接把py文件的路径输入到命令之后</p>
-<div data-ext="sh"><pre><code>python 2to3.py  <span>-w</span>  D:/file.py
-</code></pre><div aria-hidden="true"><div></div></div></div><ol start="2">
-<li>批量转文件夹下的py文件</li>
-</ol>
-<div data-ext="sh"><pre><code><span># 如果是想转文件夹下的文件，则将文件夹的路径输入到命令之后，并且以'\'结尾</span>
-Python 2to3.py <span>-w</span> E:<span>\</span><span>\</span>Test<span>\</span>
-</code></pre><div aria-hidden="true"><div></div><div></div></div></div>]]></content:encoded>
-      <enclosure url="https://img.tucang.cc/api/image/show/72e720a5032441381e8d626f0e6538f1" type="image/"/>
     </item>
     <item>
       <title>Linux配置环境变量</title>
@@ -1261,7 +1249,7 @@ lianghexiang@ubuntu:~$ <span>export</span> <span><span>PATH</span></span><span>=
       <link>https://lianghexiang.github.io/space/posts/mysql/mysql%E5%A4%87%E5%BF%98%E5%BD%95.html</link>
       <guid>https://lianghexiang.github.io/space/posts/mysql/mysql%E5%A4%87%E5%BF%98%E5%BD%95.html</guid>
       <source url="https://lianghexiang.github.io/space/rss.xml">Mysql知识积累</source>
-      <category>技术</category>
+      <category>数据库</category>
       <pubDate>Sat, 20 Jan 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="mysql知识积累" tabindex="-1"> Mysql知识积累</h1>
 <h3 id="_1-mysql内置函数" tabindex="-1"> 1. Mysql内置函数</h3>
@@ -1477,47 +1465,6 @@ lianghexiang@ubuntu:~$ <span>export</span> <span><span>PATH</span></span><span>=
       <pubDate>Fri, 07 Jul 2023 06:08:45 GMT</pubDate>
       <content:encoded><![CDATA[
 <Presentation id="presentation-1" code="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" theme="auto"></Presentation>]]></content:encoded>
-      <enclosure url="https://img.tucang.cc/api/image/show/72e720a5032441381e8d626f0e6538f1" type="image/"/>
-    </item>
-    <item>
-      <title>Python操作Polygon</title>
-      <link>https://lianghexiang.github.io/space/posts/python/polygon%E9%9D%A2%E7%A7%AF%E8%AE%A1%E7%AE%97.html</link>
-      <guid>https://lianghexiang.github.io/space/posts/python/polygon%E9%9D%A2%E7%A7%AF%E8%AE%A1%E7%AE%97.html</guid>
-      <source url="https://lianghexiang.github.io/space/rss.xml">Python操作Polygon</source>
-      <category>python</category>
-      <pubDate>Sat, 01 Jul 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="python操作polygon" tabindex="-1"> Python操作Polygon</h1>
-<h3 id="_1-polygon面积计算" tabindex="-1"> 1. Polygon面积计算</h3>
-<blockquote>
-<p>首先介绍什么是Polygon，在地理信息系统(GIS)中，polygon是经纬度构成的多边形，可以用来描绘地理边界，区域和建筑物轮廓灯。在mysql中，可以使用polygon数据类型存储，Python的<code>Shapely</code>库提供了操作polygon数据的工具。</p>
-</blockquote>
-<p>在编程语言中，polygon数据多存储在二维列表中，例如<code>[[1, 2],[2, 0], [0, 1],......]</code>,  在数学中计算不规则多边形面积之一的公式是鞋带公式(也成高斯面积公式)</p>
-<p>对于任意一个多边形，如果已知其各个顶点的坐标，</p>
-<p>那么这个多边形的面积为：</p>
-<p>其中y(i+1)=y1, x(i+1)=x1</p>
-<p><a href="https://blog.csdn.net/xza13155/article/details/112118676" target="_blank" rel="noopener noreferrer">https://blog.csdn.net/xza13155/article/details/112118676</a></p>
-<p>把上述公式转换成Python计算polygon边界面积的代码：</p>
-<div data-ext="py"><pre><code><span>def</span> <span>polygon_area</span><span>(</span>polygon<span>)</span><span>:</span>
-    <span>"""
-    :param polygon: 多边形坐标 list
-    :return: 多边形面积 float
-    """</span>
-    length <span>=</span> <span>len</span><span>(</span>polygon<span>)</span>
-    area <span>=</span> <span>0.0</span>
-    <span>for</span> i <span>in</span> <span>range</span><span>(</span>length<span>)</span><span>:</span>
-        x1<span>,</span> y1 <span>=</span> polygon<span>[</span>i<span>]</span>
-        <span># 如果xn为最后一项，则为xn*y1-yn*x1</span>
-        x2<span>,</span> y2 <span>=</span> polygon<span>[</span><span>(</span>i<span>+</span><span>1</span><span>)</span> <span>%</span> length<span>]</span>
-        area <span>+=</span> <span>(</span>x1<span>*</span>y2 <span>-</span> y1<span>*</span>x2<span>)</span>
-    area <span>=</span> <span>abs</span><span>(</span>area<span>)</span> <span>*</span> <span>0.5</span>
-    <span>return</span> area
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>如果使用第三方库shapely：</p>
-<div data-ext="py"><pre><code><span>from</span> shapely<span>.</span>geometry <span>import</span> Polygon
-<span>def</span> <span>gis_polygon_area</span><span>(</span>coordinates<span>)</span><span>:</span>
-    polygon <span>=</span> Polygon<span>(</span>coordinates<span>)</span>
-    area <span>=</span> polygon<span>.</span>area
-    <span>return</span> area
-</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div></div></div>]]></content:encoded>
       <enclosure url="https://img.tucang.cc/api/image/show/72e720a5032441381e8d626f0e6538f1" type="image/"/>
     </item>
   </channel>
