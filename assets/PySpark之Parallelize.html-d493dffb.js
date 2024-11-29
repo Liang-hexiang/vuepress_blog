@@ -1,0 +1,1 @@
+import{_ as a,o as r,c as l,e,f as t}from"./app-bbec70eb.js";const s={},c=e("h1",{id:"pyspark之parallelize",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#pyspark之parallelize","aria-hidden":"true"},"#"),t(" PySpark之parallelize()")],-1),o=[c];function _(i,n){return r(),l("div",null,o)}const d=a(s,[["render",_],["__file","PySpark之Parallelize.html.vue"]]);export{d as default};
