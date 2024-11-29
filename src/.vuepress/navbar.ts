@@ -1,37 +1,33 @@
 import {navbar} from "vuepress-theme-hope";
 
 export default navbar([
-
     {
         text: "博客",
-        icon: "fas fa-blog",
+        icon: "fas fa-book-open",
         prefix: "/posts/",
         children: [
-            {
-                text: 'gRPC',
-                prefix: 'gRPC/',
-                children: [
-                    'gRPC服务'
-                ]
-            },
-            {
-                text: 'Python',
-                prefix: 'python/',
-                children: [
-                    'Python添加环境变量', 'Python2转Python3'
-                ]
-            },
-            {
-                text: '常用工具',
-                prefix: 'tools/',
-                children: ['PicgoGithub搭建图床']
-            }
+            {text: 'Python', icon: 'fa-brands fa-python', link: 'python/'},
+            {text: '常用工具', link: 'tools/', icon: "fas fa-toolbox",},
+            {text: "设计模式", icon: "fas fa-code", link: "design_pattern/"},
+            {text: 'gRPC', icon: 'fas fa-book', link: 'gRPC/'},
+
         ]
     },
     {
-        text: "设计模式",
-        icon: "fas fa-wrench",
-        link: "/design_pattern/"
+        text: "人工智能",
+        icon: "fab fa-android",
+        prefix: "/人工智能/",
+        children: [
+            {text: '大语言模型', icon: "fab fa-android",link: 'LLM/'}
+        ]
+    },
+    {
+        text: "杂谈",
+        icon: "fab fa-diary",
+        prefix: "/diary/",
+        children: [
+            {text: '日记', icon: "fab fa-android",link: '小记/'}
+        ]
     },
     {
         text: "时光轴",

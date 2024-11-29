@@ -1,5 +1,5 @@
 ---
-icon: book
+icon: fab fa-linux
 date: 2023-07-28
 cover: https://img.tucang.cc/api/image/show/64a50296cae6612fb1468ddb15110c75
 category:

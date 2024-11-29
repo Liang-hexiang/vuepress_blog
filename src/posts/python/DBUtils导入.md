@@ -1,5 +1,5 @@
 ---
-icon: book
+icon: fab fa-python
 date: 2023-07-28
 cover: https://img.tucang.cc/api/image/show/da3546c26f3726a1f7a63e96921b30ff
 category:

@@ -14,11 +14,8 @@ export default hopeTheme({
   darkmode: 'switch',
   iconAssets: ["fontawesome-with-brands","fontawesome"],
   // iconPrefix: 'fas fa-',
-  logo: "/images/坏笑.svg",
   repo: "lianghexiang/space",
-
   docsDir: "src",
-
   // sidebar
   sidebar,
   // navbar
@@ -47,6 +44,7 @@ export default hopeTheme({
       Wechat: "https://example.com",
     },
   },
+  hotReload: true,
   // 禁用打印功能
   print: false,
   // 开启全屏按钮
