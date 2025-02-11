@@ -6,8 +6,8 @@
     <link>https://lianghexiang.github.io/space/</link>
     <description></description>
     <language>zh-CN</language>
-    <pubDate>Fri, 29 Nov 2024 08:08:22 GMT</pubDate>
-    <lastBuildDate>Fri, 29 Nov 2024 08:08:22 GMT</lastBuildDate>
+    <pubDate>Tue, 11 Feb 2025 03:35:30 GMT</pubDate>
+    <lastBuildDate>Tue, 11 Feb 2025 03:35:30 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <image>
@@ -15,17 +15,751 @@
       <url>src/.vuepress/public/images/katongrenwu.png</url>
       <link>https://lianghexiang.github.io/space/</link>
     </image>
+    <category>技术</category>
+    <category>IT</category>
+    <category>人工智能</category>
     <category>读书笔记</category>
     <category>画册</category>
     <category>网址收藏</category>
     <category>python</category>
-    <category>人工智能</category>
-    <category>技术</category>
     <category>PySpark</category>
-    <category>IT</category>
     <category>工具</category>
     <category>Vue</category>
     <category>数据库</category>
+    <item>
+      <title>Spark数据分析导论</title>
+      <link>https://lianghexiang.github.io/space/posts/pyspark/spark%E5%BF%AB%E9%80%9F%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B9%8BSpark%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E5%AF%BC%E8%AE%BA.html</link>
+      <guid>https://lianghexiang.github.io/space/posts/pyspark/spark%E5%BF%AB%E9%80%9F%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B9%8BSpark%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E5%AF%BC%E8%AE%BA.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">Spark数据分析导论</source>
+      <category>技术</category>
+      <category>IT</category>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="spark数据分析导论" tabindex="-1"> Spark数据分析导论</h1>
+<div>
+<p>spark快速大数据分析-第一章节</p>
+<p>记录第一章节讲解内容</p>
+</div>
+<h2 id="spark是什么" tabindex="-1"> Spark是什么❓</h2>
+<ol>
+<li>spark 是一个用来实现快速而通用的集群计算的平台。</li>
+<li>Spark能够在内存中进行计算.</li>
+<li>提供丰富的语言接口，包括：Python、Java、Scala</li>
+<li>Spark可以运行在Hadoop集群上。</li>
+</ol>
+<p>​</p>
+<h2 id="spark软件栈" tabindex="-1"> Spark软件栈</h2>
+<blockquote>
+<p>Spark 项目包含多个紧密集成的组件  。Spark 的核心是一个对由很多计算任务组成的、运行在多个工作机器或者是一个计算集群上的应用进行调度、 分发以及监控的计算引擎。</p>
+</blockquote>
+<p>由于Spark 的核心引擎有着速度快和通用的特点  ，Spark 还支持为各种不同应用场景专门设计的高级组件  ，比如</p>
+<p>SQL 和机器学习等  。</p>
+]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/498496728f8ad787045c66c3af161ab1" type="image/"/>
+    </item>
+    <item>
+      <title>Prompt提示词</title>
+      <link>https://lianghexiang.github.io/space/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/LLM/llm-prompt%E6%8F%90%E7%A4%BA%E5%8E%9F%E5%88%99.html</link>
+      <guid>https://lianghexiang.github.io/space/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/LLM/llm-prompt%E6%8F%90%E7%A4%BA%E5%8E%9F%E5%88%99.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">Prompt提示词</source>
+      <category>人工智能</category>
+      <pubDate>Fri, 03 Jan 2025 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="prompt提示词" tabindex="-1"> Prompt提示词</h1>
+<blockquote>
+<p>如何去使用 Prompt，以充分发挥 LLM 的性能？首先我们需要知道设计 Prompt 的原则，它们是每一个开发者设计 Prompt 所必须知道的基础概念。本章讨论了设计高效 Prompt 的两个关键原则：<strong>编写清晰、具体的指令</strong>和<strong>给予模型充足思考时间</strong>。掌握这两点，对创建可靠的语言模型交互尤为重要。</p>
+</blockquote>
+<p>1️⃣首先，Prompt 需要清晰明确地表达需求，提供充足上下文，使语言模型准确理解我们的意图，就像向一个外星人详细解释人类世界一样。过于简略的 Prompt 往往使模型难以把握所要完成的具体任务。</p>
+<p>2️⃣其次，让语言模型有充足时间推理也极为关键。就像人类解题一样，匆忙得出的结论多有失误。因此 Prompt 应加入逐步推理的要求，给模型留出充分思考时间，这样生成的结果才更准确可靠。</p>
+<h3 id="原则一-编写清晰、具体的指令" tabindex="-1"> 原则一: 编写清晰、具体的指令</h3>
+<blockquote>
+<p>在与语言模型交互时,以<strong>清晰、具体</strong>的方式表达需求。在许多情况下，更长、更复杂的 Prompt 反而会让语言模型更容易抓住关键点，给出符合预期的回复。原因在于，复杂的 Prompt 提供了更丰富的上下文和细节，让模型可以更准确地把握所需的操作和响应方式。</p>
+</blockquote>
+<h4 id="_1-使用分隔符清晰地表示输入的不同部分" tabindex="-1"> 1.使用分隔符清晰地表示输入的不同部分</h4>
+<p>在编写 Prompt 时，我们可以使用各种标点符号作为“分隔符”，将不同的文本部分区分开来。分隔符就像是 Prompt 中的墙，将不同的指令、上下文、输入隔开，避免意外的混淆。你可以选择用 ````，&quot;&quot;&quot;，&lt; &gt;，<tag> </tag>，:` 等做分隔符，只要能明确起到隔断作用即可。</p>
+<p>使用分隔符尤其重要的是可以防止 <strong>提示词注入（Prompt Rejection）</strong>。什么是提示词注入？就是用户输入的文本可能包含与你的预设 Prompt 相冲突的内容，如果不加分隔，这些输入就可能“注入”并操纵语言模型，导致模型产生毫无关联的乱七八糟的输出。</p>
+<p>举个例子，我们使用```分隔文本和指令:</p>
+<div data-ext="py"><pre><code>text <span>=</span> <span><span>f"""
+您应该提供尽可能清晰、具体的指示，以表达您希望模型执行的任务。\
+这将引导模型朝向所需的输出，并降低收到无关或不正确响应的可能性。\
+不要将写清晰的提示词与写简短的提示词混淆。\
+在许多情况下，更长的提示词可以为模型提供更多的清晰度和上下文信息，从而导致更详细和相关的输出。
+"""</span></span>
+<span># 需要总结的文本内容</span>
+prompt <span>=</span> <span><span>f"""
+把用三个反引号括起来的文本总结成一句话。
+```</span><span><span>{</span>text<span>}</span></span><span>```
+"""</span></span>
+<span># 指令内容，使用 ``` 来分隔指令和待总结的内容</span>
+response <span>=</span> get_completion<span>(</span>prompt<span>)</span>
+<span>print</span><span>(</span>response<span>)</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h4 id="_2-寻求结构化的输出" tabindex="-1"> 2.寻求结构化的输出</h4>
+<p>什么是结构化输出? 就是按照某种格式组织的内容，例如JSON、HTML等。这种输出非常适合在代码中进一步解析和处理。</p>
+<p>比如：</p>
+<div data-ext="py"><pre><code><span>"""
+请生成包括书名、作者和类别的三本虚构的、非真实存在的中文书籍清单，\
+并以 JSON 格式提供，其中包含以下键:book_id、title、author、genre。
+"""</span>
+response <span>=</span> get_completion<span>(</span>prompt<span>)</span>
+<span>print</span><span>(</span>response<span>)</span>
+<span>{</span>
+  <span>"books"</span><span>:</span> <span>[</span>
+    <span>{</span>
+      <span>"book_id"</span><span>:</span> <span>1</span><span>,</span>
+      <span>"title"</span><span>:</span> <span>"迷失的时光"</span><span>,</span>
+      <span>"author"</span><span>:</span> <span>"张三"</span><span>,</span>
+      <span>"genre"</span><span>:</span> <span>"科幻"</span>
+    <span>}</span><span>,</span>
+    <span>{</span>
+      <span>"book_id"</span><span>:</span> <span>2</span><span>,</span>
+      <span>"title"</span><span>:</span> <span>"幻境之门"</span><span>,</span>
+      <span>"author"</span><span>:</span> <span>"李四"</span><span>,</span>
+      <span>"genre"</span><span>:</span> <span>"奇幻"</span>
+    <span>}</span><span>,</span>
+    <span>{</span>
+      <span>"book_id"</span><span>:</span> <span>3</span><span>,</span>
+      <span>"title"</span><span>:</span> <span>"虚拟现实"</span><span>,</span>
+      <span>"author"</span><span>:</span> <span>"王五"</span><span>,</span>
+      <span>"genre"</span><span>:</span> <span>"科幻"</span>
+    <span>}</span>
+  <span>]</span>
+<span>}</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h4 id="_3-要求模型检查是否满足条件" tabindex="-1"> 3. 要求模型检查是否满足条件</h4>
+<p>如果任务包含不一定能满足的假设（条件），我们可以告诉模型先检查这些假设，如果不满足，则会指出并停止执行后续的完整流程。您还可以考虑可能出现的边缘情况及模型的应对，以避免意外的结果或错误发生。</p>
+<h4 id="_4-提供少量示例" tabindex="-1"> 4.提供少量示例</h4>
+<p>&quot;Few-shot&quot; prompting，即在要求模型执行实际任务之前，给模型一两个已完成的样例，让模型了解我们的要求和期望的输出样式。</p>
+<p>例如，在以下的样例中，我们先给了一个对话样例，然后要求模型用同样的隐喻风格回答关于“韧性”的问题。这就是一个少样本样例，它能帮助模型快速抓住我们要的语调和风格。</p>
+<p>利用少样本样例，我们可以轻松“预热”语言模型，让它为新的任务做好准备。这是一个让模型快速上手新任务的有效策略。</p>
+<div data-ext="py"><pre><code>prompt <span>=</span> <span><span>f"""
+您的任务是以一致的风格回答问题。
+
+&lt;孩子>: 请教我何为耐心。
+
+&lt;祖父母>: 挖出最深峡谷的河流源于一处不起眼的泉眼；最宏伟的交响乐从单一的音符开始；最复杂的挂毯以一根孤独的线开始编织。
+
+&lt;孩子>: 请教我何为韧性。
+"""</span></span>
+response <span>=</span> get_completion<span>(</span>prompt<span>)</span>
+<span>print</span><span>(</span>response<span>)</span>
+response <span>-</span><span>></span> <span>"韧性是一种坚持不懈的品质，就像一棵顽强的树在风雨中屹立不倒。它是面对困难和挑战时不屈不挠的精神，能够适应变化和克服逆境。韧性是一种内在的力量，让我们能够坚持追求目标，即使面临困难和挫折也能坚持不懈地努力。"</span>
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h3 id="原则二-给模型时间去思考" tabindex="-1"> 原则二 给模型时间去思考</h3>
+<blockquote>
+<p>在设计 Prompt 时，给予语言模型充足的推理时间非常重要。语言模型与人类一样，需要时间来思考并解决复杂问题。如果让语言模型匆忙给出结论，其结果很可能不准确。例如，若要语言模型推断一本书的主题，仅提供简单的书名和一句简介是不足够的。这就像让一个人在极短时间内解决困难的数学题，错误在所难免。</p>
+<p>相反，我们应通过 Prompt 指引语言模型进行深入思考。可以要求其先列出对问题的各种看法，说明推理依据，然后再得出最终结论。在 Prompt 中添加逐步推理的要求，能让语言模型投入更多时间逻辑思维，输出结果也将更可靠准确。</p>
+<p>综上所述，给予语言模型充足的推理时间，是 Prompt Engineering 中一个非常重要的设计原则。这将大大提高语言模型处理复杂问题的效果，也是构建高质量 Prompt 的关键之处。开发者应注意给模型留出思考空间，以发挥语言模型的最大潜力。</p>
+</blockquote>
+<h4 id="_1-指定完成任务所需的步骤" tabindex="-1"> 1.指定完成任务所需的步骤</h4>
+<p>接下来我们将通过给定一个复杂任务，给出完成该任务的一系列步骤，来展示这一策略的效果。</p>
+<p>首先我们描述了杰克和吉尔的故事，并给出提示词执行以下操作：首先，用一句话概括三个反引号限定的文本。第二，将摘要翻译成英语。第三，在英语摘要中列出每个名称。第四，输出包含以下键的 JSON 对象：英语摘要和人名个数。要求输出以换行符分隔。</p>
+<div data-ext="py"><pre><code>text <span>=</span> <span><span>f"""
+在一个迷人的村庄里，兄妹杰克和吉尔出发去一个山顶井里打水。\
+他们一边唱着欢乐的歌，一边往上爬，\
+然而不幸降临——杰克绊了一块石头，从山上滚了下来，吉尔紧随其后。\
+虽然略有些摔伤，但他们还是回到了温馨的家中。\
+尽管出了这样的意外，他们的冒险精神依然没有减弱，继续充满愉悦地探索。
+"""</span></span>
+<span># example 1</span>
+prompt_1 <span>=</span> <span><span>f"""
+执行以下操作：
+1-用一句话概括下面用三个反引号括起来的文本。
+2-将摘要翻译成英语。
+3-在英语摘要中列出每个人名。
+4-输出一个 JSON 对象，其中包含以下键：english_summary，num_names。
+
+请用换行符分隔您的答案。
+
+Text:
+```</span><span><span>{</span>text<span>}</span></span><span>```
+"""</span></span>
+response <span>=</span> get_completion<span>(</span>prompt_1<span>)</span>
+<span>print</span><span>(</span><span>"prompt 1:"</span><span>)</span>
+<span>print</span><span>(</span>response<span>)</span>
+
+prompt <span>1</span><span>:</span>
+<span>1</span><span>-</span>两个兄妹在山上打水时发生意外，但最终平安回家。
+<span>2</span><span>-</span>In a charming village<span>,</span> siblings Jack <span>and</span> Jill <span>set</span> off to fetch water <span>from</span> a well on top of a hill<span>.</span> While singing joyfully<span>,</span> they climbed up<span>,</span> but unfortunately<span>,</span> Jack tripped on a stone <span>and</span> rolled down the hill<span>,</span> <span>with</span> Jill following closely behind<span>.</span> Despite some minor injuries<span>,</span> they made it back to their cozy home<span>.</span> Despite the mishap<span>,</span> their adventurous spirit remained undiminished <span>as</span> they continued to explore <span>with</span> delight<span>.</span>
+<span>3</span><span>-</span>Jack<span>,</span> Jill
+<span>4</span><span>-</span><span>{</span><span>"english_summary"</span><span>:</span> <span>"In a charming village, siblings Jack and Jill set off to fetch water from a well on top of a hill. While singing joyfully, they climbed up, but unfortunately, Jack tripped on a stone and rolled down the hill, with Jill following closely behind. Despite some minor injuries, they made it back to their cozy home. Despite the mishap, their adventurous spirit remained undiminished as they continued to explore with delight."</span><span>,</span> <span>"num_names"</span><span>:</span> <span>2</span><span>}</span>
+
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>上述输出仍然存在一定问题，例如，键“姓名”会被替换为法语（译注：在英文原版中，要求从英语翻译到法语，对应指令第三步的输出为 'Noms:'，为Name的法语，这种行为难以预测，并可能为导出带来困难）</p>
+<div data-ext="text"><pre><code>prompt_2 = f"""
+1-用一句话概括下面用&lt;>括起来的文本。
+2-将摘要翻译成英语。
+3-在英语摘要中列出每个名称。
+4-输出一个 JSON 对象，其中包含以下键：English_summary，num_names。
+
+请使用以下格式：
+文本：&lt;要总结的文本>
+摘要：&lt;摘要>
+翻译：&lt;摘要的翻译>
+名称：&lt;英语摘要中的名称列表>
+输出 JSON：&lt;带有 English_summary 和 num_names 的 JSON>
+
+Text: &lt;{text}>
+"""
+response = get_completion(prompt_2)
+print("\nprompt 2:")
+print(response)
+
+prompt 2:
+Summary: 在一个迷人的村庄里，兄妹杰克和吉尔在山顶井里打水时发生了意外，但他们的冒险精神依然没有减弱，继续充满愉悦地探索。
+
+Translation: In a charming village, siblings Jack and Jill set off to fetch water from a well on top of a hill. Unfortunately, Jack tripped on a rock and tumbled down the hill, with Jill following closely behind. Despite some minor injuries, they made it back home safely. Despite the mishap, their adventurous spirit remained strong as they continued to explore joyfully.
+
+Names: Jack, Jill
+
+JSON Output: {"English_summary": "In a charming village, siblings Jack and Jill set off to fetch water from a well on top of a hill. Unfortunately, Jack tripped on a rock and tumbled down the hill, with Jill following closely behind. Despite some minor injuries, they made it back home safely. Despite the mishap, their adventurous spirit remained strong as they continued to explore joyfully.", "num_names": 2}
+
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h4 id="_2-指导模型在下结论之前找出一个自己的解法" tabindex="-1"> 2.指导模型在下结论之前找出一个自己的解法</h4>
+<p>在设计 Prompt 时，我们还可以通过明确指导语言模型进行自主思考，来获得更好的效果。</p>
+<p>假设我们要语言模型判断一个数学问题的解答是否正确。仅仅提供问题和解答是不够的，语言模型可能会匆忙做出错误判断。</p>
+<p>相反，我们可以在 Prompt 中先要求语言模型自己尝试解决这个问题，思考出自己的解法，然后再与提供的解答进行对比，判断正确性。这种先让语言模型自主思考的方式，能帮助它更深入理解问题，做出更准确的判断。</p>
+<p>接下来我们会给出一个问题和一份来自学生的解答，要求模型判断解答是否正确：</p>
+<div data-ext="py"><pre><code>prompt <span>=</span> <span><span>f"""
+判断学生的解决方案是否正确。
+
+问题:
+我正在建造一个太阳能发电站，需要帮助计算财务。
+
+    土地费用为 100美元/平方英尺
+    我可以以 250美元/平方英尺的价格购买太阳能电池板
+    我已经谈判好了维护合同，每年需要支付固定的10万美元，并额外支付每平方英尺10美元
+    作为平方英尺数的函数，首年运营的总费用是多少。
+
+学生的解决方案：
+设x为发电站的大小，单位为平方英尺。
+费用：
+
+    土地费用：100x
+    太阳能电池板费用：250x
+    维护费用：100,000美元+100x
+    总费用：100x+250x+100,000美元+100x=450x+100,000美元
+"""</span></span>
+response <span>=</span> get_completion<span>(</span>prompt<span>)</span>
+<span>print</span><span>(</span>response<span>)</span>
+
+<span># 学生的解决方案是正确的。他正确地计算了土地费用、太阳能电池板费用和维护费用，并将它们相加得到了总费用。</span>
+
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>但是注意，学生的解决方案实际上是错误的。（<em>维护费用项100x应为10x，总费用450x应为360x</em>）</p>
+<p>我们可以通过指导模型先自行找出一个解法来解决这个问题。</p>
+<p>在接下来这个 Prompt 中，我们要求模型先自行解决这个问题，再根据自己的解法与学生的解法进行对比，从而判断学生的解法是否正确。同时，我们给定了输出的格式要求。通过拆分任务、明确步骤，让模型有更多时间思考，有时可以获得更准确的结果。在这个例子中，学生的答案是错误的，但如果我们没有先让模型自己计算，那么可能会被误导以为学生是正确的。</p>
+<div data-ext="text"><pre><code>prompt = f"""
+请判断学生的解决方案是否正确，请通过如下步骤解决这个问题：
+步骤：
+    首先，自己解决问题。
+    然后将您的解决方案与学生的解决方案进行比较，对比计算得到的总费用与学生计算的总费用是否一致，并评估学生的解决方案是否正确。
+    在自己完成问题之前，请勿决定学生的解决方案是否正确。
+使用以下格式：
+
+    问题：问题文本
+    学生的解决方案：学生的解决方案文本
+    实际解决方案和步骤：实际解决方案和步骤文本
+    学生计算的总费用：学生计算得到的总费用
+    实际计算的总费用：实际计算出的总费用
+    学生计算的费用和实际计算的费用是否相同：是或否
+    学生的解决方案和实际解决方案是否相同：是或否
+    学生的成绩：正确或不正确
+
+问题：
+
+    我正在建造一个太阳能发电站，需要帮助计算财务。 
+    - 土地费用为每平方英尺100美元
+    - 我可以以每平方英尺250美元的价格购买太阳能电池板
+    - 我已经谈判好了维护合同，每年需要支付固定的10万美元，并额外支付每平方英尺10美元;
+    作为平方英尺数的函数，首年运营的总费用是多少。
+学生的解决方案：
+
+    设x为发电站的大小，单位为平方英尺。
+    费用：
+    1. 土地费用：100x美元
+    2. 太阳能电池板费用：250x美元
+    3. 维护费用：100,000+100x=10万美元+10x美元
+    总费用：100x美元+250x美元+10万美元+100x美元=450x+10万美元
+实际解决方案和步骤：
+"""
+response = get_completion(prompt)
+print(response)
+
+实际解决方案和步骤：
+    1. 土地费用：每平方英尺100美元，所以总费用为100x美元。
+    2. 太阳能电池板费用：每平方英尺250美元，所以总费用为250x美元。
+    3. 维护费用：固定费用为10万美元，额外费用为每平方英尺10美元，所以总费用为10万美元+10x美元。
+    4. 总费用：将上述三项费用相加，得到总费用为100x美元+250x美元+10万美元+10x美元=360x+10万美元。
+学生计算的总费用：450x+10万美元
+实际计算的总费用：360x+10万美元
+学生计算的费用和实际计算的费用是否相同：否
+学生的解决方案和实际解决方案是否相同：否
+学生的成绩：不正确
+
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><h3 id="三-局限性" tabindex="-1"> 三 局限性</h3>
+<p><strong>开发大模型相关应用时请务必铭记：</strong></p>
+<p><strong>虚假知识</strong>：模型偶尔会生成一些看似真实实则编造的知识</p>
+<p>在开发与应用语言模型时，需要注意它们可能生成虚假信息的风险。尽管模型经过大规模预训练，掌握了丰富知识，但它实际上并没有<em>完全</em>记住所见的信息，难以准确判断自己的知识边界，可能做出错误推断。若让语言模型描述一个不存在的产品,它可能会自行构造出似是而非的细节。这被称为“幻觉”(Hallucination)，是语言模型的一大缺陷。</p>
+<p>如下示例展示了大模型的幻觉。我们要求告诉我们华为公司生产的 <em>GT Watch 运动手表</em> 产品的信息，事实上，这个公司是真实存在的，但产品是编造的，而模型一本正经地提供了它编造的知识，而且迷惑性很强。</p>
+<div data-ext="text"><pre><code>prompt = f"""
+告诉我华为公司生产的GT Watch运动手表的相关信息
+"""
+response = get_completion(prompt)
+print(response)
+
+华为公司生产的GT Watch运动手表是一款智能手表，具有多种功能和特点。以下是相关信息：
+1. 设计和外观：GT Watch采用圆形表盘设计，具有精致的外观和高质量的材料制造。它有多种颜色和表带选择，可以根据个人喜好进行定制。
+2. 显示屏：GT Watch配备了1.39英寸的AMOLED显示屏，具有高清分辨率和良好的可视性。用户可以通过触摸屏幕进行操作和导航。
+3. 运动追踪：GT Watch具有全天候的运动追踪功能，可以监测用户的步数、跑步距离、卡路里消耗和心率等数据。它还支持多种运动模式，如跑步、骑行、游泳等。
+4. 健康监测：GT Watch可以监测用户的心率、血氧饱和度和睡眠质量等健康指标。它还提供健康建议和提醒，帮助用户保持良好的健康状态。
+5. 通知和连接：GT Watch可以与用户的手机进行连接，通过蓝牙技术实现通知推送和电话提醒。用户可以在手表上查看短信、电话和社交媒体通知，无需拿出手机。
+6. 长续航时间：GT Watch具有较长的续航时间，一次充电可以使用数天。它还支持快速充电技术，可以在短时间内充满电。
+7. 其他功能：GT Watch还具有其他功能，如天气预报、闹钟、计时器、计步器等。它还支持NFC支付和音乐控制等便利功能。
+总体而言，华为GT Watch是一款功能强大、外观精致的智能运动手表，适合那些注重健康和运动的用户使用。
+
+</code></pre><div aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div><p>语言模型生成虚假信息的“幻觉”问题，是使用与开发语言模型时需要高度关注的风险。由于幻觉信息往往令人无法辨别真伪，开发者必须警惕并尽量避免它的产生。</p>
+<p>目前 OpenAI 等公司正在积极研究解决语言模型的幻觉问题。在技术得以进一步改进之前，开发者可以通过Prompt设计减少幻觉发生的可能。例如，可以先让语言模型直接引用文本中的原句，然后再进行解答。这可以追踪信息来源，降低虚假内容的风险。</p>
+<p>综上，语言模型的幻觉问题事关应用的可靠性与安全性。开发者有必要认识到这一缺陷（注：截至2023年7月），并采取Prompt优化等措施予以缓解，以开发出更加可信赖的语言模型应用。这也将是未来语言模型进化的重要方向之一。</p>
+<p><strong>注意</strong>：</p>
+<p>关于反斜杠使用的说明：在本教程中，我们使用反斜杠 \ 来使文本适应屏幕大小以提高阅读体验，而没有用换行符 \n 。GPT-3 并不受换行符（newline characters）的影响，但在您调用其他大模型时，需额外考虑换行符是否会影响模型性能。</p>
+]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/6c8acb93bd0fc9dd85006746d572df8f" type="image/"/>
+    </item>
+    <item>
+      <title>大语言模型简介</title>
+      <link>https://lianghexiang.github.io/space/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/LLM/%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E7%AE%80%E4%BB%8B.html</link>
+      <guid>https://lianghexiang.github.io/space/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/LLM/%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E7%AE%80%E4%BB%8B.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">大语言模型简介</source>
+      <category>人工智能</category>
+      <pubDate>Fri, 03 Jan 2025 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="大语言模型简介" tabindex="-1"> 大语言模型简介</h1>
+<h2 id="_1-llm理论简介" tabindex="-1"> 1.LLM理论简介</h2>
+<h3 id="一、什么是llm" tabindex="-1"> 一、什么是LLM</h3>
+<p><strong>大语言模型（LLM，Large Language Model），也称大型语言模型，是一种旨在理解和生成人类语言的人工智能模型</strong>。</p>
+<p>LLM 通常指包含<strong>数百亿（或更多）参数的语言模型</strong>，它们在海量的文本数据上进行训练，从而获得对语言深层次的理解。</p>
+<p>为了探索性能的极限，许多研究人员开始训练越来越庞大的语言模型，例如拥有 <code>1750 亿</code>参数的 <code>GPT-3</code> 和 <code>5400 亿</code>参数的 <code>PaLM</code> 。尽管这些大型语言模型与小型语言模型（例如 <code>3.3 亿</code>参数的 <code>BERT</code> 和 <code>15 亿</code>参数的 <code>GPT-2</code>）使用相似的架构和预训练任务，但它们展现出截然不同的能力，尤其在解决复杂任务时表现出了惊人的潜力，这被称为“<strong>涌现能力</strong>”。以 GPT-3 和 GPT-2 为例，GPT-3 可以通过学习上下文来解决少样本任务，而 GPT-2 在这方面表现较差。因此，科研界给这些庞大的语言模型起了个名字，称之为“大语言模型（LLM）”。LLM 的一个杰出应用就是 <strong>ChatGPT</strong> ，它是 GPT 系列 LLM 用于与人类对话式应用的大胆尝试，展现出了非常流畅和自然的表现。</p>
+<h2 id="一、什么是大型语言模型-llm" tabindex="-1"> 一、什么是大型语言模型（LLM）</h2>
+<h3 id="_1-1-大型语言模型-llm-的概念" tabindex="-1"> 1.1 大型语言模型（LLM）的概念</h3>
+<p><strong>大语言模型（LLM，Large Language Model），也称大型语言模型，是一种旨在理解和生成人类语言的人工智能模型</strong>。</p>
+<p>LLM 通常指包含<strong>数百亿（或更多）参数的语言模型</strong>，它们在海量的文本数据上进行训练，从而获得对语言深层次的理解。目前，国外的知名 LLM 有 GPT-3.5、GPT-4、PaLM、Claude 和 LLaMA 等，国内的有文心一言、讯飞星火、通义千问、ChatGLM、百川等。</p>
+<p>为了探索性能的极限，许多研究人员开始训练越来越庞大的语言模型，例如拥有 <code>1750 亿</code>参数的 <code>GPT-3</code> 和 <code>5400 亿</code>参数的 <code>PaLM</code> 。尽管这些大型语言模型与小型语言模型（例如 <code>3.3 亿</code>参数的 <code>BERT</code> 和 <code>15 亿</code>参数的 <code>GPT-2</code>）使用相似的架构和预训练任务，但它们展现出截然不同的能力，尤其在解决复杂任务时表现出了惊人的潜力，这被称为“<strong>涌现能力</strong>”。以 GPT-3 和 GPT-2 为例，GPT-3 可以通过学习上下文来解决少样本任务，而 GPT-2 在这方面表现较差。因此，科研界给这些庞大的语言模型起了个名字，称之为“大语言模型（LLM）”。LLM 的一个杰出应用就是 <strong>ChatGPT</strong> ，它是 GPT 系列 LLM 用于与人类对话式应用的大胆尝试，展现出了非常流畅和自然的表现。</p>
+<h3 id="_1-2-llm-的发展历程" tabindex="-1"> 1.2 LLM 的发展历程</h3>
+<p>语言建模的研究可以追溯到<code>20 世纪 90 年代</code>，当时的研究主要集中在采用<strong>统计学习方法</strong>来预测词汇，通过分析前面的词汇来预测下一个词汇。但在理解复杂语言规则方面存在一定局限性。</p>
+<p>随后，研究人员不断尝试改进，<code>2003 年</code>深度学习先驱 <strong>Bengio</strong> 在他的经典论文 <code>《A Neural Probabilistic Language Model》</code>中，首次将深度学习的思想融入到语言模型中。强大的<strong>神经网络模型</strong>，相当于为计算机提供了强大的&quot;大脑&quot;来理解语言，让模型可以更好地捕捉和理解语言中的复杂关系。</p>
+<p><code>2018 年</code>左右，<strong>Transformer 架构的神经网络模型</strong>开始崭露头角。通过大量文本数据训练这些模型，使它们能够通过阅读大量文本来深入理解语言规则和模式，就像让计算机阅读整个互联网一样，对语言有了更深刻的理解，极大地提升了模型在各种自然语言处理任务上的表现。</p>
+<p>与此同时，研究人员发现，随着<strong>语言模型规模的扩大（增加模型大小或使用更多数据）</strong>，模型展现出了一些惊人的能力，在各种任务中的表现均显著提升。这一发现标志着大型语言模型（LLM）时代的开启。</p>
+<h3 id="_1-3-常见的-llm-模型" tabindex="-1"> 1.3 常见的 LLM 模型</h3>
+<p>大语言模型的发展历程虽然只有短短不到五年的时间，但是发展速度相当惊人，截止 2023 年 6 月，国内外有超过百种大模型相继发布。下图按照时间线给出了 2019 年至 2023 年 6 月比较有影响力并且模型参数量超过 100 亿的大语言模型：</p>
+<figure><img src="https://datawhalechina.github.io/figures/C1-1-LLMs_0623_final.png" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<p>（该图来源于参考内容 [<a href="https://arxiv.org/abs/2303.18223" target="_blank" rel="noopener noreferrer">1</a>]）</p>
+<p>接下来我们主要介绍几个国内外常见的大模型（包括开源和闭源）</p>
+<h4 id="_1-3-1-闭源-llm-未公开源代码" tabindex="-1"> 1.3.1 闭源 LLM (未公开源代码)</h4>
+<h5 id="_1-3-1-1-gpt-系列" tabindex="-1"> 1.3.1.1 GPT 系列</h5>
+<blockquote>
+<p><a href="https://platform.openai.com/docs/models" target="_blank" rel="noopener noreferrer">OpenAI 模型介绍</a></p>
+</blockquote>
+<p><strong>OpenAI</strong> 公司在 <code>2018 年</code>提出的 <strong>GPT（Generative Pre-Training）</strong> 模型是典型的 <code>生成式预训练语言模型</code> 之一。</p>
+<p>GPT 模型的基本原则是<strong>通过语言建模将世界知识压缩到仅解码器 (decoder-only) 的 Transformer 模型中</strong>，这样它就可以恢复(或记忆)世界知识的语义，并充当通用任务求解器。它能够成功的两个关键点：</p>
+<ul>
+<li>训练能够准确预测下一个单词的 decoder-only 的 Transformer 语言模型</li>
+<li>扩展语言模型的大小</li>
+</ul>
+<p>OpenAI 在 LLM 上的研究大致可以分为以下几个阶段：</p>
+<figure><img src="https://datawhalechina.github.io/llm-universe/figures/C1-1-GPT_series.png" alt="GPT 阶段" tabindex="0" loading="lazy"><figcaption>GPT 阶段</figcaption></figure>
+<p>接下来，我们将从模型规模、特点等方面，介绍大家熟知的 ChatGPT 与 GPT4：</p>
+<h6 id="_1-3-1-1-1-chatgpt-https-datawhalechina-github-io-llm-universe-c1-1-大语言模型-llm-理论简介-id-13111-chatgpt" tabindex="-1"> [1.3.1.1.1 ChatGPT](<a href="https://datawhalechina.github.io/llm-universe/#/C1/1.%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B" target="_blank" rel="noopener noreferrer">https://datawhalechina.github.io/llm-universe/#/C1/1.大语言模型</a> LLM 理论简介?id=_13111-chatgpt)</h6>
+<blockquote>
+<p><a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT 使用地址</a></p>
+</blockquote>
+<p><code>2022 年 11 月</code>，<strong>OpenAI</strong> 发布了基于 GPT 模型（GPT-3.5 和 GPT-4） 的<strong>会话应用 ChatGPT</strong>。由于与人类交流的出色能力，ChatGPT 自发布以来就引发了人工智能社区的兴奋。ChatGPT 是基于强大的 GPT 模型开发的，具有特别优化的会话能力。</p>
+<p>ChatGPT 从本质上来说是一个 LLM 应用，是基于基座模型开发出来的，与基座模型有本质的区别。其支持 GPT-3.5 和 GPT-4 两个版本。</p>
+<figure><img src="https://datawhalechina.github.io/llm-universe/figures/C1-1-ChatGPT.png" alt="ChatGPT 界面" tabindex="0" loading="lazy"><figcaption>ChatGPT 界面</figcaption></figure>
+<p>现在的 ChatGPT 支持最长达 32,000 个字符，知识截止日期是 2021 年 9 月，它可以执行各种任务，包括<strong>代码编写、数学问题求解、写作建议</strong>等。ChatGPT 在与人类交流方面表现出了卓越的能力：拥有丰富的知识储备，对数学问题进行推理的技能，在多回合对话中准确追踪上下文，并且与人类安全使用的价值观非常一致。后来，ChatGPT 支持插件机制，这进一步扩展了 ChatGPT 与现有工具或应用程序的能力。到目前为止，它似乎是人工智能历史上最强大的聊天机器人。ChatGPT 的推出对未来的人工智能研究具有重大影响，它为探索类人人工智能系统提供了启示。</p>
+<h6 id="_1-3-1-1-2-gpt-4" tabindex="-1"> 1.3.1.1.2 GPT-4</h6>
+<p><code>2023 年 3 月</code>发布的 GPT-4，它将<strong>文本输入扩展到多模态信号</strong>。GPT3.5 拥有 1750 亿 个参数，而 GPT4 的参数量官方并没有公布，但有相关人员猜测，GPT-4 在 120 层中总共包含了 1.8 万亿参数，也就是说，GPT-4 的规模是 GPT-3 的 10 倍以上。因此，GPT-4 比 GPT-3.5 <strong>解决复杂任务的能力更强，在许多评估任务上表现出较大的性能提升</strong>。</p>
+<p>最近的一项研究通过对人为生成的问题进行定性测试来研究 GPT-4 的能力，这些问题包含了各种各样的困难任务，并表明 GPT-4 可以比之前的 GPT 模型(如 GPT3.5 )实现更优越的性能。此外，由于六个月的迭代校准(在 RLHF 训练中有额外的安全奖励信号)，GPT-4 对恶意或挑衅性查询的响应更安全，并应用了一些干预策略来缓解 LLM 可能出现的问题，如幻觉、隐私和过度依赖。</p>
+<blockquote>
+<p>注意：2023 年 11 月 7 日， OpenAI 召开了首个开发者大会，会上推出了最新的大语言模型 GPT-4 Turbo，Turbo 相当于进阶版。它将上下文长度扩展到 128k，相当于 300 页文本，并且训练知识更新到 2023 年 4 月</p>
+</blockquote>
+<p>GPT3.5 是免费的，而 GPT-4 是收费的。需要开通 plus 会员 20 美元/月。</p>
+<p><code>2024 年 5 月 14 日</code>，新一代旗舰生成模型 <strong>GPT-4o</strong> 正式发布。GPT-4o 具备了对文本、语音、图像三种模态的深度理解能力，反应迅速且富有情感色彩，极具人性化。而且 GPT-4o 是完全免费的，虽然每天的免费使用次数是有限的。</p>
+<p>通常我们可以调用模型 API 来开发自己的应用，主流模型 <a href="https://openai.com/pricing" target="_blank" rel="noopener noreferrer">API 对比</a>如下：</p>
+<table>
+<thead>
+<tr>
+<th>语言模型名称</th>
+<th>上下文长度</th>
+<th>特点</th>
+<th>input 费用($/million tokens)</th>
+<th>output 费用($/ 1M tokens)</th>
+<th>知识截止日期</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GPT-3.5-turbo-0125</td>
+<td>16k</td>
+<td>经济，专门对话</td>
+<td>0.5</td>
+<td>1.5</td>
+<td>2021 年 9 月</td>
+</tr>
+<tr>
+<td>GPT-3.5-turbo-instruct</td>
+<td>4k</td>
+<td>指令模型</td>
+<td>1.5</td>
+<td>2</td>
+<td>2021 年 9 月</td>
+</tr>
+<tr>
+<td>GPT-4</td>
+<td>8k</td>
+<td>性能更强</td>
+<td>30</td>
+<td>60</td>
+<td>2021 年 9 月</td>
+</tr>
+<tr>
+<td>GPT-4-32k</td>
+<td>32k</td>
+<td>性能强，长上下文</td>
+<td>60</td>
+<td>120</td>
+<td>2021 年 9 月</td>
+</tr>
+<tr>
+<td>GPT-4-turbo</td>
+<td>128k</td>
+<td>性能更强</td>
+<td>10</td>
+<td>30</td>
+<td>2023 年 12 月</td>
+</tr>
+<tr>
+<td>GPT-4o</td>
+<td>128k</td>
+<td>性能最强，速度更快</td>
+<td>5</td>
+<td>15</td>
+<td>2023 年 10 月</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Embedding 模型名称</th>
+<th>维度</th>
+<th>特点</th>
+<th>费用($/ 1M tokens)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>text-embedding-3-small</td>
+<td>512/1536</td>
+<td>较小</td>
+<td>0.02</td>
+</tr>
+<tr>
+<td>text-embedding-3-large</td>
+<td>256/1024/3072</td>
+<td>较大</td>
+<td>0.13</td>
+</tr>
+<tr>
+<td>ada v2</td>
+<td>1536</td>
+<td>传统</td>
+<td>0.1</td>
+</tr>
+</tbody>
+</table>
+<h5 id="_1-3-1-2-claude-系列" tabindex="-1"> 1.3.1.2 Claude 系列</h5>
+<p>Claude 系列模型是由 OpenAI 离职人员创建的 <strong>Anthropic</strong> 公司开发的闭源语言大模型。</p>
+<blockquote>
+<p><a href="https://claude.ai/chats" target="_blank" rel="noopener noreferrer">Claude 使用地址</a></p>
+</blockquote>
+<p>最早的 <strong>Claude</strong> 于 <code>2023 年 3 月 15 日</code>发布，在 2023 年 7 月 11 日，更新至 <strong>Claude-2</strong>， 并在 <code>2024 年 3 月 4 日</code>更新至 <strong>Claude-3</strong>。</p>
+<p>Claude 3 系列包括三个不同的模型，分别是 Claude 3 Haiku、Claude 3 Sonnet 和 Claude 3 Opus，它们的能力依次递增，旨在满足不同用户和应用场景的需求。</p>
+<table>
+<thead>
+<tr>
+<th>模型名称</th>
+<th>上下文长度</th>
+<th>特点</th>
+<th>input 费用($/1M tokens)</th>
+<th>output 费用($/1M tokens)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Claude 3 Haiku</td>
+<td>200k</td>
+<td>速度最快</td>
+<td>0.25</td>
+<td>1.25</td>
+</tr>
+<tr>
+<td>Claude 3 Sonnet</td>
+<td>200k</td>
+<td>平衡</td>
+<td>3</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Claude 3 Opus</td>
+<td>200k</td>
+<td>性能最强</td>
+<td>15</td>
+<td>75</td>
+</tr>
+</tbody>
+</table>
+<figure><img src="https://datawhalechina.github.io/llm-universe/figures/C1-1-Claude.png" alt="Claude 界面" tabindex="0" loading="lazy"><figcaption>Claude 界面</figcaption></figure>
+<h5 id="_1-3-1-1-3-palm-gemini-系列" tabindex="-1"> 1.3.1.1.3 PaLM/Gemini 系列</h5>
+<p><strong>PaLM 系列</strong>语言大模型由 <strong>Google</strong> 开发。其初始版本于 <code>2022 年 4 月</code>发布，并在 2023 年 3 月公开了 API。2023 年 5 月，Google 发布了 <strong>PaLM 2</strong>，<code>2024 年 2 月 1 日</code>，Google 将 Bard(之前发布的对话应用) 的底层大模型驱动由 PaLM2 更改为 <strong>Gemini</strong>，同时也将原先的 Bard 更名为 <strong>Gemini</strong>。</p>
+<blockquote>
+<p><a href="https://ai.google/discover/palm2/" target="_blank" rel="noopener noreferrer">PaLM 官方地址</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini 使用地址</a></p>
+</blockquote>
+<p>目前的 Gemini 是第一个版本，即 Gemini 1.0，根据参数量不同分为 Ultra, Pro 和 Nano 三个版本。</p>
+<p>以下窗口是 Gemini 的界面:</p>
+<figure><img src="https://datawhalechina.github.io/llm-universe/figures/C1-1-Gemini.png" alt="Gemini 界面" tabindex="0" loading="lazy"><figcaption>Gemini 界面</figcaption></figure>
+<h5 id="_1-3-1-1-4-文心一言" tabindex="-1"> 1.3.1.1.4 文心一言</h5>
+<blockquote>
+<p><a href="https://yiyan.baidu.com/" target="_blank" rel="noopener noreferrer">文心一言使用地址</a></p>
+</blockquote>
+<p><strong>文心一言是基于百度文心大模型的知识增强语言大模型</strong>，于 <code>2023 年 3 月</code>在国内率先开启邀测。文心一言的基础模型文心大模型于 2019 年发布 1.0 版，现已更新到 <strong>4.0</strong> 版本。更进一步划分，文心大模型包括 NLP 大模型、CV 大模型、跨模态大模型、生物计算大模型、行业大模型。中文能力相对来说非常不错的闭源模型。</p>
+<p>文心一言网页版分为<strong>免费版</strong>和<strong>专业版</strong>。</p>
+<ul>
+<li>免费版使用文心 3.5 版本，已经能够满足个人用户或小型企业的大部分需求。</li>
+<li>专业版使用文心 4.0 版本。定价为 59.9 元/月，连续包月优惠价为 49.9 元/月</li>
+</ul>
+<p>同时也可以使用 API 进行调用（<a href="https://console.bce.baidu.com/qianfan/chargemanage/list" target="_blank" rel="noopener noreferrer">计费详情</a>）。</p>
+<p>以下是文心一言的使用界面：</p>
+<figure><img src="https://datawhalechina.github.io/llm-universe/figures/C1-1-yiyan.png" alt="文心一言界面" tabindex="0" loading="lazy"><figcaption>文心一言界面</figcaption></figure>
+<h5 id="_1-3-1-1-5-星火大模型" tabindex="-1"> 1.3.1.1.5 星火大模型</h5>
+<blockquote>
+<p><a href="https://xinghuo.xfyun.cn/" target="_blank" rel="noopener noreferrer">星火大模型使用地址</a></p>
+</blockquote>
+<p><strong>讯飞星火认知大模型</strong>是<strong>科大讯飞</strong>发布的语言大模型，支持多种自然语言处理任务。该模型于 <code>2023 年 5 月</code>首次发布，后续经过多次升级。<code>2023 年 10 月</code>，讯飞发布了<strong>讯飞星火认知大模型 V3.0</strong>。<code>2024 年 1 月</code>，讯飞发布了<strong>讯飞星火认知大模型 V3.5</strong>，在语言理解，文本生成，知识问答等七个方面进行了升级，并且支持 system 指令，插件调用等多项功能。</p>
+<figure><img src="https://datawhalechina.github.io/llm-universe/figures/C1-1-xunfei.jpg" alt="讯飞发布会" tabindex="0" loading="lazy"><figcaption>讯飞发布会</figcaption></figure>
+<p>以下是讯飞星火的使用界面：</p>
+<figure><img src="https://datawhalechina.github.io/llm-universe/figures/C1-1-xinghuo.png" alt="讯飞星火界面" tabindex="0" loading="lazy"><figcaption>讯飞星火界面</figcaption></figure>
+<h4 id="_1-3-2-开源-llm" tabindex="-1"> 1.3.2. 开源 LLM]</h4>
+<h5 id="_1-3-2-1-llama-系列" tabindex="-1"> 1.3.2.1 LLaMA 系列</h5>
+<blockquote>
+<p><a href="https://llama.meta.com/" target="_blank" rel="noopener noreferrer">LLaMA 官方地址</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/facebookresearch/llama" target="_blank" rel="noopener noreferrer">LLaMA 开源地址</a></p>
+</blockquote>
+<p><strong>LLaMA 系列模型</strong>是 <strong>Meta</strong> 开源的一组参数规模 <strong>从 7B 到 70B</strong> 的基础语言模型。LLaMA 于<code>2023 年 2 月</code>发布，2023 年 7 月发布了 LLaMA2 模型，并于 <code>2024 年 4 月 18 日</code>发布了 <strong>LLaMA3</strong> 模型。它们都是在数万亿个字符上训练的，展示了如何<strong>仅使用公开可用的数据集来训练最先进的模型</strong>，而不需要依赖专有或不可访问的数据集。这些数据集包括 Common Crawl、Wikipedia、OpenWebText2、RealNews、Books 等。LLaMA 模型使用了<strong>大规模的数据过滤和清洗技术</strong>，以提高数据质量和多样性，减少噪声和偏见。LLaMA 模型还使用了高效的<strong>数据并行</strong>和<strong>流水线并行</strong>技术，以加速模型的训练和扩展。特别地，LLaMA 13B 在 CommonsenseQA 等 9 个基准测试中超过了 GPT-3 (175B)，而 <strong>LLaMA 65B 与最优秀的模型 Chinchilla-70B 和 PaLM-540B 相媲美</strong>。LLaMA 通过使用更少的字符来达到最佳性能，从而在各种推理预算下具有优势。</p>
+<p>与 GPT 系列相同，LLaMA 模型也采用了 <strong>decoder-only</strong> 架构，同时结合了一些前人工作的改进：</p>
+<ul>
+<li><code>Pre-normalization 正则化</code>：为了提高训练稳定性，LLaMA 对每个 Transformer 子层的输入进行了 RMSNorm 归一化，这种归一化方法可以避免梯度爆炸和消失的问题，提高模型的收敛速度和性能；</li>
+<li><code>SwiGLU 激活函数</code>：将 ReLU 非线性替换为 SwiGLU 激活函数，增加网络的表达能力和非线性，同时减少参数量和计算量；</li>
+<li><code>旋转位置编码（RoPE，Rotary Position Embedding）</code>：模型的输入不再使用位置编码，而是在网络的每一层添加了位置编码，RoPE 位置编码可以有效地捕捉输入序列中的相对位置信息，并且具有更好的泛化能力。</li>
+</ul>
+<p><strong>LLaMA3</strong> 在 LLaMA 系列模型的基础上进行了改进，提高了模型的性能和效率：</p>
+<ul>
+<li><code>更多的训练数据量</code>：LLaMA3 在 15 万亿个 token 的数据上进行预训练，相比 LLaMA2 的训练数据量增加了 7 倍，且代码数据增加了 4 倍。LLaMA3 能够接触到更多的文本信息，从而提高了其理解和生成文本的能力。</li>
+<li><code>更长的上下文长度</code>：LLaMA3 的上下文长度增加了一倍，从 LLaMA2 的 4096 个 token 增加到了 8192。这使得 LLaMA3 能够处理更长的文本序列，改善了对长文本的理解和生成能力。</li>
+<li><code>分组查询注意力（GQA，Grouped-Query Attention）</code>：通过将查询（query）分组并在组内共享键（key）和值（value），减少了计算量，同时保持了模型性能，提高了大型模型的推理效率（LLaMA2 只有 70B 采用）。</li>
+<li><code>更大的词表</code>：LLaMA3 升级为了 128K 的 tokenizer，是前两代 32K 的 4 倍，这使得其语义编码能力得到了极大的增强，从而显著提升了模型的性能。</li>
+</ul>
+<h5 id="_1-3-2-2-通义千问" tabindex="-1"> 1.3.2.2 通义千问</h5>
+<blockquote>
+<p><a href="https://tongyi.aliyun.com/" target="_blank" rel="noopener noreferrer">通义千问使用地址</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/QwenLM/Qwen2" target="_blank" rel="noopener noreferrer">通义千问开源地址</a></p>
+</blockquote>
+<p><strong>通义千问由阿里巴巴基于“通义”大模型研发</strong>，于 <code>2023 年 4 月</code>正式发布。2023 年 9 月，阿里云开源了 Qwen（通义千问）系列工作。2024 年 2 月 5 日，开源了 <strong>Qwen1.5</strong>（Qwen2 的测试版）。并于 <code>2024 年 6 月 6 日</code>正式开源了 <strong>Qwen2</strong>。 Qwen2 是一个 <strong>decoder-Only</strong> 的模型，采用 <code>SwiGLU 激活</code>、<code>RoPE</code>、<code>GQA</code>的架构。中文能力相对来说非常不错的开源模型。</p>
+<p>目前，已经开源了 5 种模型大小：<strong>0.5B、1.5B、7B、72B 的 Dense 模型和 57B (A14B)的 MoE 模型</strong>；所有模型均支持长度为 <strong>32768 token</strong> 的上下文。并将 Qwen2-7B-Instruct 和 Qwen2-72B-Instruct 的上下文长度扩展至 <strong>128K token</strong>。</p>
+<p>以下是通义千问的使用界面： <img src="https://datawhalechina.github.io/llm-universe/figures/C1-1-qwen.png" alt="通义千问界面" loading="lazy"></p>
+<h5 id="_1-3-2-3-glm-系列" tabindex="-1"> 1.3.2.3 GLM 系列</h5>
+<blockquote>
+<p><a href="https://chatglm.cn/" target="_blank" rel="noopener noreferrer">ChatGLM 使用地址</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/THUDM/GLM-4" target="_blank" rel="noopener noreferrer">ChatGLM 开源地址</a></p>
+</blockquote>
+<p><strong>GLM 系列模型</strong>是<strong>清华大学和智谱 AI 等</strong>合作研发的语言大模型。2023 年 3 月 发布了 <strong>ChatGLM</strong>。6 月发布了 <strong>ChatGLM 2</strong>。10 月推出了 <strong>ChatGLM3</strong>。2024 年 1 月 16 日 发布了 <strong>GLM4</strong>，并于 <code>2024 年 6 月 6 日</code>正式开源。</p>
+<p><strong>GLM-4-9B-Chat</strong> 支持多轮对话的同时，还具备网页浏览、代码执行、自定义工具调用（Function Call）和长文本推理（支持最大 <strong>128K</strong> 上下文）等功能。</p>
+<p>开源了<code>对话模型</code> <strong>GLM-4-9B-Chat</strong>、<code>基础模型</code> <strong>GLM-4-9B</strong>、<code>长文本对话模型</code> <strong>GLM-4-9B-Chat-1M</strong>（支持 1M 上下文长度）、<code>多模态模型</code><strong>GLM-4V-9B</strong> 等全面对标 OpenAI：</p>
+<figure><img src="https://datawhalechina.github.io/llm-universe/figures/C1-1-chatglm_vs_openai.png" alt="chatglm VS openai" tabindex="0" loading="lazy"><figcaption>chatglm VS openai</figcaption></figure>
+<p>以下是智谱清言的使用界面：</p>
+<figure><img src="https://datawhalechina.github.io/llm-universe/figures/C1-1-chatglm.png" alt="智谱清言界面" tabindex="0" loading="lazy"><figcaption>智谱清言界面</figcaption></figure>
+<h5 id="_1-3-2-4-baichuan-系列" tabindex="-1"> 1.3.2.4 Baichuan 系列</h5>
+<blockquote>
+<p><a href="https://www.baichuan-ai.com/chat" target="_blank" rel="noopener noreferrer">百川使用地址</a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://github.com/baichuan-inc" target="_blank" rel="noopener noreferrer">百川开源地址</a></p>
+</blockquote>
+<p><strong>Baichuan</strong> 是由<strong>百川智能</strong>开发的<strong>开源可商用</strong>的语言大模型。其基于<strong>Transformer 解码器架构（decoder-only）</strong>。</p>
+<p>2023 年 6 月 15 日发布了 <strong>Baichuan-7B</strong> 和 <strong>Baichuan-13B</strong>。百川同时开源了<strong>预训练</strong>和<strong>对齐</strong>模型，<code>预训练模型是面向开发者的“基座”</code>，而<code>对齐模型则面向广大需要对话功能的普通用户</code>。</p>
+<p><strong>Baichuan2</strong> 于 <code>2023年 9 月 6 日</code>推出。发布了 <strong>7B、13B</strong> 的 <strong>Base</strong> 和 <strong>Chat</strong> 版本，并提供了 Chat 版本的 <strong>4bits 量化</strong>。</p>
+<p><code>2024 年 1 月 29 日</code> 发布了 <strong>Baichuan 3</strong>。但是<strong>目前还没有开源</strong>。</p>
+<p>以下是百川大模型的使用界面： <img src="https://datawhalechina.github.io/llm-universe/figures/C1-1-baichuan.png" alt="百川界面" loading="lazy"></p>
+<h2 id="二、llm-的能力与特点" tabindex="-1"> 二、LLM 的能力与特点</h2>
+<h3 id="_2-1-llm-的能力" tabindex="-1"> 2.1 LLM 的能力</h3>
+<h4 id="_2-1-1-涌现能力-emergent-abilities" tabindex="-1"> 2.1.1 涌现能力（emergent abilities）</h4>
+<p>区分大语言模型（LLM）与以前的预训练语言模型（PLM）最显著的特征之一是它们的 <code>涌现能力</code> 。涌现能力是一种令人惊讶的能力，它在小型模型中不明显，但在大型模型中特别突出。类似物理学中的相变现象，涌现能力就像是模型性能随着规模增大而迅速提升，超过了随机水平，也就是我们常说的<strong>量变引起质变</strong>。</p>
+<p>涌现能力可以与某些复杂任务有关，但我们更关注的是其通用能力。接下来，我们简要介绍三个 LLM 典型的涌现能力：</p>
+<ol>
+<li><strong>上下文学习</strong>：上下文学习能力是由 GPT-3 首次引入的。这种能力允许语言模型在提供自然语言指令或多个任务示例的情况下，通过理解上下文并生成相应输出的方式来执行任务，而无需额外的训练或参数更新。</li>
+<li><strong>指令遵循</strong>：通过使用自然语言描述的多任务数据进行微调，也就是所谓的 <code>指令微调</code>。LLM 被证明在使用指令形式化描述的未见过的任务上表现良好。这意味着 LLM 能够根据任务指令执行任务，而无需事先见过具体示例，展示了其强大的泛化能力。</li>
+<li><strong>逐步推理</strong>：小型语言模型通常难以解决涉及多个推理步骤的复杂任务，例如数学问题。然而，LLM 通过采用 <code>思维链（CoT, Chain of Thought）</code> 推理策略，利用包含中间推理步骤的提示机制来解决这些任务，从而得出最终答案。据推测，这种能力可能是通过对代码的训练获得的。</li>
+</ol>
+<p>这些涌现能力让 LLM 在处理各种任务时表现出色，使它们成为了解决复杂问题和应用于多领域的强大工具。</p>
+<h4 id="_2-1-2-作为基座模型支持多元应用的能力" tabindex="-1"> 2.1.2 作为基座模型支持多元应用的能力</h4>
+<p>在 2021 年，斯坦福大学等多所高校的研究人员提出了基座模型（foundation model）的概念，清晰了预训练模型的作用。这是一种全新的 AI 技术范式，借助于海量无标注数据的训练，获得可以适用于大量下游任务的大模型（单模态或者多模态）。这样，<strong>多个应用可以只依赖于一个或少数几个大模型进行统一建设</strong>。</p>
+<p>大语言模型是这个新模式的典型例子，使用统一的大模型可以极大地提高研发效率。相比于每次开发单个模型的方式，这是一项本质上的进步。大型模型不仅可以缩短每个具体应用的开发周期，减少所需人力投入，也可以基于大模型的推理、常识和写作能力，获得更好的应用效果。因此，大模型可以成为 AI 应用开发的大一统基座模型，这是一个一举多得、全新的范式，值得大力推广。</p>
+<h4 id="_2-1-3-支持对话作为统一入口的能力" tabindex="-1"> 2.1.3 支持对话作为统一入口的能力</h4>
+<p>让大语言模型真正火爆的契机，是基于对话聊天的 <strong>ChatGPT</strong>。业界很早就发现了用户对于对话交互的特殊偏好，陆奇在微软期间，就于 2016 年推进过“对话即平台（conversation as a platform）” 的战略。此外，苹果 Siri 、亚马逊 Echo 等基于语音对话的产品也非常受欢迎，反映出互联网用户对于聊天和对话这种交互模式的偏好。虽然之前的聊天机器人存在各种问题，但大型语言模型的出现再次让聊天机器人这种交互模式可以重新涌现。用户愈发期待像钢铁侠中“贾维斯”一样的人工智能，无所不能、无所不知。这引发我们对于<code>智能体（Agent）</code>类型应用前景的思考，Auto-GPT、微软 Jarvis 等项目已经出现并受到关注，相信未来会涌现出很多类似的以对话形态让助手完成各种具体工作的项目。</p>
+<h3 id="_2-2-llm-的特点" tabindex="-1"> 2.2 LLM 的特点</h3>
+<p>大语言模型具有多种显著特点，这些特点使它们在自然语言处理和其他领域中引起了广泛的兴趣和研究。以下是大语言模型的一些主要特点：</p>
+<ol>
+<li><strong>巨大的规模：</strong> LLM 通常具有巨大的参数规模，可以达到数十亿甚至数千亿个参数。这使得它们能够捕捉更多的语言知识和复杂的语法结构。</li>
+<li><strong>预训练和微调：</strong> LLM 采用了预训练和微调的学习方法。首先在大规模文本数据上进行预训练（无标签数据），学习通用的语言表示和知识。然后通过微调（有标签数据）适应特定任务，从而在各种 NLP 任务中表现出色。</li>
+<li><strong>上下文感知：</strong> LLM 在处理文本时具有强大的上下文感知能力，能够理解和生成依赖于前文的文本内容。这使得它们在对话、文章生成和情境理解方面表现出色。</li>
+<li><strong>多语言支持：</strong> LLM 可以用于多种语言，不仅限于英语。它们的多语言能力使得跨文化和跨语言的应用变得更加容易。</li>
+<li><strong>多模态支持：</strong> 一些 LLM 已经扩展到支持多模态数据，包括文本、图像和声音。使得它们可以理解和生成不同媒体类型的内容，实现更多样化的应用。</li>
+<li><strong>伦理和风险问题：</strong> 尽管 LLM 具有出色的能力，但它们也引发了伦理和风险问题，包括生成有害内容、隐私问题、认知偏差等。因此，研究和应用 LLM 需要谨慎。</li>
+<li><strong>高计算资源需求：</strong> LLM 参数规模庞大，需要大量的计算资源进行训练和推理。通常需要使用高性能的 GPU 或 TPU 集群来实现。</li>
+</ol>
+<p>大语言模型是一种具有强大语言处理能力的技术，已经在多个领域展示了潜力。它们为自然语言理解和生成任务提供了强大的工具，同时也引发了对其伦理和风险问题的关注。这些特点使 LLM 成为了当今计算机科学和人工智能领域的重要研究和应用方向</p>
+<h2 id="三、llm-的应用与影响" tabindex="-1"> 三、LLM 的应用与影响</h2>
+<p>LLM 已经在许多领域产生了深远的影响。在<strong>自然语言处理</strong>领域，它可以帮助计算机更好地理解和生成文本，包括写文章、回答问题、翻译语言等。在<strong>信息检索</strong>领域，它可以改进搜索引擎，让我们更轻松地找到所需的信息。在<strong>计算机视觉</strong>领域，研究人员还在努力让计算机理解图像和文字，以改善多媒体交互。</p>
+<p>最重要的是，LLM 的出现让人们重新思考了 <strong>通用人工智能（AGI）</strong> 的可能性。AGI 是一种像人类一样思考和学习的人工智能。LLM 被认为是 AGI 的一种早期形式，这引发了对未来人工智能发展的许多思考和计划。</p>
+<p>总之，LLM 是一种令人兴奋的技术，它让计算机更好地理解和使用语言，正在改变着我们与技术互动的方式，同时也引发了对未来人工智能的无限探索。</p>
+<blockquote>
+<p>在下一章我们将介绍 LLM 时期一个重要的技术 RAG。</p>
+</blockquote>
+<p>【<strong>参考内容</strong>】：</p>
+<ol>
+<li><a href="https://arxiv.org/abs/2303.18223" target="_blank" rel="noopener noreferrer">A Survey of Large Language Models</a></li>
+<li><a href="https://xueqiu.com/1389978604/248392718" target="_blank" rel="noopener noreferrer">周枫：当我们谈论大模型时，应该关注哪些新能力？</a></li>
+</ol>
+]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/6c8acb93bd0fc9dd85006746d572df8f" type="image/"/>
+    </item>
+    <item>
+      <title>RAG 简介</title>
+      <link>https://lianghexiang.github.io/space/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/LLM/%E6%A3%80%E7%B4%A2%E5%A2%9E%E5%BC%BA%E7%94%9F%E6%88%90RAG.html</link>
+      <guid>https://lianghexiang.github.io/space/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/LLM/%E6%A3%80%E7%B4%A2%E5%A2%9E%E5%BC%BA%E7%94%9F%E6%88%90RAG.html</guid>
+      <source url="https://lianghexiang.github.io/space/rss.xml">RAG 简介</source>
+      <category>人工智能</category>
+      <pubDate>Fri, 03 Jan 2025 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="rag-简介" tabindex="-1"> RAG 简介</h1>
+<h2 id="一、什么是-rag-https-datawhalechina-github-io-llm-universe-c1-2-检索增强生成-rag-简介-id-一、什么是-rag" tabindex="-1"> [一、什么是 RAG](<a href="https://datawhalechina.github.io/llm-universe/#/C1/2.%E6%A3%80%E7%B4%A2%E5%A2%9E%E5%BC%BA%E7%94%9F%E6%88%90" target="_blank" rel="noopener noreferrer">https://datawhalechina.github.io/llm-universe/#/C1/2.检索增强生成</a> RAG 简介?id=一、什么是-rag)</h2>
+<p>大型语言模型（LLM）相较于传统的语言模型具有更强大的能力，然而在某些情况下，它们仍可能无法提供准确的答案。为了解决大型语言模型在生成文本时面临的一系列挑战，提高模型的性能和输出质量，研究人员提出了一种新的模型架构：<strong>检索增强生成（RAG, Retrieval-Augmented Generation）</strong>。该架构巧妙地<strong>整合了从庞大知识库中检索到的相关信息，并以此为基础，指导大型语言模型生成更为精准的答案</strong>，从而显著提升了回答的准确性与深度。</p>
+<p>目前 LLM 面临的主要问题有：</p>
+<ul>
+<li><strong>信息偏差/幻觉：</strong> LLM 有时会产生与客观事实不符的信息，导致用户接收到的信息不准确。RAG 通过检索数据源，辅助模型生成过程，确保输出内容的精确性和可信度，减少信息偏差。</li>
+<li><strong>知识更新滞后性：</strong> LLM 基于静态的数据集训练，这可能导致模型的知识更新滞后，无法及时反映最新的信息动态。RAG 通过实时检索最新数据，保持内容的时效性，确保信息的持续更新和准确性。</li>
+<li><strong>内容不可追溯：</strong> LLM 生成的内容往往缺乏明确的信息来源，影响内容的可信度。RAG 将生成内容与检索到的原始资料建立链接，增强了内容的可追溯性，从而提升了用户对生成内容的信任度。</li>
+<li><strong>领域专业知识能力欠缺：</strong> LLM 在处理特定领域的专业知识时，效果可能不太理想，这可能会影响到其在相关领域的回答质量。RAG 通过检索特定领域的相关文档，为模型提供丰富的上下文信息，从而提升了在专业领域内的问题回答质量和深度。</li>
+<li><strong>推理能力限制：</strong> 面对复杂问题时，LLM 可能缺乏必要的推理能力，这影响了其对问题的理解和回答。RAG 结合检索到的信息和模型的生成能力，通过提供额外的背景知识和数据支持，增强了模型的推理和理解能力。</li>
+<li><strong>应用场景适应性受限：</strong> LLM 需在多样化的应用场景中保持高效和准确，但单一模型可能难以全面适应所有场景。RAG 使得 LLM 能够通过检索对应应用场景数据的方式，灵活适应问答系统、推荐系统等多种应用场景。</li>
+<li><strong>长文本处理能力较弱：</strong> LLM 在理解和生成长篇内容时受限于有限的上下文窗口，且必须按顺序处理内容，输入越长，速度越慢。RAG 通过检索和整合长文本信息，强化了模型对长上下文的理解和生成，有效突破了输入长度的限制，同时降低了调用成本，并提升了整体的处理效率。</li>
+</ul>
+<h2 id="二、rag-的工作流程-https-datawhalechina-github-io-llm-universe-c1-2-检索增强生成-rag-简介-id-二、rag-的工作流程" tabindex="-1"> [二、RAG 的工作流程](<a href="https://datawhalechina.github.io/llm-universe/#/C1/2.%E6%A3%80%E7%B4%A2%E5%A2%9E%E5%BC%BA%E7%94%9F%E6%88%90" target="_blank" rel="noopener noreferrer">https://datawhalechina.github.io/llm-universe/#/C1/2.检索增强生成</a> RAG 简介?id=二、rag-的工作流程)</h2>
+<p>RAG 是一个完整的系统，其工作流程可以简单地分为数据处理、检索、增强和生成四个阶段：</p>
+<figure><img src="https://github.com/datawhalechina/llm-universe/blob/main/figures/C1-2-RAG.png" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<ol>
+<li>数据处理阶段
+<ol>
+<li>对原始数据进行清洗和处理。</li>
+<li>将处理后的数据转化为检索模型可以使用的格式。</li>
+<li>将处理后的数据存储在对应的数据库中。</li>
+</ol>
+</li>
+<li>检索阶段
+<ol>
+<li>将用户的问题输入到检索系统中，从数据库中检索相关信息。</li>
+</ol>
+</li>
+<li>增强阶段
+<ol>
+<li>对检索到的信息进行处理和增强，以便生成模型可以更好地理解和使用。</li>
+</ol>
+</li>
+<li>生成阶段
+<ol>
+<li>将增强后的信息输入到生成模型中，生成模型根据这些信息生成答案。</li>
+</ol>
+</li>
+</ol>
+<h2 id="三、rag-vs-finetune-https-datawhalechina-github-io-llm-universe-c1-2-检索增强生成-rag-简介-id-三、rag-vs-finetune" tabindex="-1"> [三、RAG VS Finetune](<a href="https://datawhalechina.github.io/llm-universe/#/C1/2.%E6%A3%80%E7%B4%A2%E5%A2%9E%E5%BC%BA%E7%94%9F%E6%88%90" target="_blank" rel="noopener noreferrer">https://datawhalechina.github.io/llm-universe/#/C1/2.检索增强生成</a> RAG 简介?id=三、rag-vs-finetune)</h2>
+<p>在提升大语言模型效果中，RAG 和 微调（Finetune）是两种主流的方法。</p>
+<p><strong>微调</strong>: 通过在特定数据集上进一步训练大语言模型，来提升模型在特定任务上的表现。</p>
+<p>RAG 和 微调的对比可以参考下表（表格来源[<a href="https://arxiv.org/abs/2312.10997" target="_blank" rel="noopener noreferrer">1</a>][<a href="https://baoyu.io/translations/ai-paper/2312.10997-retrieval-augmented-generation-for-large-language-models-a-survey" target="_blank" rel="noopener noreferrer">2</a>]）</p>
+<table>
+<thead>
+<tr>
+<th>特征比较</th>
+<th>RAG</th>
+<th>微调</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>知识更新</td>
+<td>直接更新检索知识库，无需重新训练。信息更新成本低，适合动态变化的数据。</td>
+<td>通常需要重新训练来保持知识和数据的更新。更新成本高，适合静态数据。</td>
+</tr>
+<tr>
+<td>外部知识</td>
+<td>擅长利用外部资源，特别适合处理文档或其他结构化/非结构化数据库。</td>
+<td>将外部知识学习到 LLM 内部。</td>
+</tr>
+<tr>
+<td>数据处理</td>
+<td>对数据的处理和操作要求极低。</td>
+<td>依赖于构建高质量的数据集，有限的数据集可能无法显著提高性能。</td>
+</tr>
+<tr>
+<td>模型定制</td>
+<td>侧重于信息检索和融合外部知识，但可能无法充分定制模型行为或写作风格。</td>
+<td>可以根据特定风格或术语调整 LLM 行为、写作风格或特定领域知识。</td>
+</tr>
+<tr>
+<td>可解释性</td>
+<td>可以追溯到具体的数据来源，有较好的可解释性和可追踪性。</td>
+<td>黑盒子，可解释性相对较低。</td>
+</tr>
+<tr>
+<td>计算资源</td>
+<td>需要额外的资源来支持检索机制和数据库的维护。</td>
+<td>依赖高质量的训练数据集和微调目标，对计算资源的要求较高。</td>
+</tr>
+<tr>
+<td>推理延迟</td>
+<td>增加了检索步骤的耗时</td>
+<td>单纯 LLM 生成的耗时</td>
+</tr>
+<tr>
+<td>降低幻觉</td>
+<td>通过检索到的真实信息生成回答，降低了产生幻觉的概率。</td>
+<td>模型学习特定领域的数据有助于减少幻觉，但面对未见过的输入时仍可能出现幻觉。</td>
+</tr>
+<tr>
+<td>伦理隐私</td>
+<td>检索和使用外部数据可能引发伦理和隐私方面的问题。</td>
+<td>训练数据中的敏感信息需要妥善处理，以防泄露。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="四、rag-的成功案例-https-datawhalechina-github-io-llm-universe-c1-2-检索增强生成-rag-简介-id-四、rag-的成功案例" tabindex="-1"> [四、RAG 的成功案例](<a href="https://datawhalechina.github.io/llm-universe/#/C1/2.%E6%A3%80%E7%B4%A2%E5%A2%9E%E5%BC%BA%E7%94%9F%E6%88%90" target="_blank" rel="noopener noreferrer">https://datawhalechina.github.io/llm-universe/#/C1/2.检索增强生成</a> RAG 简介?id=四、rag-的成功案例)</h2>
+<p>RAG 已经在多个领域取得了成功，包括问答系统、对话系统、文档摘要、文档生成等。</p>
+<p>我们将在第三部分对 RAG 的应用进行详细介绍。将现有成熟的 RAG 案例进行拆解，和大家一起深入了解 RAG。</p>
+<ol>
+<li><a href="https://github.com/logan-zou/Chat_with_Datawhale_langchain" target="_blank" rel="noopener noreferrer">Datawhale 知识库助手</a> 是结合本课程内容、在由<a href="https://github.com/sanbuphy" target="_blank" rel="noopener noreferrer">散步</a>打造的 <a href="https://github.com/sanbuphy/ChatWithDatawhale" target="_blank" rel="noopener noreferrer">ChatWithDatawhale</a>—— Datawhale 内容学习助手的基础上，将架构调整为初学者容易学习的 LangChain 架构，并参考第二章内容对不同源大模型 API 进行封装的 LLM 应用，能够帮助用户与 DataWhale 现有仓库和学习内容流畅对话，从而帮助用户快速找到想学习的内容和可以贡献的内容。</li>
+<li><a href="https://github.com/SocialAI-tianji/Tianji" target="_blank" rel="noopener noreferrer">天机</a>是 <strong>SocialAI</strong>（来事儿 AI）制作的一款免费使用、非商业用途的人工智能系统。您可以利用它进行涉及传统人情世故的任务，如如何敬酒、如何说好话、如何会来事儿等，以提升您的情商和核心竞争能力。我们坚信，只有人情世故才是未来 AI 的核心技术，只有会来事儿的 AI 才有机会走向 AGI，让我们携手见证通用人工智能的来临。 —— &quot;天机不可泄漏。&quot;</li>
+</ol>
+]]></content:encoded>
+      <enclosure url="https://img.tucang.cc/api/image/show/6c8acb93bd0fc9dd85006746d572df8f" type="image/"/>
+    </item>
     <item>
       <title>大脑——一切问题的起源</title>
       <link>https://lianghexiang.github.io/space/books/%E4%BA%BA%E4%B9%8B%E8%A7%89%E9%86%92/%E4%B8%80%E5%88%87%E9%97%AE%E9%A2%98%E7%9A%84%E8%B5%B7%E6%BA%90.html</link>

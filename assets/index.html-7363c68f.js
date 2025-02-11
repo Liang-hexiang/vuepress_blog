@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-3ccb8586","path":"/tag/prompt/","title":"Prompt 标签","lang":"zh-CN","frontmatter":{"title":"Prompt 标签","dir":{"index":false},"feed":false,"sitemap":false,"blog":{"type":"category","name":"Prompt","key":"tag"},"layout":"BlogCategory"},"headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null,"excerpt":""}');export{e as data};
